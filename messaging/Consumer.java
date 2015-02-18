@@ -11,7 +11,7 @@ public class Consumer extends Messenger{
         setQueueName(queueName);
     }
 
-    public String fetchMessage(){
+    public String getMessage(){
         String rtnStr = "";
         try {
             boolean autoAck = false;

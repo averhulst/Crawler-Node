@@ -1,3 +1,5 @@
+package crawler;
+
 import org.jsoup.Connection;
 import org.jsoup.Jsoup;
 import org.jsoup.nodes.Document;
@@ -8,8 +10,6 @@ import java.net.*;
 import java.sql.Timestamp;
 import java.util.ArrayList;
 
-
-
 public class Page{
     private Connection connection;
     private Document pageDocument;
@@ -17,19 +17,19 @@ public class Page{
     private ArrayList<URL> crawlableUrls = new ArrayList<URL>();
     private Element head;
     private Element body;
-    private String pageContent;
+    private String sourceCode;
 
-    public Page(String urlStr, String pageContent){
+    public Page(String urlStr, String sourceCode){
         try {
             this.url = new URL(urlStr);
-            this.pageContent = pageContent;
+            this.sourceCode = sourceCode;
         } catch (MalformedURLException e) {
             e.printStackTrace();
         }
     }
 
     public void parsePage(){
-        pageDocument = Jsoup.parse(pageContent);
+        pageDocument = Jsoup.parse(sourceCode);
         head = pageDocument.head();
         body = pageDocument.body();
         //System.out.println("crawling: " + url + " " + Thread.currentThread().getId());
@@ -38,7 +38,7 @@ public class Page{
     public void insertPage(){
 
         //Where should page insert?
-        //Crawler.getDao().insert("pageCrawls", dBObject);
+        //crawler.Crawler.getDao().insert("pageCrawls", dBObject);
     }
 
     public ArrayList<URL> getCrawlableUrls(){
@@ -74,6 +74,6 @@ public class Page{
 
     private void logResponse(int statusCode){
         //Where should page log?
-        //Crawler.getDao().insert("pageCrawls", dBObject);
+        //crawler.Crawler.getDao().insert("pageCrawls", dBObject);
     }
 }

@@ -1,3 +1,5 @@
+package crawler;
+
 import java.io.BufferedReader;
 import java.io.IOException;
 import java.io.InputStreamReader;
@@ -9,7 +11,7 @@ public class Request {
     private URL pageUrl;
     private int responseCode;
     private String reponseMessage;
-    BufferedReader in;
+    BufferedReader reader;
     private HttpURLConnection urlConnection;
 
     public Request(URL pageUrl) {
@@ -34,21 +36,20 @@ public class Request {
         reponseMessage = urlConnection.getResponseMessage();
 
         if(responseCode == 200){
-            in = new BufferedReader(
+            reader = new BufferedReader(
                     new InputStreamReader(
                             urlConnection.getInputStream()
                     ));
-            String inputLine;
 
-            while ((inputLine = in.readLine()) != null){
-                response += inputLine;
+            String line;
+
+            while ((line = reader.readLine()) != null){
+                response += line;
             }
-            in.close();
+            reader.close();
         }else{
             response = reponseMessage;
         }
-
-
     }
 
     public int getResponseCode(){

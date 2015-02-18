@@ -20,11 +20,11 @@ public class MessagingService {
         try {
             Connection connection = connectionFactory.newConnection();
 
-            consumers.put("freshDomainConsumer",
+            consumers.put("freshDomains",
                     new Consumer(connection.createChannel(), "freshDomains")
             );
 
-            publishers.put("discoveredDomainPublisher",
+            publishers.put("discoveredDomains",
                     new Publisher(connection.createChannel(), "discoveredDomains")
             );
 
@@ -36,11 +36,11 @@ public class MessagingService {
 
     public void publishDiscoveredDomains(List discoveredDomains){
         String outgoingDomains = String.join(";", discoveredDomains);
-        publishers.get("discoveredDomainPublisher").publishMessage(outgoingDomains);
+        publishers.get("discoveredDomains").publishMessage(outgoingDomains);
     }
 
     public List fetchFreshDomains(){
-        String incomingDomains = consumers.get("freshDomainConsumer").fetchMessage();
+        String incomingDomains = consumers.get("freshDomains").getMessage();
         System.out.println("test pulled " + incomingDomains);
         return Arrays.asList(incomingDomains.split(";"));
     }

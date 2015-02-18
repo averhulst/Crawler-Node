@@ -1,3 +1,5 @@
+package crawler;
+
 /**
  * Created with IntelliJ IDEA.
  * User: buttes

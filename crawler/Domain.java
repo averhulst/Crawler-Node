@@ -1,13 +1,15 @@
+package crawler;
+
 import java.net.URL;
 import java.util.ArrayList;
-import java.util.UUID;
+import java.util.List;
 
 public class Domain implements Runnable{
-    private ArrayList<String> failedUrls = new ArrayList<String>();
-    private ArrayList<String> disallowedPaths;
-    private ArrayList<String> crawledUrls = new ArrayList<String>();
+    private List<String> failedUrls;
+    private List<String> disallowedPaths;
+    private List<String> crawledUrls;
     private int crawlDelay;
-    private int successfulPageCrawls = 0;
+    private int successfulPageCrawls;
     private long crawlStartTime;
     private long crawlElapsedTime;
     private boolean running;
@@ -19,6 +21,8 @@ public class Domain implements Runnable{
 
     public Domain(URL url) {
         this.domainURL = url;
+        failedUrls = new ArrayList<>();
+        crawledUrls = new ArrayList<>();
         discoveredDomains = new UrlQueue();
         crawlStartTime = System.currentTimeMillis();
         pageQueue = new UrlQueue();
@@ -83,7 +87,7 @@ public class Domain implements Runnable{
         }
     }
     //TODO move enqueue contains logic to robots
-    private void processUrls(ArrayList<URL> retrievedUrls){
+    private void processUrls(List<URL> retrievedUrls){
         for(URL url : retrievedUrls){
             if(isCrawlable(url)){
                 String outboundHost = url.getProtocol() + "://" +  url.getHost();
