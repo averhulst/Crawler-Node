@@ -1,13 +1,16 @@
 package crawler;
 
+import java.net.MalformedURLException;
 import java.net.URL;
 import java.util.ArrayList;
 import java.util.List;
+import java.util.logging.FileHandler;
+import java.util.logging.Logger;
 
 public class Domain implements Runnable{
     private List<String> failedUrls;
     private List<String> disallowedPaths;
-    private List<String> crawledUrls;
+    private List<URL> crawledUrls;
     private int crawlDelay;
     private int successfulPageCrawls;
     private long crawlStartTime;
@@ -18,6 +21,8 @@ public class Domain implements Runnable{
     private UrlQueue pageQueue;
     private Timer timer = new Timer();
     private UrlQueue discoveredDomains;
+    private static final org.apache.log4j.Logger debugLog = org.apache.log4j.Logger.getLogger("debugLogger");
+    private static final org.apache.log4j.Logger errorLog = org.apache.log4j.Logger.getLogger("domainErrorLogger");
 
     public Domain(URL url) {
         this.domainURL = url;
@@ -27,54 +32,80 @@ public class Domain implements Runnable{
         crawlStartTime = System.currentTimeMillis();
         pageQueue = new UrlQueue();
         pageQueue.enqueueUrl(url);
-        readRobotsTxt(url);
     }
 
-    private void readRobotsTxt(URL url){
-        robotsTxt = new Robotstxt(url);
-        robotsTxt.fetch();
+    private void parseRobotsTxt(String pageSource){
+        robotsTxt = new Robotstxt(pageSource);
         disallowedPaths = robotsTxt.getDisallowedPaths();
         crawlDelay = robotsTxt.getCrawlDelay();
     }
 
     public void run(){
         running = true;
+
+        if(robotsTxt.crawlingIsProhibited()){
+            return;
+            //TODO handle this in a meaningful way
+        }
+
+        try {
+            URL robotsTxtUrl =  new URL(domainURL + "robots.txt");
+            parseRobotsTxt(getPage(robotsTxtUrl).getSourceCode());
+        } catch (MalformedURLException e) {
+            errorLog.warn("Malformed URL for robots.txt: " + e.getStackTrace().toString());
+        }
+
         while(pageQueue.getSize() > 0){
-            URL pageUrl;
+            String pageUrl = pageQueue.getNext();
             try {
-                String next = pageQueue.getNext();
-                //System.out.println("crawling: " + next);
-                pageUrl = new URL(next);
-                crawlPage(pageUrl);
+                Page page = getPage(new URL(pageUrl));
+                parsePage(page);
                 successfulPageCrawls ++;
+                delayCrawl(timer.getElapsedTime());
+                debugLog.info("Crawled" + pageUrl);
             } catch (Exception e) {
-                e.printStackTrace();
+                errorLog.warn("Crawl failed for: " + pageUrl + "\n" + e.getStackTrace().toString());
             }
         }
 
         crawlElapsedTime = System.currentTimeMillis() - crawlStartTime;
-        //logDomainCrawl();
 
     }
 
-    private void crawlPage(URL url){
-        timer.start();
+    private Page getPage(URL url){
         Request request = new Request(url);
-        if(request.getResponseCode() == 200){
-            Page p = new Page(url.toString(), request.getResponse());
-            p.parsePage();
-            p.insertPage();
-            successfulPageCrawls ++;
-            processUrls(p.getCrawlableUrls());
-            crawledUrls.add(url.toString());
-        }else{
-            System.err.println("crawl failed for " + url.toString() + ", error code: " + request.getResponseCode());
-            failedUrls.add(url.toString());
-        }
-        timer.stop();
-        System.out.println("crawled " + url.toString() + ", imposing crawl delay for " + crawlDelay + "ms");
-        delayCrawl(timer.getElapsedTime());
+        Page page = new Page(url, request.getResponse());
 
+        switch (request.getResponseCode()) {
+            case 200 :
+                successfulPageCrawls ++;
+                break;
+            case 301:
+            case 302:
+            case 303:
+                debugLog.info(request.getResponseCode() +  " REDIRECT: " + url.toString() + "\n");
+                //TODO: work out redirection
+            case 404 :
+                debugLog.info("404 NOT FOUND: " + url.toString() + "\n");
+                failedUrls.add(url.toString());
+                //TODO: log this
+                break;
+            case 403 :
+                debugLog.info("403 FORBIDDEN: " + url.toString() + "\n");
+                debugLog.info("Request failure for: " + url.toString() + ", response code: " + request.getResponseCode());
+                failedUrls.add(url.toString());
+                break;
+            default :
+                errorLog.warn("Unrecognized response code: " + request.getResponseCode() + " for " + url.toString());
+        }
+
+        return page;
+    }
+
+    private void parsePage(Page p){
+        p.parseSource();
+        processUrls(p.getCrawlableUrls());
+        crawledUrls.add(p.getUrl());
     }
 
     private void delayCrawl(int elapsedTime){
@@ -82,23 +113,24 @@ public class Domain implements Runnable{
             try {
                 Thread.currentThread().sleep(crawlDelay - elapsedTime);
             } catch (InterruptedException e) {
+                errorLog.warn("Thread interrupted " + "\n" + e.getStackTrace().toString());
                 e.printStackTrace();
             }
         }
     }
-    //TODO move enqueue contains logic to robots
+    //TODO move enqueue contains logic to robots - maybe?
     private void processUrls(List<URL> retrievedUrls){
         for(URL url : retrievedUrls){
             if(isCrawlable(url)){
                 String outboundHost = url.getProtocol() + "://" +  url.getHost();
                 if(belongsToCurrentDomain(url)){
                     if(!isCrawled(url)){
-                        if(!isDisallowed(url)){
+                        if(robotsTxt.urlIsAllowed(url)){
                             pageQueue.enqueueUrl(url);
-                        }else if(isDisallowed(url)){
                         }
                     }
                 }else if(!discoveredDomains.containsURL(outboundHost) && !Crawler.domainHasBeenCrawled(url)){
+                    //TODO remove static crawler methods, handle crawl history in centralized app
                     discoveredDomains.enqueueUrl(outboundHost);
                 }
             }
@@ -120,7 +152,7 @@ public class Domain implements Runnable{
     private boolean isCrawled(URL url){
         if(crawledUrls.size() > 0){
             for(int i  = 0 ; i  <= (crawledUrls.size() - 1) ; i++){
-                if(crawledUrls.get(i).contains(url.toString())){
+                if(crawledUrls.get(i).toString().contains(url.toString())){
                     return true;
                 }
             }
@@ -128,25 +160,12 @@ public class Domain implements Runnable{
 
         return false;
     }
-    private boolean belongsToCurrentDomain(URL url) {
-        try{
-            return url.getHost().equals(domainURL.getHost());
-        }catch( Exception e){
-            System.out.println("lol");
-        }
 
+    private boolean belongsToCurrentDomain(URL url) {
         return url.getHost().equals(domainURL.getHost());
     }
-    private boolean isDisallowed(URL url){
-        boolean disallowed = false;
-        String path = url.getPath();
-        for(String s : disallowedPaths){
-            if(path.equals(s) || (!path.equals("/") && path.startsWith(s))){
-                disallowed = true;
-            }
-        }
-        return disallowed;
-    }
+
+
     public int getQueueSize(){
         return this.pageQueue.getSize();
     }

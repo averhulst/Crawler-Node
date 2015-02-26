@@ -10,8 +10,6 @@ public class Request {
     private String response = "";
     private URL pageUrl;
     private int responseCode;
-    private String reponseMessage;
-    BufferedReader reader;
     private HttpURLConnection urlConnection;
 
     public Request(URL pageUrl) {
@@ -26,17 +24,19 @@ public class Request {
     }
 
     private void connect() throws IOException{
+        //URLConnection urlConnection = pageUrl.openConnection();
+        urlConnection = (HttpURLConnection)pageUrl.openConnection();
         urlConnection.setConnectTimeout(5000);
         urlConnection.setRequestMethod("GET");
-        urlConnection = (HttpURLConnection)pageUrl.openConnection();
+
     }
 
     private void processConnection() throws IOException{
         responseCode = urlConnection.getResponseCode();
-        reponseMessage = urlConnection.getResponseMessage();
+        String message = urlConnection.getResponseMessage();
 
         if(responseCode == 200){
-            reader = new BufferedReader(
+            BufferedReader reader = new BufferedReader(
                     new InputStreamReader(
                             urlConnection.getInputStream()
                     ));
@@ -48,7 +48,7 @@ public class Request {
             }
             reader.close();
         }else{
-            response = reponseMessage;
+            response = message;
         }
     }
 

@@ -1,98 +1,68 @@
 package crawler;
 
-import java.io.BufferedReader;
-import java.io.FileNotFoundException;
-import java.io.IOException;
-import java.io.InputStreamReader;
-import java.net.MalformedURLException;
+import java.io.*;
 import java.net.URL;
 import java.util.ArrayList;
+import java.util.List;
 
 public class Robotstxt {
-    private boolean hasRobotsTxt = false;
-    private boolean lineRelevance = true;
-    private URL domainUrl;
-    private ArrayList<String> allowedPaths = new ArrayList<String>();
-    private ArrayList<String> disallowedPaths = new ArrayList<String>();
+    private boolean lineIsRelevant = true;
+    private List<String> allowedPaths = new ArrayList<>();
+    private List<String> disallowedPaths = new ArrayList<>();
+    private List<String> disallowedSubPaths = new ArrayList<>();
     private BufferedReader reader;
     private int crawlDelay = 500;
 
-    public Robotstxt(URL domain){
-        URL robotsUrl = null;
-        try {
-            robotsUrl = new URL(domain.getProtocol() + "://" + domain.getHost() + "/robots.txt");
-        } catch (MalformedURLException e) {
-            System.err.println("Invalid URL provided to robotsTxt parser");
-            e.printStackTrace();
-        }
+    private static final org.apache.log4j.Logger robotsTxtLog = org.apache.log4j.Logger.getLogger("robotsTxtLog");
+    private static final org.apache.log4j.Logger errorLog = org.apache.log4j.Logger.getLogger("robotsErrorLogger");
 
-        this.domainUrl = robotsUrl;
+    public Robotstxt(String pageSource){
+        this.reader = new BufferedReader(new StringReader(pageSource));
+        parseRobotsTxt();
     }
 
-    public void fetch(){
-        Request request = new Request(domainUrl);
-
-        switch (request.getResponseCode()) {
-            case 200 :
-                hasRobotsTxt = true;
-                break;
-            case 301:
-            case 302:
-            case 303:
-                //TODO: log this
-                //TODO: figure out how to handle robotstxt redirection, if thats even necessary or even likely to happen?
-            case 404 :
-                //no robots.txt
-                System.err.println("no robots file " + domainUrl.toString());
-                //TODO: log this
-                break;
-            case 403 :
-                //no robots.txt
-                System.err.println("unable to access robotstxt" + domainUrl.toString());
-                //TODO: log this
-        }
-
-        if(hasRobotsTxt){
-            parseRobotsTxt();
-        }
-    }
-
-    public void parseRobotsTxt(){
+    private void parseRobotsTxt(){
         String line;
+
         try {
             while((line = reader.readLine()) != null){
-                if(!line.isEmpty() && !line.startsWith("#")){
+                if(!line.startsWith("#") && !line.isEmpty()){
                     parseLine(line);
                 }
             }
-        } catch (IOException | NullPointerException e) {
-            e.printStackTrace();
-        }catch(ArrayIndexOutOfBoundsException e){
-            System.err.println(e.toString());
-            e.printStackTrace();
+        } catch (IOException e) {
+            errorLog.warn("BufferedReader IOException " + "\n" + e.getStackTrace().toString());
         }
     }
 
     private void parseLine(String line){
-        String[] linePart = line.split(":");
-        String directive = linePart[0].replaceAll("\\s", "");
+        String[] splitLine = line.split(":");
+        String directive = splitLine[0].replaceAll("\\s", "");
 
-        if(linePart.length > 1){
-            String value = linePart[1].replaceAll("\\s", "");
+        if(splitLine.length > 1){
+            String value = splitLine[1].replaceAll("\\s", "");
             if(directive.equals("User-agent")){
-                if((value.equals("*") || value.equals("Tomato"))){
-                    lineRelevance = true;
-                }else{
-                    lineRelevance = false;
-                }
+                lineIsRelevant = value.equals("*");
             }
-            if(lineRelevance){
-                if(directive.equals("Disallow")){
-                    disallowedPaths.add(value);
-                }else if (directive.equals("Allow")){
-                    allowedPaths.add(value);
-                }else if(directive.equals("Crawl-delay") && Integer.parseInt(value) > 0){
-                    crawlDelay = Integer.parseInt(value) * 1000;
+            if(lineIsRelevant){
+                switch (directive) {
+                    case "Disallow" :
+                        if(value.endsWith("*")){
+                            disallowedSubPaths.add(value.replace("*", ""));
+                        }else{
+                            disallowedPaths.add(value);
+                        }
+                        break;
+                    case "Allow":
+                        allowedPaths.add(value);
+                        break;
+                    case "Crawl-delay" :
+                        crawlDelay = value.length() == 1 ? (Integer.parseInt(value) * 1000) : 5000;
+                        //impose a maximum respected crawl delay of 5 seconds for now
+                        break;
+                    default :
+                        errorLog.warn("Unrecognized directive: " + directive);
+                    break;
                 }
             }
         }
@@ -101,7 +71,41 @@ public class Robotstxt {
     public int getCrawlDelay(){
         return crawlDelay;
     }
-    public ArrayList<String> getDisallowedPaths(){
+
+    public List<String> getDisallowedPaths(){
         return disallowedPaths;
+    }
+
+    public List<String> getAllowedPaths() {
+        return allowedPaths;
+    }
+
+    public boolean urlIsAllowed(URL url){
+        String path = url.getPath();
+
+        for(String disallowedSubPath : disallowedSubPaths){
+            if(path.startsWith(disallowedSubPath)){
+                for(String allowedPath : allowedPaths){
+                    if(allowedPath.equals(path)){
+                        return true;
+                    }
+                }
+                return false;
+            }
+        }
+
+        for(String disallowedPath : disallowedPaths){
+            if(path.equals(disallowedPath)){
+                return false;
+            }
+        }
+
+        return true;
+    }
+    private void parseCrawlDelay(String value){
+
+    }
+    public boolean crawlingIsProhibited(){
+        return disallowedSubPaths.contains("/");
     }
 }

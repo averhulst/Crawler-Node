@@ -22,6 +22,8 @@ public class Crawler{
     private static float crawlRateTemp;
     private boolean running = true;
     private MessagingService messenger;
+    private static final org.apache.log4j.Logger debugLog = org.apache.log4j.Logger.getLogger("debugLogger");
+    private static final org.apache.log4j.Logger errorLog = org.apache.log4j.Logger.getLogger("crawlerErrorLogger");
 
     public Crawler(int threadCount) {
         this.threadCount = threadCount;
@@ -54,7 +56,7 @@ public class Crawler{
                     activelyCrawlingDomains.put(newDomain.getDomainUrl(), newDomain);
                     executor.execute(new RunnableDomain(newDomain));
                 } catch (MalformedURLException e) {
-                    e.printStackTrace();
+                    errorLog.warn("Malformed URL: " + newUrl + "\n" + e.getStackTrace().toString());
                 }
             }
 

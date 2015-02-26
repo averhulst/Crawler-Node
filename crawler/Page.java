@@ -19,35 +19,30 @@ public class Page{
     private Element body;
     private String sourceCode;
 
-    public Page(String urlStr, String sourceCode){
-        try {
-            this.url = new URL(urlStr);
-            this.sourceCode = sourceCode;
-        } catch (MalformedURLException e) {
-            e.printStackTrace();
-        }
+    private static final org.apache.log4j.Logger errorLog = org.apache.log4j.Logger.getLogger("pageErrorLogger");
+
+    public URL getUrl() {
+        return url;
     }
 
-    public void parsePage(){
+    public Page(URL urlStr, String sourceCode){
+        this.url = urlStr;
+        this.sourceCode = sourceCode;
+    }
+
+    public void parseSource(){
         pageDocument = Jsoup.parse(sourceCode);
         head = pageDocument.head();
         body = pageDocument.body();
         //System.out.println("crawling: " + url + " " + Thread.currentThread().getId());
     }
 
-    public void insertPage(){
-
-        //Where should page insert?
-        //crawler.Crawler.getDao().insert("pageCrawls", dBObject);
-    }
-
     public ArrayList<URL> getCrawlableUrls(){
         // Remove urls with hashtags so the tomato doesn't add repeat pages to the queue that sneak in where the only difference in the url is the hashtag and it's ID
         try{
             pageDocument.select("a[href*=#]").remove();
-        }catch(NullPointerException npe){
-            System.err.println(url);
-            System.exit(717);
+        }catch(NullPointerException e){
+            errorLog.warn("Thread interrupted " + "\n" + e.getStackTrace().toString());
         }
 
         for(Element anchor : pageDocument.select("a")){
@@ -58,22 +53,20 @@ public class Page{
                 try {
                     href = new URL(hrefStr);
                 } catch (MalformedURLException e) {
-                    e.printStackTrace();
+                    errorLog.info("Malformed URL: " + hrefStr + "\n" + e.getStackTrace().toString());
                 }
             }
-
 
             if(href != null){
                 crawlableUrls.add(href);
             }
         }
 
-
         return crawlableUrls;
     }
 
-    private void logResponse(int statusCode){
-        //Where should page log?
-        //crawler.Crawler.getDao().insert("pageCrawls", dBObject);
+    public String getSourceCode() {
+        return sourceCode;
     }
+
 }
