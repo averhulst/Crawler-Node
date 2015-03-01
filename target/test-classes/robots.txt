@@ -1,0 +1,20 @@
+User-agent: *
+Allow: /allUAdisallowed/testAllClause/explicitlyAllowedPath.html
+Allow: /allUAallowed/test2/test.html
+Disallow: /allUAdisallowed/testPath/
+Disallow: /allUAdisallowed/testAllClause/*
+
+Crawl-delay: 2
+
+JUNK : JUNK !!@#$%^&*() :JUNK#### : :
+
+User-agent: UA1
+Allow: /testallowed/test999/
+Disallow: /testdisallowedUA1/search/*
+Disallow: /testdisallowedUA1/disallowed/disallowed1.html
+
+User-agent: UA2
+Allow: /testallowedUA2/test/
+Disallow: /testdisallowedUA2/test/*
+Disallow: /testdisallowedUA2/disallowed/disallowed2.html
+

@@ -22,7 +22,7 @@ public class Crawler{
     private static float crawlRateTemp;
     private boolean running = true;
     private MessagingService messenger;
-    private static final org.apache.log4j.Logger debugLog = org.apache.log4j.Logger.getLogger("debugLogger");
+    private static final org.apache.log4j.Logger debugLog = org.apache.log4j.Logger.getLogger("pageErrorLogger");
     private static final org.apache.log4j.Logger errorLog = org.apache.log4j.Logger.getLogger("crawlerErrorLogger");
 
     public Crawler(int threadCount) {
@@ -38,8 +38,8 @@ public class Crawler{
         domainSeed.add("http://jgrapht.org/");
         domainSeed.add("http://www.pixijs.com/resources/");
         domainSeed.add("http://www.draw2d.org/draw2d/");
-
-        messenger.publishDiscoveredDomains(domainSeed);
+        //messenger.publishDiscoveredDomains(domainSeed);
+        messenger.publishFreshDomains(domainSeed);
         requestCrawlableDomains();
 
     }
@@ -81,9 +81,9 @@ public class Crawler{
     }
 
     private void requestCrawlableDomains(){
-        for(int i = 0 ; i < 2 ; i++){
-            List newDomains = messenger.fetchFreshDomains();
-            domainQueue.enqueueUrl(newDomains.get(0).toString());
+        List<String> newDomains = messenger.fetchFreshDomains();
+        for(String domain : newDomains){
+            domainQueue.enqueueUrl(domain);
         }
     }
 

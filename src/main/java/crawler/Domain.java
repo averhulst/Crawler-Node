@@ -1,11 +1,13 @@
 package crawler;
 
+import java.io.IOException;
 import java.net.MalformedURLException;
 import java.net.URL;
 import java.util.ArrayList;
 import java.util.List;
 import java.util.logging.FileHandler;
 import java.util.logging.Logger;
+
 
 public class Domain implements Runnable{
     private List<String> failedUrls;
@@ -32,6 +34,7 @@ public class Domain implements Runnable{
         crawlStartTime = System.currentTimeMillis();
         pageQueue = new UrlQueue();
         pageQueue.enqueueUrl(url);
+
     }
 
     private void parseRobotsTxt(String pageSource){
@@ -43,10 +46,7 @@ public class Domain implements Runnable{
     public void run(){
         running = true;
 
-        if(robotsTxt.crawlingIsProhibited()){
-            return;
-            //TODO handle this in a meaningful way
-        }
+
 
         try {
             URL robotsTxtUrl =  new URL(domainURL + "robots.txt");
@@ -55,10 +55,16 @@ public class Domain implements Runnable{
             errorLog.warn("Malformed URL for robots.txt: " + e.getStackTrace().toString());
         }
 
+        if(robotsTxt.crawlingIsProhibited()){
+            return;
+            //TODO handle this in a meaningful way
+        }
+
         while(pageQueue.getSize() > 0){
             String pageUrl = pageQueue.getNext();
             try {
                 Page page = getPage(new URL(pageUrl));
+                System.out.println("crawling!!! : " + pageUrl);
                 parsePage(page);
                 successfulPageCrawls ++;
                 delayCrawl(timer.getElapsedTime());
@@ -74,6 +80,16 @@ public class Domain implements Runnable{
 
     private Page getPage(URL url){
         Request request = new Request(url);
+        request.setConnectionTimeout(5000);
+        request.setRequestMethod("GET");
+        request.setUserAgent("Mozilla/5.0 (Macintosh; U; Intel Mac OS X 10.4; en-US; rv:1.9.2.2) Gecko/20100316 Firefox/3.6.2");
+
+        try{
+            request.connect();
+        }catch(IOException e){
+            errorLog.warn("unable to connect to: " + url + "\n" + e.getStackTrace().toString());
+        }
+
         Page page = new Page(url, request.getResponse());
 
         switch (request.getResponseCode()) {

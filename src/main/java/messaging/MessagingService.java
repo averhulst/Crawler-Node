@@ -27,6 +27,9 @@ public class MessagingService {
             publishers.put("discoveredDomains",
                     new Publisher(connection.createChannel(), "discoveredDomains")
             );
+            publishers.put("freshDomains",
+                    new Publisher(connection.createChannel(), "freshDomains")
+            );
 
         } catch (IOException e) {
             e.printStackTrace();
@@ -36,10 +39,16 @@ public class MessagingService {
 
     public void publishDiscoveredDomains(List discoveredDomains){
         String outgoingDomains = String.join(";", discoveredDomains);
-        publishers.get("discoveredDomains").publishMessage(outgoingDomains);
+        //publishers.get("discoveredDomains").publishMessage(outgoingDomains);
+        // Hacking this until centralized hub can parse and puclish new domains
+        publishers.get("freshDomains").publishMessage(outgoingDomains);
+    }
+    public void publishFreshDomains(List discoveredDomains){
+        String outgoingDomains = String.join(";", discoveredDomains);
+        publishers.get("freshDomains").publishMessage(outgoingDomains);
     }
 
-    public List fetchFreshDomains(){
+    public List<String> fetchFreshDomains(){
         String incomingDomains = consumers.get("freshDomains").getMessage();
         System.out.println("test pulled " + incomingDomains);
         return Arrays.asList(incomingDomains.split(";"));

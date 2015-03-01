@@ -1,5 +1,3 @@
-package test;
-
 /**
  * Created with IntelliJ IDEA.
  * User: buttes
