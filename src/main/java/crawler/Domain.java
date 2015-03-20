@@ -1,6 +1,7 @@
 package crawler;
 
 import java.io.IOException;
+import java.io.Serializable;
 import java.net.MalformedURLException;
 import java.net.URL;
 import java.util.ArrayList;
@@ -46,8 +47,6 @@ public class Domain implements Runnable{
     public void run(){
         running = true;
 
-
-
         try {
             URL robotsTxtUrl =  new URL(domainURL + "robots.txt");
             parseRobotsTxt(getPage(robotsTxtUrl).getSourceCode());
@@ -65,7 +64,7 @@ public class Domain implements Runnable{
             try {
                 Page page = getPage(new URL(pageUrl));
                 System.out.println("crawling!!! : " + pageUrl);
-                parsePage(page);
+                parsePageContent(page);
                 successfulPageCrawls ++;
                 delayCrawl(timer.getElapsedTime());
                 debugLog.info("Crawled" + pageUrl);
@@ -118,7 +117,7 @@ public class Domain implements Runnable{
         return page;
     }
 
-    private void parsePage(Page p){
+    private void parsePageContent(Page p){
         p.parseSource();
         processUrls(p.getCrawlableUrls());
         crawledUrls.add(p.getUrl());
@@ -180,8 +179,6 @@ public class Domain implements Runnable{
     private boolean belongsToCurrentDomain(URL url) {
         return url.getHost().equals(domainURL.getHost());
     }
-
-
     public int getQueueSize(){
         return this.pageQueue.getSize();
     }

@@ -40,7 +40,7 @@ public class MessagingService {
     public void publishDiscoveredDomains(List discoveredDomains){
         String outgoingDomains = String.join(";", discoveredDomains);
         //publishers.get("discoveredDomains").publishMessage(outgoingDomains);
-        // Hacking this until centralized hub can parse and puclish new domains
+        // Hacking this until centralized hub can parse and publish new domains
         publishers.get("freshDomains").publishMessage(outgoingDomains);
     }
     public void publishFreshDomains(List discoveredDomains){
@@ -53,5 +53,8 @@ public class MessagingService {
         System.out.println("test pulled " + incomingDomains);
         return Arrays.asList(incomingDomains.split(";"));
     }
+//    public void publishCrawledDomain(Domain){
+//
+//    }
 }
 

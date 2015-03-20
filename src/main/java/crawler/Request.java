@@ -11,9 +11,9 @@ public class Request {
     private URL pageUrl;
     private int responseCode;
     private HttpURLConnection urlConnection;
-    private String requestMethod;
-    private int connectionTimeout;
-    private String useragent;
+    private String requestMethod = "GET";
+    private int connectionTimeout = 1000;
+    private String userAgent = "";
 
     public Request(URL pageUrl) {
         this.pageUrl = pageUrl;
@@ -24,11 +24,11 @@ public class Request {
         urlConnection = (HttpURLConnection)pageUrl.openConnection();
         urlConnection.setConnectTimeout(connectionTimeout);
         urlConnection.setRequestMethod(requestMethod);
-        urlConnection.setRequestProperty("User-Agent", useragent);
-        processConnection();
+        urlConnection.setRequestProperty("User-Agent", userAgent);
+        readConnection();
     }
 
-    private void processConnection() throws IOException{
+    private void readConnection() throws IOException{
         responseCode = urlConnection.getResponseCode();
         String message = urlConnection.getResponseMessage();
 
@@ -58,7 +58,7 @@ public class Request {
     }
 
     public void setUserAgent(String useragent) {
-        this.useragent = useragent;
+        this.userAgent = useragent;
     }
 
     public void setConnectionTimeout(int connectionTimeout) {

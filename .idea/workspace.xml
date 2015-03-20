@@ -1,16 +1,54 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="f36659aa-4a93-43c8-ae4d-0e55ab73ae4c" name="Default" comment="" />
+    <list default="true" id="f36659aa-4a93-43c8-ae4d-0e55ab73ae4c" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/test/java/RequestTest.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/crawler/Crawler.java" afterPath="$PROJECT_DIR$/src/main/java/crawler/Crawler.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/crawler/Domain.java" afterPath="$PROJECT_DIR$/src/main/java/crawler/Domain.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/messaging/MessagingService.java" afterPath="$PROJECT_DIR$/src/main/java/messaging/MessagingService.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/crawler/Page.java" afterPath="$PROJECT_DIR$/src/main/java/crawler/Page.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/crawler/Request.java" afterPath="$PROJECT_DIR$/src/main/java/crawler/Request.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/crawler/UrlQueue.java" afterPath="$PROJECT_DIR$/src/main/java/crawler/UrlQueue.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/vcs.xml" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+    </list>
     <ignored path="TomatoNode.iws" />
     <ignored path=".idea/workspace.xml" />
-    <file path="/Dummy.txt" changelist="f36659aa-4a93-43c8-ae4d-0e55ab73ae4c" time="1425149975327" ignored="false" />
-    <file path="/Domain.java" changelist="f36659aa-4a93-43c8-ae4d-0e55ab73ae4c" time="1425090100387" ignored="false" />
-    <file path="/fragment.java" changelist="f36659aa-4a93-43c8-ae4d-0e55ab73ae4c" time="1425149503957" ignored="false" />
-    <file path="/pom.xml" changelist="f36659aa-4a93-43c8-ae4d-0e55ab73ae4c" time="1425148968088" ignored="false" />
+    <file path="/Dummy.txt" changelist="f36659aa-4a93-43c8-ae4d-0e55ab73ae4c" time="1426840993468" ignored="false" />
+    <file path="/Domain.java" changelist="f36659aa-4a93-43c8-ae4d-0e55ab73ae4c" time="1425458490030" ignored="false" />
+    <file path="/fragment.java" changelist="f36659aa-4a93-43c8-ae4d-0e55ab73ae4c" time="1426415600119" ignored="false" />
+    <file path="/pom.xml" changelist="f36659aa-4a93-43c8-ae4d-0e55ab73ae4c" time="1426563899658" ignored="false" />
     <file path="/RobotstxtTest.java" changelist="f36659aa-4a93-43c8-ae4d-0e55ab73ae4c" time="1425149121131" ignored="false" />
-    <file path="/MessagingService.java" changelist="f36659aa-4a93-43c8-ae4d-0e55ab73ae4c" time="1425148819405" ignored="false" />
-    <file path="/Main.java" changelist="f36659aa-4a93-43c8-ae4d-0e55ab73ae4c" time="1425149630272" ignored="false" />
+    <file path="/MessagingService.java" changelist="f36659aa-4a93-43c8-ae4d-0e55ab73ae4c" time="1426117632519" ignored="false" />
+    <file path="/Main.java" changelist="f36659aa-4a93-43c8-ae4d-0e55ab73ae4c" time="1426411229294" ignored="false" />
+    <file path="/Request.java" changelist="f36659aa-4a93-43c8-ae4d-0e55ab73ae4c" time="1425256793975" ignored="false" />
+    <file path="/UrlQueue.java" changelist="f36659aa-4a93-43c8-ae4d-0e55ab73ae4c" time="1425351822451" ignored="false" />
+    <file path="$USER_HOME$/TomatoHub/src/main/java/Main.java" changelist="f36659aa-4a93-43c8-ae4d-0e55ab73ae4c" time="1425371179361" ignored="false" />
+    <file path="$USER_HOME$/TomatoHub/src/main/java/Hub.java" changelist="f36659aa-4a93-43c8-ae4d-0e55ab73ae4c" time="1425456379636" ignored="false" />
+    <file path="$USER_HOME$/TomatoHub/pom.xml" changelist="f36659aa-4a93-43c8-ae4d-0e55ab73ae4c" time="1426563905764" ignored="false" />
+    <file path="$USER_HOME$/TomatoHub/src/main/java/Hub/Main.java" changelist="f36659aa-4a93-43c8-ae4d-0e55ab73ae4c" time="1426034987732" ignored="false" />
+    <file path="$USER_HOME$/TomatoHub/src/main/java/Hub/Hub.java" changelist="f36659aa-4a93-43c8-ae4d-0e55ab73ae4c" time="1426414436721" ignored="false" />
+    <file path="/Hub.java" changelist="f36659aa-4a93-43c8-ae4d-0e55ab73ae4c" time="1426414388804" ignored="false" />
+    <file path="$USER_HOME$/TomatoHub/src/main/messaging/MessagingService.java" changelist="f36659aa-4a93-43c8-ae4d-0e55ab73ae4c" time="1425457028408" ignored="false" />
+    <file path="/Page.java" changelist="f36659aa-4a93-43c8-ae4d-0e55ab73ae4c" time="1425498491251" ignored="false" />
+    <file path="/RequestTest.java" changelist="f36659aa-4a93-43c8-ae4d-0e55ab73ae4c" time="1425524067966" ignored="false" />
+    <file path="$USER_HOME$/TomatoHub/src/main/java/messaging/MessagingFacade.java" changelist="f36659aa-4a93-43c8-ae4d-0e55ab73ae4c" time="1426490547785" ignored="false" />
+    <file path="/MessagingFacade.java" changelist="f36659aa-4a93-43c8-ae4d-0e55ab73ae4c" time="1426490218784" ignored="false" />
+    <file path="$USER_HOME$/TomatoHub/src/main/java/Hub/DAO.java" changelist="f36659aa-4a93-43c8-ae4d-0e55ab73ae4c" time="1426490061897" ignored="false" />
+    <file path="/DAO.java" changelist="f36659aa-4a93-43c8-ae4d-0e55ab73ae4c" time="1426490048662" ignored="false" />
+    <file path="$USER_HOME$/TomatoHub/src/main/java/Util/Util.java" changelist="f36659aa-4a93-43c8-ae4d-0e55ab73ae4c" time="1426415304818" ignored="false" />
+    <file path="/Util.java" changelist="f36659aa-4a93-43c8-ae4d-0e55ab73ae4c" time="1426415122615" ignored="false" />
+    <file path="$USER_HOME$/TomatoHub/src/main/java/processor/CrawlResultProcessor.java" changelist="f36659aa-4a93-43c8-ae4d-0e55ab73ae4c" time="1426490092532" ignored="false" />
+    <file path="/CrawlResultProcessor.java" changelist="f36659aa-4a93-43c8-ae4d-0e55ab73ae4c" time="1426416104222" ignored="false" />
+    <file path="$USER_HOME$/TomatoHub/src/main/java/processor/Util.java" changelist="f36659aa-4a93-43c8-ae4d-0e55ab73ae4c" time="1426415297277" ignored="false" />
+    <file path="/DiscoveredDomainProcessor.java" changelist="f36659aa-4a93-43c8-ae4d-0e55ab73ae4c" time="1426542510315" ignored="false" />
+    <file path="$USER_HOME$/TomatoHub/src/main/java/processor/DiscoveredDomainProcessor.java" changelist="f36659aa-4a93-43c8-ae4d-0e55ab73ae4c" time="1426542513966" ignored="false" />
+    <file path="$USER_HOME$/TomatoHub/src/main/java/processor/Processor.java" changelist="f36659aa-4a93-43c8-ae4d-0e55ab73ae4c" time="1426416143113" ignored="false" />
+    <file path="/Processor.java" changelist="f36659aa-4a93-43c8-ae4d-0e55ab73ae4c" time="1426416141966" ignored="false" />
+    <file path="$USER_HOME$/TomatoHub/src/main/java/messaging/Messenger.java" changelist="f36659aa-4a93-43c8-ae4d-0e55ab73ae4c" time="1426490566203" ignored="false" />
+    <file path="/Messenger.java" changelist="f36659aa-4a93-43c8-ae4d-0e55ab73ae4c" time="1426490192990" ignored="false" />
+    <file path="$USER_HOME$/TomatoHub/.idea/workspace.xml" changelist="f36659aa-4a93-43c8-ae4d-0e55ab73ae4c" time="1426841016632" ignored="false" />
+    <file path="/Crawler.java" changelist="f36659aa-4a93-43c8-ae4d-0e55ab73ae4c" time="1426840763580" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -73,37 +111,19 @@
     <splitter split-orientation="horizontal" split-proportion="0.5314741">
       <split-first>
         <leaf>
-          <file leaf-file-name="pom.xml" pinned="false" current="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/pom.xml">
-              <provider selected="true" editor-type-id="text-editor">
-                <state line="17" column="36" selection-start="643" selection-end="643" vertical-scroll-proportion="0.0">
-                  <folding />
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file leaf-file-name="RobotstxtTest.java" pinned="false" current="false" current-in-tab="true">
-            <entry file="file://$PROJECT_DIR$/src/test/java/RobotstxtTest.java">
-              <provider selected="true" editor-type-id="text-editor">
-                <state line="56" column="41" selection-start="1983" selection-end="1983" vertical-scroll-proportion="1.273021">
-                  <folding />
-                </state>
-              </provider>
-            </entry>
-          </file>
           <file leaf-file-name="MessagingService.java" pinned="false" current="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/src/main/java/messaging/MessagingService.java">
               <provider selected="true" editor-type-id="text-editor">
-                <state line="3" column="45" selection-start="104" selection-end="104" vertical-scroll-proportion="0.0">
+                <state line="40" column="69" selection-start="1271" selection-end="1271" vertical-scroll-proportion="0.0">
                   <folding />
                 </state>
               </provider>
             </entry>
           </file>
-          <file leaf-file-name="Main.java" pinned="false" current="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/src/main/java/crawler/Main.java">
+          <file leaf-file-name="Messenger.java" pinned="false" current="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/src/main/java/messaging/Messenger.java">
               <provider selected="true" editor-type-id="text-editor">
-                <state line="1" column="0" selection-start="17" selection-end="17" vertical-scroll-proportion="0.0">
+                <state line="34" column="0" selection-start="738" selection-end="738" vertical-scroll-proportion="0.0">
                   <folding />
                 </state>
               </provider>
@@ -112,7 +132,25 @@
           <file leaf-file-name="Crawler.java" pinned="false" current="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/src/main/java/crawler/Crawler.java">
               <provider selected="true" editor-type-id="text-editor">
-                <state line="27" column="28" selection-start="1104" selection-end="1104" vertical-scroll-proportion="0.0">
+                <state line="62" column="42" selection-start="2539" selection-end="2539" vertical-scroll-proportion="-26.52">
+                  <folding />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="Robotstxt.java" pinned="false" current="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/src/main/java/crawler/Robotstxt.java">
+              <provider selected="true" editor-type-id="text-editor">
+                <state line="85" column="38" selection-start="2859" selection-end="2859" vertical-scroll-proportion="0.0">
+                  <folding />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="Publisher.java" pinned="false" current="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/src/main/java/messaging/Publisher.java">
+              <provider selected="true" editor-type-id="text-editor">
+                <state line="26" column="1" selection-start="688" selection-end="688" vertical-scroll-proportion="0.0">
                   <folding />
                 </state>
               </provider>
@@ -121,16 +159,25 @@
           <file leaf-file-name="Domain.java" pinned="false" current="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/src/main/java/crawler/Domain.java">
               <provider selected="true" editor-type-id="text-editor">
-                <state line="34" column="35" selection-start="1218" selection-end="1218" vertical-scroll-proportion="0.0">
+                <state line="12" column="39" selection-start="298" selection-end="298" vertical-scroll-proportion="0.0">
                   <folding />
                 </state>
               </provider>
             </entry>
           </file>
-          <file leaf-file-name="TomatoNode.iml" pinned="false" current="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/TomatoNode.iml">
+          <file leaf-file-name="RequestTest.java" pinned="false" current="true" current-in-tab="true">
+            <entry file="file://$PROJECT_DIR$/src/test/java/RequestTest.java">
               <provider selected="true" editor-type-id="text-editor">
-                <state line="4" column="35" selection-start="319" selection-end="319" vertical-scroll-proportion="0.0">
+                <state line="19" column="9" selection-start="505" selection-end="505" vertical-scroll-proportion="0.26617953">
+                  <folding />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="Page.java" pinned="false" current="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/src/main/java/crawler/Page.java">
+              <provider selected="true" editor-type-id="text-editor">
+                <state line="37" column="35" selection-start="1030" selection-end="1030" vertical-scroll-proportion="0.0">
                   <folding />
                 </state>
               </provider>
@@ -140,10 +187,46 @@
       </split-first>
       <split-second>
         <leaf>
-          <file leaf-file-name="robots.txt" pinned="false" current="true" current-in-tab="true">
+          <file leaf-file-name="robots.txt" pinned="false" current="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/src/test/resources/robots.txt">
               <provider selected="true" editor-type-id="text-editor">
-                <state line="20" column="0" selection-start="532" selection-end="532" vertical-scroll-proportion="0.5206738">
+                <state line="20" column="0" selection-start="532" selection-end="532" vertical-scroll-proportion="0.0">
+                  <folding />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="UrlQueue.java" pinned="false" current="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/src/main/java/crawler/UrlQueue.java">
+              <provider selected="true" editor-type-id="text-editor">
+                <state line="11" column="64" selection-start="320" selection-end="320" vertical-scroll-proportion="0.0">
+                  <folding />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="Request.java" pinned="false" current="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/src/main/java/crawler/Request.java">
+              <provider selected="true" editor-type-id="text-editor">
+                <state line="21" column="38" selection-start="556" selection-end="556" vertical-scroll-proportion="0.0">
+                  <folding />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="pom.xml" pinned="false" current="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/pom.xml">
+              <provider selected="true" editor-type-id="text-editor">
+                <state line="6" column="0" selection-start="302" selection-end="454" vertical-scroll-proportion="0.0">
+                  <folding />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="Main.java" pinned="false" current="false" current-in-tab="true">
+            <entry file="file://$PROJECT_DIR$/src/main/java/crawler/Main.java">
+              <provider selected="true" editor-type-id="text-editor">
+                <state line="3" column="43" selection-start="81" selection-end="81" vertical-scroll-proportion="0.05141129">
                   <folding />
                 </state>
               </provider>
@@ -158,16 +241,30 @@
       <setting name="OPEN_NEW_TAB" value="false" />
     </FindUsagesManager>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GitLogSettings">
+    <option name="myDateState">
+      <MyDateState />
+    </option>
+  </component>
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/src/main/java/crawler/Domain.java" />
-        <option value="$PROJECT_DIR$/src/main/java/messaging/MessagingService.java" />
         <option value="$PROJECT_DIR$/src/main/java/test/RobotstxtTest.java" />
         <option value="$PROJECT_DIR$/src/main/java/DomainTest.java" />
-        <option value="$PROJECT_DIR$/src/main/java/crawler/Main.java" />
         <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/src/test/java/RobotstxtTest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/crawler/UrlQueue.java" />
+        <option value="$PROJECT_DIR$/src/test/java/test/RequestTest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/crawler/Page.java" />
+        <option value="$PROJECT_DIR$/src/main/java/crawler/Request.java" />
+        <option value="$PROJECT_DIR$/src/test/java/RequestTest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/messaging/MessagingService.java" />
+        <option value="$PROJECT_DIR$/src/main/java/crawler/Main.java" />
+        <option value="$PROJECT_DIR$/src/main/java/crawler/Crawler.java" />
+        <option value="$PROJECT_DIR$/src/main/java/crawler/Domain.java" />
       </list>
     </option>
   </component>
@@ -219,7 +316,7 @@
     <option name="width" value="1936" />
     <option name="height" value="1176" />
   </component>
-  <component name="ProjectLevelVcsManager" settingsEditedManually="false">
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <OptionsSetting value="true" id="Add" />
     <OptionsSetting value="true" id="Remove" />
     <OptionsSetting value="true" id="Checkout" />
@@ -248,7 +345,6 @@
     </navigator>
     <panes>
       <pane id="Scope" />
-      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -354,28 +450,6 @@
               <option name="myItemId" value="java" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="TomatoNode" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="TomatoNode" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="main" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="java" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="messaging" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
@@ -409,14 +483,16 @@
           </PATH>
         </subPane>
       </pane>
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="GoToFile.includeJavaFiles" value="false" />
     <property name="project.structure.last.edited" value="Project" />
+    <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit4" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="options.splitter.main.proportions" value="0.3" />
-    <property name="options.lastSelected" value="reference.settings.project.maven.runner" />
+    <property name="options.lastSelected" value="vcs.Git" />
     <property name="MemberChooser.sorted" value="false" />
     <property name="recentsLimit" value="5" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
@@ -424,20 +500,27 @@
     <property name="MemberChooser.copyJavadoc" value="false" />
     <property name="GoToClass.toSaveIncludeLibraries" value="false" />
     <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="com.intellij.testIntegration.createTest.CreateTestDialog.includeInheritedMembers" value="false" />
     <property name="restartRequiresConfirmation" value="true" />
-    <property name="MemberChooser.showClasses" value="true" />
     <property name="FullScreen" value="false" />
+    <property name="MemberChooser.showClasses" value="true" />
     <property name="GoToClass.includeLibraries" value="false" />
-    <property name="options.splitter.details.proportions" value="0.2" />
-    <property name="options.searchVisible" value="true" />
     <property name="dynamic.classpath" value="false" />
+    <property name="options.searchVisible" value="true" />
+    <property name="options.splitter.details.proportions" value="0.2" />
   </component>
   <component name="RecentsManager">
+    <key name="CreateTestDialog.Recents.Supers">
+      <recent name="" />
+    </key>
+    <key name="CreateTestDialog.RecentsKey">
+      <recent name="test" />
+    </key>
     <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
       <recent name="" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.RobotstxtTest">
+  <component name="RunManager" selected="JUnit.RequestTest">
     <configuration default="false" name="TomatoNode [validate]" type="MavenRunConfiguration" factoryName="Maven" temporary="true">
       <MavenSettings>
         <option name="myGeneralSettings" />
@@ -495,15 +578,38 @@
       <ConfigurationWrapper RunnerId="Debug" />
       <method />
     </configuration>
-    <configuration default="true" type="#org.osmorc.OsgiConfigurationType" factoryName="OSGi Bundles" vmParameters="" programParameters="" includeAllBundlesInClassPath="false" workingDir="" useAlternativeJre="false" alternativeJrePath="" frameworkStartLevel="1" defaultStartLevel="5" generateWorkingDir="false">
-      <framework instance="" />
-      <additinalProperties startConsole="true" />
+    <configuration default="false" name="RequestTest" type="JUnit" factoryName="JUnit" temporary="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <module name="TomatoNode" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="RequestTest" />
+      <option name="METHOD_NAME" />
+      <option name="TEST_OBJECT" value="class" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="moduleWithDependencies" />
+      </option>
+      <envs />
+      <patterns />
+      <RunnerSettings RunnerId="Run" />
+      <ConfigurationWrapper RunnerId="Run" />
       <method />
     </configuration>
     <configuration default="true" type="#org.jetbrains.idea.devkit.run.PluginConfigurationType" factoryName="Plugin">
       <module name="" />
       <option name="VM_PARAMETERS" value="-Xmx512m -Xms256m -XX:MaxPermSize=250m" />
       <option name="PROGRAM_PARAMETERS" />
+      <method />
+    </configuration>
+    <configuration default="true" type="#org.osmorc.OsgiConfigurationType" factoryName="OSGi Bundles" vmParameters="" programParameters="" includeAllBundlesInClassPath="false" workingDir="" useAlternativeJre="false" alternativeJrePath="" frameworkStartLevel="1" defaultStartLevel="5" generateWorkingDir="false">
+      <framework instance="" />
+      <additinalProperties startConsole="true" />
       <method />
     </configuration>
     <configuration default="true" type="MavenRunConfiguration" factoryName="Maven">
@@ -542,6 +648,19 @@
       <option name="PORT" value="5005" />
       <method />
     </configuration>
+    <configuration default="true" type="Applet" factoryName="Applet">
+      <module name="" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="HTML_FILE_NAME" />
+      <option name="HTML_USED" value="false" />
+      <option name="WIDTH" value="400" />
+      <option name="HEIGHT" value="300" />
+      <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
+      <option name="VM_PARAMETERS" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <method />
+    </configuration>
     <configuration default="true" type="TestNG" factoryName="TestNG">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
       <module name="" />
@@ -568,19 +687,6 @@
       <envs />
       <properties />
       <listeners />
-      <method />
-    </configuration>
-    <configuration default="true" type="Applet" factoryName="Applet">
-      <module name="" />
-      <option name="MAIN_CLASS_NAME" />
-      <option name="HTML_FILE_NAME" />
-      <option name="HTML_USED" value="false" />
-      <option name="WIDTH" value="400" />
-      <option name="HEIGHT" value="300" />
-      <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
-      <option name="VM_PARAMETERS" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
       <method />
     </configuration>
     <configuration default="true" type="Application" factoryName="Application">
@@ -635,14 +741,16 @@
       <option name="CLEAR_LOGCAT" value="false" />
       <method />
     </configuration>
-    <list size="2">
+    <list size="3">
       <item index="0" class="java.lang.String" itemvalue="Maven.TomatoNode [validate]" />
       <item index="1" class="java.lang.String" itemvalue="JUnit.RobotstxtTest" />
+      <item index="2" class="java.lang.String" itemvalue="JUnit.RequestTest" />
     </list>
     <recent_temporary>
-      <list size="2">
-        <item index="0" class="java.lang.String" itemvalue="JUnit.RobotstxtTest" />
-        <item index="1" class="java.lang.String" itemvalue="Maven.TomatoNode [validate]" />
+      <list size="3">
+        <item index="0" class="java.lang.String" itemvalue="JUnit.RequestTest" />
+        <item index="1" class="java.lang.String" itemvalue="JUnit.RobotstxtTest" />
+        <item index="2" class="java.lang.String" itemvalue="Maven.TomatoNode [validate]" />
       </list>
     </recent_temporary>
     <configuration name="&lt;template&gt;" type="WebApp" default="true" selected="false">
@@ -678,7 +786,7 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1176" extended-state="6" />
-    <editor active="false" />
+    <editor active="true" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="JetGradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -691,19 +799,19 @@
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="IDEtalk" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3280943" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="CDI" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.16008538" sideWeight="0.6669941" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.16328709" sideWeight="0.6669941" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.17022412" sideWeight="0.6669941" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.3330059" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.1398079" sideWeight="0.62249446" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.37631184" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.327451" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
@@ -772,129 +880,112 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/main/java/crawler/Crawler.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="27" column="28" selection-start="1104" selection-end="1104" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/crawler/Domain.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="34" column="35" selection-start="1218" selection-end="1218" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="16" column="36" selection-start="642" selection-end="642" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/crawler/Main.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="2" column="13" selection-start="31" selection-end="31" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/crawler/Domain.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="9" column="0" selection-start="228" selection-end="228" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/TomatoNode.iml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/messaging/MessagingService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="3" column="45" selection-start="104" selection-end="104" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/crawler/Crawler.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="27" column="28" selection-start="1104" selection-end="1104" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="uml://MAVEN/TomatoNode:TomatoNode:1.0-SNAPSHOT">
-      <provider selected="true" editor-type-id="UmlEditorProvider">
-        <state>
-          <ID>MAVEN</ID>
-          <OriginalElement>TomatoNode:TomatoNode:1.0-SNAPSHOT</OriginalElement>
-          <nodes>
-            <node x="" y="">com.rabbitmq:amqp-client:jar:3.4.4</node>
-            <node x="" y="">org.jsoup:jsoup:jar:1.7.3</node>
-            <node x="" y="">junit:junit:jar:3.8.1</node>
-            <node x="" y="">log4j:log4j:jar:1.2.17</node>
-            <node x="" y="">TomatoNode:TomatoNode:1.0-SNAPSHOT</node>
-          </nodes>
-          <notes />
-          <edges />
-          <settings layout="Hierarchic Group" zoom="1.0" x="107.0" y="71.0" />
-          <SelectedNodes />
-          <Categories />
-          <SCOPE>All</SCOPE>
-          <VISIBILITY>All</VISIBILITY>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/crawler/Main.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="1" column="0" selection-start="17" selection-end="17" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/crawler/Domain.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="34" column="35" selection-start="1218" selection-end="1218" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="17" column="36" selection-start="643" selection-end="643" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/TomatoNode.iml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="4" column="35" selection-start="319" selection-end="319" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/DomainTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="7" column="13" selection-start="168" selection-end="168" vertical-scroll-proportion="0.18652038">
+        <state line="9" column="0" selection-start="183" selection-end="183" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/RobotstxtTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="56" column="41" selection-start="1983" selection-end="1983" vertical-scroll-proportion="1.273021">
+        <state line="34" column="0" selection-start="809" selection-end="809" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/resources/robots.txt">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="20" column="0" selection-start="532" selection-end="532" vertical-scroll-proportion="0.5206738">
+        <state line="20" column="0" selection-start="532" selection-end="532" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/crawler/UrlQueue.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="11" column="64" selection-start="320" selection-end="320" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/crawler/Robotstxt.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="85" column="38" selection-start="2859" selection-end="2859" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/junit/junit/4.12/junit-4.12.jar!/org/junit/Test.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="8" column="18" selection-start="307" selection-end="307" vertical-scroll-proportion="0.12552743" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/crawler/Page.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="37" column="35" selection-start="1030" selection-end="1030" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/crawler/Request.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="21" column="38" selection-start="556" selection-end="556" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="6" column="0" selection-start="302" selection-end="454" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/messaging/MessagingService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="40" column="69" selection-start="1271" selection-end="1271" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/crawler/Main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="3" column="43" selection-start="81" selection-end="81" vertical-scroll-proportion="0.05141129">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/crawler/Crawler.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="62" column="42" selection-start="2539" selection-end="2539" vertical-scroll-proportion="-26.52">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/messaging/Messenger.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="34" column="0" selection-start="738" selection-end="738" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/messaging/Publisher.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="26" column="1" selection-start="688" selection-end="688" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/crawler/Domain.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="12" column="39" selection-start="298" selection-end="298" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/RequestTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="19" column="9" selection-start="505" selection-end="505" vertical-scroll-proportion="0.26617953">
           <folding />
         </state>
       </provider>

@@ -109,6 +109,7 @@ public class Crawler{
     }
 
     private class RunnableDomain implements Runnable{
+        //TODO: remove me and refactor crawl to accept a Runnable lambda
         private Domain domain;
 
         public RunnableDomain(Domain newDomain){

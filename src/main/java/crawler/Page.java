@@ -4,10 +4,7 @@ import org.jsoup.Connection;
 import org.jsoup.Jsoup;
 import org.jsoup.nodes.Document;
 import org.jsoup.nodes.Element;
-
-import java.io.IOException;
 import java.net.*;
-import java.sql.Timestamp;
 import java.util.ArrayList;
 
 public class Page{
@@ -68,5 +65,8 @@ public class Page{
     public String getSourceCode() {
         return sourceCode;
     }
+
+
+
 
 }
