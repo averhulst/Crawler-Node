@@ -1,3 +1,5 @@
+package crawler;
+
 import crawler.Request;
 import org.junit.Before;
 import org.junit.Test;

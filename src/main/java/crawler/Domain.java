@@ -23,7 +23,7 @@ public class Domain implements Runnable{
     private Robotstxt robotsTxt;
     private UrlQueue pageQueue;
     private Timer timer = new Timer();
-    private UrlQueue discoveredDomains;
+    private List<String> discoveredDomains;
     private static final org.apache.log4j.Logger debugLog = org.apache.log4j.Logger.getLogger("debugLogger");
     private static final org.apache.log4j.Logger errorLog = org.apache.log4j.Logger.getLogger("domainErrorLogger");
 
@@ -31,7 +31,7 @@ public class Domain implements Runnable{
         this.domainURL = url;
         failedUrls = new ArrayList<>();
         crawledUrls = new ArrayList<>();
-        discoveredDomains = new UrlQueue();
+        discoveredDomains = new ArrayList<>();
         crawlStartTime = System.currentTimeMillis();
         pageQueue = new UrlQueue();
         pageQueue.enqueueUrl(url);
@@ -144,17 +144,17 @@ public class Domain implements Runnable{
                             pageQueue.enqueueUrl(url);
                         }
                     }
-                }else if(!discoveredDomains.containsURL(outboundHost) && !Crawler.domainHasBeenCrawled(url)){
+                }else if(!discoveredDomains.contains(outboundHost) && !Crawler.domainHasBeenCrawled(url)){
                     //TODO remove static crawler methods, handle crawl history in centralized app
-                    discoveredDomains.enqueueUrl(outboundHost);
+                    discoveredDomains.add(outboundHost);
                 }
             }
 
         }
     }
 
-    public ArrayList<String> getDiscoveredDomains(){
-        return discoveredDomains.toArrayList();
+    public List<String> getDiscoveredDomains(){
+        return discoveredDomains;
     }
 
     private boolean isCrawlable(URL url){

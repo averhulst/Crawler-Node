@@ -92,7 +92,7 @@ public class Crawler{
         crawledDomains.enqueueUrl(crawledDomain.getDomainUrl());
 
         if(crawledDomain.getDiscoveredDomains().size() > 0){
-            ArrayList<String> discoveredDomains = crawledDomain.getDiscoveredDomains();
+            List<String> discoveredDomains = crawledDomain.getDiscoveredDomains();
             //messenger.publishMessage(String.join(";", discoveredDomains));
             messenger.publishDiscoveredDomains(discoveredDomains);
         }

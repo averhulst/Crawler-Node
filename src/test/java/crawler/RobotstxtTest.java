@@ -1,3 +1,5 @@
+package crawler;
+
 import crawler.Robotstxt;
 import org.junit.After;
 import org.junit.Before;

@@ -1,19 +1,22 @@
 package crawler;
 
 import java.net.URL;
+import java.util.ArrayDeque;
 import java.util.ArrayList;
-import java.util.LinkedList;
+import java.util.List;
+import java.util.Queue;
 
 public class UrlQueue {
     private String nextUrl;
     private String[] uninterestingFiletypes;
-    private LinkedList<String> queue = new LinkedList<String>();
+    private Queue<String> queue = new ArrayDeque<String>();
     private int queueSize;
 
     public UrlQueue(){
         uninterestingFiletypes = new String[]
                 {
-                    ".jpg",".jpeg",".png",".gif", ".pdf", ".tiff"
+                    ".jpg",".jpeg",".png",".tiff",".gif",".gif", ".pdf", ".tiff",".doc",
+                    ".js",".css"
                 };
         queueSize = 0;
     }
@@ -37,6 +40,7 @@ public class UrlQueue {
             }
         }
     }
+
     public synchronized void enqueueUrl(URL newUrl){
         enqueueUrl(newUrl.toString());
     }
@@ -52,10 +56,10 @@ public class UrlQueue {
     public synchronized int getSize(){
         return queueSize;
     }
-    public ArrayList<String> toArrayList(){
+    public List<String> toList(){
         ArrayList queueList = new ArrayList();
-        for(int i  = 0 ; i <= (queue.size() -1) ; i ++){
-            queueList.add(queue.get(i));
+        for(String s : queue){
+            queueList.add(s);
         }
         return queueList;
     }
@@ -67,8 +71,6 @@ public class UrlQueue {
         }
         return true;
     }
-
-
 }
 
 
