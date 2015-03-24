@@ -1,4 +1,4 @@
-package crawler;
+package application.crawler.util;
 
 /**
  * Created with IntelliJ IDEA.

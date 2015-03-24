@@ -1,4 +1,4 @@
-package messaging;
+package service.messaging;
 
 import com.rabbitmq.client.*;
 

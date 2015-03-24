@@ -1,4 +1,4 @@
-package crawler;
+package application.crawler.util;
 
 import java.net.URL;
 import java.util.ArrayDeque;

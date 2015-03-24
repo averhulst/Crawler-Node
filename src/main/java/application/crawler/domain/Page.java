@@ -1,4 +1,4 @@
-package crawler;
+package application.crawler.domain;
 
 import org.jsoup.Connection;
 import org.jsoup.Jsoup;

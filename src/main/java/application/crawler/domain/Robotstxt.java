@@ -1,4 +1,4 @@
-package crawler;
+package application.crawler.domain;
 
 import java.io.*;
 import java.net.URL;

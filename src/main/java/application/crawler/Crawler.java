@@ -1,9 +1,10 @@
-package crawler;
+package application.crawler;
 
-import messaging.MessagingService;
+import application.crawler.domain.Domain;
+import application.crawler.util.UrlQueue;
+import service.messaging.MessagingService;
 import java.net.MalformedURLException;
 import java.net.URL;
-import java.util.ArrayList;
 import java.util.HashMap;
 import java.util.List;
 import java.util.concurrent.ExecutorService;
@@ -29,19 +30,8 @@ public class Crawler{
         this.threadCount = threadCount;
         messenger = new MessagingService();
         executor = Executors.newFixedThreadPool(threadCount);
-        //dao = MongoDao.getInstance();
         timeAtBootUp = System.currentTimeMillis();
-
-        List<String> domainSeed = new ArrayList<>();
-
-        domainSeed.add("http://animagraffs.com/");
-        domainSeed.add("http://jgrapht.org/");
-        domainSeed.add("http://www.pixijs.com/resources/");
-        domainSeed.add("http://www.draw2d.org/draw2d/");
-        //messenger.publishDiscoveredDomains(domainSeed);
-        messenger.publishFreshDomains(domainSeed);
         requestCrawlableDomains();
-
     }
 
     public synchronized void crawl(){

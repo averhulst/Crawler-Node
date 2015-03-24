@@ -1,12 +1,11 @@
 package crawler;
 
-import crawler.Robotstxt;
+import application.crawler.domain.Robotstxt;
 import org.junit.After;
 import org.junit.Before;
 import org.junit.Test;
-import org.junit.Assert.*;
+
 import java.io.BufferedReader;
-import java.io.File;
 import java.io.FileReader;
 import java.io.IOException;
 import java.net.URL;

@@ -1,13 +1,15 @@
-package crawler;
+package application.crawler.domain;
+
+import application.crawler.Crawler;
+import application.crawler.util.Request;
+import application.crawler.util.Timer;
+import application.crawler.util.UrlQueue;
 
 import java.io.IOException;
-import java.io.Serializable;
 import java.net.MalformedURLException;
 import java.net.URL;
 import java.util.ArrayList;
 import java.util.List;
-import java.util.logging.FileHandler;
-import java.util.logging.Logger;
 
 
 public class Domain implements Runnable{

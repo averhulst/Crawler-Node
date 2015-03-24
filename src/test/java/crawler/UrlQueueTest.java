@@ -1,6 +1,6 @@
 package crawler;
 
-import org.junit.Before;
+import application.crawler.util.UrlQueue;
 import org.junit.Test;
 
 import java.net.URL;
@@ -82,7 +82,7 @@ public class UrlQueueTest {
     }
 
     @Test
-    public void testToArrayList() throws Exception {
+    public void testToList() throws Exception {
         UrlQueue urlQueue = new UrlQueue();
 
         ArrayList<String> urlQueueList = new ArrayList<String>(){{
@@ -96,7 +96,7 @@ public class UrlQueueTest {
             urlQueue.enqueueUrl(s);
         }
 
-        List<String> resultList= urlQueue.toList();
+        List<String> resultList = urlQueue.toList();
 
         assertEquals(urlQueueList, resultList);
     }

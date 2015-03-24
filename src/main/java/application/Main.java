@@ -1,4 +1,6 @@
-package crawler;
+package application;
+
+import application.crawler.Crawler;
 
 public class Main {
     public static void main(String[] args){
