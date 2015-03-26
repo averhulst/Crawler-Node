@@ -1,23 +1,25 @@
 package application.crawler.util;
 
 import java.net.URL;
-import java.util.ArrayDeque;
-import java.util.ArrayList;
-import java.util.List;
-import java.util.Queue;
+import java.util.*;
 
 public class UrlQueue {
     private String nextUrl;
-    private String[] uninterestingFiletypes;
     private Queue<String> queue = new ArrayDeque<String>();
     private int queueSize;
 
+    private final List<String> FILE_TYPE_BLACKLIST =
+        new ArrayList<>(
+            Arrays.asList(
+                new String[]{
+                        ".jpg", ".jpeg", ".png", ".tiff",
+                        ".gif", ".gif",  ".pdf", ".tiff",
+                        ".doc", ".js",   ".css"
+                }
+            )
+        );
+
     public UrlQueue(){
-        uninterestingFiletypes = new String[]
-                {
-                    ".jpg",".jpeg",".png",".tiff",".gif",".gif", ".pdf", ".tiff",".doc",
-                    ".js",".css"
-                };
         queueSize = 0;
     }
     public synchronized String getNext(){
@@ -64,12 +66,15 @@ public class UrlQueue {
         return queueList;
     }
     public boolean shouldCrawl(String url){
-        for(String extension : uninterestingFiletypes){
+        for(String extension : FILE_TYPE_BLACKLIST){
             if(url.endsWith(extension) || url.endsWith(extension + "/")){
                 return false;
             }
         }
         return true;
+    }
+    public boolean hasNext(){
+        return queue.size() > 0;
     }
 }
 

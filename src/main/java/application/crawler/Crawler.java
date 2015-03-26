@@ -15,6 +15,7 @@ public class Crawler{
     private static UrlQueue domainQueue = new UrlQueue();
     private static HashMap<String, Domain> activelyCrawlingDomains = new HashMap<String, Domain>();
     private static UrlQueue crawledDomains = new UrlQueue();
+    //TODO remove crawledDomains functionality, responsibility belongs to crawler hub now
     private static long timeAtBootUp;
     private static float lifeTime;
     private static float crawlRate;
@@ -54,14 +55,6 @@ public class Crawler{
                 //requestCrawlableDomains();
             }
         }
-    }
-
-    public static synchronized boolean domainIsQueued(URL url){
-        return domainQueue.containsURL(url.getProtocol() + "://" + url.getHost());
-    }
-
-    public static synchronized boolean domainHasBeenCrawled(URL url){
-        return crawledDomains.containsURL(url.getProtocol() + "://" + url.getHost());
     }
 
     private static void printCrawlRate(){

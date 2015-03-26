@@ -1,6 +1,7 @@
 package application.crawler.domain;
 
 import java.io.*;
+import java.net.MalformedURLException;
 import java.net.URL;
 import java.util.ArrayList;
 import java.util.List;
@@ -102,6 +103,18 @@ public class Robotstxt {
 
         return true;
     }
+
+    public boolean urlIsAllowed(String url){
+        boolean urlIsAllowed = false;
+        try {
+            urlIsAllowed = urlIsAllowed(new URL(url));
+        } catch (MalformedURLException e) {
+            //TODO log me
+        }
+
+        return urlIsAllowed;
+    }
+
     private void parseCrawlDelay(String value){
 
     }

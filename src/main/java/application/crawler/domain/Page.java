@@ -6,36 +6,41 @@ import org.jsoup.nodes.Document;
 import org.jsoup.nodes.Element;
 import java.net.*;
 import java.util.ArrayList;
+import java.util.List;
 
 public class Page{
     private Connection connection;
     private Document pageDocument;
     private URL url = null;
-    private ArrayList<URL> crawlableUrls = new ArrayList<URL>();
     private Element head;
     private Element body;
     private String sourceCode;
+    private List<String> discoveredDomains;
+    private List<URL> discoveredPages;
 
     private static final org.apache.log4j.Logger errorLog = org.apache.log4j.Logger.getLogger("pageErrorLogger");
-
-    public URL getUrl() {
-        return url;
-    }
 
     public Page(URL urlStr, String sourceCode){
         this.url = urlStr;
         this.sourceCode = sourceCode;
+        discoveredPages = new ArrayList<URL>();
+        discoveredDomains = new ArrayList<String>();
+
+        parseSource();
+        getCrawlableUrls();
     }
 
+    public URL getUrl() {
+        return url;
+    }
     public void parseSource(){
         pageDocument = Jsoup.parse(sourceCode);
         head = pageDocument.head();
         body = pageDocument.body();
-        //System.out.println("crawling: " + url + " " + Thread.currentThread().getId());
     }
 
-    public ArrayList<URL> getCrawlableUrls(){
-        // Remove urls with hashtags so the tomato doesn't add repeat pages to the queue that sneak in where the only difference in the url is the hashtag and it's ID
+    private void getCrawlableUrls(){
+        //TODO Remove urls with hashtags so the tomato doesn't add repeat pages to the queue that sneak in where the only difference in the url is the hashtag and it's ID
         try{
             pageDocument.select("a[href*=#]").remove();
         }catch(NullPointerException e){
@@ -44,22 +49,31 @@ public class Page{
 
         for(Element anchor : pageDocument.select("a")){
             anchor.setBaseUri(url.toExternalForm());
-            String hrefStr = anchor.attr("abs:href");
-            URL href = null;
-            if(hrefStr.length() > 0){
+            //TODO reevaluate why we're setting baseURI, could possibly be creating invalid urls (pages that belong to other domains?) that i think we'll end up mistakenly crawling down the line
+            String absoluteUrlStr = anchor.attr("abs:href");
+
+            if(absoluteUrlStr.length() > 0){
                 try {
-                    href = new URL(hrefStr);
+                    URL href = new URL(absoluteUrlStr);
+
+                    if(href.getHost().equals(url.getHost())){
+                        discoveredPages.add(href);
+                    }else{
+                        discoveredDomains.add(absoluteUrlStr.toString());
+                    }
                 } catch (MalformedURLException e) {
-                    errorLog.info("Malformed URL: " + hrefStr + "\n" + e.getStackTrace().toString());
+                    errorLog.info("Malformed URL: " + absoluteUrlStr + "\n" + e.getStackTrace().toString());
                 }
             }
-
-            if(href != null){
-                crawlableUrls.add(href);
-            }
         }
+    }
 
-        return crawlableUrls;
+    public List<String> getDiscoveredDomains(){
+        return discoveredDomains;
+    }
+
+    public List<URL> getDiscoveredPages(){
+        return discoveredPages;
     }
 
     public String getSourceCode() {
