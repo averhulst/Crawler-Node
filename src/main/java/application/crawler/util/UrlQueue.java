@@ -13,7 +13,7 @@ public class UrlQueue {
             Arrays.asList(
                 new String[]{
                         ".jpg", ".jpeg", ".png", ".tiff",
-                        ".gif", ".gif",  ".pdf", ".tiff",
+                        ".gif", ".rif",  ".bmp", ".pdf",
                         ".doc", ".js",   ".css"
                 }
             )
@@ -36,7 +36,6 @@ public class UrlQueue {
         if(newUrl.length() > 4){
 
             if(!queue.contains(newUrl) && shouldCrawl(newUrl)){
-                //System.out.println("enqueuing: " + newUrl);
                 queue.add(newUrl);
                 queueSize++;
             }

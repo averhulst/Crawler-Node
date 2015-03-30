@@ -1,6 +1,5 @@
 package application.crawler.domain;
 
-import application.crawler.Crawler;
 import application.crawler.util.Request;
 import application.crawler.util.Timer;
 import application.crawler.util.UrlQueue;
@@ -28,10 +27,9 @@ public class Domain implements Runnable{
         add("http");
         add("https");
     }};
-    private final int CRAWL_CEILING = 250;
+    private final int CRAWL_CEILING = 25;
 
-    private static final org.apache.log4j.Logger debugLog = org.apache.log4j.Logger.getLogger("debugLogger");
-    private static final org.apache.log4j.Logger errorLog = org.apache.log4j.Logger.getLogger("domainErrorLogger");
+    private final org.apache.log4j.Logger logger = org.apache.log4j.Logger.getLogger(this.getClass());
 
     public Domain(URL url) {
         this.domainURL = url;
@@ -56,7 +54,7 @@ public class Domain implements Runnable{
             URL robotsTxtUrl =  new URL(domainURL + "robots.txt");
             parseRobotsTxt(getPage(robotsTxtUrl).getSourceCode());
         } catch (MalformedURLException e) {
-            errorLog.warn("Malformed URL for robots.txt: " + e.getStackTrace().toString());
+            logger.warn("Malformed URL for robots.txt: " + e.getStackTrace().toString());
         }
 
         if(robotsTxt.crawlingIsProhibited()){
@@ -74,7 +72,7 @@ public class Domain implements Runnable{
                 }
                 crawlCount++;
             } catch (Exception e) {
-                errorLog.warn("Crawl failed for: " + pageUrl + "\n" + e.getStackTrace().toString());
+                logger.warn("Crawl failed for: " + pageUrl + "\n" + e.getStackTrace().toString());
             }
             assertRunnable();
         }
@@ -89,7 +87,7 @@ public class Domain implements Runnable{
         try{
             request.connect();
         }catch(IOException e){
-            errorLog.warn("unable to connect to: " + url + "\n" + e.getStackTrace().toString());
+            logger.warn("unable to connect to: " + url + "\n" + e.getStackTrace().toString());
         }
 
         Page page = new Page(url, request.getResponse());
@@ -100,20 +98,20 @@ public class Domain implements Runnable{
             case 301:
             case 302:
             case 303:
-                debugLog.info(request.getResponseCode() +  " REDIRECT: " + url.toString() + "\n");
+                logger.info(request.getResponseCode() +  " REDIRECT: " + url.toString() + "\n");
                 //TODO: work out redirection
             case 404 :
-                debugLog.info("404 NOT FOUND: " + url.toString() + "\n");
+                logger.info("404 NOT FOUND: " + url.toString() + "\n");
                 failedUrls.add(url.toString());
                 //TODO: log this
                 break;
             case 403 :
-                debugLog.info("403 FORBIDDEN: " + url.toString() + "\n");
-                debugLog.info("Request failure for: " + url.toString() + ", response code: " + request.getResponseCode());
+                logger.info("403 FORBIDDEN: " + url.toString() + "\n");
+                logger.info("Request failure for: " + url.toString() + ", response code: " + request.getResponseCode());
                 failedUrls.add(url.toString());
                 break;
             default :
-                errorLog.warn("Unrecognized response code: " + request.getResponseCode() + " for " + url.toString());
+                logger.warn("Unrecognized response code: " + request.getResponseCode() + " for " + url.toString());
         }
 
         return page;
@@ -131,7 +129,7 @@ public class Domain implements Runnable{
             try {
                 Thread.currentThread().sleep(crawlDelay - elapsedTime);
             } catch (InterruptedException e) {
-                errorLog.warn("Thread interrupted " + "\n" + e.getStackTrace().toString());
+                logger.warn("Thread interrupted " + "\n" + e.getStackTrace().toString());
                 e.printStackTrace();
             }
         }
@@ -160,10 +158,10 @@ public class Domain implements Runnable{
     }
 
     private boolean isCrawlable(URL url){
-        if(!PROTOCOL_WHITELIST.contains(url.getProtocol())){
+        if(isCrawled(url)){
             return false;
         }
-        if(isCrawled(url)){
+        if(!PROTOCOL_WHITELIST.contains(url.getProtocol())){
             return false;
         }
         return true;
@@ -188,7 +186,7 @@ public class Domain implements Runnable{
             running = false;
         }
         if(!pageQueue.hasNext()){
-            debugLog.info("page queue emptied after " + crawlCount + " page crawls");
+            logger.debug("Domain:" + domainURL + " page queue emptied after " + crawlCount + " page crawls");
             running = false;
         }
     }

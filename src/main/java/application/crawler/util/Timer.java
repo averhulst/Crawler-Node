@@ -1,12 +1,5 @@
 package application.crawler.util;
 
-/**
- * Created with IntelliJ IDEA.
- * User: buttes
- * Date: 10/29/14
- * Time: 10:31 PM
- * To change this template use File | Settings | File Templates.
- */
 public class Timer {
     private long startTime = 0;
     private long stopTime = 0;

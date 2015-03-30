@@ -14,8 +14,7 @@ public class Robotstxt {
     private BufferedReader reader;
     private int crawlDelay = 500;
 
-    private static final org.apache.log4j.Logger robotsTxtLog = org.apache.log4j.Logger.getLogger("robotsTxtLog");
-    private static final org.apache.log4j.Logger errorLog = org.apache.log4j.Logger.getLogger("robotsErrorLogger");
+    private final org.apache.log4j.Logger logger = org.apache.log4j.Logger.getLogger(this.getClass());
 
     public Robotstxt(String pageSource){
         this.reader = new BufferedReader(new StringReader(pageSource));
@@ -32,7 +31,7 @@ public class Robotstxt {
                 }
             }
         } catch (IOException e) {
-            errorLog.warn("BufferedReader IOException " + "\n" + e.getStackTrace().toString());
+            logger.warn("BufferedReader IOException " + "\n" + e.getStackTrace().toString());
         }
     }
 
@@ -62,7 +61,7 @@ public class Robotstxt {
                         //impose a maximum respected crawl delay of 5 seconds for now
                         break;
                     default :
-                        errorLog.warn("Unrecognized directive: " + directive);
+                        logger.warn("Unrecognized directive: " + directive);
                     break;
                 }
             }

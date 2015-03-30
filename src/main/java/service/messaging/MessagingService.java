@@ -41,16 +41,14 @@ public class MessagingService {
         String outgoingDomains = String.join(";", discoveredDomains);
         //publishers.get("discoveredDomains").publishMessage(outgoingDomains);
         // Hacking this until centralized hub can parse and publish new domains
-        publishers.get("freshDomains").publishMessage(outgoingDomains);
-    }
-    public void publishFreshDomains(List discoveredDomains){
-        String outgoingDomains = String.join(";", discoveredDomains);
-        publishers.get("freshDomains").publishMessage(outgoingDomains);
+        publishers.get("discoveredDomains").publishMessage(outgoingDomains);
     }
 
     public List<String> fetchFreshDomains(){
         String incomingDomains = consumers.get("freshDomains").getMessage();
-        System.out.println("test pulled " + incomingDomains);
+        if(incomingDomains.length() > 0){
+            System.out.println("pulled down domain:" + incomingDomains);
+        }
         return Arrays.asList(incomingDomains.split(";"));
     }
 //    public void publishCrawledDomain(Domain){

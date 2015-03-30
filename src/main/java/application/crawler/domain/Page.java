@@ -40,7 +40,7 @@ public class Page{
     }
 
     private void getCrawlableUrls(){
-        //TODO Remove urls with hashtags so the tomato doesn't add repeat pages to the queue that sneak in where the only difference in the url is the hashtag and it's ID
+        //TODO Remove urls with hashtags so the crawler doesn't add repeat pages to the queue that sneak in where the only difference in the url is the hashtag and it's ID
         try{
             pageDocument.select("a[href*=#]").remove();
         }catch(NullPointerException e){
@@ -59,7 +59,7 @@ public class Page{
                     if(href.getHost().equals(url.getHost())){
                         discoveredPages.add(href);
                     }else{
-                        discoveredDomains.add(absoluteUrlStr.toString());
+                        discoveredDomains.add(href.getHost());
                     }
                 } catch (MalformedURLException e) {
                     errorLog.info("Malformed URL: " + absoluteUrlStr + "\n" + e.getStackTrace().toString());

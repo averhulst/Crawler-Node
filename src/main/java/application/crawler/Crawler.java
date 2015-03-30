@@ -52,7 +52,7 @@ public class Crawler{
             }
 
             if(domainQueue.getSize() < 2){
-                //requestCrawlableDomains();
+                requestCrawlableDomains();
             }
         }
     }
