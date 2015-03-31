@@ -17,15 +17,13 @@ public class Crawler{
     private static UrlQueue crawledDomains = new UrlQueue();
     //TODO remove crawledDomains functionality, responsibility belongs to crawler hub now
     private static long timeAtBootUp;
-    private static float lifeTime;
-    private static float crawlRate;
+    private static float crawlRatePerMin;
     private static int totalCrawls;
     private int threadCount;
-    private static float crawlRateTemp;
     private boolean running = true;
     private MessagingService messenger;
-    private static final org.apache.log4j.Logger debugLog = org.apache.log4j.Logger.getLogger("pageErrorLogger");
-    private static final org.apache.log4j.Logger errorLog = org.apache.log4j.Logger.getLogger("crawlerErrorLogger");
+    private final org.apache.log4j.Logger logger = org.apache.log4j.Logger.getLogger(this.getClass() + "_INFO");
+    private final org.apache.log4j.Logger errorLog = org.apache.log4j.Logger.getLogger(this.getClass() + "_ERROR");
 
     public Crawler(int threadCount) {
         this.threadCount = threadCount;
@@ -57,10 +55,10 @@ public class Crawler{
         }
     }
 
-    private static void printCrawlRate(){
-        lifeTime = (int) (System.currentTimeMillis() - timeAtBootUp);
-        crawlRate = totalCrawls/(lifeTime/60000);
-        System.out.println("Crawl rate: " + crawlRate + " crawls per minute" + " Total crawls: " + totalCrawls + " running for " + lifeTime / 1000 + " seconds");
+    private void printCrawlRate(){
+        float upTimeInSeconds = (int) (System.currentTimeMillis() - timeAtBootUp) / 1000;
+        crawlRatePerMin = totalCrawls/(upTimeInSeconds/60);
+        logger.info(crawlRatePerMin + " domains per minute" + " Total crawls: " + totalCrawls + " running for " + upTimeInSeconds / 1000 + " seconds");
     }
 
     private void requestCrawlableDomains(){
@@ -79,16 +77,8 @@ public class Crawler{
             //messenger.publishMessage(String.join(";", discoveredDomains));
             messenger.publishDiscoveredDomains(discoveredDomains);
         }
-
+        logger.info("Finished crawling: " + crawledDomain.getDomainUrl() + " - crawled " + crawledDomain.getCrawlCount() + " pages");
         totalCrawls++;
-        crawlRateTemp++;
-
-        if(crawlRateTemp > 10 && totalCrawls > 0){
-            printCrawlRate();
-            crawlRateTemp = 0;
-        }else{
-            crawlRateTemp++;
-        }
     }
 
     private class RunnableDomain implements Runnable{
@@ -102,6 +92,7 @@ public class Crawler{
         public void run(){
             this.domain.run();
             finalizeDomainCrawl(domain);
+            printCrawlRate();
         }
 
     }

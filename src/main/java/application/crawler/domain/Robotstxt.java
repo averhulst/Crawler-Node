@@ -41,22 +41,22 @@ public class Robotstxt {
 
         if(splitLine.length > 1){
             String value = splitLine[1].replaceAll("\\s", "");
-            if(directive.equals("User-agent")){
+            if(directive.toLowerCase().equals("user-agent")){
                 lineIsRelevant = value.equals("*");
             }
             if(lineIsRelevant){
-                switch (directive) {
-                    case "Disallow" :
+                switch (directive.toLowerCase()) {
+                    case "disallow" :
                         if(value.endsWith("*")){
                             disallowedSubPaths.add(value.replace("*", ""));
                         }else{
                             disallowedPaths.add(value);
                         }
                         break;
-                    case "Allow":
+                    case "allow":
                         allowedPaths.add(value);
                         break;
-                    case "Crawl-delay" :
+                    case "crawl-delay" :
                         crawlDelay = value.length() == 1 ? (Integer.parseInt(value) * 1000) : 5000;
                         //impose a maximum respected crawl delay of 5 seconds for now
                         break;

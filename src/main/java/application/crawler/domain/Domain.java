@@ -194,4 +194,7 @@ public class Domain implements Runnable{
         return (System.currentTimeMillis() - crawlStartTime);
         //TODO expose more meta data methods & send up with crawl results
     }
+    public int getCrawlCount(){
+        return crawlCount;
+    }
 }
