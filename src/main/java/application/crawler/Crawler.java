@@ -57,7 +57,7 @@ public class Crawler{
 
     private void printCrawlRate(){
         float upTimeInSeconds = (int) (System.currentTimeMillis() - timeAtBootUp) / 1000;
-        crawlRatePerMin = totalCrawls/(upTimeInSeconds/60);
+        crawlRatePerMin = totalCrawls / (upTimeInSeconds / 60);
         logger.info(crawlRatePerMin + " domains per minute" + " Total crawls: " + totalCrawls + " running for " + upTimeInSeconds / 1000 + " seconds");
     }
 
@@ -73,9 +73,10 @@ public class Crawler{
         crawledDomains.enqueueUrl(crawledDomain.getDomainUrl());
 
         if(crawledDomain.getDiscoveredDomains().size() > 0){
-            List<String> discoveredDomains = crawledDomain.getDiscoveredDomains();
+            List<URL> discoveredDomains = crawledDomain.getDiscoveredDomains();
             //messenger.publishMessage(String.join(";", discoveredDomains));
             messenger.publishDiscoveredDomains(discoveredDomains);
+
         }
         logger.info("Finished crawling: " + crawledDomain.getDomainUrl() + " - crawled " + crawledDomain.getCrawlCount() + " pages");
         totalCrawls++;

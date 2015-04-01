@@ -3,6 +3,7 @@ package service.messaging;
 import com.rabbitmq.client.Connection;
 import com.rabbitmq.client.ConnectionFactory;
 import java.io.IOException;
+import java.net.URL;
 import java.util.*;
 
 public class MessagingService {
@@ -37,11 +38,14 @@ public class MessagingService {
 
     }
 
-    public void publishDiscoveredDomains(List discoveredDomains){
-        String outgoingDomains = String.join(";", discoveredDomains);
+    public void publishDiscoveredDomains(List<URL> discoveredDomains){
+        StringBuilder outgoingDomains = new StringBuilder();
+        for(URL url : discoveredDomains){
+            outgoingDomains.append(url + ";");
+        }
         //publishers.get("discoveredDomains").publishMessage(outgoingDomains);
         // Hacking this until centralized hub can parse and publish new domains
-        publishers.get("discoveredDomains").publishMessage(outgoingDomains);
+        publishers.get("discoveredDomains").publishMessage(outgoingDomains.toString());
     }
 
     public List<String> fetchFreshDomains(){

@@ -2,6 +2,7 @@ package application.crawler.domain;
 
 import application.crawler.util.Request;
 import application.crawler.util.Timer;
+import application.crawler.util.URLFilter;
 import application.crawler.util.UrlQueue;
 
 import java.io.IOException;
@@ -14,6 +15,7 @@ import java.util.List;
 public class Domain implements Runnable{
     private List<String> failedUrls;
     private List<URL> crawledUrls;
+    private List<URL> discoveredDomains;
     private int crawlDelay;
     private long crawlStartTime;
     private boolean running;
@@ -21,12 +23,8 @@ public class Domain implements Runnable{
     private Robotstxt robotsTxt;
     private UrlQueue pageQueue;
     private Timer timer = new Timer();
-    private List<String> discoveredDomains;
     private int crawlCount;
-    private final List<String> PROTOCOL_WHITELIST = new ArrayList<String>(){{
-        add("http");
-        add("https");
-    }};
+    private URLFilter urlFilter;
     private final int CRAWL_CEILING = 25;
 
     private final org.apache.log4j.Logger logger = org.apache.log4j.Logger.getLogger(this.getClass());
@@ -39,6 +37,7 @@ public class Domain implements Runnable{
         crawlStartTime = System.currentTimeMillis();
         pageQueue = new UrlQueue();
         pageQueue.enqueueUrl(url);
+        urlFilter = new URLFilter();
         crawlCount = 0;
     }
 
@@ -135,17 +134,17 @@ public class Domain implements Runnable{
         }
     }
 
-    private void processDiscoveredDomains(List<String> domains){
-        for(String s : domains){
-            if(!discoveredDomains.contains(s)){
-                discoveredDomains.add(s);
+    private void processDiscoveredDomains(List<URL> domains){
+        for(URL url: domains){
+            if(!discoveredDomains.contains(url) && urlFilter.domainIsCrawlable(url)){
+                discoveredDomains.add(url);
             }
         }
     }
 
     private void processDiscoveredPages(List<URL>  discoveredPages){
         for(URL url : discoveredPages){
-            if(isCrawlable(url)){
+            if(!isCrawled(url) && urlFilter.pageIsCrawlable(url)){
                 if(robotsTxt.urlIsAllowed(url)){
                     pageQueue.enqueueUrl(url);
                 }
@@ -153,18 +152,8 @@ public class Domain implements Runnable{
         }
     }
 
-    public List<String> getDiscoveredDomains(){
+    public List<URL> getDiscoveredDomains(){
         return discoveredDomains;
-    }
-
-    private boolean isCrawlable(URL url){
-        if(isCrawled(url)){
-            return false;
-        }
-        if(!PROTOCOL_WHITELIST.contains(url.getProtocol())){
-            return false;
-        }
-        return true;
     }
 
     private boolean isCrawled(URL url){
@@ -175,9 +164,9 @@ public class Domain implements Runnable{
                 }
             }
         }
-
         return false;
     }
+
     public String getDomainUrl(){
         return domainURL.toString();
     }

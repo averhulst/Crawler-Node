@@ -15,7 +15,7 @@ public class Page{
     private Element head;
     private Element body;
     private String sourceCode;
-    private List<String> discoveredDomains;
+    private List<URL> discoveredDomains;
     private List<URL> discoveredPages;
 
     private static final org.apache.log4j.Logger errorLog = org.apache.log4j.Logger.getLogger("pageErrorLogger");
@@ -24,7 +24,7 @@ public class Page{
         this.url = urlStr;
         this.sourceCode = sourceCode;
         discoveredPages = new ArrayList<URL>();
-        discoveredDomains = new ArrayList<String>();
+        discoveredDomains = new ArrayList<URL>();
 
         parseSource();
         getCrawlableUrls();
@@ -51,7 +51,6 @@ public class Page{
             anchor.setBaseUri(url.toExternalForm());
             //TODO reevaluate why we're setting baseURI, could possibly be creating invalid urls (pages that belong to other domains?) that i think we'll end up mistakenly crawling down the line
             String absoluteUrlStr = anchor.attr("abs:href");
-
             if(absoluteUrlStr.length() > 0){
                 try {
                     URL href = new URL(absoluteUrlStr);
@@ -59,16 +58,17 @@ public class Page{
                     if(href.getHost().equals(url.getHost())){
                         discoveredPages.add(href);
                     }else{
-                        discoveredDomains.add(href.getHost());
+                        discoveredDomains.add(new URL(href.getProtocol() + "://" + href.getHost()));
                     }
                 } catch (MalformedURLException e) {
+                    e.getStackTrace();
                     errorLog.info("Malformed URL: " + absoluteUrlStr + "\n" + e.getStackTrace().toString());
                 }
             }
         }
     }
 
-    public List<String> getDiscoveredDomains(){
+    public List<URL> getDiscoveredDomains(){
         return discoveredDomains;
     }
 
