@@ -1,5 +1,6 @@
 package application.crawler.domain;
 
+import org.json.JSONObject;
 import org.jsoup.Connection;
 import org.jsoup.Jsoup;
 import org.jsoup.nodes.Document;
@@ -78,6 +79,17 @@ public class Page{
 
     public String getSourceCode() {
         return sourceCode;
+    }
+
+    public JSONObject toJson() {
+        JSONObject page = new JSONObject();
+
+        JSONObject source = new JSONObject(){{
+            put("head", head.toString());
+            put("body", body.toString());
+        }};
+        page.put(url.toString(), source);
+        return page;
     }
 
 

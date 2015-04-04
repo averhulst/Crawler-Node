@@ -78,6 +78,10 @@ public class Crawler{
             messenger.publishDiscoveredDomains(discoveredDomains);
 
         }
+
+        if(crawledDomain.toJson().length() != 0){
+            messenger.publishCrawledDomainResult(crawledDomain.toJson());
+        }
         logger.info("Finished crawling: " + crawledDomain.getDomainUrl() + " - crawled " + crawledDomain.getCrawlCount() + " pages");
         totalCrawls++;
     }

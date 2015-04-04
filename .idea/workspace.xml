@@ -1,22 +1,23 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="f36659aa-4a93-43c8-ae4d-0e55ab73ae4c" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/application/crawler/util/URLFilter.java" />
+    <list default="true" id="f36659aa-4a93-43c8-ae4d-0e55ab73ae4c" name="Default" comment="Migrates URL filtering logic to URLFilter class">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/application/crawler/Crawler.java" afterPath="$PROJECT_DIR$/src/main/java/application/crawler/Crawler.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/application/crawler/domain/Domain.java" afterPath="$PROJECT_DIR$/src/main/java/application/crawler/domain/Domain.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/service/messaging/MessagingService.java" afterPath="$PROJECT_DIR$/src/main/java/service/messaging/MessagingService.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/application/crawler/domain/Page.java" afterPath="$PROJECT_DIR$/src/main/java/application/crawler/domain/Page.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/TomatoNode.iml" afterPath="$PROJECT_DIR$/TomatoNode.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pom.xml" afterPath="$PROJECT_DIR$/pom.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="TomatoNode.iws" />
     <ignored path=".idea/workspace.xml" />
-    <file path="/Dummy.txt" changelist="f36659aa-4a93-43c8-ae4d-0e55ab73ae4c" time="1427791626301" ignored="false" />
-    <file path="/Domain.java" changelist="f36659aa-4a93-43c8-ae4d-0e55ab73ae4c" time="1427875051197" ignored="false" />
+    <file path="/Dummy.txt" changelist="f36659aa-4a93-43c8-ae4d-0e55ab73ae4c" time="1428133831749" ignored="false" />
+    <file path="/Domain.java" changelist="f36659aa-4a93-43c8-ae4d-0e55ab73ae4c" time="1428133629912" ignored="false" />
     <file path="/fragment.java" changelist="f36659aa-4a93-43c8-ae4d-0e55ab73ae4c" time="1427789800782" ignored="false" />
     <file path="/pom.xml" changelist="f36659aa-4a93-43c8-ae4d-0e55ab73ae4c" time="1427789718724" ignored="false" />
     <file path="/RobotstxtTest.java" changelist="f36659aa-4a93-43c8-ae4d-0e55ab73ae4c" time="1425149121131" ignored="false" />
-    <file path="/MessagingService.java" changelist="f36659aa-4a93-43c8-ae4d-0e55ab73ae4c" time="1427875282583" ignored="false" />
+    <file path="/MessagingService.java" changelist="f36659aa-4a93-43c8-ae4d-0e55ab73ae4c" time="1428132599298" ignored="false" />
     <file path="/Main.java" changelist="f36659aa-4a93-43c8-ae4d-0e55ab73ae4c" time="1427789402678" ignored="false" />
     <file path="/Request.java" changelist="f36659aa-4a93-43c8-ae4d-0e55ab73ae4c" time="1425256793975" ignored="false" />
     <file path="/UrlQueue.java" changelist="f36659aa-4a93-43c8-ae4d-0e55ab73ae4c" time="1427359028766" ignored="false" />
@@ -27,7 +28,7 @@
     <file path="$USER_HOME$/TomatoHub/src/main/java/Hub/Hub.java" changelist="f36659aa-4a93-43c8-ae4d-0e55ab73ae4c" time="1427353491618" ignored="false" />
     <file path="/Hub.java" changelist="f36659aa-4a93-43c8-ae4d-0e55ab73ae4c" time="1427353453532" ignored="false" />
     <file path="$USER_HOME$/TomatoHub/src/main/messaging/MessagingService.java" changelist="f36659aa-4a93-43c8-ae4d-0e55ab73ae4c" time="1425457028408" ignored="false" />
-    <file path="/Page.java" changelist="f36659aa-4a93-43c8-ae4d-0e55ab73ae4c" time="1427875571481" ignored="false" />
+    <file path="/Page.java" changelist="f36659aa-4a93-43c8-ae4d-0e55ab73ae4c" time="1428133176933" ignored="false" />
     <file path="/RequestTest.java" changelist="f36659aa-4a93-43c8-ae4d-0e55ab73ae4c" time="1425524067966" ignored="false" />
     <file path="$USER_HOME$/TomatoHub/src/main/java/messaging/MessagingFacade.java" changelist="f36659aa-4a93-43c8-ae4d-0e55ab73ae4c" time="1427011339291" ignored="false" />
     <file path="/MessagingFacade.java" changelist="f36659aa-4a93-43c8-ae4d-0e55ab73ae4c" time="1427011338339" ignored="false" />
@@ -44,8 +45,8 @@
     <file path="/Processor.java" changelist="f36659aa-4a93-43c8-ae4d-0e55ab73ae4c" time="1427699744892" ignored="false" />
     <file path="$USER_HOME$/TomatoHub/src/main/java/messaging/Messenger.java" changelist="f36659aa-4a93-43c8-ae4d-0e55ab73ae4c" time="1427353593664" ignored="false" />
     <file path="/Messenger.java" changelist="f36659aa-4a93-43c8-ae4d-0e55ab73ae4c" time="1427011299376" ignored="false" />
-    <file path="$USER_HOME$/TomatoHub/.idea/workspace.xml" changelist="f36659aa-4a93-43c8-ae4d-0e55ab73ae4c" time="1427875844043" ignored="false" />
-    <file path="/Crawler.java" changelist="f36659aa-4a93-43c8-ae4d-0e55ab73ae4c" time="1427875120687" ignored="false" />
+    <file path="$USER_HOME$/TomatoHub/.idea/workspace.xml" changelist="f36659aa-4a93-43c8-ae4d-0e55ab73ae4c" time="1428133831141" ignored="false" />
+    <file path="/Crawler.java" changelist="f36659aa-4a93-43c8-ae4d-0e55ab73ae4c" time="1428133308837" ignored="false" />
     <file path="$USER_HOME$/TomatoHub/src/test/java/dao/DomainQueueImplTest.java" changelist="f36659aa-4a93-43c8-ae4d-0e55ab73ae4c" time="1427355017342" ignored="false" />
     <file path="/DomainQueueImplTest.java" changelist="f36659aa-4a93-43c8-ae4d-0e55ab73ae4c" time="1426913897716" ignored="false" />
     <file path="/DomainQueueImpl.java" changelist="f36659aa-4a93-43c8-ae4d-0e55ab73ae4c" time="1427609056837" ignored="false" />
@@ -109,7 +110,7 @@
     <file path="$USER_HOME$/TomatoHub/src/main/java/environment_config.txt" changelist="f36659aa-4a93-43c8-ae4d-0e55ab73ae4c" time="1427609124805" ignored="false" />
     <file path="/environment_config.txt" changelist="f36659aa-4a93-43c8-ae4d-0e55ab73ae4c" time="1427615187015" ignored="false" />
     <file path="$USER_HOME$/TomatoHub/src/main/resources/environment_config.txt" changelist="f36659aa-4a93-43c8-ae4d-0e55ab73ae4c" time="1427615254702" ignored="false" />
-    <file path="/a.dummy" changelist="f36659aa-4a93-43c8-ae4d-0e55ab73ae4c" time="1427702816226" ignored="false" />
+    <file path="/a.dummy" changelist="f36659aa-4a93-43c8-ae4d-0e55ab73ae4c" time="1428133836387" ignored="false" />
     <file path="/PageTest.java" changelist="f36659aa-4a93-43c8-ae4d-0e55ab73ae4c" time="1427701179708" ignored="false" />
     <file path="/URLFilter.java" changelist="f36659aa-4a93-43c8-ae4d-0e55ab73ae4c" time="1427874898819" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -192,10 +193,19 @@
           </provider>
         </entry>
       </file>
+      <file leaf-file-name="pom.xml" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/pom.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="39" column="39" selection-start="1385" selection-end="1385" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
       <file leaf-file-name="Crawler.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/application/crawler/Crawler.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="85" column="56" selection-start="3614" selection-end="3614" vertical-scroll-proportion="-15.24">
+            <state line="84" column="9" selection-start="3502" selection-end="3502" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -204,18 +214,7 @@
       <file leaf-file-name="MessagingService.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/service/messaging/MessagingService.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="49" column="0" selection-start="1649" selection-end="1649" vertical-scroll-proportion="0.0">
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Main.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/application/Main.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="9" column="38" selection-start="238" selection-end="238" vertical-scroll-proportion="0.0">
+            <state line="63" column="67" selection-start="2194" selection-end="2194" vertical-scroll-proportion="0.0">
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -226,34 +225,27 @@
       <file leaf-file-name="Robotstxt.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/application/crawler/domain/Robotstxt.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="57" column="30" selection-start="2022" selection-end="2022" vertical-scroll-proportion="0.0">
+            <state line="43" column="61" selection-start="1452" selection-end="1452" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Page.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/application/crawler/domain/Page.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="63" column="38" selection-start="2361" selection-end="2361" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Domain.java" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="Domain.java" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/application/crawler/domain/Domain.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="4" column="37" selection-start="152" selection-end="154" vertical-scroll-proportion="-0.68">
-              <folding />
+            <state line="37" column="29" selection-start="1123" selection-end="1123" vertical-scroll-proportion="0.49072754">
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="URLFilter.java" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="URLFilter.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/application/crawler/util/URLFilter.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="41" column="0" selection-start="1170" selection-end="1170" vertical-scroll-proportion="0.7574893">
+            <state line="29" column="25" selection-start="893" selection-end="893" vertical-scroll-proportion="-9.52">
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="e#366#374#0" expanded="true" />
@@ -297,14 +289,14 @@
         <option value="$PROJECT_DIR$/src/test/java/crawler/DomainTest.java" />
         <option value="$PROJECT_DIR$/src/test/java/application/crawler/domain/PageTest.java" />
         <option value="$PROJECT_DIR$/src/test/java/crawler/RequestTest.java" />
-        <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/src/main/java/application/Main.java" />
         <option value="$PROJECT_DIR$/src/main/java/application/crawler/domain/Robotstxt.java" />
-        <option value="$PROJECT_DIR$/src/main/java/application/crawler/domain/Domain.java" />
-        <option value="$PROJECT_DIR$/src/main/java/application/crawler/Crawler.java" />
+        <option value="$PROJECT_DIR$/src/main/java/application/crawler/util/URLFilter.java" />
+        <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/src/main/java/service/messaging/MessagingService.java" />
         <option value="$PROJECT_DIR$/src/main/java/application/crawler/domain/Page.java" />
-        <option value="$PROJECT_DIR$/src/main/java/application/crawler/util/URLFilter.java" />
+        <option value="$PROJECT_DIR$/src/main/java/application/crawler/Crawler.java" />
+        <option value="$PROJECT_DIR$/src/main/java/application/crawler/domain/Domain.java" />
       </list>
     </option>
   </component>
@@ -329,6 +321,16 @@
         <PATH_ELEMENT>
           <option name="myItemId" value="Dependencies" />
           <option name="myItemType" value="org.jetbrains.idea.maven.navigator.MavenProjectsStructure$DependenciesNode" />
+        </PATH_ELEMENT>
+      </PATH>
+      <PATH>
+        <PATH_ELEMENT>
+          <option name="myItemId" value="" />
+          <option name="myItemType" value="org.jetbrains.idea.maven.navigator.MavenProjectsStructure$RootNode" />
+        </PATH_ELEMENT>
+        <PATH_ELEMENT>
+          <option name="myItemId" value="TomatoNode" />
+          <option name="myItemType" value="org.jetbrains.idea.maven.navigator.MavenProjectsStructure$ProjectNode" />
         </PATH_ELEMENT>
       </PATH>
       <PATH>
@@ -1076,12 +1078,16 @@
       <created>1427791635263</created>
       <updated>1427791635263</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="Migrates URL filtering logic to URLFilter class">
+      <created>1427875887659</created>
+      <updated>1427875887659</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1176" extended-state="6" />
-    <editor active="true" />
+    <editor active="false" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="JetGradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -1089,7 +1095,7 @@
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.20628683" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.38084632" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.38015717" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="IDEtalk Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
@@ -1099,10 +1105,10 @@
       <window_info id="CDI" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.16328709" sideWeight="0.7387033" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.13553895" sideWeight="0.7387033" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.14461046" sideWeight="0.7387033" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.14461046" sideWeight="0.7387033" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.26129666" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
@@ -1152,7 +1158,7 @@
     <option name="WRAP_WHEN_TYPING_REACHES_RIGHT_MARGIN" value="false" />
     <option name="FORCE_NON_EMPTY_COMMENT" value="false" />
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="false" />
-    <option name="LAST_COMMIT_MESSAGE" value="Fixes for robotsTxt parse bugs, adds some logger output, adds maven config for creating a distributable jar-with-dependencies for testing" />
+    <option name="LAST_COMMIT_MESSAGE" value="Migrates URL filtering logic to URLFilter class" />
     <option name="MAKE_NEW_CHANGELIST_ACTIVE" value="false" />
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="false" />
     <option name="CHECK_FILES_UP_TO_DATE_BEFORE_COMMIT" value="false" />
@@ -1173,6 +1179,7 @@
     <MESSAGE value="Fixes for bugs discovered during testing" />
     <MESSAGE value="Fixes for robotsTxt parse bug, adds some logger output, adds maven config for creating a distributable jar-with-dependencies for testing" />
     <MESSAGE value="Fixes for robotsTxt parse bugs, adds some logger output, adds maven config for creating a distributable jar-with-dependencies for testing" />
+    <MESSAGE value="Migrates URL filtering logic to URLFilter class" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -1207,7 +1214,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state line="30" column="21" selection-start="688" selection-end="688" vertical-scroll-proportion="0.0">
           <folding>
-            <element signature="imports" expanded="true" />
+            <element signature="imports" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -1219,26 +1226,12 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="39" column="20" selection-start="1313" selection-end="1313" vertical-scroll-proportion="0.6170799">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/application/Main.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="9" column="38" selection-start="238" selection-end="238" vertical-scroll-proportion="0.0">
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/application/crawler/domain/Robotstxt.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="57" column="30" selection-start="2022" selection-end="2022" vertical-scroll-proportion="0.0">
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1265,42 +1258,58 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/application/crawler/Crawler.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/application/crawler/util/URLFilter.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="85" column="56" selection-start="3614" selection-end="3614" vertical-scroll-proportion="-15.24">
+        <state line="29" column="25" selection-start="893" selection-end="893" vertical-scroll-proportion="-9.52">
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#366#374#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="39" column="39" selection-start="1385" selection-end="1385" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/service/messaging/MessagingService.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="49" column="0" selection-start="1649" selection-end="1649" vertical-scroll-proportion="0.0">
+        <state line="63" column="67" selection-start="2194" selection-end="2194" vertical-scroll-proportion="0.0">
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/application/crawler/Crawler.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="84" column="9" selection-start="3502" selection-end="3502" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/application/crawler/domain/Page.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="63" column="38" selection-start="2361" selection-end="2361" vertical-scroll-proportion="0.0">
+        <state line="97" column="0" selection-start="3126" selection-end="3126" vertical-scroll-proportion="0.7936047">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/application/crawler/domain/Robotstxt.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="43" column="61" selection-start="1452" selection-end="1452" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/application/crawler/domain/Domain.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="4" column="37" selection-start="152" selection-end="154" vertical-scroll-proportion="-0.68">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/application/crawler/util/URLFilter.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="41" column="0" selection-start="1170" selection-end="1170" vertical-scroll-proportion="0.7574893">
+        <state line="37" column="29" selection-start="1123" selection-end="1123" vertical-scroll-proportion="0.49072754">
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#366#374#0" expanded="true" />
           </folding>
         </state>
       </provider>

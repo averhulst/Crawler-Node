@@ -4,15 +4,17 @@ import application.crawler.util.Request;
 import application.crawler.util.Timer;
 import application.crawler.util.URLFilter;
 import application.crawler.util.UrlQueue;
-
+import org.json.JSONArray;
+import org.json.JSONObject;
 import java.io.IOException;
 import java.net.MalformedURLException;
 import java.net.URL;
 import java.util.ArrayList;
 import java.util.List;
 
-
 public class Domain implements Runnable{
+    private final int CRAWL_CEILING = 25;
+
     private List<String> failedUrls;
     private List<URL> crawledUrls;
     private List<URL> discoveredDomains;
@@ -25,8 +27,7 @@ public class Domain implements Runnable{
     private Timer timer = new Timer();
     private int crawlCount;
     private URLFilter urlFilter;
-    private final int CRAWL_CEILING = 25;
-
+    private JSONObject domainJson;
     private final org.apache.log4j.Logger logger = org.apache.log4j.Logger.getLogger(this.getClass());
 
     public Domain(URL url) {
@@ -38,6 +39,10 @@ public class Domain implements Runnable{
         pageQueue = new UrlQueue();
         pageQueue.enqueueUrl(url);
         urlFilter = new URLFilter();
+        domainJson = new JSONObject(){{
+            put("url", domainURL);
+            put("pages", new JSONArray());
+        }};
         crawlCount = 0;
     }
 
@@ -120,6 +125,7 @@ public class Domain implements Runnable{
         p.parseSource();
         processDiscoveredDomains(p.getDiscoveredDomains());
         processDiscoveredPages(p.getDiscoveredPages());
+        domainJson.getJSONArray("pages").put(p.toJson());
         crawledUrls.add(p.getUrl());
     }
 
@@ -185,5 +191,8 @@ public class Domain implements Runnable{
     }
     public int getCrawlCount(){
         return crawlCount;
+    }
+    public JSONObject toJson() {
+        return domainJson;
     }
 }

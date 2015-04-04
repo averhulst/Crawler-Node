@@ -2,6 +2,8 @@ package service.messaging;
 
 import com.rabbitmq.client.Connection;
 import com.rabbitmq.client.ConnectionFactory;
+import org.json.JSONObject;
+
 import java.io.IOException;
 import java.net.URL;
 import java.util.*;
@@ -31,6 +33,9 @@ public class MessagingService {
             publishers.put("freshDomains",
                     new Publisher(connection.createChannel(), "freshDomains")
             );
+            publishers.put("crawlResults",
+                    new Publisher(connection.createChannel(), "crawlResults")
+            );
 
         } catch (IOException e) {
             e.printStackTrace();
@@ -55,8 +60,9 @@ public class MessagingService {
         }
         return Arrays.asList(incomingDomains.split(";"));
     }
-//    public void publishCrawledDomain(Domain){
-//
-//    }
+
+    public void publishCrawledDomainResult(JSONObject crawlResult){
+        publishers.get("crawlResults").publishMessage(crawlResult.toString());
+    }
 }
 
