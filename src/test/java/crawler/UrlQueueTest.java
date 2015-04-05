@@ -3,6 +3,7 @@ package crawler;
 import application.crawler.util.UrlQueue;
 import org.junit.Test;
 
+import java.net.URI;
 import java.net.URL;
 import java.util.ArrayList;
 import java.util.List;
@@ -28,9 +29,9 @@ public class UrlQueueTest {
 
         urlQueue = new UrlQueue();
 
-        urlQueue.enqueueUrl(new URL("http://www.google.com"));
-        urlQueue.enqueueUrl(new URL("http://www.youtube.com"));
-        urlQueue.enqueueUrl(new URL("http://www.reddit.com"));
+        urlQueue.enqueueUrl(new URI("http://www.google.com"));
+        urlQueue.enqueueUrl(new URI("http://www.youtube.com"));
+        urlQueue.enqueueUrl(new URI("http://www.reddit.com"));
 
         assert(urlQueue.getNext().equals(new URL("http://www.google.com").toString()));
         assert(urlQueue.getNext().equals(new URL("http://www.youtube.com").toString()));
@@ -47,7 +48,7 @@ public class UrlQueueTest {
         assert(urlQueue.getNext().equals(urlStr));
 
         urlQueue = new UrlQueue();
-        URL url = new URL("http://www.netflix.com");
+        URI url = new URI("http://www.netflix.com");
 
         urlQueue.enqueueUrl(url);
         assert(urlQueue.getNext().equals(url.toString()));
@@ -62,7 +63,7 @@ public class UrlQueueTest {
         assert(urlQueue.containsURL(urlStr));
 
         urlQueue = new UrlQueue();
-        URL url = new URL("http://www.netflix.com");
+        URI url = new URI("http://www.netflix.com");
 
         urlQueue.enqueueUrl(url);
         assert(urlQueue.containsURL(url.toString()));

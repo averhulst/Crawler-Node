@@ -3,8 +3,7 @@ package application.crawler;
 import application.crawler.domain.Domain;
 import application.crawler.util.UrlQueue;
 import service.messaging.MessagingService;
-import java.net.MalformedURLException;
-import java.net.URL;
+import java.net.URI;
 import java.util.HashMap;
 import java.util.List;
 import java.util.concurrent.ExecutorService;
@@ -34,19 +33,14 @@ public class Crawler{
     }
 
     public synchronized void crawl(){
-        String newUrl = new String();
+
         while(running){
             if(domainQueue.getSize() > 0 && activelyCrawlingDomains.size() < threadCount){
-                try {
-                    newUrl = domainQueue.getNext();
-                    Domain newDomain = new Domain(
-                            new URL(newUrl)
-                    );
-                    activelyCrawlingDomains.put(newDomain.getDomainUrl(), newDomain);
-                    executor.execute(new RunnableDomain(newDomain));
-                } catch (MalformedURLException e) {
-                    errorLog.warn("Malformed URL: " + newUrl + "\n" + e.getStackTrace().toString());
-                }
+                Domain newDomain = new Domain(
+                        domainQueue.getNext()
+                );
+                activelyCrawlingDomains.put(newDomain.getDomainUrl(), newDomain);
+                executor.execute(new RunnableDomain(newDomain));
             }
 
             if(domainQueue.getSize() < 2){
@@ -58,7 +52,11 @@ public class Crawler{
     private void printCrawlRate(){
         float upTimeInSeconds = (int) (System.currentTimeMillis() - timeAtBootUp) / 1000;
         crawlRatePerMin = totalCrawls / (upTimeInSeconds / 60);
-        logger.info(crawlRatePerMin + " domains per minute" + " Total crawls: " + totalCrawls + " running for " + upTimeInSeconds / 1000 + " seconds");
+        logger.info("***********  " + crawlRatePerMin + " domains per minute");
+        logger.info("***********  Total crawls:  " + totalCrawls);
+        logger.info("***********  running for " + upTimeInSeconds / 1000 + " seconds");
+        logger.info("***********  Actively crawling " + activelyCrawlingDomains.size() + " domains");
+
     }
 
     private void requestCrawlableDomains(){
@@ -73,7 +71,7 @@ public class Crawler{
         crawledDomains.enqueueUrl(crawledDomain.getDomainUrl());
 
         if(crawledDomain.getDiscoveredDomains().size() > 0){
-            List<URL> discoveredDomains = crawledDomain.getDiscoveredDomains();
+            List<URI> discoveredDomains = crawledDomain.getDiscoveredDomains();
             //messenger.publishMessage(String.join(";", discoveredDomains));
             messenger.publishDiscoveredDomains(discoveredDomains);
 

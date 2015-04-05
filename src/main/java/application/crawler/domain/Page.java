@@ -12,26 +12,26 @@ import java.util.List;
 public class Page{
     private Connection connection;
     private Document pageDocument;
-    private URL url = null;
+    private URI url;
     private Element head;
     private Element body;
     private String sourceCode;
-    private List<URL> discoveredDomains;
-    private List<URL> discoveredPages;
+    private List<URI> discoveredDomains;
+    private List<URI> discoveredPages;
 
     private static final org.apache.log4j.Logger errorLog = org.apache.log4j.Logger.getLogger("pageErrorLogger");
 
-    public Page(URL urlStr, String sourceCode){
+    public Page(URI urlStr, String sourceCode){
         this.url = urlStr;
         this.sourceCode = sourceCode;
-        discoveredPages = new ArrayList<URL>();
-        discoveredDomains = new ArrayList<URL>();
+        discoveredPages = new ArrayList<URI>();
+        discoveredDomains = new ArrayList<URI>();
 
         parseSource();
         getCrawlableUrls();
     }
 
-    public URL getUrl() {
+    public URI getUrl() {
         return url;
     }
     public void parseSource(){
@@ -49,31 +49,29 @@ public class Page{
         }
 
         for(Element anchor : pageDocument.select("a")){
-            anchor.setBaseUri(url.toExternalForm());
+            anchor.setBaseUri(url.getScheme() + "://" + url.getHost());
             //TODO reevaluate why we're setting baseURI, could possibly be creating invalid urls (pages that belong to other domains?) that i think we'll end up mistakenly crawling down the line
             String absoluteUrlStr = anchor.attr("abs:href");
             if(absoluteUrlStr.length() > 0){
                 try {
-                    URL href = new URL(absoluteUrlStr);
-
+                    URI href = new URI(absoluteUrlStr);
                     if(href.getHost().equals(url.getHost())){
                         discoveredPages.add(href);
                     }else{
-                        discoveredDomains.add(new URL(href.getProtocol() + "://" + href.getHost()));
+                        discoveredDomains.add(new URI(href.getScheme() + "://" + href.getHost()));
                     }
-                } catch (MalformedURLException e) {
-                    e.getStackTrace();
+                } catch (URISyntaxException e) {
                     errorLog.info("Malformed URL: " + absoluteUrlStr + "\n" + e.getStackTrace().toString());
                 }
             }
         }
     }
 
-    public List<URL> getDiscoveredDomains(){
+    public List<URI> getDiscoveredDomains(){
         return discoveredDomains;
     }
 
-    public List<URL> getDiscoveredPages(){
+    public List<URI> getDiscoveredPages(){
         return discoveredPages;
     }
 

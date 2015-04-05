@@ -1,30 +1,21 @@
 package application.crawler.util;
 
-import java.net.URL;
+import java.net.URI;
+import java.net.URISyntaxException;
 import java.util.*;
 
 public class UrlQueue {
-    private String nextUrl;
-    private Queue<String> queue = new ArrayDeque<String>();
+    private Queue<URI> queue = new ArrayDeque<URI>();
     private int queueSize;
-
-    private final List<String> FILE_TYPE_BLACKLIST =
-        new ArrayList<>(
-            Arrays.asList(
-                new String[]{
-                        ".jpg", ".jpeg", ".png", ".tiff",
-                        ".gif", ".rif",  ".bmp", ".pdf",
-                        ".doc", ".js",   ".css"
-                }
-            )
-        );
+    private URLFilter urlFilter = new URLFilter();
 
     public UrlQueue(){
         queueSize = 0;
     }
-    public synchronized String getNext(){
+
+    public synchronized URI getNext(){
         if(getSize() > 0){
-            nextUrl = queue.poll();
+            URI nextUrl = queue.poll();
             queueSize--;
             return nextUrl;
         }else{
@@ -32,46 +23,45 @@ public class UrlQueue {
         }
 
     }
-    public synchronized void enqueueUrl(String newUrl){
-        if(newUrl.length() > 4){
-
-            if(!queue.contains(newUrl) && shouldCrawl(newUrl)){
-                queue.add(newUrl);
-                queueSize++;
-            }
+    public synchronized void enqueueUrl(URI newUrl){
+        if(!queue.contains(newUrl) && urlFilter.isCrawlable(newUrl)){
+            queue.add(newUrl);
+            queueSize++;
         }
     }
 
-    public synchronized void enqueueUrl(URL newUrl){
-        enqueueUrl(newUrl.toString());
+    public synchronized void enqueueUrl(String newUrl){
+        URI url = null;
+        try {
+            url = new URI(newUrl);
+        } catch (URISyntaxException e) {
+            e.printStackTrace();
+        }
+
+        enqueueUrl(url);
     }
+
     public synchronized boolean containsURL(String s){
         return queue.contains(s);
     }
-    public boolean containsURL(URL url){
-        if(queue.contains(url.getHost())){
-            System.exit(9000);
-        }
+
+    public boolean containsURL(URI url){
+        //arraydeque's contains() method will compare with the URL class's .equals()
         return queue.contains(url.getHost());
     }
+
     public synchronized int getSize(){
         return queueSize;
     }
+
     public List<String> toList(){
         ArrayList queueList = new ArrayList();
-        for(String s : queue){
-            queueList.add(s);
+        for(URI url : queue){
+            queueList.add(url);
         }
         return queueList;
     }
-    public boolean shouldCrawl(String url){
-        for(String extension : FILE_TYPE_BLACKLIST){
-            if(url.endsWith(extension) || url.endsWith(extension + "/")){
-                return false;
-            }
-        }
-        return true;
-    }
+
     public boolean hasNext(){
         return queue.size() > 0;
     }

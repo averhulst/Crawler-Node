@@ -2,7 +2,6 @@ package application;
 
 import application.crawler.Crawler;
 import org.apache.log4j.BasicConfigurator;
-
 import java.util.logging.Logger;
 
 public class Main {

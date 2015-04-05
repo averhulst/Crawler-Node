@@ -1,7 +1,6 @@
 package application.crawler.util;
 
-import java.net.MalformedURLException;
-import java.net.URL;
+import java.net.URI;
 import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.List;
@@ -9,7 +8,7 @@ import java.util.List;
 public class URLFilter {
     private final org.apache.log4j.Logger logger = org.apache.log4j.Logger.getLogger(this.getClass());
 
-    private final List<String> PROTOCOL_WHITELIST = new ArrayList<String>(){{
+    private final List<String> ALLOWED_PROTOCOLS = new ArrayList<String>(){{
         add("http");
         add("https");
     }};
@@ -25,30 +24,35 @@ public class URLFilter {
             )
     );
 
-    public boolean pageIsCrawlable(URL url){
-        if(!domainIsCrawlable(url)){
+    private boolean isExcluded(URI url){
+        for(String fileType : FILE_TYPE_BLACKLIST){
+            if(url.toString().endsWith(fileType)){
+                return true;
+            }
+        }
+
+        if(!ALLOWED_PROTOCOLS.contains(url.getScheme())){
+            return true;
+        }
+
+        return false;
+    }
+
+    private boolean domainIsValid(URI url){
+        if(url.toString().length() > 4){
+            logger.error("URL length of 0 for url: " + url.toString() + " FIX ME!");
+            return false;
+        }
+        if(url.getHost().length() == 0){
+            logger.error("Host length of 0 for url: " + url.toString() + " FIX ME!");
             return false;
         }
 
-        for(String fileType : FILE_TYPE_BLACKLIST){
-            if(url.toString().endsWith(fileType)){
-                return false;
-            }
-        }
         return true;
     }
-    public boolean domainIsCrawlable(URL url){
-        boolean crawlable = true;
 
-        if(!PROTOCOL_WHITELIST.contains(url.getProtocol())){
-            crawlable = false;
-        }
-
-        if(url.getHost().length() == 0){
-            logger.error("Host length of 0 for url: " + url.toString() + " FIX ME!");
-            crawlable = false;
-        }
-        return crawlable;
+    public boolean isCrawlable(URI url){
+        return domainIsValid(url) && !isExcluded(url);
     }
 
 }

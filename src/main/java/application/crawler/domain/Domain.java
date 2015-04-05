@@ -2,13 +2,12 @@ package application.crawler.domain;
 
 import application.crawler.util.Request;
 import application.crawler.util.Timer;
-import application.crawler.util.URLFilter;
 import application.crawler.util.UrlQueue;
 import org.json.JSONArray;
 import org.json.JSONObject;
 import java.io.IOException;
-import java.net.MalformedURLException;
-import java.net.URL;
+import java.net.URI;
+import java.net.URISyntaxException;
 import java.util.ArrayList;
 import java.util.List;
 
@@ -16,21 +15,20 @@ public class Domain implements Runnable{
     private final int CRAWL_CEILING = 25;
 
     private List<String> failedUrls;
-    private List<URL> crawledUrls;
-    private List<URL> discoveredDomains;
+    private List<URI> crawledUrls;
+    private List<URI> discoveredDomains;
     private int crawlDelay;
     private long crawlStartTime;
     private boolean running;
-    private URL domainURL;
+    private URI domainURL;
     private Robotstxt robotsTxt;
     private UrlQueue pageQueue;
     private Timer timer = new Timer();
     private int crawlCount;
-    private URLFilter urlFilter;
     private JSONObject domainJson;
     private final org.apache.log4j.Logger logger = org.apache.log4j.Logger.getLogger(this.getClass());
 
-    public Domain(URL url) {
+    public Domain(URI url) {
         this.domainURL = url;
         failedUrls = new ArrayList<>();
         crawledUrls = new ArrayList<>();
@@ -38,7 +36,7 @@ public class Domain implements Runnable{
         crawlStartTime = System.currentTimeMillis();
         pageQueue = new UrlQueue();
         pageQueue.enqueueUrl(url);
-        urlFilter = new URLFilter();
+
         domainJson = new JSONObject(){{
             put("url", domainURL);
             put("pages", new JSONArray());
@@ -55,10 +53,10 @@ public class Domain implements Runnable{
         running = true;
 
         try {
-            URL robotsTxtUrl =  new URL(domainURL + "robots.txt");
+            URI robotsTxtUrl =  new URI(domainURL + "robots.txt");
             parseRobotsTxt(getPage(robotsTxtUrl).getSourceCode());
-        } catch (MalformedURLException e) {
-            logger.warn("Malformed URL for robots.txt: " + e.getStackTrace().toString());
+        } catch (URISyntaxException e) {
+            logger.error("Malformed URL for robots.txt: " + e.getStackTrace().toString());
         }
 
         if(robotsTxt.crawlingIsProhibited()){
@@ -67,22 +65,19 @@ public class Domain implements Runnable{
         }
 
         while(running){
-            String pageUrl = pageQueue.getNext();
-            try {
-                if(robotsTxt.urlIsAllowed(pageUrl)){
-                    Page page = getPage(new URL(pageUrl));
-                    parsePageContent(page);
-                    delayCrawl(timer.getElapsedTime());
-                }
-                crawlCount++;
-            } catch (Exception e) {
-                logger.warn("Crawl failed for: " + pageUrl + "\n" + e.getStackTrace().toString());
+            URI pageUrl = pageQueue.getNext();
+
+            if(robotsTxt.urlIsAllowed(pageUrl)){
+                Page page = getPage(pageUrl);
+                parsePageContent(page);
+                delayCrawl(timer.getElapsedTime());
             }
+            crawlCount++;
             assertRunnable();
         }
     }
 
-    private Page getPage(URL url){
+    private Page getPage(URI url){
         Request request = new Request(url);
         request.setConnectionTimeout(5000);
         request.setRequestMethod("GET");
@@ -140,17 +135,17 @@ public class Domain implements Runnable{
         }
     }
 
-    private void processDiscoveredDomains(List<URL> domains){
-        for(URL url: domains){
-            if(!discoveredDomains.contains(url) && urlFilter.domainIsCrawlable(url)){
+    private void processDiscoveredDomains(List<URI> domains){
+        for(URI url: domains){
+            if(!discoveredDomains.contains(url)){
                 discoveredDomains.add(url);
             }
         }
     }
 
-    private void processDiscoveredPages(List<URL>  discoveredPages){
-        for(URL url : discoveredPages){
-            if(!isCrawled(url) && urlFilter.pageIsCrawlable(url)){
+    private void processDiscoveredPages(List<URI>  discoveredPages){
+        for(URI url : discoveredPages){
+            if(!isCrawled(url)){
                 if(robotsTxt.urlIsAllowed(url)){
                     pageQueue.enqueueUrl(url);
                 }
@@ -158,17 +153,13 @@ public class Domain implements Runnable{
         }
     }
 
-    public List<URL> getDiscoveredDomains(){
+    public List<URI> getDiscoveredDomains(){
         return discoveredDomains;
     }
 
-    private boolean isCrawled(URL url){
+    private boolean isCrawled(URI url){
         if(crawledUrls.size() > 0){
-            for(int i  = 0 ; i  <= (crawledUrls.size() - 1) ; i++){
-                if(crawledUrls.get(i).toString().contains(url.toString())){
-                    return true;
-                }
-            }
+            return crawledUrls.contains(url.toString());
         }
         return false;
     }

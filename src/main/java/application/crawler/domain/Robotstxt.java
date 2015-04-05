@@ -1,8 +1,8 @@
 package application.crawler.domain;
 
 import java.io.*;
-import java.net.MalformedURLException;
-import java.net.URL;
+import java.net.URI;
+import java.net.URISyntaxException;
 import java.util.ArrayList;
 import java.util.List;
 
@@ -72,15 +72,7 @@ public class Robotstxt {
         return crawlDelay;
     }
 
-    public List<String> getDisallowedPaths(){
-        return disallowedPaths;
-    }
-
-    public List<String> getAllowedPaths() {
-        return allowedPaths;
-    }
-
-    public boolean urlIsAllowed(URL url){
+    public boolean urlIsAllowed(URI url){
         String path = url.getPath();
 
         for(String disallowedSubPath : disallowedSubPaths){
@@ -106,8 +98,8 @@ public class Robotstxt {
     public boolean urlIsAllowed(String url){
         boolean urlIsAllowed = false;
         try {
-            urlIsAllowed = urlIsAllowed(new URL(url));
-        } catch (MalformedURLException e) {
+            urlIsAllowed = urlIsAllowed(new URI(url));
+        } catch (URISyntaxException e) {
             //TODO log me
         }
 

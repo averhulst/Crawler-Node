@@ -3,9 +3,8 @@ package service.messaging;
 import com.rabbitmq.client.Connection;
 import com.rabbitmq.client.ConnectionFactory;
 import org.json.JSONObject;
-
 import java.io.IOException;
-import java.net.URL;
+import java.net.URI;
 import java.util.*;
 
 public class MessagingService {
@@ -43,9 +42,9 @@ public class MessagingService {
 
     }
 
-    public void publishDiscoveredDomains(List<URL> discoveredDomains){
+    public void publishDiscoveredDomains(List<URI> discoveredDomains){
         StringBuilder outgoingDomains = new StringBuilder();
-        for(URL url : discoveredDomains){
+        for(URI url : discoveredDomains){
             outgoingDomains.append(url + ";");
         }
         //publishers.get("discoveredDomains").publishMessage(outgoingDomains);
