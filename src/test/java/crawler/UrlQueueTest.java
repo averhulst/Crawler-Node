@@ -21,11 +21,11 @@ public class UrlQueueTest {
         urlQueue.enqueueUrl("http://www.netflix.com");
         urlQueue.enqueueUrl("http://www.reddit.com");
 
-        assert(urlQueue.getNext().equals("http://www.google.com"));
+        assert(urlQueue.getNext().equals(new URI("http://www.google.com")));
 
-        assert(urlQueue.getNext().equals("http://www.youtube.com"));
-        assert(urlQueue.getNext().equals("http://www.netflix.com"));
-        assert(urlQueue.getNext().equals("http://www.reddit.com"));
+        assert(urlQueue.getNext().equals(new URI("http://www.youtube.com")));
+        assert(urlQueue.getNext().equals(new URI("http://www.netflix.com")));
+        assert(urlQueue.getNext().equals(new URI("http://www.reddit.com")));
 
         urlQueue = new UrlQueue();
 
@@ -33,25 +33,21 @@ public class UrlQueueTest {
         urlQueue.enqueueUrl(new URI("http://www.youtube.com"));
         urlQueue.enqueueUrl(new URI("http://www.reddit.com"));
 
-        assert(urlQueue.getNext().equals(new URL("http://www.google.com").toString()));
-        assert(urlQueue.getNext().equals(new URL("http://www.youtube.com").toString()));
-        assert(urlQueue.getNext().equals(new URL("http://www.reddit.com").toString()));
+        assert(urlQueue.getNext().equals(new URI("http://www.google.com")));
+        assert(urlQueue.getNext().equals(new URI("http://www.youtube.com")));
+        assert(urlQueue.getNext().equals(new URI("http://www.reddit.com")));
 
     }
 
     @Test
     public void testEnqueueUrl() throws Exception {
         UrlQueue urlQueue = new UrlQueue();
-        String urlStr = "http://www.netflix.com";
-
-        urlQueue.enqueueUrl("http://www.netflix.com");
-        assert(urlQueue.getNext().equals(urlStr));
-
-        urlQueue = new UrlQueue();
         URI url = new URI("http://www.netflix.com");
+        urlQueue.enqueueUrl("http://www.netflix.com");
+        urlQueue.enqueueUrl("http://www.google.com");
+        urlQueue.enqueueUrl("http://www.reddit.com");
 
-        urlQueue.enqueueUrl(url);
-        assert(urlQueue.getNext().equals(url.toString()));
+        assert(urlQueue.getNext().equals(url));
     }
 
     @Test
@@ -60,13 +56,13 @@ public class UrlQueueTest {
         String urlStr = "http://www.netflix.com";
 
         urlQueue.enqueueUrl("http://www.netflix.com");
-        assert(urlQueue.containsURL(urlStr));
+        assert(urlQueue.containsURL(new URI(urlStr)));
 
         urlQueue = new UrlQueue();
         URI url = new URI("http://www.netflix.com");
 
         urlQueue.enqueueUrl(url);
-        assert(urlQueue.containsURL(url.toString()));
+        assert(urlQueue.containsURL(url));
     }
 
 
@@ -86,18 +82,18 @@ public class UrlQueueTest {
     public void testToList() throws Exception {
         UrlQueue urlQueue = new UrlQueue();
 
-        ArrayList<String> urlQueueList = new ArrayList<String>(){{
-            add("http://www.google.com");
-            add("http://www.youtube.com");
-            add("http://www.reddit.com");
-            add("http://www.cnn.com");
+        List<URI> urlQueueList = new ArrayList<URI>(){{
+            add(new URI("http://www.google.com"));
+            add(new URI("http://www.youtube.com"));
+            add(new URI("http://www.reddit.com"));
+            add(new URI("http://www.cnn.com"));
         }};
 
-        for(String s : urlQueueList){
-            urlQueue.enqueueUrl(s);
+        for(URI url : urlQueueList){
+            urlQueue.enqueueUrl(url);
         }
 
-        List<String> resultList = urlQueue.toList();
+        List<URI> resultList = urlQueue.toList();
 
         assertEquals(urlQueueList, resultList);
     }

@@ -41,21 +41,17 @@ public class UrlQueue {
         enqueueUrl(url);
     }
 
-    public synchronized boolean containsURL(String s){
-        return queue.contains(s);
-    }
-
     public boolean containsURL(URI url){
         //arraydeque's contains() method will compare with the URL class's .equals()
-        return queue.contains(url.getHost());
+        return queue.contains(url);
     }
 
     public synchronized int getSize(){
         return queueSize;
     }
 
-    public List<String> toList(){
-        ArrayList queueList = new ArrayList();
+    public List<URI> toList(){
+        List<URI> queueList = new ArrayList();
         for(URI url : queue){
             queueList.add(url);
         }

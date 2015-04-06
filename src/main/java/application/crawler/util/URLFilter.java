@@ -39,7 +39,7 @@ public class URLFilter {
     }
 
     private boolean domainIsValid(URI url){
-        if(url.toString().length() > 4){
+        if(url.toString().length() < 4){
             logger.error("URL length of 0 for url: " + url.toString() + " FIX ME!");
             return false;
         }
