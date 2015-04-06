@@ -1,4 +1,4 @@
-package application;
+package application.crawler;
 
 import org.apache.commons.configuration.Configuration;
 import org.apache.commons.configuration.ConfigurationFactory;

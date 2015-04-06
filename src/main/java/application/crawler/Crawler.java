@@ -2,8 +2,9 @@ package application.crawler;
 
 import application.crawler.domain.Domain;
 import application.crawler.util.UrlQueue;
-import service.messaging.MessagingService;
-import java.net.URI;
+import org.apache.commons.lang3.StringUtils;
+import service.messaging.MessengerImpl;
+import java.util.Arrays;
 import java.util.HashMap;
 import java.util.List;
 import java.util.concurrent.ExecutorService;
@@ -20,13 +21,13 @@ public class Crawler{
     private static int totalCrawls;
     private int threadCount;
     private boolean running = true;
-    private MessagingService messenger;
+    private MessengerImpl messenger;
     private final org.apache.log4j.Logger logger = org.apache.log4j.Logger.getLogger(this.getClass() + "_INFO");
     private final org.apache.log4j.Logger errorLog = org.apache.log4j.Logger.getLogger(this.getClass() + "_ERROR");
 
     public Crawler(int threadCount) {
         this.threadCount = threadCount;
-        messenger = new MessagingService();
+        messenger = new MessengerImpl();
         executor = Executors.newFixedThreadPool(threadCount);
         timeAtBootUp = System.currentTimeMillis();
         requestCrawlableDomains();
@@ -60,9 +61,12 @@ public class Crawler{
     }
 
     private void requestCrawlableDomains(){
-        List<String> newDomains = messenger.fetchFreshDomains();
-        for(String domain : newDomains){
-            domainQueue.enqueueUrl(domain);
+        String freshDomainStr =  messenger.getQueue("freshDomains").getMessage();
+        if(freshDomainStr.length() > 0){
+            List<String> freshDomains = Arrays.asList(freshDomainStr.split(";"));
+            for(String domain : freshDomains){
+                domainQueue.enqueueUrl(domain);
+            }
         }
     }
 
@@ -71,15 +75,14 @@ public class Crawler{
         crawledDomains.enqueueUrl(crawledDomain.getDomainUrl());
 
         if(crawledDomain.getDiscoveredDomains().size() > 0){
-            List<URI> discoveredDomains = crawledDomain.getDiscoveredDomains();
-            //messenger.publishMessage(String.join(";", discoveredDomains));
-            messenger.publishDiscoveredDomains(discoveredDomains);
-
+            String discoveredDomainsMsg = StringUtils.join(crawledDomain.getDiscoveredDomains(),";");
+            messenger.getQueue("discoveredDomains").publishMessage(discoveredDomainsMsg);
         }
 
         if(crawledDomain.toJson().length() != 0){
-            messenger.publishCrawledDomainResult(crawledDomain.toJson());
+            messenger.getQueue("discoveredDomains").publishMessage(crawledDomain.toJson().toString());
         }
+
         logger.info("Finished crawling: " + crawledDomain.getDomainUrl() + " - crawled " + crawledDomain.getCrawlCount() + " pages");
         totalCrawls++;
     }

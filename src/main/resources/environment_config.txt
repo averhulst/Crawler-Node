@@ -1,0 +1,18 @@
+{
+    "CRAWL_RESULTS_DB"  : {
+        "Address" : "192.168.1.9",
+        "Port"    : 27017
+    },
+
+    "DOMAIN_QUEUE_DB" : {
+        "Address" : "192.168.1.9",
+        "Port"    : 6379
+    },
+
+    "MESSAGING_SERVICE" : {
+        "Address"   : "192.168.1.9",
+        "Port"      : 0,
+        "User_name" : "crawlernode",
+        "Pass"      : "nodelol"
+    }
+}
