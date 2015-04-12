@@ -4,11 +4,14 @@ import com.rabbitmq.client.AMQP;
 import com.rabbitmq.client.Channel;
 import com.rabbitmq.client.GetResponse;
 import java.io.IOException;
+import java.util.HashMap;
 import java.util.List;
+import java.util.Map;
 
 public class QueueImpl implements Queue{
     private Channel channel;
     private String queueName;
+    private Map<String, Object> bindingArgs = new HashMap<String, Object>();
 
     public QueueImpl(Channel channel, String queueName) {
         this.channel = channel;
@@ -59,6 +62,13 @@ public class QueueImpl implements Queue{
     public void publishMessages(List<String> messages){
         for(String s : messages){
             publishMessage(s);
+        }
+    }
+    public void addHeaders(Map headers){
+        try {
+            channel.queueBind(queueName, "", "", headers);
+        } catch (IOException e) {
+            e.printStackTrace();  //To change body of catch statement use File | Settings | File Templates.
         }
     }
 }

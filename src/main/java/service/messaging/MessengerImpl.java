@@ -1,6 +1,6 @@
 package service.messaging;
 
-import application.crawler.util.Environment;
+import application.crawler.Environment;
 import com.rabbitmq.client.Connection;
 import com.rabbitmq.client.ConnectionFactory;
 import java.io.IOException;

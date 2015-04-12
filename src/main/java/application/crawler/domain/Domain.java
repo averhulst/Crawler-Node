@@ -183,7 +183,7 @@ public class Domain implements Runnable{
     public int getCrawlCount(){
         return crawlCount;
     }
-    public JSONObject toJson() {
-        return domainJson;
+    public String toJson() {
+        return domainJson.toString();
     }
 }

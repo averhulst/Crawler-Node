@@ -2,8 +2,11 @@ package application.crawler;
 
 import application.crawler.domain.Domain;
 import application.crawler.util.UrlQueue;
+import application.crawler.util.Util;
 import org.apache.commons.lang3.StringUtils;
 import service.messaging.MessengerImpl;
+
+import java.io.IOException;
 import java.util.Arrays;
 import java.util.HashMap;
 import java.util.List;
@@ -55,7 +58,7 @@ public class Crawler{
         crawlRatePerMin = totalCrawls / (upTimeInSeconds / 60);
         logger.info("***********  " + crawlRatePerMin + " domains per minute");
         logger.info("***********  Total crawls:  " + totalCrawls);
-        logger.info("***********  running for " + upTimeInSeconds / 1000 + " seconds");
+        logger.info("***********  running for " + upTimeInSeconds + " seconds");
         logger.info("***********  Actively crawling " + activelyCrawlingDomains.size() + " domains");
 
     }
@@ -80,7 +83,13 @@ public class Crawler{
         }
 
         if(crawledDomain.toJson().length() != 0){
-            messenger.getQueue("discoveredDomains").publishMessage(crawledDomain.toJson().toString());
+            String outBoundMessage = null;
+            try {
+                outBoundMessage = Util.compressString(crawledDomain.toJson());
+            } catch (IOException e) {
+                e.printStackTrace();
+            }
+            messenger.getQueue("crawlResults").publishMessage(outBoundMessage);
         }
 
         logger.info("Finished crawling: " + crawledDomain.getDomainUrl() + " - crawled " + crawledDomain.getCrawlCount() + " pages");

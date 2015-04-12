@@ -1,5 +1,6 @@
 package application.crawler.domain;
 
+import application.crawler.util.Util;
 import org.json.JSONObject;
 import org.jsoup.Connection;
 import org.jsoup.Jsoup;
@@ -55,7 +56,7 @@ public class Page{
             if(absoluteUrlStr.length() > 0){
                 try {
                     URI href = new URI(absoluteUrlStr);
-                    if(href.getHost().equals(url.getHost())){
+                    if(href.getHost() != null && href.getHost().equals(url.getHost())){
                         discoveredPages.add(href);
                     }else{
                         discoveredDomains.add(new URI(href.getScheme() + "://" + href.getHost()));
@@ -79,15 +80,15 @@ public class Page{
         return sourceCode;
     }
 
-    public JSONObject toJson() {
+    public String toJson() {
         JSONObject page = new JSONObject();
 
         JSONObject source = new JSONObject(){{
             put("head", head.toString());
             put("body", body.toString());
         }};
-        page.put(url.toString(), source);
-        return page;
+        page.put(Util.toSha256(url.getPath() + url.getQuery()), source).toString();
+        return page.toString();
     }
 
 

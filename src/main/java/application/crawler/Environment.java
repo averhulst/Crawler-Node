@@ -1,10 +1,11 @@
-package application.crawler.util;
+package application.crawler;
 
 import org.json.JSONObject;
 
 import java.io.BufferedReader;
 import java.io.FileReader;
 import java.io.IOException;
+import java.io.InputStreamReader;
 
 public class Environment {
     public static final String CRAWL_RESULTS_DB_ADDRESS;
@@ -21,7 +22,7 @@ public class Environment {
     static {
         StringBuilder sb = new StringBuilder();
         try{
-            BufferedReader reader = new BufferedReader(new FileReader("src/main/resources/environment_config.txt"));
+            BufferedReader reader = new BufferedReader(new InputStreamReader(Environment.class.getResourceAsStream("/environment_config.txt")));
             String line = null;
             sb = new StringBuilder();
 
