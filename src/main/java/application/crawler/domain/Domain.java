@@ -39,7 +39,7 @@ public class Domain implements Runnable{
 
         domainJson = new JSONObject(){{
             put("url", domainURL);
-            put("pages", new JSONArray());
+            put("pages", new JSONObject());
         }};
         crawlCount = 0;
     }
@@ -120,7 +120,7 @@ public class Domain implements Runnable{
         p.parseSource();
         processDiscoveredDomains(p.getDiscoveredDomains());
         processDiscoveredPages(p.getDiscoveredPages());
-        domainJson.getJSONArray("pages").put(p.toJson());
+        domainJson.getJSONObject("pages").put(p.getUrl().getPath() + p.getUrl().getQuery(), p.toJson());
         crawledUrls.add(p.getUrl());
     }
 

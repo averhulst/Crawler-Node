@@ -1,7 +1,6 @@
 package service.messaging;
 
 import java.util.List;
-import java.util.Map;
 
 public interface Queue {
     public String getMessage();
@@ -11,5 +10,6 @@ public interface Queue {
     public void publishMessages(List<String> messages);
 
     public int getQueueSize();
-    public void addHeaders(Map headers);
+
+    public void setContentEncoding(String encoding);
 }

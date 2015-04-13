@@ -17,8 +17,6 @@ public class Crawler{
     private ExecutorService executor;
     private static UrlQueue domainQueue = new UrlQueue();
     private static HashMap<String, Domain> activelyCrawlingDomains = new HashMap<String, Domain>();
-    private static UrlQueue crawledDomains = new UrlQueue();
-    //TODO remove crawledDomains functionality, responsibility belongs to crawler hub now
     private static long timeAtBootUp;
     private static float crawlRatePerMin;
     private static int totalCrawls;
@@ -75,7 +73,6 @@ public class Crawler{
 
     private void finalizeDomainCrawl(Domain crawledDomain){
         activelyCrawlingDomains.remove(crawledDomain.getDomainUrl());
-        crawledDomains.enqueueUrl(crawledDomain.getDomainUrl());
 
         if(crawledDomain.getDiscoveredDomains().size() > 0){
             String discoveredDomainsMsg = StringUtils.join(crawledDomain.getDiscoveredDomains(),";");

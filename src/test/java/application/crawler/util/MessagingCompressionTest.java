@@ -28,17 +28,12 @@ public class MessagingCompressionTest {
     public void testCompressionThroughMessenger() throws Exception{
         //Ensure queues have been purged before testing
         String localCompressedStr = Util.compressString(testStr);
+        messenger.getQueue("crawlResults").setContentEncoding("gzip");
         messenger.getQueue("crawlResults").publishMessage(localCompressedStr);
-        messenger.getQueue("crawlResults").addHeaders(
-            new HashMap(){{
-                put("Content-Encoding", "gzip");
-            }}
-        );
 
         String msgRetrieved = messenger.getQueue("crawlResults").getMessage();
 
         System.out.println(msgRetrieved);
-        System.out.println("WTF");
         String decompressedStr = Util.decompressString(msgRetrieved);
 
         System.out.println(decompressedStr);

@@ -12,6 +12,7 @@ public class QueueImpl implements Queue{
     private Channel channel;
     private String queueName;
     private Map<String, Object> bindingArgs = new HashMap<String, Object>();
+    private AMQP.BasicProperties.Builder builder = new AMQP.BasicProperties().builder();
 
     public QueueImpl(Channel channel, String queueName) {
         this.channel = channel;
@@ -64,11 +65,7 @@ public class QueueImpl implements Queue{
             publishMessage(s);
         }
     }
-    public void addHeaders(Map headers){
-        try {
-            channel.queueBind(queueName, "", "", headers);
-        } catch (IOException e) {
-            e.printStackTrace();  //To change body of catch statement use File | Settings | File Templates.
-        }
+    public void setContentEncoding(String encoding){
+        builder.contentEncoding(encoding);
     }
 }
