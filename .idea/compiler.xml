@@ -25,6 +25,9 @@
         <module name="TomatoNode" />
       </profile>
     </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="TomatoNode" target="1.8" />
+    </bytecodeTargetLevel>
   </component>
 </project>
 

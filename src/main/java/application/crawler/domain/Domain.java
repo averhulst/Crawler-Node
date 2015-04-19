@@ -3,6 +3,7 @@ package application.crawler.domain;
 import application.crawler.util.Request;
 import application.crawler.util.Timer;
 import application.crawler.util.UrlQueue;
+import application.crawler.util.Util;
 import org.json.JSONArray;
 import org.json.JSONObject;
 import java.io.IOException;
@@ -120,7 +121,8 @@ public class Domain implements Runnable{
         p.parseSource();
         processDiscoveredDomains(p.getDiscoveredDomains());
         processDiscoveredPages(p.getDiscoveredPages());
-        domainJson.getJSONObject("pages").put(p.getUrl().getPath() + p.getUrl().getQuery(), p.toJson());
+        String pathHash = Util.toSha256(p.getUrl().getPath() + p.getUrl().getQuery());
+        domainJson.getJSONObject("pages").put(pathHash, p.toJson());
         crawledUrls.add(p.getUrl());
     }
 

@@ -12,7 +12,7 @@ public class QueueImpl implements Queue{
     private Channel channel;
     private String queueName;
     private Map<String, Object> bindingArgs = new HashMap<String, Object>();
-    private AMQP.BasicProperties.Builder builder = new AMQP.BasicProperties().builder();
+    private AMQP.BasicProperties.Builder properties = new AMQP.BasicProperties.Builder();
 
     public QueueImpl(Channel channel, String queueName) {
         this.channel = channel;
@@ -29,6 +29,7 @@ public class QueueImpl implements Queue{
         }
         return queueSize;
     }
+
 
     public String getMessage(){
         String rtnStr = "";
@@ -51,14 +52,15 @@ public class QueueImpl implements Queue{
         return rtnStr;
     }
 
-    public void publishMessage(String message){;
+    public void publishMessage(String message){
         try {
             channel.queueDeclare(queueName, false, false, false, null);
-            channel.basicPublish("", queueName, null, message.getBytes());
+            channel.basicPublish("", queueName, properties.build(), message.getBytes());
         } catch (IOException e) {
             e.printStackTrace();
         }
     }
+
 
     public void publishMessages(List<String> messages){
         for(String s : messages){
@@ -66,6 +68,6 @@ public class QueueImpl implements Queue{
         }
     }
     public void setContentEncoding(String encoding){
-        builder.contentEncoding(encoding);
+        properties.contentEncoding(encoding);
     }
 }

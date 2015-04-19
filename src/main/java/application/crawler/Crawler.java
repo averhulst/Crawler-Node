@@ -86,6 +86,7 @@ public class Crawler{
             } catch (IOException e) {
                 e.printStackTrace();
             }
+            messenger.getQueue("crawlResults").setContentEncoding("gzip");
             messenger.getQueue("crawlResults").publishMessage(outBoundMessage);
         }
 
