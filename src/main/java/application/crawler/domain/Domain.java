@@ -93,6 +93,13 @@ public class Domain implements Runnable{
         Page page = new Page(url, request.getResponse());
 
         switch (request.getResponseCode()) {
+            case 0   :
+                //w3 spec indicates that the status attribute may return 0 if: If the state is UNSENT or OPENED, return 0 OR If the error flag is set, return 0.
+                //other possible causes:
+                //Illegal cross origin request (see CORS) - unlikely/impossible?
+                //Firewall block or filtering
+                //The request itself was cancelled in code
+                logger.warn("Response of 0: " + request.getResponseCode() + " for " + url.toString() + "!");
             case 200 :
                 break;
             case 301:

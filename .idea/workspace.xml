@@ -6,25 +6,15 @@
     </artifacts-to-build>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="f36659aa-4a93-43c8-ae4d-0e55ab73ae4c" name="Default" comment="Bug fixes - Messaging layer now properly declares gzip content encoding header,  Domain.toJSON() now maps page path &amp; query to the page source, instead of placing page sources in a List">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__commons_codec_commons_codec_1_9.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/test/java/application/crawler/util/UtilTest.java" />
-      <change type="DELETED" beforePath="D:\Users\buttes\TomatoNode\src\test\java\application\crawler\util\MessagingCompressionTest.java" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/application/crawler/Crawler.java" afterPath="$PROJECT_DIR$/src/main/java/application/crawler/Crawler.java" />
+    <list default="true" id="f36659aa-4a93-43c8-ae4d-0e55ab73ae4c" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/application/crawler/domain/Domain.java" afterPath="$PROJECT_DIR$/src/main/java/application/crawler/domain/Domain.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/service/messaging/QueueImpl.java" afterPath="$PROJECT_DIR$/src/main/java/service/messaging/QueueImpl.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/TomatoNode.iml" afterPath="$PROJECT_DIR$/TomatoNode.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/application/crawler/util/Util.java" afterPath="$PROJECT_DIR$/src/main/java/application/crawler/util/Util.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/compiler.xml" afterPath="$PROJECT_DIR$/.idea/compiler.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/encodings.xml" afterPath="$PROJECT_DIR$/.idea/encodings.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pom.xml" afterPath="$PROJECT_DIR$/pom.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="TomatoNode.iws" />
     <ignored path=".idea/workspace.xml" />
-    <file path="/Dummy.txt" changelist="f36659aa-4a93-43c8-ae4d-0e55ab73ae4c" time="1429432013349" ignored="false" />
-    <file path="/Domain.java" changelist="f36659aa-4a93-43c8-ae4d-0e55ab73ae4c" time="1428912827298" ignored="false" />
-    <file path="/fragment.java" changelist="f36659aa-4a93-43c8-ae4d-0e55ab73ae4c" time="1429309098005" ignored="false" />
+    <file path="/Dummy.txt" changelist="f36659aa-4a93-43c8-ae4d-0e55ab73ae4c" time="1429606221050" ignored="false" />
+    <file path="/Domain.java" changelist="f36659aa-4a93-43c8-ae4d-0e55ab73ae4c" time="1429609065353" ignored="false" />
+    <file path="/fragment.java" changelist="f36659aa-4a93-43c8-ae4d-0e55ab73ae4c" time="1429432583202" ignored="false" />
     <file path="/pom.xml" changelist="f36659aa-4a93-43c8-ae4d-0e55ab73ae4c" time="1429259429079" ignored="false" />
     <file path="/RobotstxtTest.java" changelist="f36659aa-4a93-43c8-ae4d-0e55ab73ae4c" time="1425149121131" ignored="false" />
     <file path="/MessagingService.java" changelist="f36659aa-4a93-43c8-ae4d-0e55ab73ae4c" time="1428215924832" ignored="false" />
@@ -44,7 +34,7 @@
     <file path="/MessagingFacade.java" changelist="f36659aa-4a93-43c8-ae4d-0e55ab73ae4c" time="1427011338339" ignored="false" />
     <file path="$USER_HOME$/TomatoHub/src/main/java/Hub/DAO.java" changelist="f36659aa-4a93-43c8-ae4d-0e55ab73ae4c" time="1426490061897" ignored="false" />
     <file path="/DAO.java" changelist="f36659aa-4a93-43c8-ae4d-0e55ab73ae4c" time="1426490048662" ignored="false" />
-    <file path="$USER_HOME$/TomatoHub/src/main/java/Util/Util.java" changelist="f36659aa-4a93-43c8-ae4d-0e55ab73ae4c" time="1428907268950" ignored="false" />
+    <file path="$USER_HOME$/TomatoHub/src/main/java/Util/Util.java" changelist="f36659aa-4a93-43c8-ae4d-0e55ab73ae4c" time="1429432418827" ignored="false" />
     <file path="/Util.java" changelist="f36659aa-4a93-43c8-ae4d-0e55ab73ae4c" time="1429431600216" ignored="false" />
     <file path="$USER_HOME$/TomatoHub/src/main/java/processor/CrawlResultProcessor.java" changelist="f36659aa-4a93-43c8-ae4d-0e55ab73ae4c" time="1427353478159" ignored="false" />
     <file path="/CrawlResultProcessor.java" changelist="f36659aa-4a93-43c8-ae4d-0e55ab73ae4c" time="1428829614747" ignored="false" />
@@ -55,7 +45,7 @@
     <file path="/Processor.java" changelist="f36659aa-4a93-43c8-ae4d-0e55ab73ae4c" time="1428899892471" ignored="false" />
     <file path="$USER_HOME$/TomatoHub/src/main/java/messaging/Messenger.java" changelist="f36659aa-4a93-43c8-ae4d-0e55ab73ae4c" time="1427353593664" ignored="false" />
     <file path="/Messenger.java" changelist="f36659aa-4a93-43c8-ae4d-0e55ab73ae4c" time="1427011299376" ignored="false" />
-    <file path="$USER_HOME$/TomatoHub/.idea/workspace.xml" changelist="f36659aa-4a93-43c8-ae4d-0e55ab73ae4c" time="1429432026893" ignored="false" />
+    <file path="$USER_HOME$/TomatoHub/.idea/workspace.xml" changelist="f36659aa-4a93-43c8-ae4d-0e55ab73ae4c" time="1429609111094" ignored="false" />
     <file path="/Crawler.java" changelist="f36659aa-4a93-43c8-ae4d-0e55ab73ae4c" time="1429253185835" ignored="false" />
     <file path="$USER_HOME$/TomatoHub/src/test/java/dao/DomainQueueImplTest.java" changelist="f36659aa-4a93-43c8-ae4d-0e55ab73ae4c" time="1428900131656" ignored="false" />
     <file path="/DomainQueueImplTest.java" changelist="f36659aa-4a93-43c8-ae4d-0e55ab73ae4c" time="1426913897716" ignored="false" />
@@ -88,7 +78,7 @@
     <file path="$USER_HOME$/TomatoHub/src/main/java/hub/Main.java" changelist="f36659aa-4a93-43c8-ae4d-0e55ab73ae4c" time="1427353501062" ignored="false" />
     <file path="$USER_HOME$/TomatoHub/src/main/java/hub/Hub.java" changelist="f36659aa-4a93-43c8-ae4d-0e55ab73ae4c" time="1427353501063" ignored="false" />
     <file path="$USER_HOME$/TomatoHub/src/main/java/application/hub/Main.java" changelist="f36659aa-4a93-43c8-ae4d-0e55ab73ae4c" time="1427353515910" ignored="false" />
-    <file path="$USER_HOME$/TomatoHub/src/main/java/application/hub/Hub.java" changelist="f36659aa-4a93-43c8-ae4d-0e55ab73ae4c" time="1428906652016" ignored="false" />
+    <file path="$USER_HOME$/TomatoHub/src/main/java/application/hub/Hub.java" changelist="f36659aa-4a93-43c8-ae4d-0e55ab73ae4c" time="1429603577889" ignored="false" />
     <file path="$USER_HOME$/TomatoHub/src/main/java/application/messaging/QueueImpl.java" changelist="f36659aa-4a93-43c8-ae4d-0e55ab73ae4c" time="1427353545200" ignored="false" />
     <file path="$USER_HOME$/TomatoHub/src/main/java/application/messaging/MessengerImpl.java" changelist="f36659aa-4a93-43c8-ae4d-0e55ab73ae4c" time="1427353545200" ignored="false" />
     <file path="$USER_HOME$/TomatoHub/src/main/java/application/messaging/Queue.java" changelist="f36659aa-4a93-43c8-ae4d-0e55ab73ae4c" time="1427353545200" ignored="false" />
@@ -111,8 +101,8 @@
     <file path="$USER_HOME$/TomatoHub/src/main/java/application/processor/discovereddomain/CrawledDomainDAO.java" changelist="f36659aa-4a93-43c8-ae4d-0e55ab73ae4c" time="1427354123637" ignored="false" />
     <file path="$USER_HOME$/TomatoHub/src/main/java/application/processor/discovereddomain/CrawledDomainImpl.java" changelist="f36659aa-4a93-43c8-ae4d-0e55ab73ae4c" time="1427354123637" ignored="false" />
     <file path="$USER_HOME$/TomatoHub/src/main/java/application/dao/CrawledResultsDAO.java" changelist="f36659aa-4a93-43c8-ae4d-0e55ab73ae4c" time="1428654290523" ignored="false" />
-    <file path="$USER_HOME$/TomatoHub/src/main/java/application/dao/CrawlResultsImpl.java" changelist="f36659aa-4a93-43c8-ae4d-0e55ab73ae4c" time="1428912665793" ignored="false" />
-    <file path="/CrawlResultsImpl.java" changelist="f36659aa-4a93-43c8-ae4d-0e55ab73ae4c" time="1428912615209" ignored="false" />
+    <file path="$USER_HOME$/TomatoHub/src/main/java/application/dao/CrawlResultsImpl.java" changelist="f36659aa-4a93-43c8-ae4d-0e55ab73ae4c" time="1429432477864" ignored="false" />
+    <file path="/CrawlResultsImpl.java" changelist="f36659aa-4a93-43c8-ae4d-0e55ab73ae4c" time="1429432475830" ignored="false" />
     <file path="/CrawledResultsDAO.java" changelist="f36659aa-4a93-43c8-ae4d-0e55ab73ae4c" time="1428654185261" ignored="false" />
     <file path="/MessengerImpl.java" changelist="f36659aa-4a93-43c8-ae4d-0e55ab73ae4c" time="1428905696130" ignored="false" />
     <file path="$USER_HOME$/TomatoHub/src/main/java/Util/Environment.java" changelist="f36659aa-4a93-43c8-ae4d-0e55ab73ae4c" time="1428210316049" ignored="false" />
@@ -120,7 +110,7 @@
     <file path="$USER_HOME$/TomatoHub/src/main/java/environment_config.txt" changelist="f36659aa-4a93-43c8-ae4d-0e55ab73ae4c" time="1427609124805" ignored="false" />
     <file path="/environment_config.txt" changelist="f36659aa-4a93-43c8-ae4d-0e55ab73ae4c" time="1427615187015" ignored="false" />
     <file path="$USER_HOME$/TomatoHub/src/main/resources/environment_config.txt" changelist="f36659aa-4a93-43c8-ae4d-0e55ab73ae4c" time="1427615254702" ignored="false" />
-    <file path="/a.dummy" changelist="f36659aa-4a93-43c8-ae4d-0e55ab73ae4c" time="1428654172135" ignored="false" />
+    <file path="/a.dummy" changelist="f36659aa-4a93-43c8-ae4d-0e55ab73ae4c" time="1429608139143" ignored="false" />
     <file path="/PageTest.java" changelist="f36659aa-4a93-43c8-ae4d-0e55ab73ae4c" time="1428216136538" ignored="false" />
     <file path="/URLFilter.java" changelist="f36659aa-4a93-43c8-ae4d-0e55ab73ae4c" time="1428303618359" ignored="false" />
     <file path="/CrawlerSettings.java" changelist="f36659aa-4a93-43c8-ae4d-0e55ab73ae4c" time="1428210198331" ignored="false" />
@@ -148,7 +138,7 @@
     <file path="$USER_HOME$/SpaceGame/src/main/java/game/entity/Player.java" changelist="f36659aa-4a93-43c8-ae4d-0e55ab73ae4c" time="1428890984305" ignored="false" />
     <file path="/Player.java" changelist="f36659aa-4a93-43c8-ae4d-0e55ab73ae4c" time="1428890983769" ignored="false" />
     <file path="$USER_HOME$/TomatoHub/src/main/java/application/processor/FreshDomainProcessor.java" changelist="f36659aa-4a93-43c8-ae4d-0e55ab73ae4c" time="1428900704386" ignored="false" />
-    <file path="$USER_HOME$/TomatoHub/src/main/java/application/dao/DomainStoreImpl.java" changelist="f36659aa-4a93-43c8-ae4d-0e55ab73ae4c" time="1428906985321" ignored="false" />
+    <file path="$USER_HOME$/TomatoHub/src/main/java/application/dao/DomainStoreImpl.java" changelist="f36659aa-4a93-43c8-ae4d-0e55ab73ae4c" time="1429605967546" ignored="false" />
     <file path="$USER_HOME$/TomatoHub/src/main/java/application/dao/DomainStoreDAO.java" changelist="f36659aa-4a93-43c8-ae4d-0e55ab73ae4c" time="1428900635507" ignored="false" />
     <file path="/FreshDomainProcessor.java" changelist="f36659aa-4a93-43c8-ae4d-0e55ab73ae4c" time="1428905922771" ignored="false" />
     <file path="/DomainStoreDAO.java" changelist="f36659aa-4a93-43c8-ae4d-0e55ab73ae4c" time="1428900634029" ignored="false" />
@@ -156,8 +146,8 @@
     <file path="$USER_HOME$/TomatoHub/src/main/java/application/queuemanager/FreshDomainProcessor.java" changelist="f36659aa-4a93-43c8-ae4d-0e55ab73ae4c" time="1428906652016" ignored="false" />
     <file path="$USER_HOME$/TomatoHub/src/main/java/application/queuemanager/Processor.java" changelist="f36659aa-4a93-43c8-ae4d-0e55ab73ae4c" time="1428900854680" ignored="false" />
     <file path="$USER_HOME$/TomatoHub/src/main/java/application/queuemanager/DiscoveredDomainProcessor.java" changelist="f36659aa-4a93-43c8-ae4d-0e55ab73ae4c" time="1428900898927" ignored="false" />
-    <file path="$USER_HOME$/TomatoHub/src/main/java/application/queuemanager/QueueManager.java" changelist="f36659aa-4a93-43c8-ae4d-0e55ab73ae4c" time="1428909645369" ignored="false" />
-    <file path="$USER_HOME$/TomatoHub/src/main/java/application/queuemanager/CrawlResultManager.java" changelist="f36659aa-4a93-43c8-ae4d-0e55ab73ae4c" time="1428998650843" ignored="false" />
+    <file path="$USER_HOME$/TomatoHub/src/main/java/application/queuemanager/QueueManager.java" changelist="f36659aa-4a93-43c8-ae4d-0e55ab73ae4c" time="1429432508156" ignored="false" />
+    <file path="$USER_HOME$/TomatoHub/src/main/java/application/queuemanager/CrawlResultManager.java" changelist="f36659aa-4a93-43c8-ae4d-0e55ab73ae4c" time="1429432487829" ignored="false" />
     <file path="$USER_HOME$/TomatoHub/src/main/java/application/hub/Environment.java" changelist="f36659aa-4a93-43c8-ae4d-0e55ab73ae4c" time="1428905128436" ignored="false" />
     <file path="$USER_HOME$/TomatoHub/src/main/java/application/hub/Config.java" changelist="f36659aa-4a93-43c8-ae4d-0e55ab73ae4c" time="1428906682946" ignored="false" />
     <file path="/Config.java" changelist="f36659aa-4a93-43c8-ae4d-0e55ab73ae4c" time="1428906532148" ignored="false" />
@@ -166,15 +156,19 @@
     <file path="/environment.txt" changelist="f36659aa-4a93-43c8-ae4d-0e55ab73ae4c" time="1428906543297" ignored="false" />
     <file path="$USER_HOME$/TomatoHub/src/main/resources/config.txt" changelist="f36659aa-4a93-43c8-ae4d-0e55ab73ae4c" time="1428906543297" ignored="false" />
     <file path="$USER_HOME$/TomatoHub/src/main/java/application/queuemanager/DiscoveredDomainmANAGER.java" changelist="f36659aa-4a93-43c8-ae4d-0e55ab73ae4c" time="1428906640850" ignored="false" />
-    <file path="$USER_HOME$/TomatoHub/src/main/java/application/queuemanager/DiscoveredDomainManager.java" changelist="f36659aa-4a93-43c8-ae4d-0e55ab73ae4c" time="1428907268950" ignored="false" />
-    <file path="/DomainStoreImpl.java" changelist="f36659aa-4a93-43c8-ae4d-0e55ab73ae4c" time="1428906984238" ignored="false" />
+    <file path="$USER_HOME$/TomatoHub/src/main/java/application/queuemanager/DiscoveredDomainManager.java" changelist="f36659aa-4a93-43c8-ae4d-0e55ab73ae4c" time="1429605785809" ignored="false" />
+    <file path="/DomainStoreImpl.java" changelist="f36659aa-4a93-43c8-ae4d-0e55ab73ae4c" time="1429605152383" ignored="false" />
     <file path="$USER_HOME$/TomatoHub/src/main/java/application/hub/Util.java" changelist="f36659aa-4a93-43c8-ae4d-0e55ab73ae4c" time="1428907252408" ignored="false" />
     <file path="/CrawlResultManager.java" changelist="f36659aa-4a93-43c8-ae4d-0e55ab73ae4c" time="1428998648484" ignored="false" />
     <file path="/UtilTest.java" changelist="f36659aa-4a93-43c8-ae4d-0e55ab73ae4c" time="1429427588233" ignored="false" />
     <file path="$USER_HOME$/imgay/src/gay.java" changelist="f36659aa-4a93-43c8-ae4d-0e55ab73ae4c" time="1429309704826" ignored="false" />
-    <file path="$USER_HOME$/imgay/.idea/workspace.xml" changelist="f36659aa-4a93-43c8-ae4d-0e55ab73ae4c" time="1429432026893" ignored="false" />
+    <file path="$USER_HOME$/imgay/.idea/workspace.xml" changelist="f36659aa-4a93-43c8-ae4d-0e55ab73ae4c" time="1429609111094" ignored="false" />
     <file path="$USER_HOME$/imgay/.idea/misc.xml" changelist="f36659aa-4a93-43c8-ae4d-0e55ab73ae4c" time="1429308215948" ignored="false" />
     <file path="/gay.java" changelist="f36659aa-4a93-43c8-ae4d-0e55ab73ae4c" time="1429309702640" ignored="false" />
+    <file path="$USER_HOME$/TomatoHub/src/test/java/Util/UtilTest.java" changelist="f36659aa-4a93-43c8-ae4d-0e55ab73ae4c" time="1429432603218" ignored="false" />
+    <file path="$USER_HOME$/TomatoHub/src/main/java/application/queuemanager/FreshDomainManager.java" changelist="f36659aa-4a93-43c8-ae4d-0e55ab73ae4c" time="1429605242502" ignored="false" />
+    <file path="/FreshDomainManager.java" changelist="f36659aa-4a93-43c8-ae4d-0e55ab73ae4c" time="1429603987840" ignored="false" />
+    <file path="/DiscoveredDomainManager.java" changelist="f36659aa-4a93-43c8-ae4d-0e55ab73ae4c" time="1429605651544" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -241,10 +235,10 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="Util.java" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="Util.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/application/crawler/util/Util.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="53" column="0" selection-start="1659" selection-end="1659" vertical-scroll-proportion="0.82653064">
+            <state line="54" column="22" selection-start="1682" selection-end="1682" vertical-scroll-proportion="0.0">
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -255,7 +249,34 @@
       <file leaf-file-name="UtilTest.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/application/crawler/util/UtilTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="30" column="0" selection-start="1030" selection-end="1030" vertical-scroll-proportion="0.0">
+            <state line="26" column="0" selection-start="951" selection-end="951" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Main.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/application/Main.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="14" column="0" selection-start="408" selection-end="408" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Page.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/application/crawler/domain/Page.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="60" column="26" selection-start="2250" selection-end="2250" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Domain.java" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/application/crawler/domain/Domain.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="101" column="105" selection-start="3511" selection-end="3511" vertical-scroll-proportion="0.2609309">
               <folding />
             </state>
           </provider>
@@ -286,7 +307,6 @@
         <option value="$PROJECT_DIR$/src/main/java/application/crawler/domain/Page.java" />
         <option value="$PROJECT_DIR$/src/main/java/application/crawler/Environment.java" />
         <option value="$PROJECT_DIR$/src/test/java/application/crawler/util/MessaingCompressionTest.java" />
-        <option value="$PROJECT_DIR$/src/main/java/application/crawler/domain/Domain.java" />
         <option value="$PROJECT_DIR$/src/test/java/application/crawler/util/MessagingCompressionTest.java" />
         <option value="$PROJECT_DIR$/src/main/java/application/crawler/Crawler.java" />
         <option value="$PROJECT_DIR$/src/main/java/application/Main.java" />
@@ -295,6 +315,7 @@
         <option value="$PROJECT_DIR$/src/test/java/application/crawler/util/UtilTest.java" />
         <option value="$PROJECT_DIR$/src/main/java/application/crawler/util/Util.java" />
         <option value="$PROJECT_DIR$/src/main/java/service/messaging/QueueImpl.java" />
+        <option value="$PROJECT_DIR$/src/main/java/application/crawler/domain/Domain.java" />
       </list>
     </option>
   </component>
@@ -360,10 +381,10 @@
     <option name="jreName" value="#JAVA_HOME" />
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="-8" />
+    <option name="x" value="1912" />
     <option name="y" value="-8" />
     <option name="width" value="1936" />
-    <option name="height" value="1176" />
+    <option name="height" value="1056" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <OptionsSetting value="true" id="Add" />
@@ -749,7 +770,7 @@
       <recent name="" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.UtilTest.testCompressionThroughMessenger">
+  <component name="RunManager" selected="Application.Main">
     <configuration default="false" name="UtilTest" type="JUnit" factoryName="JUnit" temporary="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
@@ -818,38 +839,6 @@
       <ConfigurationWrapper RunnerId="Run" />
       <method />
     </configuration>
-    <configuration default="false" name="TomatoNode [test]" type="MavenRunConfiguration" factoryName="Maven" temporary="true">
-      <MavenSettings>
-        <option name="myGeneralSettings" />
-        <option name="myRunnerSettings" />
-        <option name="myRunnerParameters">
-          <MavenRunnerParameters>
-            <option name="profiles">
-              <set />
-            </option>
-            <option name="goals">
-              <list>
-                <option value="test" />
-              </list>
-            </option>
-            <option name="profilesMap">
-              <map />
-            </option>
-            <option name="resolveToWorkspace" value="false" />
-            <option name="workingDirPath" value="$PROJECT_DIR$" />
-          </MavenRunnerParameters>
-        </option>
-      </MavenSettings>
-      <RunnerSettings RunnerId="Debug">
-        <option name="DEBUG_PORT" value="" />
-        <option name="TRANSPORT" value="0" />
-        <option name="LOCAL" value="true" />
-      </RunnerSettings>
-      <RunnerSettings RunnerId="Run" />
-      <ConfigurationWrapper RunnerId="Debug" />
-      <ConfigurationWrapper RunnerId="Run" />
-      <method />
-    </configuration>
     <configuration default="false" name="UtilTest.testCompression" type="JUnit" factoryName="JUnit" temporary="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
@@ -908,6 +897,28 @@
       </option>
       <envs />
       <patterns />
+      <RunnerSettings RunnerId="Run" />
+      <ConfigurationWrapper RunnerId="Run" />
+      <method />
+    </configuration>
+    <configuration default="false" name="Main" type="Application" factoryName="Application" temporary="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="application.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="MAIN_CLASS_NAME" value="application.Main" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="TomatoNode" />
+      <envs />
       <RunnerSettings RunnerId="Run" />
       <ConfigurationWrapper RunnerId="Run" />
       <method />
@@ -1090,17 +1101,17 @@
       <item index="0" class="java.lang.String" itemvalue="JUnit.UrlQueueTest" />
       <item index="1" class="java.lang.String" itemvalue="JUnit.UtilTest" />
       <item index="2" class="java.lang.String" itemvalue="JUnit.UtilTest.testCompressionThroughMessenger" />
-      <item index="3" class="java.lang.String" itemvalue="Maven.TomatoNode [test]" />
-      <item index="4" class="java.lang.String" itemvalue="JUnit.UtilTest.testCompression" />
-      <item index="5" class="java.lang.String" itemvalue="JUnit.UtilTest.testMessenger" />
+      <item index="3" class="java.lang.String" itemvalue="JUnit.UtilTest.testCompression" />
+      <item index="4" class="java.lang.String" itemvalue="JUnit.UtilTest.testMessenger" />
+      <item index="5" class="java.lang.String" itemvalue="Application.Main" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="JUnit.UtilTest.testCompressionThroughMessenger" />
-        <item index="1" class="java.lang.String" itemvalue="JUnit.UtilTest.testCompression" />
-        <item index="2" class="java.lang.String" itemvalue="JUnit.UtilTest.testMessenger" />
-        <item index="3" class="java.lang.String" itemvalue="JUnit.UtilTest" />
-        <item index="4" class="java.lang.String" itemvalue="Maven.TomatoNode [test]" />
+        <item index="0" class="java.lang.String" itemvalue="Application.Main" />
+        <item index="1" class="java.lang.String" itemvalue="JUnit.UtilTest.testCompressionThroughMessenger" />
+        <item index="2" class="java.lang.String" itemvalue="JUnit.UtilTest.testCompression" />
+        <item index="3" class="java.lang.String" itemvalue="JUnit.UtilTest.testMessenger" />
+        <item index="4" class="java.lang.String" itemvalue="JUnit.UtilTest" />
       </list>
     </recent_temporary>
     <configuration name="&lt;template&gt;" type="WebApp" default="true" selected="false">
@@ -1184,16 +1195,21 @@
       <created>1428910915131</created>
       <updated>1428910915131</updated>
     </task>
-    <option name="localTasksCounter" value="14" />
+    <task id="LOCAL-00014" summary="Resolves a headaches from character encoding issues between different systems by converting to base64 before publishing to messenger, adds compression unit tests">
+      <created>1429432187499</created>
+      <updated>1429432187499</updated>
+    </task>
+    <option name="localTasksCounter" value="15" />
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1936" height="1176" extended-state="6" />
+    <frame x="1912" y="-8" width="1936" height="1056" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32907662" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="JetGradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32977587" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.18151447" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4302554" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -1202,18 +1218,17 @@
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="IDEtalk" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.2897839" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" x="2235" y="20" width="1267" height="1004" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.2895323" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" x="2235" y="20" width="1267" height="1004" />
       <window_info id="CDI" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.14621131" sideWeight="0.6994106" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.14621131" sideWeight="0.8184855" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.14727855" sideWeight="0.6994106" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.30058938" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" x="2090" y="63" width="1444" height="887" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.14727855" sideWeight="0.8184855" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.34075725" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" x="2090" y="63" width="1444" height="887" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.18172888" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Coverage" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.13553895" sideWeight="0.31403118" order="8" side_tool="true" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.2497332" sideWeight="0.79371315" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
@@ -1261,7 +1276,7 @@
     <option name="WRAP_WHEN_TYPING_REACHES_RIGHT_MARGIN" value="false" />
     <option name="FORCE_NON_EMPTY_COMMENT" value="false" />
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="false" />
-    <option name="LAST_COMMIT_MESSAGE" value="Bug fixes - Messaging layer now properly declares gzip content encoding header,  Domain.toJSON() now maps page path &amp; query to the page source, instead of placing page sources in a List" />
+    <option name="LAST_COMMIT_MESSAGE" value="Resolves a headaches from character encoding issues between different systems by converting to base64 before publishing to messenger, adds compression unit tests" />
     <option name="MAKE_NEW_CHANGELIST_ACTIVE" value="false" />
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="false" />
     <option name="CHECK_FILES_UP_TO_DATE_BEFORE_COMMIT" value="false" />
@@ -1289,6 +1304,7 @@
     <MESSAGE value="Removes messaging facade and exposes queues instead, adds Environment class that reads environment settings from file" />
     <MESSAGE value="Adds gzip compression to crawl results, adds unit tests for gzip compression" />
     <MESSAGE value="Bug fixes - Messaging layer now properly declares gzip content encoding header,  Domain.toJSON() now maps page path &amp; query to the page source, instead of placing page sources in a List" />
+    <MESSAGE value="Resolves a headaches from character encoding issues between different systems by converting to base64 before publishing to messenger, adds compression unit tests" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -1305,23 +1321,9 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/application/Main.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="8" column="126" selection-start="211" selection-end="331" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/application/crawler/util/Timer.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="24" column="0" selection-start="497" selection-end="497" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/application/crawler/domain/Page.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="29" column="0" selection-start="892" selection-end="892" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
@@ -1375,23 +1377,9 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/application/crawler/domain/Domain.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="45" column="5" selection-start="1446" selection-end="1446" vertical-scroll-proportion="0.67509025">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/application/crawler/util/URLFilter.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="16" column="22" selection-start="466" selection-end="466" vertical-scroll-proportion="0.39891696">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/application/crawler/util/UtilTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="30" column="0" selection-start="1030" selection-end="1030" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
@@ -1405,10 +1393,38 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/application/crawler/util/Util.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="53" column="0" selection-start="1659" selection-end="1659" vertical-scroll-proportion="0.82653064">
+        <state line="54" column="22" selection-start="1682" selection-end="1682" vertical-scroll-proportion="0.0">
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/application/crawler/util/UtilTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="26" column="0" selection-start="951" selection-end="951" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/application/Main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="14" column="0" selection-start="408" selection-end="408" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/application/crawler/domain/Page.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="60" column="26" selection-start="2250" selection-end="2250" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/application/crawler/domain/Domain.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="101" column="105" selection-start="3511" selection-end="3511" vertical-scroll-proportion="0.2609309">
+          <folding />
         </state>
       </provider>
     </entry>
