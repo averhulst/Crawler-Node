@@ -1,8 +1,10 @@
 package application.crawler.domain;
 
 import java.io.*;
+import java.net.MalformedURLException;
 import java.net.URI;
 import java.net.URISyntaxException;
+import java.net.URL;
 import java.util.ArrayList;
 import java.util.List;
 
@@ -11,6 +13,7 @@ public class Robotstxt {
     private List<String> allowedPaths = new ArrayList<>();
     private List<String> disallowedPaths = new ArrayList<>();
     private List<String> disallowedSubPaths = new ArrayList<>();
+    private URI siteMap;
     private BufferedReader reader;
     private int crawlDelay = 500;
 
@@ -53,13 +56,19 @@ public class Robotstxt {
                             disallowedPaths.add(value);
                         }
                         break;
-                    case "allow":
+                    case "allow" :
                         allowedPaths.add(value);
                         break;
                     case "crawl-delay" :
                         crawlDelay = value.length() == 1 ? (Integer.parseInt(value) * 1000) : 5000;
                         //impose a maximum respected crawl delay of 5 seconds for now
                         break;
+                    case "sitemap":
+                        try {
+                            siteMap = new URL(value).toURI();
+                        } catch (MalformedURLException | URISyntaxException e) {
+                            logger.warn("Error occurred while attempting to cast a URL from the sitemap directive. URL: " + value + ", Error: " + e.getStackTrace());
+                        }
                     default :
                         logger.warn("Unrecognized directive: " + directive);
                     break;
@@ -106,10 +115,15 @@ public class Robotstxt {
         return urlIsAllowed;
     }
 
-    private void parseCrawlDelay(String value){
-
-    }
     public boolean crawlingIsProhibited(){
         return disallowedSubPaths.contains("/");
+    }
+
+    public URI getSiteMapUrl(){
+        return siteMap;
+    }
+
+    public boolean hasSiteMap(){
+        return siteMap != null;
     }
 }

@@ -11,7 +11,6 @@ import java.util.ArrayList;
 import java.util.List;
 
 public class Page{
-    private Connection connection;
     private Document pageDocument;
     private URI url;
     private Element head;

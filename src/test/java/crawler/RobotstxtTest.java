@@ -56,4 +56,10 @@ public class RobotstxtTest {
         assert( robotsTxt.urlIsAllowed(new URI("http://www.test.com/testdisallowedUA1/disallowed/disallowed1.html")));
         assert( robotsTxt.urlIsAllowed(new URI("http://www.test.com/testdisallowedUA2/disallowed/disallowed2.html")));
     }
+
+    @Test
+    public void testSiteMapDirective(){
+        assert(robotsTxt.hasSiteMap());
+        assert(robotsTxt.getSiteMapUrl().equals("www.test.com/sitemap"));
+    }
 }

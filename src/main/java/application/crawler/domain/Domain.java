@@ -48,6 +48,10 @@ public class Domain implements Runnable{
     private void parseRobotsTxt(String pageSource){
         robotsTxt = new Robotstxt(pageSource);
         crawlDelay = robotsTxt.getCrawlDelay();
+
+        if(robotsTxt.hasSiteMap()){
+            pageQueue.enqueueUrl(robotsTxt.getSiteMapUrl());
+        }
     }
 
     public void run(){
