@@ -1,4 +1,4 @@
-package application.crawler.util;
+package application.crawler;
 
 import java.net.URI;
 import java.net.URISyntaxException;

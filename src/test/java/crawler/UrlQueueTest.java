@@ -1,10 +1,9 @@
 package crawler;
 
-import application.crawler.util.UrlQueue;
+import application.crawler.UrlQueue;
 import org.junit.Test;
 
 import java.net.URI;
-import java.net.URL;
 import java.util.ArrayList;
 import java.util.List;
 

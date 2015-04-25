@@ -3,7 +3,7 @@ Allow: /allUAdisallowed/testAllClause/explicitlyAllowedPath.html
 Allow: /allUAallowed/test2/test.html
 Disallow: /allUAdisallowed/testPath/
 Disallow: /allUAdisallowed/testAllClause/*
-sitemap: www.test.com/sitemap
+sitemap: http://www.test.com/sitemap
 Crawl-delay: 2
 
 JUNK : JUNK !!@#$%^&*() :JUNK#### : :

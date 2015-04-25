@@ -1,7 +1,6 @@
 package application.crawler;
 
 import application.crawler.domain.Domain;
-import application.crawler.util.UrlQueue;
 import application.crawler.util.Util;
 import org.apache.commons.lang3.StringUtils;
 import service.messaging.MessengerImpl;

@@ -1,10 +1,10 @@
 package application.crawler.domain;
 
-import application.crawler.util.Request;
+import application.crawler.CrawlerSettings;
+import application.crawler.Request;
 import application.crawler.util.Timer;
-import application.crawler.util.UrlQueue;
+import application.crawler.UrlQueue;
 import application.crawler.util.Util;
-import org.json.JSONArray;
 import org.json.JSONObject;
 import java.io.IOException;
 import java.net.URI;
@@ -13,7 +13,7 @@ import java.util.ArrayList;
 import java.util.List;
 
 public class Domain implements Runnable{
-    private final int CRAWL_CEILING = 25;
+    private final int CRAWL_CEILING = CrawlerSettings.DOMAIN_PAGE_CRAWL_CEILING;
 
     private List<String> failedUrls;
     private List<URI> crawledUrls;
@@ -58,7 +58,7 @@ public class Domain implements Runnable{
         running = true;
 
         try {
-            URI robotsTxtUrl =  new URI(domainURL + "robots.txt");
+            URI robotsTxtUrl =  new URI(domainURL + "/robots.txt");
             parseRobotsTxt(getPage(robotsTxtUrl).getSourceCode());
         } catch (URISyntaxException e) {
             logger.error("Malformed URL for robots.txt: " + e.getStackTrace().toString());

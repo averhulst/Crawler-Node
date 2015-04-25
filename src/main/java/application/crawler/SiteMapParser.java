@@ -1,4 +1,4 @@
-package application.crawler.util;
+package application.crawler;
 
 import application.crawler.domain.Page;
 import org.jsoup.Jsoup;

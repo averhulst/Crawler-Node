@@ -60,6 +60,6 @@ public class RobotstxtTest {
     @Test
     public void testSiteMapDirective(){
         assert(robotsTxt.hasSiteMap());
-        assert(robotsTxt.getSiteMapUrl().equals("www.test.com/sitemap"));
+        assert(robotsTxt.getSiteMapUrl().toString().equals("http://www.test.com/sitemap"));
     }
 }

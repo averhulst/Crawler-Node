@@ -1,11 +1,10 @@
 package crawler;
 
-import application.crawler.util.Request;
+import application.crawler.Request;
 import org.junit.Before;
 import org.junit.Test;
 
 import java.net.URI;
-import java.net.URL;
 
 public class RequestTest {
     private Request request;

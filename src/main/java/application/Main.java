@@ -5,9 +5,9 @@ import org.apache.log4j.BasicConfigurator;
 
 public class Main {
     public static void main(String[] args){
+        int crawlerThreadCount = Integer.parseInt(args[0]);
         BasicConfigurator.configure();
-        //TODO identify likely optimal thread count, and then later on try and throttle thread pool size based on performance?
-        Crawler crawler = new Crawler(2);
+        Crawler crawler = new Crawler(crawlerThreadCount);
         crawler.crawl();
     }
 

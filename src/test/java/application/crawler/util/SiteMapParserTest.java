@@ -1,5 +1,6 @@
 package application.crawler.util;
 
+import application.crawler.SiteMapParser;
 import org.junit.Before;
 import org.junit.Test;
 
@@ -8,7 +9,6 @@ import java.io.FileReader;
 import java.io.IOException;
 import java.net.URI;
 import java.util.ArrayList;
-import java.util.Arrays;
 import java.util.List;
 
 public class SiteMapParserTest {

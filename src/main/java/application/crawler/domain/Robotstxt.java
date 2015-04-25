@@ -39,7 +39,7 @@ public class Robotstxt {
     }
 
     private void parseLine(String line){
-        String[] splitLine = line.split(":");
+        String[] splitLine = line.split(":", 2);
         String directive = splitLine[0].replaceAll("\\s", "");
 
         if(splitLine.length > 1){
@@ -69,6 +69,8 @@ public class Robotstxt {
                         } catch (MalformedURLException | URISyntaxException e) {
                             logger.warn("Error occurred while attempting to cast a URL from the sitemap directive. URL: " + value + ", Error: " + e.getStackTrace());
                         }
+
+                        break;
                     default :
                         logger.warn("Unrecognized directive: " + directive);
                     break;
