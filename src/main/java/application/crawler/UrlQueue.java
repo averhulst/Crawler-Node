@@ -7,7 +7,7 @@ import java.util.*;
 public class UrlQueue {
     private Queue<URI> queue = new ArrayDeque<URI>();
     private int queueSize;
-    private URLFilter urlFilter = new URLFilter();
+    private URLFilter URLFilter = new URLFilter();
 
     public UrlQueue(){
         queueSize = 0;
@@ -24,7 +24,7 @@ public class UrlQueue {
 
     }
     public synchronized void enqueueUrl(URI newUrl){
-        if(!queue.contains(newUrl) && urlFilter.isCrawlable(newUrl)){
+        if(!queue.contains(newUrl) && URLFilter.isCrawlable(newUrl)){
             queue.add(newUrl);
             queueSize++;
         }

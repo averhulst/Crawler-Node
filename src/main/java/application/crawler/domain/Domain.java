@@ -50,7 +50,9 @@ public class Domain implements Runnable{
         crawlDelay = robotsTxt.getCrawlDelay();
 
         if(robotsTxt.hasSiteMap()){
-            pageQueue.enqueueUrl(robotsTxt.getSiteMapUrl());
+            for(URI url : robotsTxt.getSiteMapUrls()){
+                pageQueue.enqueueUrl(url);
+            }
         }
     }
 
@@ -93,7 +95,6 @@ public class Domain implements Runnable{
         }catch(IOException e){
             logger.warn("unable to connect to: " + url + "\n" + e.getStackTrace().toString());
         }
-
         Page page = new Page(url, request.getResponse());
 
         switch (request.getResponseCode()) {

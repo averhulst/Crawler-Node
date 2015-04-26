@@ -13,7 +13,7 @@ public class Robotstxt {
     private List<String> allowedPaths = new ArrayList<>();
     private List<String> disallowedPaths = new ArrayList<>();
     private List<String> disallowedSubPaths = new ArrayList<>();
-    private URI siteMap;
+    private List<URI> siteMaps = new ArrayList<>();
     private BufferedReader reader;
     private int crawlDelay = 500;
 
@@ -39,6 +39,7 @@ public class Robotstxt {
     }
 
     private void parseLine(String line){
+        //okay this is becoming a mess, this needs to be refactored
         String[] splitLine = line.split(":", 2);
         String directive = splitLine[0].replaceAll("\\s", "");
 
@@ -65,7 +66,9 @@ public class Robotstxt {
                         break;
                     case "sitemap":
                         try {
-                            siteMap = new URL(value).toURI();
+                            URI siteMap = new URL(value).toURI();
+                            //initially creating URL instead of URI helps validate malformed URLs that the URI class would allow
+                            siteMaps.add(siteMap);
                         } catch (MalformedURLException | URISyntaxException e) {
                             logger.warn("Error occurred while attempting to cast a URL from the sitemap directive. URL: " + value + ", Error: " + e.getStackTrace());
                         }
@@ -121,11 +124,11 @@ public class Robotstxt {
         return disallowedSubPaths.contains("/");
     }
 
-    public URI getSiteMapUrl(){
-        return siteMap;
+    public List<URI> getSiteMapUrls(){
+        return siteMaps;
     }
 
     public boolean hasSiteMap(){
-        return siteMap != null;
+        return siteMaps != null;
     }
 }

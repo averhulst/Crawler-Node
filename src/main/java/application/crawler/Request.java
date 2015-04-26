@@ -41,7 +41,7 @@ public class Request {
             String line;
 
             while ((line = reader.readLine()) != null){
-                response += line;
+                response += line + "\n";
             }
             reader.close();
         }else{

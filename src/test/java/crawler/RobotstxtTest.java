@@ -8,14 +8,19 @@ import java.io.BufferedReader;
 import java.io.FileReader;
 import java.io.IOException;
 import java.net.URI;
+import java.util.ArrayList;
+import java.util.List;
 
 public class RobotstxtTest {
     private Robotstxt robotsTxt;
     private String robotsTxtSource = "";
+    private List<URI> siteMapControls = new ArrayList<URI>();
 
     @Before
     public void setUp() throws Exception {
-
+        siteMapControls.add(new URI("http://www.test.com/sitemap"));
+        siteMapControls.add(new URI("http://www.test.com/sitemap2"));
+        siteMapControls.add(new URI("http://www.test.com/sitemap3"));
         try {
 
             String line;
@@ -60,6 +65,6 @@ public class RobotstxtTest {
     @Test
     public void testSiteMapDirective(){
         assert(robotsTxt.hasSiteMap());
-        assert(robotsTxt.getSiteMapUrl().toString().equals("http://www.test.com/sitemap"));
+        assert(robotsTxt.getSiteMapUrls().equals(siteMapControls));
     }
 }
