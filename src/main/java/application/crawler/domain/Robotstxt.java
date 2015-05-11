@@ -45,39 +45,13 @@ public class Robotstxt {
 
         if(splitLine.length > 1){
             String value = splitLine[1].replaceAll("\\s", "");
+
             if(directive.toLowerCase().equals("user-agent")){
                 lineIsRelevant = value.equals("*");
             }
-            if(lineIsRelevant){
-                switch (directive.toLowerCase()) {
-                    case "disallow" :
-                        if(value.endsWith("*")){
-                            disallowedSubPaths.add(value.replace("*", ""));
-                        }else{
-                            disallowedPaths.add(value);
-                        }
-                        break;
-                    case "allow" :
-                        allowedPaths.add(value);
-                        break;
-                    case "crawl-delay" :
-                        crawlDelay = value.length() == 1 ? (Integer.parseInt(value) * 1000) : 5000;
-                        //impose a maximum respected crawl delay of 5 seconds for now
-                        break;
-                    case "sitemap":
-                        try {
-                            URI siteMap = new URL(value).toURI();
-                            //initially creating URL instead of URI helps validate malformed URLs that the URI class would allow
-                            siteMaps.add(siteMap);
-                        } catch (MalformedURLException | URISyntaxException e) {
-                            logger.warn("Error occurred while attempting to cast a URL from the sitemap directive. URL: " + value + ", Error: " + e.getStackTrace());
-                        }
 
-                        break;
-                    default :
-                        logger.warn("Unrecognized directive: " + directive);
-                    break;
-                }
+            if(lineIsRelevant){
+                parseDirective(directive, value);
             }
         }
     }
@@ -130,5 +104,37 @@ public class Robotstxt {
 
     public boolean hasSiteMap(){
         return siteMaps != null;
+    }
+    private void parseDirective(String directive, String value){
+        switch (directive.toLowerCase()) {
+            case "disallow" :
+                if(value.endsWith("*")){
+                    disallowedSubPaths.add(value.replace("*", ""));
+                }else{
+                    disallowedPaths.add(value);
+                }
+                break;
+            case "allow" :
+                allowedPaths.add(value);
+                break;
+            case "crawl-delay" :
+                crawlDelay = value.length() == 1 ? (Integer.parseInt(value) * 1000) : 5000;
+                //impose a maximum respected crawl delay of 5 seconds for now
+                break;
+            case "site-map":
+            case "sitemap":
+                try {
+                    URI siteMap = new URL(value).toURI();
+                    //initially creating URL instead of URI helps validate malformed URLs that the URI class would allow
+                    siteMaps.add(siteMap);
+                } catch (MalformedURLException | URISyntaxException e) {
+                    logger.warn("Error occurred while attempting to cast a URL from the sitemap directive. URL: " + value + ", Error: " + e.getStackTrace());
+                }
+
+                break;
+            default :
+                logger.warn("Unrecognized directive: " + directive);
+                break;
+        }
     }
 }
