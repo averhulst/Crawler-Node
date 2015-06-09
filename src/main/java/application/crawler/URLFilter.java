@@ -16,11 +16,11 @@ public class URLFilter {
     private final List<String> FILE_TYPE_BLACKLIST =
         new ArrayList<>(
             Arrays.asList(
-                    new String[]{
-                            ".jpg", ".jpeg", ".png", ".tiff",
-                            ".gif", ".rif", ".bmp", ".pdf",
-                            ".doc", ".js", ".css"
-                    }
+                new String[]{
+                    ".jpg", ".jpeg", ".png", ".tiff",
+                    ".gif", ".rif", ".bmp", ".pdf",
+                    ".doc", ".js", ".css"
+                }
             )
     );
 

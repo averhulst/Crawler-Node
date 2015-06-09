@@ -39,7 +39,6 @@ public class Robotstxt {
     }
 
     private void parseLine(String line){
-        //okay this is becoming a mess, this needs to be refactored
         String[] splitLine = line.split(":", 2);
         String directive = splitLine[0].replaceAll("\\s", "");
 

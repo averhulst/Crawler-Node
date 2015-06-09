@@ -34,7 +34,6 @@ public class SiteMapParser {
         Document doc = Jsoup.parse(content, "", Parser.xmlParser());
         for (Element element : doc.getElementsByTag("loc")){
             try {
-                System.out.println(element.text());
                 URI url = new URI(element.text());
                 urls.add(url);
             } catch (URISyntaxException e) {

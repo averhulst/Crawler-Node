@@ -42,7 +42,6 @@ public class UrlQueue {
     }
 
     public boolean containsURL(URI url){
-        //arraydeque's contains() method will compare with the URL class's .equals()
         return queue.contains(url);
     }
 

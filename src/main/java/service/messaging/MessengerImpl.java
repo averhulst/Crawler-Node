@@ -27,9 +27,6 @@ public class MessengerImpl implements Messenger{
             queues.put("discoveredDomains",
                     new QueueImpl(connection.createChannel(), "discoveredDomains")
             );
-            queues.put("freshDomains",
-                    new QueueImpl(connection.createChannel(), "freshDomains")
-            );
             queues.put("crawlResults",
                     new QueueImpl(connection.createChannel(), "crawlResults")
             );

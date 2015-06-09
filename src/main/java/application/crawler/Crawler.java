@@ -23,7 +23,6 @@ public class Crawler{
     private boolean running = true;
     private MessengerImpl messenger;
     private final org.apache.log4j.Logger logger = org.apache.log4j.Logger.getLogger(this.getClass() + "_INFO");
-    private final org.apache.log4j.Logger errorLog = org.apache.log4j.Logger.getLogger(this.getClass() + "_ERROR");
 
     public Crawler(int threadCount) {
         this.threadCount = threadCount;
@@ -38,7 +37,7 @@ public class Crawler{
         while(running){
             if(domainQueue.getSize() > 0 && activelyCrawlingDomains.size() < threadCount){
                 Domain newDomain = new Domain(
-                        domainQueue.getNext()
+                    domainQueue.getNext()
                 );
                 activelyCrawlingDomains.put(newDomain.getDomainUrl(), newDomain);
                 executor.execute(new RunnableDomain(newDomain));
