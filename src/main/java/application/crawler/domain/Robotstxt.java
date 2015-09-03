@@ -40,13 +40,14 @@ public class Robotstxt {
 
     private void parseLine(String line){
         String[] splitLine = line.split(":", 2);
-        String directive = splitLine[0].replaceAll("\\s", "");
+        String directive = splitLine[0].replaceAll("\\s", "").toLowerCase();
 
         if(splitLine.length > 1){
             String value = splitLine[1].replaceAll("\\s", "");
 
-            if(directive.toLowerCase().equals("user-agent")){
+            if(directive.equals("user-agent")){
                 lineIsRelevant = value.equals("*");
+                return;
             }
 
             if(lineIsRelevant){
@@ -104,8 +105,9 @@ public class Robotstxt {
     public boolean hasSiteMap(){
         return siteMaps != null;
     }
+
     private void parseDirective(String directive, String value){
-        switch (directive.toLowerCase()) {
+        switch (directive) {
             case "disallow" :
                 if(value.endsWith("*")){
                     disallowedSubPaths.add(value.replace("*", ""));
