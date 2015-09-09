@@ -22,7 +22,8 @@ public class Crawler{
     private int threadCount;
     private boolean running = true;
     private MessengerImpl messenger;
-    private final org.apache.log4j.Logger logger = org.apache.log4j.Logger.getLogger(this.getClass() + "_INFO");
+    private final org.apache.log4j.Logger logger = org.apache.log4j.Logger.getLogger("crawlerLogger");
+    private final org.apache.log4j.Logger fatalLogger = org.apache.log4j.Logger.getLogger("threadLogger");
 
     public Crawler(int threadCount) {
         this.threadCount = threadCount;
@@ -30,6 +31,7 @@ public class Crawler{
         executor = Executors.newFixedThreadPool(threadCount);
         timeAtBootUp = System.currentTimeMillis();
         requestCrawlableDomains();
+        logger.warn("loooool");
     }
 
     public synchronized void crawl(){
@@ -101,7 +103,12 @@ public class Crawler{
         }
 
         public void run(){
-            this.domain.run();
+            try{
+                this.domain.run();
+            }catch(Exception e){
+                fatalLogger.warn("uncaught exception " + e.getStackTrace().toString() + "\n");
+            }
+
             finalizeDomainCrawl(domain);
             printCrawlRate();
         }

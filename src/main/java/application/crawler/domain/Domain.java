@@ -22,12 +22,12 @@ public class Domain implements Runnable{
     private long crawlStartTime;
     private boolean running;
     private URI domainURL;
-    private Robotstxt robotsTxt;
+    private RobotsTxt robotsTxt;
     private UrlQueue pageQueue;
     private Timer timer = new Timer();
     private int crawlCount;
     private JSONObject domainJson;
-    private final org.apache.log4j.Logger logger = org.apache.log4j.Logger.getLogger(this.getClass());
+    private final org.apache.log4j.Logger logger = org.apache.log4j.Logger.getLogger("domainLogger");
 
     public Domain(URI url) {
         this.domainURL = url;
@@ -46,7 +46,7 @@ public class Domain implements Runnable{
     }
 
     private void parseRobotsTxt(String pageSource){
-        robotsTxt = new Robotstxt(pageSource);
+        robotsTxt = new RobotsTxt(pageSource);
         crawlDelay = robotsTxt.getCrawlDelay();
 
         if(robotsTxt.hasSiteMap()){

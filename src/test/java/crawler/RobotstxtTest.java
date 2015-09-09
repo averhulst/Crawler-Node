@@ -1,6 +1,6 @@
 package crawler;
 
-import application.crawler.domain.Robotstxt;
+import application.crawler.domain.RobotsTxt;
 import org.junit.After;
 import org.junit.Before;
 import org.junit.Test;
@@ -11,8 +11,8 @@ import java.net.URI;
 import java.util.ArrayList;
 import java.util.List;
 
-public class RobotstxtTest {
-    private Robotstxt robotsTxt;
+public class RobotsTxtTest {
+    private RobotsTxt robotsTxt;
     private String robotsTxtSource = "";
     private List<URI> siteMapControls = new ArrayList<URI>();
 
@@ -34,7 +34,7 @@ public class RobotstxtTest {
             e.printStackTrace();
         }
 
-        robotsTxt = new Robotstxt(robotsTxtSource);
+        robotsTxt = new RobotsTxt(robotsTxtSource);
     }
 
     @After

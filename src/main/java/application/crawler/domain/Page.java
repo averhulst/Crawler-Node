@@ -19,7 +19,7 @@ public class Page{
     private List<URI> discoveredDomains;
     private List<URI> discoveredPages;
 
-    private static final org.apache.log4j.Logger errorLog = org.apache.log4j.Logger.getLogger("pageErrorLogger");
+    private static final org.apache.log4j.Logger errorLog = org.apache.log4j.Logger.getLogger("pageLogger");
 
     public Page(URI urlStr, String sourceCode){
         this.url = urlStr;
@@ -61,7 +61,7 @@ public class Page{
                         discoveredDomains.add(new URI(href.getScheme() + "://" + href.getHost()));
                     }
                 } catch (URISyntaxException e) {
-                    errorLog.info("Malformed URL: " + absoluteUrlStr + "\n" + e.getStackTrace().toString());
+                    errorLog.info("Malformed URL: " + absoluteUrlStr + "\n" + e.getStackTrace().toString() + " located at " + url);
                 }
             }
         }
