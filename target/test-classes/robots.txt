@@ -3,6 +3,9 @@ Allow: /allUAdisallowed/testAllClause/explicitlyAllowedPath.html
 Allow: /allUAallowed/test2/test.html
 Disallow: /allUAdisallowed/testPath/
 Disallow: /allUAdisallowed/testAllClause/*
+sitemap: http://www.test.com/sitemap
+sitemap: http://www.test.com/sitemap2
+sitemap: http://www.test.com/sitemap3
 
 Crawl-delay: 2
 
