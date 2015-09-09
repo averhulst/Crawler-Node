@@ -8,7 +8,7 @@ import java.net.URL;
 import java.util.ArrayList;
 import java.util.List;
 
-public class Robotstxt {
+public class RobotsTxt {
     private boolean lineIsRelevant = true;
     private List<String> allowedPaths = new ArrayList<>();
     private List<String> disallowedPaths = new ArrayList<>();
@@ -17,9 +17,9 @@ public class Robotstxt {
     private BufferedReader reader;
     private int crawlDelay = 500;
 
-    private final org.apache.log4j.Logger logger = org.apache.log4j.Logger.getLogger(this.getClass());
+    private final org.apache.log4j.Logger logger = org.apache.log4j.Logger.getLogger("robotsTxtLogger");
 
-    public Robotstxt(String pageSource){
+    public RobotsTxt(String pageSource){
         this.reader = new BufferedReader(new StringReader(pageSource));
         parseRobotsTxt();
     }
