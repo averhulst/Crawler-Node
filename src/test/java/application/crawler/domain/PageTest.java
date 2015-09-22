@@ -2,22 +2,44 @@ package application.crawler.domain;
 
 import application.crawler.Request;
 import org.junit.Test;
+
+import java.io.BufferedReader;
+import java.io.FileReader;
+import java.io.IOException;
 import java.net.URI;
+import java.net.URL;
 import java.util.ArrayList;
 import java.util.List;
 
 
 public class PageTest {
     private Page page;
+    private String sourceCode;
+
     @Test
-    public void testGetUrl() throws Exception {
-        Request request = new Request(new URI("http://jgrapht.org/"));
+    public void testLinkParser() throws Exception {
+        try {
 
-        page = new Page(new URI("http://jgrapht.org/"), request.getResponse());
+            String line;
+            BufferedReader br = new BufferedReader(new FileReader("src/test/resources/page.html"));
 
-        List<String> discoveredDomains = new ArrayList<>();
+            while ((line = br.readLine()) != null) {
+                sourceCode += line + "\n";
+            }
 
+        } catch (IOException e) {
+            e.printStackTrace();
+        }
 
+        page = new Page(new URI("http://www.google.com"), sourceCode);
+
+        assert(page.getDiscoveredPages().size() == 4);
+        assert(page.getDiscoveredPages().contains(new URI("http://www.google.com")));
+        assert(page.getDiscoveredPages().contains(new URI("http://www.google.com/")));
+        assert(page.getDiscoveredPages().contains(new URI("http://www.google.com/test")));
+
+        assert(page.getDiscoveredDomains().size() == 1);
+        assert(page.getDiscoveredDomains().contains(new URI("http://www.external.com")));
     }
 
     @Test
