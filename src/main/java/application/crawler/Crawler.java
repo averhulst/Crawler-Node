@@ -31,7 +31,6 @@ public class Crawler{
         executor = Executors.newFixedThreadPool(threadCount);
         timeAtBootUp = System.currentTimeMillis();
         requestCrawlableDomains();
-        logger.warn("loooool");
     }
 
     public synchronized void crawl(){
