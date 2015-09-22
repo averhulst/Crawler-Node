@@ -55,14 +55,25 @@ public class Page{
             if(absoluteUrlStr.length() > 0){
                 try {
                     URI href = new URI(absoluteUrlStr);
-                    if(href.getHost() != null && href.getHost().equals(url.getHost())){
-                        discoveredPages.add(href);
-                    }else{
-                        discoveredDomains.add(new URI(href.getScheme() + "://" + href.getHost()));
-                    }
+                    parseUrl(href);
                 } catch (URISyntaxException e) {
                     errorLog.info("Malformed URL: " + absoluteUrlStr + "\n" + e.getStackTrace().toString() + " located at " + url);
                 }
+            }
+        }
+    }
+
+    public Boolean isLocalDomain(URI newUrl) {
+        return newUrl.getHost() != null && newUrl.getHost().equals(url.getHost());
+    }
+
+    public void parseUrl(URI url) throws URISyntaxException {
+        if(isLocalDomain(url)){
+            discoveredPages.add(url);
+        }else{
+            URI newDomain = new URI(url.getScheme() + "://" + url.getHost());
+            if(!discoveredDomains.contains(newDomain)){
+                discoveredDomains.add(newDomain);
             }
         }
     }
