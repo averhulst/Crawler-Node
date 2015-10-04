@@ -5,18 +5,18 @@ import org.jsoup.Jsoup;
 import org.jsoup.nodes.Document;
 import org.jsoup.nodes.Element;
 import org.jsoup.parser.Parser;
-import java.net.URI;
-import java.net.URISyntaxException;
+
+import java.net.MalformedURLException;
 import java.util.ArrayList;
 import java.util.List;
 
 public class SiteMapParser {
     private String content;
-    private URI url;
-    private List<URI> urls = new ArrayList<URI>();
+    private Url url;
+    private List<Url> urls = new ArrayList<Url>();
     private final org.apache.log4j.Logger logger = org.apache.log4j.Logger.getLogger(this.getClass());
 
-    public SiteMapParser(URI url, String content) {
+    public SiteMapParser(Url url, String content) {
         this.content = content;
         this.url = url;
         parseContent();
@@ -34,10 +34,10 @@ public class SiteMapParser {
         Document doc = Jsoup.parse(content, "", Parser.xmlParser());
         for (Element element : doc.getElementsByTag("loc")){
             try {
-                URI url = new URI(element.text());
+                Url url = new Url(element.text());
                 urls.add(url);
-            } catch (URISyntaxException e) {
-                logger.warn("Sitemap XML parser could not parse URL: " + element.text());
+            } catch (MalformedURLException e) {
+                e.printStackTrace();
             }
         }
     }
@@ -45,7 +45,7 @@ public class SiteMapParser {
         Page page = new Page(url, content);
         urls = page.getDiscoveredPages();
     }
-    public List<URI> getUrls(){
+    public List<Url> getUrls(){
         return urls;
     }
 }

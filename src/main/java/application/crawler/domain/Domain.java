@@ -2,13 +2,13 @@ package application.crawler.domain;
 
 import application.crawler.CrawlerSettings;
 import application.crawler.Request;
+import application.crawler.Url;
 import application.crawler.util.Timer;
 import application.crawler.UrlQueue;
 import application.crawler.util.Util;
 import org.json.JSONObject;
 import java.io.IOException;
-import java.net.URI;
-import java.net.URISyntaxException;
+import java.net.MalformedURLException;
 import java.util.ArrayList;
 import java.util.List;
 
@@ -16,12 +16,12 @@ public class Domain implements Runnable{
     private final int CRAWL_CEILING = CrawlerSettings.DOMAIN_PAGE_CRAWL_CEILING;
 
     private List<String> failedUrls;
-    private List<URI> crawledUrls;
-    private List<URI> discoveredDomains;
+    private List<Url> crawledUrls;
+    private List<Url> discoveredDomains;
     private int crawlDelay;
     private long crawlStartTime;
     private boolean running;
-    private URI domainURL;
+    private Url domainURL;
     private RobotsTxt robotsTxt;
     private UrlQueue pageQueue;
     private Timer timer = new Timer();
@@ -29,7 +29,7 @@ public class Domain implements Runnable{
     private JSONObject domainJson;
     private final org.apache.log4j.Logger logger = org.apache.log4j.Logger.getLogger("domainLogger");
 
-    public Domain(URI url) {
+    public Domain(Url url) {
         this.domainURL = url;
         failedUrls = new ArrayList<>();
         crawledUrls = new ArrayList<>();
@@ -50,7 +50,7 @@ public class Domain implements Runnable{
         crawlDelay = robotsTxt.getCrawlDelay();
 
         if(robotsTxt.hasSiteMap()){
-            for(URI url : robotsTxt.getSiteMapUrls()){
+            for(Url url : robotsTxt.getSiteMapUrls()){
                 pageQueue.enqueueUrl(url);
             }
         }
@@ -60,10 +60,11 @@ public class Domain implements Runnable{
         running = true;
 
         try {
-            URI robotsTxtUrl =  new URI(domainURL + "/robots.txt");
+            Url robotsTxtUrl =  new Url(domainURL + "/robots.txt");
             parseRobotsTxt(getPage(robotsTxtUrl).getSourceCode());
-        } catch (URISyntaxException e) {
-            logger.error("Malformed URL for robots.txt: " + e.getStackTrace().toString());
+        } catch (MalformedURLException e) {
+            System.err.println(domainURL.toString() + " no bueno");
+            e.printStackTrace();
         }
 
         if(robotsTxt.crawlingIsProhibited()){
@@ -72,7 +73,7 @@ public class Domain implements Runnable{
         }
 
         while(running){
-            URI pageUrl = pageQueue.getNext();
+            Url pageUrl = pageQueue.getNext();
 
             if(robotsTxt.urlIsAllowed(pageUrl)){
                 Page page = getPage(pageUrl);
@@ -84,7 +85,7 @@ public class Domain implements Runnable{
         }
     }
 
-    private Page getPage(URI url){
+    private Page getPage(Url url){
         Request request = new Request(url);
         request.setConnectionTimeout(5000);
         request.setRequestMethod("GET");
@@ -149,16 +150,16 @@ public class Domain implements Runnable{
         }
     }
 
-    private void processDiscoveredDomains(List<URI> domains){
-        for(URI url: domains){
+    private void processDiscoveredDomains(List<Url> domains){
+        for(Url url: domains){
             if(!discoveredDomains.contains(url)){
                 discoveredDomains.add(url);
             }
         }
     }
 
-    private void processDiscoveredPages(List<URI>  discoveredPages){
-        for(URI url : discoveredPages){
+    private void processDiscoveredPages(List<Url>  discoveredPages){
+        for(Url url : discoveredPages){
             if(!isCrawled(url)){
                 if(robotsTxt.urlIsAllowed(url)){
                     pageQueue.enqueueUrl(url);
@@ -167,11 +168,11 @@ public class Domain implements Runnable{
         }
     }
 
-    public List<URI> getDiscoveredDomains(){
+    public List<Url> getDiscoveredDomains(){
         return discoveredDomains;
     }
 
-    private boolean isCrawled(URI url){
+    private boolean isCrawled(Url url){
         if(crawledUrls.size() > 0){
             return crawledUrls.contains(url.toString());
         }

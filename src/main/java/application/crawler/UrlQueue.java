@@ -1,21 +1,19 @@
 package application.crawler;
 
-import java.net.URI;
-import java.net.URISyntaxException;
+import java.net.MalformedURLException;
 import java.util.*;
 
 public class UrlQueue {
-    private Queue<URI> queue = new ArrayDeque<URI>();
+    private Queue<Url> queue = new ArrayDeque<Url>();
     private int queueSize;
-    private URLFilter URLFilter = new URLFilter();
 
     public UrlQueue(){
         queueSize = 0;
     }
 
-    public synchronized URI getNext(){
+    public synchronized Url getNext(){
         if(getSize() > 0){
-            URI nextUrl = queue.poll();
+            Url nextUrl = queue.poll();
             queueSize--;
             return nextUrl;
         }else{
@@ -23,25 +21,25 @@ public class UrlQueue {
         }
 
     }
-    public synchronized void enqueueUrl(URI newUrl){
-        if(!queue.contains(newUrl) && URLFilter.isCrawlable(newUrl)){
+    public synchronized void enqueueUrl(Url newUrl){
+        if(!queue.contains(newUrl)){
             queue.add(newUrl);
             queueSize++;
         }
     }
 
     public synchronized void enqueueUrl(String newUrl){
-        URI url = null;
+        Url url = null;
         try {
-            url = new URI(newUrl);
-        } catch (URISyntaxException e) {
+            url = new Url(newUrl);
+        } catch (MalformedURLException e) {
             e.printStackTrace();
         }
 
         enqueueUrl(url);
     }
 
-    public boolean containsURL(URI url){
+    public boolean containsURL(Url url){
         return queue.contains(url);
     }
 
@@ -49,9 +47,9 @@ public class UrlQueue {
         return queueSize;
     }
 
-    public List<URI> toList(){
-        List<URI> queueList = new ArrayList();
-        for(URI url : queue){
+    public List<Url> toList(){
+        List<Url> queueList = new ArrayList();
+        for(Url url : queue){
             queueList.add(url);
         }
         return queueList;

@@ -1,6 +1,7 @@
 package application.crawler.util;
 
 import application.crawler.SiteMapParser;
+import application.crawler.Url;
 import org.junit.Before;
 import org.junit.Test;
 
@@ -30,7 +31,7 @@ public class SiteMapParserTest {
             e.printStackTrace();
         }
 
-        siteMapParser = new SiteMapParser(new URI("http://www.sitemappro.com/"), source);
+        siteMapParser = new SiteMapParser(new Url("http://www.sitemappro.com/"), source);
 
         try {
 

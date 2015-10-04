@@ -1,16 +1,12 @@
 package application.crawler.domain;
 
 import application.crawler.Request;
+import application.crawler.Url;
 import org.junit.Test;
 
 import java.io.BufferedReader;
 import java.io.FileReader;
 import java.io.IOException;
-import java.net.URI;
-import java.net.URL;
-import java.util.ArrayList;
-import java.util.List;
-
 
 public class PageTest {
     private Page page;
@@ -31,15 +27,15 @@ public class PageTest {
             e.printStackTrace();
         }
 
-        page = new Page(new URI("http://www.google.com"), sourceCode);
+        page = new Page(new Url("http://www.google.com"), sourceCode);
 
         assert(page.getDiscoveredPages().size() == 4);
-        assert(page.getDiscoveredPages().contains(new URI("http://www.google.com")));
-        assert(page.getDiscoveredPages().contains(new URI("http://www.google.com/")));
-        assert(page.getDiscoveredPages().contains(new URI("http://www.google.com/test")));
+        assert(page.getDiscoveredPages().contains(new Url("http://www.google.com")));
+        assert(page.getDiscoveredPages().contains(new Url("http://www.google.com/")));
+        assert(page.getDiscoveredPages().contains(new Url("http://www.google.com/test")));
 
         assert(page.getDiscoveredDomains().size() == 1);
-        assert(page.getDiscoveredDomains().contains(new URI("http://www.external.com")));
+        assert(page.getDiscoveredDomains().contains(new Url("http://www.external.com")));
     }
 
     @Test

@@ -1,8 +1,10 @@
 package application.crawler;
 
+import java.io.IOException;
 import java.io.UnsupportedEncodingException;
 import java.net.MalformedURLException;
 import java.net.URL;
+import java.net.URLConnection;
 import java.net.URLDecoder;
 import java.util.LinkedHashMap;
 import java.util.Map;
@@ -42,6 +44,14 @@ public class Url {
         return baseUrl.equals(otherBaseUrl) && queryStringIsEqual(url);
     }
 
+    public URLConnection openConnection() throws IOException {
+        return url.openConnection();
+    }
+
+    public String toString() {
+        return url.toString();
+    }
+
     private boolean queryStringIsEqual(Url url) {
         Map<String, String> ourQueryMap = new LinkedHashMap<String, String>();
         Map<String, String> otherQueryMap = new LinkedHashMap<String, String>();
@@ -69,4 +79,6 @@ public class Url {
 
         // TODO I need to be tested!
     }
+
+
 }

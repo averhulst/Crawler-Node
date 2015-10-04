@@ -8,7 +8,7 @@ public class CrawlerSettings {
     public static final int DOMAIN_PAGE_CRAWL_CEILING;
 
     static {
-        DOMAIN_PAGE_CRAWL_CEILING = 25;
+        DOMAIN_PAGE_CRAWL_CEILING = 10;
     }
 
 }
