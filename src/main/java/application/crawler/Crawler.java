@@ -67,6 +67,12 @@ public class Crawler{
             for(String domain : freshDomains){
                 domainQueue.enqueueUrl(domain);
             }
+        } else {
+            try {
+                Thread.sleep(1000);
+            } catch (InterruptedException e) {
+                e.printStackTrace();
+            }
         }
     }
 

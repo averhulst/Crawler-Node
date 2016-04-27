@@ -1,5 +1,6 @@
 package crawler;
 
+import application.crawler.Url;
 import application.crawler.domain.RobotsTxt;
 import org.junit.After;
 import org.junit.Before;
@@ -48,18 +49,18 @@ public class RobotsTxtTest {
     @Test
     public void testUrlIsAllowed() throws Exception {
         //tests /*
-        assert(!robotsTxt.urlIsAllowed(new URI("http://www.test.com/allUAdisallowed/testAllClause/testAllClause.html")));
-        assert(!robotsTxt.urlIsAllowed(new URI("http://www.test.com/allUAdisallowed/testAllClause/")));
+        assert(!robotsTxt.urlIsAllowed(new Url("http://www.test.com/allUAdisallowed/testAllClause/testAllClause.html")));
+        assert(!robotsTxt.urlIsAllowed(new Url("http://www.test.com/allUAdisallowed/testAllClause/")));
 
         //tests explicitly allowed path, where the subpatch(s) match a catch-all disallow directive
-        assert( robotsTxt.urlIsAllowed(new URI("http://www.test.com/allUAdisallowed/testAllClause/explicitlyAllowedPath.html")));
+        assert( robotsTxt.urlIsAllowed(new Url("http://www.test.com/allUAdisallowed/testAllClause/explicitlyAllowedPath.html")));
         //tests URLS whose paths do not fall under either a disallow or allow directive, should be implicitly allowed
-        assert( robotsTxt.urlIsAllowed(new URI("http://www.test.com/whatever/iShouldBeAllowed.html")));
-        assert( robotsTxt.urlIsAllowed(new URI("http://www.test.com/allowed/iShouldBeAllowed.html")));
+        assert( robotsTxt.urlIsAllowed(new Url("http://www.test.com/whatever/iShouldBeAllowed.html")));
+        assert( robotsTxt.urlIsAllowed(new Url("http://www.test.com/allowed/iShouldBeAllowed.html")));
 
         //disallowed paths applicable to other crawlers, not us, should be allowed
-        assert( robotsTxt.urlIsAllowed(new URI("http://www.test.com/testdisallowedUA1/disallowed/disallowed1.html")));
-        assert( robotsTxt.urlIsAllowed(new URI("http://www.test.com/testdisallowedUA2/disallowed/disallowed2.html")));
+        assert( robotsTxt.urlIsAllowed(new Url("http://www.test.com/testdisallowedUA1/disallowed/disallowed1.html")));
+        assert( robotsTxt.urlIsAllowed(new Url("http://www.test.com/testdisallowedUA2/disallowed/disallowed2.html")));
     }
 
     @Test

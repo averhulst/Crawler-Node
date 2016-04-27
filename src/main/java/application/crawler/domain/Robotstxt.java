@@ -1,5 +1,7 @@
 package application.crawler.domain;
 
+import application.crawler.Url;
+
 import java.io.*;
 import java.net.MalformedURLException;
 import java.net.URI;
@@ -13,7 +15,7 @@ public class RobotsTxt {
     private List<String> allowedPaths = new ArrayList<>();
     private List<String> disallowedPaths = new ArrayList<>();
     private List<String> disallowedSubPaths = new ArrayList<>();
-    private List<URI> siteMaps = new ArrayList<>();
+    private List<Url> siteMaps = new ArrayList<>();
     private BufferedReader reader;
     private int crawlDelay = 500;
 
@@ -60,7 +62,7 @@ public class RobotsTxt {
         return crawlDelay;
     }
 
-    public boolean urlIsAllowed(URI url){
+    public boolean urlIsAllowed(Url url){
         String path = url.getPath();
 
         for(String disallowedSubPath : disallowedSubPaths){
@@ -86,9 +88,9 @@ public class RobotsTxt {
     public boolean urlIsAllowed(String url){
         boolean urlIsAllowed = false;
         try {
-            urlIsAllowed = urlIsAllowed(new URI(url));
-        } catch (URISyntaxException e) {
-            //TODO log me
+            urlIsAllowed = urlIsAllowed(new Url(url));
+        } catch (MalformedURLException e) {
+            e.printStackTrace();
         }
 
         return urlIsAllowed;
@@ -98,7 +100,7 @@ public class RobotsTxt {
         return disallowedSubPaths.contains("/");
     }
 
-    public List<URI> getSiteMapUrls(){
+    public List<Url> getSiteMapUrls(){
         return siteMaps;
     }
 
@@ -125,10 +127,10 @@ public class RobotsTxt {
             case "site-map":
             case "sitemap":
                 try {
-                    URI siteMap = new URL(value).toURI();
+                    Url siteMap = new Url(value);
                     //initially creating URL instead of URI helps validate malformed URLs that the URI class would allow
                     siteMaps.add(siteMap);
-                } catch (MalformedURLException | URISyntaxException e) {
+                } catch (MalformedURLException e) {
                     logger.warn("Error occurred while attempting to cast a URL from the sitemap directive. URL: " + value + ", Error: " + e.getStackTrace());
                 }
 

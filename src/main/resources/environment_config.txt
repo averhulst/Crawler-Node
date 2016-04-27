@@ -10,7 +10,7 @@
     },
 
     "MESSAGING_SERVICE" : {
-        "Address"   : "192.168.1.9",
+        "Address"   : "localhost",
         "Port"      : 0,
         "User_name" : "crawlernode",
         "Pass"      : "nodelol"
