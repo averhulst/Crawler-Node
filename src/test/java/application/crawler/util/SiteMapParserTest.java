@@ -53,9 +53,7 @@ public class SiteMapParserTest {
         assert(siteMapParser.getURIs().size() == urlListControl.size());
 
         for(URI urlControl : urlListControl) {
-            for(URI url : siteMapParser.getURIs()) {
-                assert(url.equals(urlControl));
-            }
+            siteMapParser.getURIs().contains(urlListControl);
         }
     }
 }

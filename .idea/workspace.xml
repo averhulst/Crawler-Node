@@ -5,48 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="c5e8feb2-715e-4e22-a405-895cf98e4944" name="Default" comment="">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/.name" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/artifacts/tomatonode_jar.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/gradle.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Java.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Java1.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/hamcrest_core_1_3.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/scopes/scope_settings.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/java/application/crawler/Url.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/java/application/crawler/domain/ParsedURL.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/TomatoNode-1.0-SNAPSHOT.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/maven-archiver/pom.properties" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/createdFiles.lst" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/surefire-reports/RobotstxtTest.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/surefire-reports/TEST-RobotstxtTest.xml" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/compiler.xml" afterPath="$PROJECT_DIR$/.idea/compiler.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/encodings.xml" afterPath="$PROJECT_DIR$/.idea/encodings.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/modules.xml" afterPath="$PROJECT_DIR$/.idea/modules.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/vcs.xml" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/CrawlerNode.iml" afterPath="$PROJECT_DIR$/CrawlerNode.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pom.xml" afterPath="$PROJECT_DIR$/pom.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/application/crawler/Crawler.java" afterPath="$PROJECT_DIR$/src/main/java/application/crawler/Crawler.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/application/crawler/Environment.java" afterPath="$PROJECT_DIR$/src/main/java/application/crawler/Environment.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/application/crawler/Request.java" afterPath="$PROJECT_DIR$/src/main/java/application/crawler/Request.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/application/crawler/SiteMapParser.java" afterPath="$PROJECT_DIR$/src/main/java/application/crawler/SiteMapParser.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/application/crawler/UrlQueue.java" afterPath="$PROJECT_DIR$/src/main/java/application/crawler/UrlQueue.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/application/crawler/domain/Domain.java" afterPath="$PROJECT_DIR$/src/main/java/application/crawler/domain/Domain.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/application/crawler/domain/Page.java" afterPath="$PROJECT_DIR$/src/main/java/application/crawler/domain/Page.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/application/crawler/domain/Robotstxt.java" afterPath="$PROJECT_DIR$/src/main/java/application/crawler/domain/Robotstxt.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/resources/environment_config.txt" afterPath="$PROJECT_DIR$/src/main/resources/environment_config.txt" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/test/java/application/crawler/domain/PageTest.java" afterPath="$PROJECT_DIR$/src/test/java/application/crawler/domain/PageTest.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/logs/robotsTxt.log" afterPath="$PROJECT_DIR$/logs/robotsTxt.log" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/test/java/application/crawler/util/SiteMapParserTest.java" afterPath="$PROJECT_DIR$/src/test/java/application/crawler/util/SiteMapParserTest.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/test/java/crawler/DomainTest.java" afterPath="$PROJECT_DIR$/src/test/java/crawler/DomainTest.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/test/java/crawler/RequestTest.java" afterPath="$PROJECT_DIR$/src/test/java/crawler/RequestTest.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/test/java/crawler/RobotsTxtTest.java" afterPath="$PROJECT_DIR$/src/test/java/crawler/RobotsTxtTest.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/test/java/crawler/RobotstxtTest.java" afterPath="$PROJECT_DIR$/src/test/java/crawler/RobotstxtTest.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/test/java/crawler/UrlQueueTest.java" afterPath="$PROJECT_DIR$/src/test/java/crawler/UrlQueueTest.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/test/resources/page.html" afterPath="$PROJECT_DIR$/src/test/resources/page.html" />
     </list>
     <ignored path="Crawler-Node.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -84,16 +46,6 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="CrawlerSettings.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/application/crawler/CrawlerSettings.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="68">
-              <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="Environment.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/application/crawler/Environment.java">
           <provider selected="true" editor-type-id="text-editor">
@@ -106,33 +58,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="RobotsTxtTest.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/crawler/RobotsTxtTest.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="467">
-              <caret line="70" column="0" selection-start-line="70" selection-start-column="0" selection-end-line="70" selection-end-column="0" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Crawler.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="Crawler.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/application/crawler/Crawler.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="408">
               <caret line="55" column="40" selection-start-line="55" selection-start-column="40" selection-end-line="55" selection-end-column="40" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="RequestTest.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/crawler/RequestTest.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="85">
-              <caret line="5" column="0" selection-start-line="5" selection-start-column="0" selection-end-line="5" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -151,8 +81,8 @@
       <file leaf-file-name="PageTest.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/application/crawler/domain/PageTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="436">
-              <caret line="28" column="31" selection-start-line="28" selection-start-column="31" selection-end-line="28" selection-end-column="31" />
+            <state relative-caret-position="339">
+              <caret line="42" column="5" selection-start-line="42" selection-start-column="5" selection-end-line="42" selection-end-column="5" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -160,21 +90,53 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="pom.xml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/pom.xml">
+      <file leaf-file-name="SiteMapParserTest.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/test/java/application/crawler/util/SiteMapParserTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="611">
-              <caret line="83" column="37" selection-start-line="83" selection-start-column="37" selection-end-line="83" selection-end-column="37" />
+            <state relative-caret-position="458">
+              <caret line="59" column="0" selection-start-line="59" selection-start-column="0" selection-end-line="59" selection-end-column="0" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="robots.txt" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/resources/robots.txt">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="238">
+              <caret line="14" column="28" selection-start-line="14" selection-start-column="28" selection-end-line="14" selection-end-column="28" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="environment_config.txt" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/resources/environment_config.txt">
+      <file leaf-file-name="sitemap.xml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/resources/sitemap.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="289">
-              <caret line="17" column="1" selection-start-line="17" selection-start-column="1" selection-end-line="17" selection-end-column="1" />
+            <state relative-caret-position="425">
+              <caret line="25" column="8" selection-start-line="25" selection-start-column="8" selection-end-line="25" selection-end-column="8" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="sitemapcontrol.txt" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/resources/sitemapcontrol.txt">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="374">
+              <caret line="22" column="30" selection-start-line="22" selection-start-column="30" selection-end-line="22" selection-end-column="30" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="page.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/resources/page.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="119">
+              <caret line="7" column="52" selection-start-line="7" selection-start-column="52" selection-end-line="7" selection-end-column="52" />
               <folding />
             </state>
           </provider>
@@ -200,7 +162,6 @@
         <option value="$PROJECT_DIR$/src/main/resources/log4j.properties" />
         <option value="$PROJECT_DIR$/src/main/java/application/crawler/Url.java" />
         <option value="$PROJECT_DIR$/src/main/java/application/crawler/URLFilter.java" />
-        <option value="$PROJECT_DIR$/src/test/java/application/crawler/util/SiteMapParserTest.java" />
         <option value="$PROJECT_DIR$/src/main/java/application/crawler/SiteMapParser.java" />
         <option value="$PROJECT_DIR$/src/main/java/application/crawler/UrlQueue.java" />
         <option value="$PROJECT_DIR$/src/main/java/application/crawler/domain/Page.java" />
@@ -216,6 +177,8 @@
         <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/src/main/java/application/crawler/Environment.java" />
         <option value="$PROJECT_DIR$/src/main/java/application/crawler/Crawler.java" />
+        <option value="$PROJECT_DIR$/src/test/resources/page.html" />
+        <option value="$PROJECT_DIR$/src/test/java/application/crawler/util/SiteMapParserTest.java" />
       </list>
     </option>
   </component>
@@ -319,6 +282,28 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="test" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Crawler-Node" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Crawler-Node" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="test" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="resources" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -612,7 +597,7 @@
     <property name="settings.editor.selected.configurable" value="MavenSettings" />
     <property name="settings.editor.splitter.proportion" value="0.23212537" />
   </component>
-  <component name="RunManager" selected="Application.Main">
+  <component name="RunManager" selected="JUnit.SiteMapParserTest">
     <configuration default="false" name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
@@ -975,9 +960,9 @@
     </list>
     <recent_temporary>
       <list size="4">
-        <item index="0" class="java.lang.String" itemvalue="Application.Main" />
-        <item index="1" class="java.lang.String" itemvalue="JUnit.SiteMapParserTest" />
-        <item index="2" class="java.lang.String" itemvalue="JUnit.PageTest" />
+        <item index="0" class="java.lang.String" itemvalue="JUnit.SiteMapParserTest" />
+        <item index="1" class="java.lang.String" itemvalue="JUnit.PageTest" />
+        <item index="2" class="java.lang.String" itemvalue="Application.Main" />
         <item index="3" class="java.lang.String" itemvalue="JUnit.UrlQueueTest.testEnqueueUrl" />
       </list>
     </recent_temporary>
@@ -1002,17 +987,11 @@
     <history-entry file="PageTest - 2016.04.30 at 17h 20m 13s.xml">
       <configuration name="PageTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="SiteMapParserTest - 2016.04.30 at 16h 19m 00s.xml">
-      <configuration name="SiteMapParserTest" configurationId="JUnit" />
+    <history-entry file="PageTest - 2016.05.01 at 19h 27m 41s.xml">
+      <configuration name="PageTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="SiteMapParserTest - 2016.04.30 at 16h 22m 24s.xml">
-      <configuration name="SiteMapParserTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="SiteMapParserTest - 2016.04.30 at 16h 22m 34s.xml">
-      <configuration name="SiteMapParserTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="SiteMapParserTest - 2016.04.30 at 16h 24m 37s.xml">
-      <configuration name="SiteMapParserTest" configurationId="JUnit" />
+    <history-entry file="PageTest - 2016.05.01 at 19h 31m 31s.xml">
+      <configuration name="PageTest" configurationId="JUnit" />
     </history-entry>
     <history-entry file="SiteMapParserTest - 2016.04.30 at 16h 24m 42s.xml">
       <configuration name="SiteMapParserTest" configurationId="JUnit" />
@@ -1029,10 +1008,16 @@
     <history-entry file="SiteMapParserTest - 2016.04.30 at 17h 20m 12s.xml">
       <configuration name="SiteMapParserTest" configurationId="JUnit" />
     </history-entry>
+    <history-entry file="SiteMapParserTest - 2016.05.01 at 19h 32m 10s.xml">
+      <configuration name="SiteMapParserTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="SiteMapParserTest - 2016.05.01 at 19h 32m 59s.xml">
+      <configuration name="SiteMapParserTest" configurationId="JUnit" />
+    </history-entry>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1936" height="1056" extended-state="7" />
-    <editor active="true" />
+    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
+    <editor active="false" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
@@ -1040,7 +1025,7 @@
       <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.23081024" sideWeight="0.49358973" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Maven Projects" active="true" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.23081024" sideWeight="0.49358973" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3629469" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Coverage" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.23081024" sideWeight="0.50641024" order="-1" side_tool="true" content_ui="tabs" />
@@ -1074,15 +1059,7 @@
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/test/java/application/crawler/util/SiteMapParserTest.java</url>
-          <line>56</line>
-          <properties />
-          <option name="timeStamp" value="11" />
-        </line-breakpoint>
-      </breakpoints>
-      <option name="time" value="12" />
+      <option name="time" value="13" />
     </breakpoint-manager>
     <watches-manager />
   </component>
@@ -1287,14 +1264,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/resources/robots.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/application/Main.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="221">
@@ -1324,16 +1293,6 @@
         <state relative-caret-position="68">
           <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
           <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/application/crawler/util/SiteMapParserTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="473">
-          <caret line="29" column="13" selection-start-line="29" selection-start-column="13" selection-end-line="29" selection-end-column="13" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1455,16 +1414,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/application/crawler/domain/PageTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="436">
-          <caret line="28" column="31" selection-start-line="28" selection-start-column="31" selection-end-line="28" selection-end-column="31" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/crawler/RobotsTxtTest.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="467">
@@ -1479,14 +1428,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="289">
           <caret line="17" column="1" selection-start-line="17" selection-start-column="1" selection-end-line="17" selection-end-column="1" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/application/crawler/domain/RobotsTxt.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="17">
-          <caret line="17" column="33" selection-start-line="17" selection-start-column="33" selection-end-line="17" selection-end-column="33" />
           <folding />
         </state>
       </provider>
@@ -1530,6 +1471,66 @@
         <state relative-caret-position="408">
           <caret line="55" column="40" selection-start-line="55" selection-start-column="40" selection-end-line="55" selection-end-column="40" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/application/crawler/domain/RobotsTxt.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="17">
+          <caret line="17" column="33" selection-start-line="17" selection-start-column="33" selection-end-line="17" selection-end-column="33" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/resources/robots.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="238">
+          <caret line="14" column="28" selection-start-line="14" selection-start-column="28" selection-end-line="14" selection-end-column="28" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/resources/sitemap.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="425">
+          <caret line="25" column="8" selection-start-line="25" selection-start-column="8" selection-end-line="25" selection-end-column="8" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/resources/sitemapcontrol.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="374">
+          <caret line="22" column="30" selection-start-line="22" selection-start-column="30" selection-end-line="22" selection-end-column="30" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/resources/page.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="7" column="52" selection-start-line="7" selection-start-column="52" selection-end-line="7" selection-end-column="52" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/application/crawler/domain/PageTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="339">
+          <caret line="42" column="5" selection-start-line="42" selection-start-column="5" selection-end-line="42" selection-end-column="5" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/application/crawler/util/SiteMapParserTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="458">
+          <caret line="59" column="0" selection-start-line="59" selection-start-column="0" selection-end-line="59" selection-end-column="0" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

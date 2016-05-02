@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" ?>
-<testsuite tests="2" failures="0" name="application.crawler.util.UtilTest" time="0.074" errors="0" skipped="0">
+<testsuite tests="2" failures="0" name="application.crawler.util.UtilTest" time="0.201" errors="0" skipped="0">
   <properties>
     <property name="idea.version" value="2016.1.1"/>
     <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
@@ -46,7 +46,7 @@
     <property name="java.vm.specification.version" value="1.8"/>
     <property name="sun.arch.data.model" value="64"/>
     <property name="java.home" value="C:\Program Files\Java\jdk1.8.0_77\jre"/>
-    <property name="sun.java.command" value="com.intellij.rt.execution.application.AppMain org.codehaus.classworlds.Launcher -Didea.version=2016.1.1 test"/>
+    <property name="sun.java.command" value="com.intellij.rt.execution.application.AppMain org.codehaus.classworlds.Launcher -Didea.version=2016.1.1 install"/>
     <property name="java.specification.vendor" value="Oracle Corporation"/>
     <property name="user.language" value="en"/>
     <property name="awt.toolkit" value="sun.awt.windows.WToolkit"/>
@@ -63,6 +63,6 @@
     <property name="sun.desktop" value="windows"/>
     <property name="sun.cpu.isalist" value="amd64"/>
   </properties>
-  <testcase classname="application.crawler.util.UtilTest" name="testCompressionThroughMessenger" time="0.067"/>
-  <testcase classname="application.crawler.util.UtilTest" name="testCompression" time="0.004"/>
+  <testcase classname="application.crawler.util.UtilTest" name="testCompressionThroughMessenger" time="0.16"/>
+  <testcase classname="application.crawler.util.UtilTest" name="testCompression" time="0.038"/>
 </testsuite>
