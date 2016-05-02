@@ -77,6 +77,7 @@ public class Crawler{
         activelyCrawlingDomains.remove(crawledDomain.getDomainURI());
 
         if(crawledDomain.getDiscoveredDomains().size() > 0){
+
             String discoveredDomainsMsg = StringUtils.join(crawledDomain.getDiscoveredDomains(),";");
             messenger.getQueue("discoveredDomains").publishMessage(discoveredDomainsMsg);
         }
@@ -108,7 +109,7 @@ public class Crawler{
             try{
                 this.domain.run();
             }catch(Exception e){
-                fatalLogger.warn("uncaught exception " + e.getStackTrace().toString() + "\n");
+                e.printStackTrace();
             }
 
             finalizeDomainCrawl(domain);
