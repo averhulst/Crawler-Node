@@ -4,23 +4,26 @@ import java.io.BufferedReader;
 import java.io.IOException;
 import java.io.InputStreamReader;
 import java.net.HttpURLConnection;
+import java.net.URI;
+import java.net.URL;
+import java.net.URLConnection;
 
 public class Request {
     private String response = "";
-    private Url pageUrl;
+    private URL pageURL;
     private int responseCode;
     private HttpURLConnection urlConnection;
     private String requestMethod = "GET";
     private int connectionTimeout = 1000;
     private String userAgent = "";
 
-    public Request(Url pageUrl) {
-        this.pageUrl = pageUrl;
+    public Request(URL pageURL) {
+        this.pageURL = pageURL;
     }
 
     public void connect() throws IOException{
-        //URLConnection urlConnection = pageUrl.openConnection();
-        urlConnection = (HttpURLConnection)pageUrl.openConnection();
+        //URLConnection urlConnection = pageURL.openConnection();
+        urlConnection = (HttpURLConnection)pageURL.openConnection();
         urlConnection.setConnectTimeout(connectionTimeout);
         urlConnection.setRequestMethod(requestMethod);
         urlConnection.setRequestProperty("User-Agent", userAgent);

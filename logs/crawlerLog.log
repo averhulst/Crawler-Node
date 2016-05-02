@@ -1,0 +1,104 @@
+2016-04-30 15:31:28,657 [            Crawler.java:pool-3-thread-2:98] - Finished crawling: http://jgrapht.org/ - crawled 3 pages
+2016-04-30 15:31:28,659 [            Crawler.java:pool-3-thread-2:56] - ***********  29.999998 domains per minute
+2016-04-30 15:31:28,659 [            Crawler.java:pool-3-thread-2:57] - ***********  Total crawls:  1
+2016-04-30 15:31:28,659 [            Crawler.java:pool-3-thread-2:58] - ***********  running for 2.0 seconds
+2016-04-30 15:31:28,659 [            Crawler.java:pool-3-thread-2:59] - ***********  Actively crawling 2 domains
+2016-04-30 15:31:28,848 [            Crawler.java:pool-3-thread-1:98] - Finished crawling: http://animagraffs.com/ - crawled 3 pages
+2016-04-30 15:31:28,849 [            Crawler.java:pool-3-thread-1:56] - ***********  59.999996 domains per minute
+2016-04-30 15:31:28,849 [            Crawler.java:pool-3-thread-1:57] - ***********  Total crawls:  2
+2016-04-30 15:31:28,849 [            Crawler.java:pool-3-thread-1:58] - ***********  running for 2.0 seconds
+2016-04-30 15:31:28,850 [            Crawler.java:pool-3-thread-1:59] - ***********  Actively crawling 1 domains
+2016-04-30 15:36:12,028 [            Crawler.java:pool-3-thread-1:98] - Finished crawling: http://www.stackoverflow.com/ - crawled 0 pages
+2016-04-30 15:36:12,029 [            Crawler.java:pool-3-thread-1:56] - ***********  59.999996 domains per minute
+2016-04-30 15:36:12,031 [            Crawler.java:pool-3-thread-1:57] - ***********  Total crawls:  1
+2016-04-30 15:36:12,031 [            Crawler.java:pool-3-thread-1:58] - ***********  running for 1.0 seconds
+2016-04-30 15:36:12,032 [            Crawler.java:pool-3-thread-1:59] - ***********  Actively crawling 2 domains
+2016-04-30 17:23:35,114 [            Crawler.java:pool-3-thread-2:98] - Finished crawling: http://www.tomshardware.com/ - crawled 0 pages
+2016-04-30 17:23:35,114 [            Crawler.java:pool-3-thread-2:56] - ***********  29.999998 domains per minute
+2016-04-30 17:23:35,116 [            Crawler.java:pool-3-thread-2:57] - ***********  Total crawls:  1
+2016-04-30 17:23:35,116 [            Crawler.java:pool-3-thread-2:58] - ***********  running for 2.0 seconds
+2016-04-30 17:23:35,116 [            Crawler.java:pool-3-thread-2:59] - ***********  Actively crawling 1 domains
+2016-04-30 17:23:38,601 [            Crawler.java:pool-3-thread-1:98] - Finished crawling: http://www.anandtech.com/ - crawled 4 pages
+2016-04-30 17:23:38,601 [            Crawler.java:pool-3-thread-1:56] - ***********  20.0 domains per minute
+2016-04-30 17:23:38,601 [            Crawler.java:pool-3-thread-1:57] - ***********  Total crawls:  2
+2016-04-30 17:23:38,601 [            Crawler.java:pool-3-thread-1:58] - ***********  running for 6.0 seconds
+2016-04-30 17:23:38,602 [            Crawler.java:pool-3-thread-1:59] - ***********  Actively crawling 0 domains
+2016-05-01 18:25:02,460 [            Crawler.java:pool-3-thread-2:98] - Finished crawling: http://jgrapht.org/ - crawled 3 pages
+2016-05-01 18:25:02,461 [            Crawler.java:pool-3-thread-2:56] - ***********  29.999998 domains per minute
+2016-05-01 18:25:02,462 [            Crawler.java:pool-3-thread-2:57] - ***********  Total crawls:  1
+2016-05-01 18:25:02,462 [            Crawler.java:pool-3-thread-2:58] - ***********  running for 2.0 seconds
+2016-05-01 18:25:02,462 [            Crawler.java:pool-3-thread-2:59] - ***********  Actively crawling 2 domains
+2016-05-01 18:25:02,822 [            Crawler.java:pool-3-thread-1:98] - Finished crawling: http://animagraffs.com/ - crawled 3 pages
+2016-05-01 18:25:02,822 [            Crawler.java:pool-3-thread-1:56] - ***********  59.999996 domains per minute
+2016-05-01 18:25:02,822 [            Crawler.java:pool-3-thread-1:57] - ***********  Total crawls:  2
+2016-05-01 18:25:02,822 [            Crawler.java:pool-3-thread-1:58] - ***********  running for 2.0 seconds
+2016-05-01 18:25:02,822 [            Crawler.java:pool-3-thread-1:59] - ***********  Actively crawling 2 domains
+2016-05-01 18:25:04,349 [            Crawler.java:pool-3-thread-1:98] - Finished crawling: http://www.draw2d.org/ - crawled 1 pages
+2016-05-01 18:25:04,350 [            Crawler.java:pool-3-thread-1:56] - ***********  44.999996 domains per minute
+2016-05-01 18:25:04,350 [            Crawler.java:pool-3-thread-1:57] - ***********  Total crawls:  3
+2016-05-01 18:25:04,350 [            Crawler.java:pool-3-thread-1:58] - ***********  running for 4.0 seconds
+2016-05-01 18:25:04,350 [            Crawler.java:pool-3-thread-1:59] - ***********  Actively crawling 2 domains
+2016-05-01 18:25:05,102 [            Crawler.java:pool-3-thread-1:98] - Finished crawling: http://www.reddit.com/ - crawled 1 pages
+2016-05-01 18:25:05,102 [            Crawler.java:pool-3-thread-1:56] - ***********  48.0 domains per minute
+2016-05-01 18:25:05,102 [            Crawler.java:pool-3-thread-1:57] - ***********  Total crawls:  4
+2016-05-01 18:25:05,102 [            Crawler.java:pool-3-thread-1:58] - ***********  running for 5.0 seconds
+2016-05-01 18:25:05,102 [            Crawler.java:pool-3-thread-1:59] - ***********  Actively crawling 2 domains
+2016-05-01 18:25:13,377 [            Crawler.java:pool-3-thread-1:98] - Finished crawling: http://www.cnn.com/ - crawled 10 pages
+2016-05-01 18:25:13,378 [            Crawler.java:pool-3-thread-1:56] - ***********  23.076923 domains per minute
+2016-05-01 18:25:13,378 [            Crawler.java:pool-3-thread-1:57] - ***********  Total crawls:  5
+2016-05-01 18:25:13,378 [            Crawler.java:pool-3-thread-1:58] - ***********  running for 13.0 seconds
+2016-05-01 18:25:13,378 [            Crawler.java:pool-3-thread-1:59] - ***********  Actively crawling 2 domains
+2016-05-01 18:25:14,608 [            Crawler.java:pool-3-thread-1:98] - Finished crawling: http://www.stackoverflow.com/ - crawled 0 pages
+2016-05-01 18:25:14,608 [            Crawler.java:pool-3-thread-1:56] - ***********  25.714285 domains per minute
+2016-05-01 18:25:14,608 [            Crawler.java:pool-3-thread-1:57] - ***********  Total crawls:  6
+2016-05-01 18:25:14,608 [            Crawler.java:pool-3-thread-1:58] - ***********  running for 14.0 seconds
+2016-05-01 18:25:14,608 [            Crawler.java:pool-3-thread-1:59] - ***********  Actively crawling 2 domains
+2016-05-01 18:28:44,295 [            Crawler.java:pool-3-thread-2:98] - Finished crawling: http://www.anandtech.com/ - crawled 4 pages
+2016-05-01 18:28:44,295 [            Crawler.java:pool-3-thread-2:56] - ***********  12.0 domains per minute
+2016-05-01 18:28:44,298 [            Crawler.java:pool-3-thread-2:57] - ***********  Total crawls:  1
+2016-05-01 18:28:44,298 [            Crawler.java:pool-3-thread-2:58] - ***********  running for 5.0 seconds
+2016-05-01 18:28:44,298 [            Crawler.java:pool-3-thread-2:59] - ***********  Actively crawling 1 domains
+2016-05-01 18:28:45,959 [            Crawler.java:pool-3-thread-2:98] - Finished crawling: http://www.tomshardware.com/ - crawled 0 pages
+2016-05-01 18:28:45,960 [            Crawler.java:pool-3-thread-2:56] - ***********  17.142857 domains per minute
+2016-05-01 18:28:45,960 [            Crawler.java:pool-3-thread-2:57] - ***********  Total crawls:  2
+2016-05-01 18:28:45,960 [            Crawler.java:pool-3-thread-2:58] - ***********  running for 7.0 seconds
+2016-05-01 18:28:45,960 [            Crawler.java:pool-3-thread-2:59] - ***********  Actively crawling 1 domains
+2016-05-01 18:33:35,386 [            Crawler.java:pool-3-thread-2:96] - Finished crawling: http://jgrapht.org/ - crawled 3 pages
+2016-05-01 18:33:35,388 [            Crawler.java:pool-3-thread-2:56] - ***********  Total crawls:  1, running for 72.0 seconds. 0.83 domains per minute
+2016-05-01 18:33:35,388 [            Crawler.java:pool-3-thread-2:57] - ***********  Actively crawling 2 domains
+2016-05-01 18:33:35,503 [            Crawler.java:pool-3-thread-1:96] - Finished crawling: http://animagraffs.com/ - crawled 3 pages
+2016-05-01 18:33:35,503 [            Crawler.java:pool-3-thread-1:56] - ***********  Total crawls:  2, running for 72.0 seconds. 1.67 domains per minute
+2016-05-01 18:33:35,503 [            Crawler.java:pool-3-thread-1:57] - ***********  Actively crawling 2 domains
+2016-05-01 18:33:36,784 [            Crawler.java:pool-3-thread-1:96] - Finished crawling: http://www.draw2d.org/ - crawled 1 pages
+2016-05-01 18:33:36,785 [            Crawler.java:pool-3-thread-1:56] - ***********  Total crawls:  3, running for 73.0 seconds. 2.47 domains per minute
+2016-05-01 18:33:36,785 [            Crawler.java:pool-3-thread-1:57] - ***********  Actively crawling 2 domains
+2016-05-01 18:33:37,513 [            Crawler.java:pool-3-thread-1:96] - Finished crawling: http://www.reddit.com/ - crawled 1 pages
+2016-05-01 18:33:37,513 [            Crawler.java:pool-3-thread-1:56] - ***********  Total crawls:  4, running for 74.0 seconds. 3.24 domains per minute
+2016-05-01 18:33:37,513 [            Crawler.java:pool-3-thread-1:57] - ***********  Actively crawling 2 domains
+2016-05-01 18:33:43,962 [            Crawler.java:pool-3-thread-1:96] - Finished crawling: http://www.cnn.com/ - crawled 10 pages
+2016-05-01 18:33:43,963 [            Crawler.java:pool-3-thread-1:56] - ***********  Total crawls:  5, running for 81.0 seconds. 3.7 domains per minute
+2016-05-01 18:33:43,963 [            Crawler.java:pool-3-thread-1:57] - ***********  Actively crawling 2 domains
+2016-05-01 18:33:45,195 [            Crawler.java:pool-3-thread-1:96] - Finished crawling: http://www.stackoverflow.com/ - crawled 0 pages
+2016-05-01 18:33:45,195 [            Crawler.java:pool-3-thread-1:56] - ***********  Total crawls:  6, running for 82.0 seconds. 4.39 domains per minute
+2016-05-01 18:33:45,195 [            Crawler.java:pool-3-thread-1:57] - ***********  Actively crawling 2 domains
+2016-05-01 18:33:47,948 [            Crawler.java:pool-3-thread-1:96] - Finished crawling: http://www.theguardian.com/ - crawled 0 pages
+2016-05-01 18:33:47,948 [            Crawler.java:pool-3-thread-1:56] - ***********  Total crawls:  7, running for 85.0 seconds. 4.94 domains per minute
+2016-05-01 18:33:47,948 [            Crawler.java:pool-3-thread-1:57] - ***********  Actively crawling 2 domains
+2016-05-01 18:33:51,368 [            Crawler.java:pool-3-thread-2:96] - Finished crawling: http://www.pixijs.com/ - crawled 10 pages
+2016-05-01 18:33:51,369 [            Crawler.java:pool-3-thread-2:56] - ***********  Total crawls:  8, running for 88.0 seconds. 5.45 domains per minute
+2016-05-01 18:33:51,369 [            Crawler.java:pool-3-thread-2:57] - ***********  Actively crawling 2 domains
+2016-05-01 18:33:51,667 [            Crawler.java:pool-3-thread-2:96] - Finished crawling: http://www.usatoday.com/ - crawled 0 pages
+2016-05-01 18:33:51,667 [            Crawler.java:pool-3-thread-2:56] - ***********  Total crawls:  9, running for 88.0 seconds. 6.14 domains per minute
+2016-05-01 18:33:51,667 [            Crawler.java:pool-3-thread-2:57] - ***********  Actively crawling 2 domains
+2016-05-01 18:34:01,047 [            Crawler.java:pool-3-thread-2:96] - Finished crawling: http://www.digg.com/ - crawled 4 pages
+2016-05-01 18:34:01,047 [            Crawler.java:pool-3-thread-2:56] - ***********  Total crawls:  10, running for 98.0 seconds. 6.12 domains per minute
+2016-05-01 18:34:01,047 [            Crawler.java:pool-3-thread-2:57] - ***********  Actively crawling 2 domains
+2016-05-01 18:34:01,297 [            Crawler.java:pool-3-thread-1:96] - Finished crawling: http://www.newsweek.com/ - crawled 10 pages
+2016-05-01 18:34:01,297 [            Crawler.java:pool-3-thread-1:56] - ***********  Total crawls:  11, running for 98.0 seconds. 6.73 domains per minute
+2016-05-01 18:34:01,297 [            Crawler.java:pool-3-thread-1:57] - ***********  Actively crawling 1 domains
+2016-05-01 18:34:03,135 [            Crawler.java:pool-3-thread-1:96] - Finished crawling: http://www.tomshardware.com/ - crawled 0 pages
+2016-05-01 18:34:03,135 [            Crawler.java:pool-3-thread-1:56] - ***********  Total crawls:  12, running for 100.0 seconds. 7.2 domains per minute
+2016-05-01 18:34:03,135 [            Crawler.java:pool-3-thread-1:57] - ***********  Actively crawling 1 domains
+2016-05-01 18:34:06,090 [            Crawler.java:pool-3-thread-2:96] - Finished crawling: http://www.anandtech.com/ - crawled 4 pages
+2016-05-01 18:34:06,090 [            Crawler.java:pool-3-thread-2:56] - ***********  Total crawls:  13, running for 103.0 seconds. 7.57 domains per minute
+2016-05-01 18:34:06,090 [            Crawler.java:pool-3-thread-2:57] - ***********  Actively crawling 0 domains

@@ -40,7 +40,7 @@ public class Crawler{
                 Domain newDomain = new Domain(
                     domainQueue.getNext()
                 );
-                activelyCrawlingDomains.put(newDomain.getDomainUrl(), newDomain);
+                activelyCrawlingDomains.put(newDomain.getDomainURI(), newDomain);
                 executor.execute(new RunnableDomain(newDomain));
             }
 
@@ -53,10 +53,7 @@ public class Crawler{
     private void printCrawlRate(){
         float upTimeInSeconds = (int) (System.currentTimeMillis() - timeAtBootUp) / 1000;
         crawlRatePerMin = totalCrawls / (upTimeInSeconds / 60);
-        logger.info("***********  " + crawlRatePerMin + " domains per minute");
-        logger.info("***********  Total crawls:  " + totalCrawls);
-        logger.info("***********  running for " + upTimeInSeconds + " seconds");
-        logger.info("***********  Actively crawling " + activelyCrawlingDomains.size() + " domains");
+        logger.info("*******************  Total crawls:  " + totalCrawls + + Math.round(crawlRatePerMin*100.0)/100.0 + " domains per minute, running for " + upTimeInSeconds + " seconds. Actively crawling " + activelyCrawlingDomains.size() + " domains");
 
     }
 
@@ -65,7 +62,7 @@ public class Crawler{
         if(freshDomainStr.length() > 0){
             List<String> freshDomains = Arrays.asList(freshDomainStr.split(";"));
             for(String domain : freshDomains){
-                domainQueue.enqueueUrl(domain);
+                domainQueue.enqueueURI(domain);
             }
         } else {
             try {
@@ -77,7 +74,7 @@ public class Crawler{
     }
 
     private void finalizeDomainCrawl(Domain crawledDomain){
-        activelyCrawlingDomains.remove(crawledDomain.getDomainUrl());
+        activelyCrawlingDomains.remove(crawledDomain.getDomainURI());
 
         if(crawledDomain.getDiscoveredDomains().size() > 0){
             String discoveredDomainsMsg = StringUtils.join(crawledDomain.getDiscoveredDomains(),";");
@@ -95,7 +92,7 @@ public class Crawler{
             messenger.getQueue("crawlResults").publishMessage(outBoundMessage);
         }
 
-        logger.info("Finished crawling: " + crawledDomain.getDomainUrl() + " - crawled " + crawledDomain.getCrawlCount() + " pages");
+        logger.info("Finished crawling: " + crawledDomain.getDomainURI() + " - crawled " + crawledDomain.getCrawlCount() + " pages");
         totalCrawls++;
     }
 

@@ -1,45 +1,47 @@
 package application.crawler;
 
 import java.net.MalformedURLException;
+import java.net.URI;
+import java.net.URISyntaxException;
 import java.util.*;
 
 public class UrlQueue {
-    private Queue<Url> queue = new ArrayDeque<Url>();
+    private Queue<URI> queue = new ArrayDeque<URI>();
     private int queueSize;
 
     public UrlQueue(){
         queueSize = 0;
     }
 
-    public synchronized Url getNext(){
+    public synchronized URI getNext(){
         if(getSize() > 0){
-            Url nextUrl = queue.poll();
+            URI nextURI = queue.poll();
             queueSize--;
-            return nextUrl;
+            return nextURI;
         }else{
             return null;
         }
 
     }
-    public synchronized void enqueueUrl(Url newUrl){
-        if(!queue.contains(newUrl)){
-            queue.add(newUrl);
+    public synchronized void enqueueURI(URI newURI){
+        if(!queue.contains(newURI)){
+            queue.add(newURI);
             queueSize++;
         }
     }
 
-    public synchronized void enqueueUrl(String newUrl){
-        Url url = null;
+    public synchronized void enqueueURI(String newURI){
+        URI url = null;
         try {
-            url = new Url(newUrl);
-        } catch (MalformedURLException e) {
+            url = new URI(newURI);
+        } catch (URISyntaxException e) {
             e.printStackTrace();
         }
 
-        enqueueUrl(url);
+        enqueueURI(url);
     }
 
-    public boolean containsURL(Url url){
+    public boolean containsURL(URI url){
         return queue.contains(url);
     }
 
@@ -47,9 +49,9 @@ public class UrlQueue {
         return queueSize;
     }
 
-    public List<Url> toList(){
-        List<Url> queueList = new ArrayList();
-        for(Url url : queue){
+    public List<URI> toList(){
+        List<URI> queueList = new ArrayList();
+        for(URI url : queue){
             queueList.add(url);
         }
         return queueList;

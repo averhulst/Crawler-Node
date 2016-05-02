@@ -1,0 +1,28 @@
+2016-04-30 15:31:26,630 [             Domain.java:pool-3-thread-2:117] - 404 NOT FOUND: http://jgrapht.org//robots.txt
+
+2016-04-30 15:31:28,643 [             Domain.java:pool-3-thread-2:190] - Domain:http://jgrapht.org/ page queue emptied after 3 page crawls
+2016-04-30 15:31:29,444 [             Domain.java:pool-3-thread-1:117] - 404 NOT FOUND: http://www.draw2d.org//robots.txt
+
+2016-05-01 18:25:00,444 [             Domain.java:pool-3-thread-2:122] - 404 NOT FOUND: http://jgrapht.org//robots.txt
+
+2016-05-01 18:25:02,444 [             Domain.java:pool-3-thread-2:195] - Domain:http://jgrapht.org/ page queue emptied after 3 page crawls
+2016-05-01 18:25:03,457 [             Domain.java:pool-3-thread-1:122] - 404 NOT FOUND: http://www.draw2d.org//robots.txt
+
+2016-05-01 18:25:04,347 [             Domain.java:pool-3-thread-1:195] - Domain:http://www.draw2d.org/ page queue emptied after 1 page crawls
+2016-05-01 18:25:04,599 [             Domain.java:pool-3-thread-1:119] - 301 REDIRECT: http://www.reddit.com/
+
+2016-05-01 18:25:04,600 [             Domain.java:pool-3-thread-1:122] - 404 NOT FOUND: http://www.reddit.com/
+
+2016-05-01 18:25:05,100 [             Domain.java:pool-3-thread-1:195] - Domain:http://www.reddit.com/ page queue emptied after 1 page crawls
+2016-05-01 18:33:33,329 [             Domain.java:pool-3-thread-2:122] - 404 NOT FOUND: http://jgrapht.org//robots.txt
+
+2016-05-01 18:33:35,370 [             Domain.java:pool-3-thread-2:195] - Domain:http://jgrapht.org/ page queue emptied after 3 page crawls
+2016-05-01 18:33:35,893 [             Domain.java:pool-3-thread-1:122] - 404 NOT FOUND: http://www.draw2d.org//robots.txt
+
+2016-05-01 18:33:36,782 [             Domain.java:pool-3-thread-1:195] - Domain:http://www.draw2d.org/ page queue emptied after 1 page crawls
+2016-05-01 18:33:37,009 [             Domain.java:pool-3-thread-1:119] - 301 REDIRECT: http://www.reddit.com/
+
+2016-05-01 18:33:37,010 [             Domain.java:pool-3-thread-1:122] - 404 NOT FOUND: http://www.reddit.com/
+
+2016-05-01 18:33:37,511 [             Domain.java:pool-3-thread-1:195] - Domain:http://www.reddit.com/ page queue emptied after 1 page crawls
+2016-05-01 18:33:39,987 [             Domain.java:pool-3-thread-2:132] - Unrecognized response code: 500 for http://www.pixijs.com/projects/

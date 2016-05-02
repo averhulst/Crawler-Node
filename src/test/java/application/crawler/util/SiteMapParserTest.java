@@ -1,20 +1,21 @@
 package application.crawler.util;
 
 import application.crawler.SiteMapParser;
-import application.crawler.Url;
 import org.junit.Before;
 import org.junit.Test;
 
 import java.io.BufferedReader;
 import java.io.FileReader;
 import java.io.IOException;
+import java.net.MalformedURLException;
 import java.net.URI;
+import java.net.URISyntaxException;
 import java.util.ArrayList;
 import java.util.List;
 
 public class SiteMapParserTest {
     private SiteMapParser siteMapParser;
-    private List<URI> urlListControl = new ArrayList<URI>();
+    private List<java.net.URI> urlListControl = new ArrayList<URI>();
 
     @Before
     public void setUp() throws Exception {
@@ -31,7 +32,7 @@ public class SiteMapParserTest {
             e.printStackTrace();
         }
 
-        siteMapParser = new SiteMapParser(new Url("http://www.sitemappro.com/"), source);
+        siteMapParser = new SiteMapParser(new URI("http://www.sitemappro.com/"), source);
 
         try {
 
@@ -47,10 +48,14 @@ public class SiteMapParserTest {
         }
     }
 
-
     @Test
-    public void testXmlParser(){
-        siteMapParser.getUrls();
-        assert(siteMapParser.getUrls().equals(urlListControl));
+    public void testXmlParser() throws MalformedURLException {
+        assert(siteMapParser.getURIs().size() == urlListControl.size());
+
+        for(URI urlControl : urlListControl) {
+            for(URI url : siteMapParser.getURIs()) {
+                assert(url.equals(urlControl));
+            }
+        }
     }
 }

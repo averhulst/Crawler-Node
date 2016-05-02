@@ -1,11 +1,9 @@
 package application.crawler;
 
+import org.apache.commons.io.IOUtils;
 import org.json.JSONObject;
 
-import java.io.BufferedReader;
-import java.io.FileReader;
-import java.io.IOException;
-import java.io.InputStreamReader;
+import java.io.*;
 
 public class Environment {
     public static final String CRAWL_RESULTS_DB_ADDRESS;
@@ -20,21 +18,16 @@ public class Environment {
     public static final String MESSAGING_SERVICE_PASS;
 
     static {
-        StringBuilder sb = new StringBuilder();
-        try{
-            BufferedReader reader = new BufferedReader(new InputStreamReader(Environment.class.getResourceAsStream("/environment_config.txt")));
-            String line = null;
-            sb = new StringBuilder();
+        String configStr = null;
+        InputStream inputStream = Environment.class.getClassLoader().getResourceAsStream("environment_config.txt");
 
-            while ((line = reader.readLine()) != null) {
-                sb.append(line);
-            }
-
+        try {
+            configStr = IOUtils. toString(inputStream, "UTF-8");
         } catch (IOException e) {
             e.printStackTrace();
         }
 
-        JSONObject environmentJSON = new JSONObject(sb.toString());
+        JSONObject environmentJSON = new JSONObject(configStr.toString());
 
         CRAWL_RESULTS_DB_ADDRESS    =  environmentJSON.getJSONObject("CRAWL_RESULTS_DB").getString("Address");
         CRAWL_RESULTS_DB_PORT       =  (int)environmentJSON.getJSONObject("CRAWL_RESULTS_DB").get("Port");

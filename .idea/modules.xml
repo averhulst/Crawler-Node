@@ -2,8 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/TomatoNode.iml" filepath="$PROJECT_DIR$/TomatoNode.iml" />
+      <module fileurl="file://$PROJECT_DIR$/CrawlerNode.iml" filepath="$PROJECT_DIR$/CrawlerNode.iml" />
     </modules>
   </component>
 </project>
-

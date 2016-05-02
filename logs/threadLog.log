@@ -1,0 +1,30 @@
+2016-04-30 15:31:28,837 [            Crawler.java:pool-3-thread-1:114] - uncaught exception [Ljava.lang.StackTraceElement;@5d8e8b4a
+
+2016-04-30 15:36:11,999 [            Crawler.java:pool-3-thread-1:114] - uncaught exception [Ljava.lang.StackTraceElement;@2e8b8e3a
+
+2016-04-30 17:23:35,048 [            Crawler.java:pool-3-thread-2:114] - uncaught exception [Ljava.lang.StackTraceElement;@6126ec6b
+
+2016-04-30 17:23:38,561 [            Crawler.java:pool-3-thread-1:114] - uncaught exception [Ljava.lang.StackTraceElement;@6f9907a9
+
+2016-05-01 18:25:02,815 [            Crawler.java:pool-3-thread-1:114] - uncaught exception [Ljava.lang.StackTraceElement;@61a4ad46
+
+2016-05-01 18:25:14,606 [            Crawler.java:pool-3-thread-1:114] - uncaught exception [Ljava.lang.StackTraceElement;@42b4f539
+
+2016-05-01 18:28:44,226 [            Crawler.java:pool-3-thread-2:114] - uncaught exception [Ljava.lang.StackTraceElement;@25d37de4
+
+2016-05-01 18:28:45,957 [            Crawler.java:pool-3-thread-2:114] - uncaught exception [Ljava.lang.StackTraceElement;@5b884fcd
+
+2016-05-01 18:33:35,497 [            Crawler.java:pool-3-thread-1:112] - uncaught exception [Ljava.lang.StackTraceElement;@73542a73
+
+2016-05-01 18:33:45,193 [            Crawler.java:pool-3-thread-1:112] - uncaught exception [Ljava.lang.StackTraceElement;@1361cb46
+
+2016-05-01 18:33:47,945 [            Crawler.java:pool-3-thread-1:112] - uncaught exception [Ljava.lang.StackTraceElement;@67f21c79
+
+2016-05-01 18:33:51,664 [            Crawler.java:pool-3-thread-2:112] - uncaught exception [Ljava.lang.StackTraceElement;@26dd99bf
+
+2016-05-01 18:34:01,025 [            Crawler.java:pool-3-thread-2:112] - uncaught exception [Ljava.lang.StackTraceElement;@43fd79d9
+
+2016-05-01 18:34:03,130 [            Crawler.java:pool-3-thread-1:112] - uncaught exception [Ljava.lang.StackTraceElement;@6c14dc20
+
+2016-05-01 18:34:06,068 [            Crawler.java:pool-3-thread-2:112] - uncaught exception [Ljava.lang.StackTraceElement;@2bf1c03b
+
