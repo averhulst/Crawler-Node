@@ -56,7 +56,11 @@ public class Page{
         for(Element anchor : pageDocument.select("a")){
             try {
                 URI href =  processAnchor(anchor);
-                parseURI(href);
+
+                if (href != null) {
+                    parseURI(href);
+                }
+
             } catch (URISyntaxException e) {
                 e.printStackTrace();
             }
