@@ -34,10 +34,15 @@ public class Page{
     public URI getURI() {
         return url;
     }
+
     public void parseSource(){
         pageDocument = Jsoup.parse(sourceCode);
         head = pageDocument.head();
         body = pageDocument.body();
+    }
+
+    public Element getBody() {
+        return body;
     }
 
     private void getCrawlableURIs(){
@@ -64,7 +69,7 @@ public class Page{
         String absoluteURIStr = anchor.attr("abs:href");
 
         if(absoluteURIStr.length() <= 0 ) {
-            throw new RuntimeException("Investigate me, why is urlStrLength less than 0 for " + anchor.toString());
+            return null;
         }
 
         return new URI(absoluteURIStr);

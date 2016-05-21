@@ -28,6 +28,8 @@ public class Domain implements Runnable{
     private Timer timer = new Timer();
     private int crawlCount;
     private JSONObject domainJson;
+    private boolean domainContainsSearchString = false;
+
     private final org.apache.log4j.Logger logger = org.apache.log4j.Logger.getLogger("domainLogger");
 
     public Domain(URI url) {
@@ -44,6 +46,10 @@ public class Domain implements Runnable{
             put("pages", new JSONObject());
         }};
         crawlCount = 0;
+    }
+
+    public boolean domainContainsSearchString() {
+        return domainContainsSearchString;
     }
 
     private void parseRobotsTxt(String pageSource){
@@ -137,6 +143,11 @@ public class Domain implements Runnable{
 
     private void parsePageContent(Page p){
         p.parseSource();
+
+        if(p.getBody().toString().contains(CrawlerSettings.SEARCH_STRING)) {
+            domainContainsSearchString = true;
+        }
+
         processDiscoveredDomains(p.getDiscoveredDomains());
         processDiscoveredPages(p.getDiscoveredPages());
         String pathHash = Util.toSha256(p.getURI().getPath() + p.getURI().getQuery());
@@ -187,6 +198,7 @@ public class Domain implements Runnable{
     public String getDomainURI(){
         return domainURL.toString();
     }
+
     private void assertRunnable(){
         if(crawlCount >= CRAWL_CEILING){
             running = false;
