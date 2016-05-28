@@ -1,0 +1,9 @@
+crawler\UrlQueueTest$1.class
+crawler\RequestTest.class
+application\crawler\domain\PageTest.class
+application\crawler\util\UtilTest.class
+application\crawler\util\SiteMapParserTest.class
+crawler\DomainTest.class
+crawler\UrlQueueTest.class
+crawler\RobotsTxtTest.class
+application\crawler\util\URLFilterTest.class

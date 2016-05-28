@@ -5,6 +5,7 @@ import application.crawler.Request;
 import application.crawler.util.Timer;
 import application.crawler.UrlQueue;
 import application.crawler.util.Util;
+import org.json.JSONArray;
 import org.json.JSONObject;
 import java.io.IOException;
 import java.net.MalformedURLException;
@@ -44,6 +45,8 @@ public class Domain implements Runnable{
         domainJson = new JSONObject(){{
             put("url", domainURL);
             put("pages", new JSONObject());
+            put("externalDomainReferences", new JSONArray());
+
         }};
         crawlCount = 0;
     }
@@ -151,7 +154,10 @@ public class Domain implements Runnable{
         processDiscoveredDomains(p.getDiscoveredDomains());
         processDiscoveredPages(p.getDiscoveredPages());
         String pathHash = Util.toSha256(p.getURI().getPath() + p.getURI().getQuery());
-        domainJson.getJSONObject("pages").put(pathHash, p.toJson());
+        if(domainContainsSearchString) {
+            domainJson.getJSONObject("pages").put(pathHash, p.toJson());
+        }
+
         crawledURIs.add(p.getURI());
     }
 

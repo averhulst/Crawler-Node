@@ -5,15 +5,33 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="c5e8feb2-715e-4e22-a405-895cf98e4944" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/application/crawler/Crawler$RunnableDomain.class" afterPath="$PROJECT_DIR$/target/classes/application/crawler/Crawler$RunnableDomain.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/application/crawler/Crawler.class" afterPath="$PROJECT_DIR$/target/classes/application/crawler/Crawler.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/CrawlerNode-1.0-SNAPSHOT.jar" afterPath="$PROJECT_DIR$/target/CrawlerNode-1.0-SNAPSHOT.jar" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/WebCrawler.jar" afterPath="$PROJECT_DIR$/target/WebCrawler.jar" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/application/crawler/domain/Domain$1.class" afterPath="$PROJECT_DIR$/target/classes/application/crawler/domain/Domain$1.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/application/crawler/domain/Domain.class" afterPath="$PROJECT_DIR$/target/classes/application/crawler/domain/Domain.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/application/crawler/domain/Page$1.class" afterPath="$PROJECT_DIR$/target/classes/application/crawler/domain/Page$1.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/application/crawler/domain/Page.class" afterPath="$PROJECT_DIR$/target/classes/application/crawler/domain/Page.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/logs/crawlerLog.log" afterPath="$PROJECT_DIR$/logs/crawlerLog.log" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/logs/domain.log" afterPath="$PROJECT_DIR$/logs/domain.log" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/application/crawler/CrawlerSettings.java" afterPath="$PROJECT_DIR$/src/main/java/application/crawler/CrawlerSettings.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/logs/robotsTxt.log" afterPath="$PROJECT_DIR$/logs/robotsTxt.log" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/application/crawler/Crawler.java" afterPath="$PROJECT_DIR$/src/main/java/application/crawler/Crawler.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/application/crawler/domain/Domain.java" afterPath="$PROJECT_DIR$/src/main/java/application/crawler/domain/Domain.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/application/crawler/domain/Page.java" afterPath="$PROJECT_DIR$/src/main/java/application/crawler/domain/Page.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/test/java/crawler/RobotsTxtTest.java" afterPath="$PROJECT_DIR$/src/test/java/crawler/RobotsTxtTest.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/maven-archiver/pom.properties" afterPath="$PROJECT_DIR$/target/maven-archiver/pom.properties" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/surefire-reports/TEST-application.crawler.domain.PageTest.xml" afterPath="$PROJECT_DIR$/target/surefire-reports/TEST-application.crawler.domain.PageTest.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/surefire-reports/TEST-application.crawler.util.SiteMapParserTest.xml" afterPath="$PROJECT_DIR$/target/surefire-reports/TEST-application.crawler.util.SiteMapParserTest.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/surefire-reports/TEST-application.crawler.util.URLFilterTest.xml" afterPath="$PROJECT_DIR$/target/surefire-reports/TEST-application.crawler.util.URLFilterTest.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/surefire-reports/TEST-application.crawler.util.UtilTest.xml" afterPath="$PROJECT_DIR$/target/surefire-reports/TEST-application.crawler.util.UtilTest.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/surefire-reports/TEST-crawler.RequestTest.xml" afterPath="$PROJECT_DIR$/target/surefire-reports/TEST-crawler.RequestTest.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/surefire-reports/TEST-crawler.RobotsTxtTest.xml" afterPath="$PROJECT_DIR$/target/surefire-reports/TEST-crawler.RobotsTxtTest.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/surefire-reports/TEST-crawler.UrlQueueTest.xml" afterPath="$PROJECT_DIR$/target/surefire-reports/TEST-crawler.UrlQueueTest.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/surefire-reports/application.crawler.domain.PageTest.txt" afterPath="$PROJECT_DIR$/target/surefire-reports/application.crawler.domain.PageTest.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/surefire-reports/application.crawler.util.SiteMapParserTest.txt" afterPath="$PROJECT_DIR$/target/surefire-reports/application.crawler.util.SiteMapParserTest.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/surefire-reports/application.crawler.util.UtilTest.txt" afterPath="$PROJECT_DIR$/target/surefire-reports/application.crawler.util.UtilTest.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/surefire-reports/crawler.RequestTest.txt" afterPath="$PROJECT_DIR$/target/surefire-reports/crawler.RequestTest.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/surefire-reports/crawler.RobotsTxtTest.txt" afterPath="$PROJECT_DIR$/target/surefire-reports/crawler.RobotsTxtTest.txt" />
     </list>
     <ignored path="Crawler-Node.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -46,17 +64,7 @@
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="510">
               <caret line="36" column="34" selection-start-line="36" selection-start-column="34" selection-end-line="36" selection-end-column="34" />
-              <folding>
-                <element signature="imports" expanded="false" />
-                <element signature="e#1802#1803#0" expanded="false" />
-                <element signature="e#1835#1836#0" expanded="false" />
-                <element signature="e#2764#2765#0" expanded="false" />
-                <element signature="e#2819#2820#0" expanded="false" />
-                <element signature="e#2859#2860#0" expanded="false" />
-                <element signature="e#2890#2891#0" expanded="false" />
-                <element signature="e#2924#2925#0" expanded="false" />
-                <element signature="e#2963#2964#0" expanded="false" />
-              </folding>
+              <folding />
             </state>
           </provider>
         </entry>
@@ -64,11 +72,19 @@
       <file leaf-file-name="Page.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/application/crawler/domain/Page.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="538">
-              <caret line="43" column="30" selection-start-line="43" selection-start-column="30" selection-end-line="43" selection-end-column="30" />
-              <folding>
-                <element signature="e#1178#1179#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="199">
+              <caret line="58" column="0" selection-start-line="58" selection-start-column="0" selection-end-line="58" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Crawler.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/application/crawler/Crawler.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="181">
+              <caret line="85" column="0" selection-start-line="85" selection-start-column="0" selection-end-line="85" selection-end-column="0" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -78,80 +94,32 @@
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="170">
               <caret line="12" column="29" selection-start-line="12" selection-start-column="29" selection-end-line="12" selection-end-column="29" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Crawler.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/application/crawler/Crawler.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="194">
-              <caret line="79" column="0" selection-start-line="79" selection-start-column="0" selection-end-line="79" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Domain.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/java/application/crawler/domain/Domain.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="189">
-              <caret line="132" column="51" selection-start-line="132" selection-start-column="51" selection-end-line="132" selection-end-column="51" />
               <folding>
-                <element signature="e#1637#1638#0" expanded="true" />
-                <element signature="e#1686#1687#0" expanded="true" />
+                <element signature="imports" expanded="false" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="PageTest.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/application/crawler/domain/PageTest.java">
+      <file leaf-file-name="Domain.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/application/crawler/domain/Domain.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="629">
-              <caret line="42" column="5" selection-start-line="42" selection-start-column="5" selection-end-line="42" selection-end-column="5" />
+            <state relative-caret-position="-133">
+              <caret line="150" column="33" selection-start-line="150" selection-start-column="26" selection-end-line="150" selection-end-column="33" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="SiteMapParserTest.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/application/crawler/util/SiteMapParserTest.java">
+      <file leaf-file-name="Request.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/application/crawler/Request.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="816">
-              <caret line="59" column="0" selection-start-line="59" selection-start-column="0" selection-end-line="59" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="sitemap.xml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/resources/sitemap.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="425">
-              <caret line="25" column="8" selection-start-line="25" selection-start-column="8" selection-end-line="25" selection-end-column="8" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="sitemapcontrol.txt" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/resources/sitemapcontrol.txt">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="374">
-              <caret line="22" column="30" selection-start-line="22" selection-start-column="30" selection-end-line="22" selection-end-column="30" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="page.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/resources/page.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="119">
-              <caret line="7" column="52" selection-start-line="7" selection-start-column="52" selection-end-line="7" selection-end-column="52" />
-              <folding />
+            <state relative-caret-position="391">
+              <caret line="44" column="34" selection-start-line="44" selection-start-column="34" selection-end-line="44" selection-end-column="34" />
+              <folding>
+                <element signature="e#541#542#0" expanded="true" />
+                <element signature="e#579#580#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -190,10 +158,10 @@
         <option value="$PROJECT_DIR$/src/main/java/application/crawler/Environment.java" />
         <option value="$PROJECT_DIR$/src/test/resources/page.html" />
         <option value="$PROJECT_DIR$/src/test/java/application/crawler/util/SiteMapParserTest.java" />
-        <option value="$PROJECT_DIR$/src/main/java/application/crawler/Crawler.java" />
-        <option value="$PROJECT_DIR$/src/main/java/application/crawler/domain/Page.java" />
         <option value="$PROJECT_DIR$/src/main/java/application/crawler/CrawlerSettings.java" />
+        <option value="$PROJECT_DIR$/src/main/java/application/crawler/domain/Page.java" />
         <option value="$PROJECT_DIR$/src/main/java/application/crawler/domain/Domain.java" />
+        <option value="$PROJECT_DIR$/src/main/java/application/crawler/Crawler.java" />
       </list>
     </option>
   </component>
@@ -205,38 +173,12 @@
     </option>
   </component>
   <component name="MavenProjectNavigator">
-    <treeState>
-      <PATH>
-        <PATH_ELEMENT>
-          <option name="myItemId" value="" />
-          <option name="myItemType" value="org.jetbrains.idea.maven.navigator.MavenProjectsStructure$RootNode" />
-        </PATH_ELEMENT>
-        <PATH_ELEMENT>
-          <option name="myItemId" value="CrawlerNode" />
-          <option name="myItemType" value="org.jetbrains.idea.maven.navigator.MavenProjectsStructure$ProjectNode" />
-        </PATH_ELEMENT>
-      </PATH>
-      <PATH>
-        <PATH_ELEMENT>
-          <option name="myItemId" value="" />
-          <option name="myItemType" value="org.jetbrains.idea.maven.navigator.MavenProjectsStructure$RootNode" />
-        </PATH_ELEMENT>
-        <PATH_ELEMENT>
-          <option name="myItemId" value="CrawlerNode" />
-          <option name="myItemType" value="org.jetbrains.idea.maven.navigator.MavenProjectsStructure$ProjectNode" />
-        </PATH_ELEMENT>
-        <PATH_ELEMENT>
-          <option name="myItemId" value="Lifecycle" />
-          <option name="myItemType" value="org.jetbrains.idea.maven.navigator.MavenProjectsStructure$LifecycleNode" />
-        </PATH_ELEMENT>
-      </PATH>
-    </treeState>
+    <treeState />
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="-8" />
-    <option name="y" value="-8" />
-    <option name="width" value="1936" />
-    <option name="height" value="1056" />
+    <option name="x" value="1913" />
+    <option name="width" value="974" />
+    <option name="height" value="1047" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="false">
     <OptionsSetting value="true" id="Add" />
@@ -263,6 +205,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -487,7 +430,6 @@
           </PATH>
         </subPane>
       </pane>
-      <pane id="Scratches" />
       <pane id="Scope" />
       <pane id="PackagesPane" />
     </panes>
@@ -864,9 +806,9 @@
     <recent_temporary>
       <list size="4">
         <item index="0" class="java.lang.String" itemvalue="Application.Main" />
-        <item index="1" class="java.lang.String" itemvalue="JUnit.SiteMapParserTest" />
-        <item index="2" class="java.lang.String" itemvalue="JUnit.PageTest" />
-        <item index="3" class="java.lang.String" itemvalue="JUnit.UrlQueueTest.testEnqueueUrl" />
+        <item index="1" class="java.lang.String" itemvalue="JUnit.UrlQueueTest.testEnqueueUrl" />
+        <item index="2" class="java.lang.String" itemvalue="JUnit.SiteMapParserTest" />
+        <item index="3" class="java.lang.String" itemvalue="JUnit.PageTest" />
       </list>
     </recent_temporary>
   </component>
@@ -887,9 +829,6 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="PageTest - 2016.04.30 at 17h 20m 13s.xml">
-      <configuration name="PageTest" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="PageTest - 2016.05.01 at 19h 27m 41s.xml">
       <configuration name="PageTest" configurationId="JUnit" />
     </history-entry>
@@ -917,9 +856,12 @@
     <history-entry file="SiteMapParserTest - 2016.05.01 at 19h 32m 59s.xml">
       <configuration name="SiteMapParserTest" configurationId="JUnit" />
     </history-entry>
+    <history-entry file="UrlQueueTest_testEnqueueUrl - 2016.05.21 at 23h 43m 26s.xml">
+      <configuration name="UrlQueueTest.testEnqueueUrl" configurationId="JUnit" />
+    </history-entry>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
+    <frame x="1913" y="0" width="974" height="1047" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -928,18 +870,18 @@
       <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.23347548" sideWeight="0.49358973" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.1924307" sideWeight="0.49358973" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3629469" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.37594798" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32936078" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25586355" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.5251641" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.8201517" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.61487967" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -962,7 +904,15 @@
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <option name="time" value="15" />
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/application/crawler/Crawler.java</url>
+          <line>94</line>
+          <properties />
+          <option name="timeStamp" value="24" />
+        </line-breakpoint>
+      </breakpoints>
+      <option name="time" value="25" />
     </breakpoint-manager>
     <watches-manager />
   </component>
@@ -975,7 +925,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="374">
           <caret line="22" column="30" selection-start-line="22" selection-start-column="30" selection-end-line="22" selection-end-column="30" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -983,7 +932,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="119">
           <caret line="7" column="52" selection-start-line="7" selection-start-column="52" selection-end-line="7" selection-end-column="52" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -991,17 +939,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1972">
           <caret line="132" column="47" selection-start-line="132" selection-start-column="47" selection-end-line="132" selection-end-column="47" />
-          <folding>
-            <element signature="imports" expanded="false" />
-            <element signature="e#1802#1803#0" expanded="false" />
-            <element signature="e#1835#1836#0" expanded="false" />
-            <element signature="e#2764#2765#0" expanded="false" />
-            <element signature="e#2819#2820#0" expanded="false" />
-            <element signature="e#2859#2860#0" expanded="false" />
-            <element signature="e#2890#2891#0" expanded="false" />
-            <element signature="e#2924#2925#0" expanded="false" />
-            <element signature="e#2963#2964#0" expanded="false" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -1016,9 +954,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="102">
           <caret line="15" column="20" selection-start-line="15" selection-start-column="20" selection-end-line="15" selection-end-column="20" />
-          <folding>
-            <element signature="e#1178#1179#0" expanded="true" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -1081,17 +1017,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1972">
           <caret line="132" column="47" selection-start-line="132" selection-start-column="47" selection-end-line="132" selection-end-column="47" />
-          <folding>
-            <element signature="imports" expanded="false" />
-            <element signature="e#1802#1803#0" expanded="false" />
-            <element signature="e#1835#1836#0" expanded="false" />
-            <element signature="e#2764#2765#0" expanded="false" />
-            <element signature="e#2819#2820#0" expanded="false" />
-            <element signature="e#2859#2860#0" expanded="false" />
-            <element signature="e#2890#2891#0" expanded="false" />
-            <element signature="e#2924#2925#0" expanded="false" />
-            <element signature="e#2963#2964#0" expanded="false" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -1106,9 +1032,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="102">
           <caret line="15" column="20" selection-start-line="15" selection-start-column="20" selection-end-line="15" selection-end-column="20" />
-          <folding>
-            <element signature="e#1178#1179#0" expanded="true" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -1132,10 +1056,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="3128">
           <caret line="202" column="5" selection-start-line="202" selection-start-column="5" selection-end-line="202" selection-end-column="5" />
-          <folding>
-            <element signature="e#1637#1638#0" expanded="true" />
-            <element signature="e#1686#1687#0" expanded="true" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -1209,18 +1130,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/application/crawler/Request.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="323">
-          <caret line="19" column="22" selection-start-line="19" selection-start-column="22" selection-end-line="19" selection-end-column="22" />
-          <folding>
-            <element signature="imports" expanded="false" />
-            <element signature="e#541#542#0" expanded="false" />
-            <element signature="e#579#580#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/application/crawler/SiteMapParser.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="646">
@@ -1270,13 +1179,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/environment_config.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="289">
-          <caret line="17" column="1" selection-start-line="17" selection-start-column="1" selection-end-line="17" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="611">
@@ -1304,7 +1206,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="238">
           <caret line="14" column="28" selection-start-line="14" selection-start-column="28" selection-end-line="14" selection-end-column="28" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1312,7 +1213,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="425">
           <caret line="25" column="8" selection-start-line="25" selection-start-column="8" selection-end-line="25" selection-end-column="8" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1320,7 +1220,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="374">
           <caret line="22" column="30" selection-start-line="22" selection-start-column="30" selection-end-line="22" selection-end-column="30" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1328,7 +1227,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="119">
           <caret line="7" column="52" selection-start-line="7" selection-start-column="52" selection-end-line="7" selection-end-column="52" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1344,7 +1242,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="816">
           <caret line="59" column="0" selection-start-line="59" selection-start-column="0" selection-end-line="59" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1352,35 +1249,14 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="510">
           <caret line="36" column="34" selection-start-line="36" selection-start-column="34" selection-end-line="36" selection-end-column="34" />
-          <folding>
-            <element signature="imports" expanded="false" />
-            <element signature="e#1802#1803#0" expanded="false" />
-            <element signature="e#1835#1836#0" expanded="false" />
-            <element signature="e#2764#2765#0" expanded="false" />
-            <element signature="e#2819#2820#0" expanded="false" />
-            <element signature="e#2859#2860#0" expanded="false" />
-            <element signature="e#2890#2891#0" expanded="false" />
-            <element signature="e#2924#2925#0" expanded="false" />
-            <element signature="e#2963#2964#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/application/crawler/domain/Page.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="538">
-          <caret line="43" column="30" selection-start-line="43" selection-start-column="30" selection-end-line="43" selection-end-column="30" />
-          <folding>
-            <element signature="e#1178#1179#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/application/crawler/Crawler.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="194">
-          <caret line="79" column="0" selection-start-line="79" selection-start-column="0" selection-end-line="79" selection-end-column="0" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/environment_config.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="17">
+          <caret line="1" column="21" selection-start-line="1" selection-start-column="5" selection-end-line="1" selection-end-column="21" />
         </state>
       </provider>
     </entry>
@@ -1388,18 +1264,44 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="170">
           <caret line="12" column="29" selection-start-line="12" selection-start-column="29" selection-end-line="12" selection-end-column="29" />
+          <folding>
+            <element signature="imports" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/application/crawler/Request.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="391">
+          <caret line="44" column="34" selection-start-line="44" selection-start-column="34" selection-end-line="44" selection-end-column="34" />
+          <folding>
+            <element signature="e#541#542#0" expanded="true" />
+            <element signature="e#579#580#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/application/crawler/domain/Page.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="199">
+          <caret line="58" column="0" selection-start-line="58" selection-start-column="0" selection-end-line="58" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/application/crawler/domain/Domain.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="189">
-          <caret line="132" column="51" selection-start-line="132" selection-start-column="51" selection-end-line="132" selection-end-column="51" />
-          <folding>
-            <element signature="e#1637#1638#0" expanded="true" />
-            <element signature="e#1686#1687#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="-133">
+          <caret line="150" column="33" selection-start-line="150" selection-start-column="26" selection-end-line="150" selection-end-column="33" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/application/crawler/Crawler.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="181">
+          <caret line="85" column="0" selection-start-line="85" selection-start-column="0" selection-end-line="85" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>

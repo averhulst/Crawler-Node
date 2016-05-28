@@ -39,3 +39,1036 @@
 2016-05-20 20:29:46,228 [             Domain.java:pool-3-thread-1:208] - Domain:http://www.reddit.com/ page queue emptied after 2 page crawls
 2016-05-20 20:30:20,818 [             Domain.java:pool-3-thread-2:128] - 404 NOT FOUND: http://jgrapht.org//robots.txt
 
+2016-05-20 23:02:11,008 [             Domain.java:pool-3-thread-1:125] - 301 REDIRECT: http://www.reddit.com/
+
+2016-05-20 23:02:11,010 [             Domain.java:pool-3-thread-1:128] - 404 NOT FOUND: http://www.reddit.com/
+
+2016-05-20 23:02:19,071 [             Domain.java:pool-3-thread-1:207] - Domain:http://www.reddit.com/ page queue emptied after 2 page crawls
+2016-05-20 23:05:28,256 [             Domain.java:pool-3-thread-2:128] - 404 NOT FOUND: http://jgrapht.org//robots.txt
+
+2016-05-20 23:05:30,288 [             Domain.java:pool-3-thread-2:207] - Domain:http://jgrapht.org/ page queue emptied after 3 page crawls
+2016-05-20 23:26:04,706 [             Domain.java:pool-3-thread-2:128] - 404 NOT FOUND: http://jgrapht.org//robots.txt
+
+2016-05-20 23:26:06,713 [             Domain.java:pool-3-thread-2:207] - Domain:http://jgrapht.org/ page queue emptied after 3 page crawls
+2016-05-20 23:26:11,380 [             Domain.java:pool-3-thread-1:128] - 404 NOT FOUND: http://www.draw2d.org//robots.txt
+
+2016-05-20 23:26:12,238 [             Domain.java:pool-3-thread-1:207] - Domain:http://www.draw2d.org/ page queue emptied after 1 page crawls
+2016-05-20 23:26:12,479 [             Domain.java:pool-3-thread-1:125] - 301 REDIRECT: http://www.reddit.com/
+
+2016-05-20 23:26:12,479 [             Domain.java:pool-3-thread-1:128] - 404 NOT FOUND: http://www.reddit.com/
+
+2016-05-20 23:26:13,947 [             Domain.java:pool-3-thread-1:207] - Domain:http://www.reddit.com/ page queue emptied after 2 page crawls
+2016-05-20 23:26:31,234 [             Domain.java:pool-3-thread-1:125] - 302 REDIRECT: http://www.stackoverflow.com/questions/ask
+
+2016-05-20 23:26:31,234 [             Domain.java:pool-3-thread-1:128] - 404 NOT FOUND: http://www.stackoverflow.com/questions/ask
+
+2016-05-20 23:27:18,026 [             Domain.java:pool-3-thread-1:138] - Unrecognized response code: 400 for http://www.usatoday.com/web_sitemap_index.xml
+2016-05-20 23:27:48,742 [             Domain.java:pool-3-thread-1:138] - Unrecognized response code: 400 for http://www.usatoday.com/news_sitemap_index.xml
+2016-05-21 17:54:15,912 [             Domain.java:pool-3-thread-2:128] - 404 NOT FOUND: http://jgrapht.org//robots.txt
+
+2016-05-21 17:54:17,918 [             Domain.java:pool-3-thread-2:207] - Domain:http://jgrapht.org/ page queue emptied after 3 page crawls
+2016-05-21 17:54:23,327 [             Domain.java:pool-3-thread-1:128] - 404 NOT FOUND: http://www.draw2d.org//robots.txt
+
+2016-05-21 17:54:24,186 [             Domain.java:pool-3-thread-1:207] - Domain:http://www.draw2d.org/ page queue emptied after 1 page crawls
+2016-05-21 17:54:24,375 [             Domain.java:pool-3-thread-1:125] - 301 REDIRECT: http://www.reddit.com/
+
+2016-05-21 17:54:24,375 [             Domain.java:pool-3-thread-1:128] - 404 NOT FOUND: http://www.reddit.com/
+
+2016-05-21 17:54:25,817 [             Domain.java:pool-3-thread-1:207] - Domain:http://www.reddit.com/ page queue emptied after 2 page crawls
+2016-05-21 18:10:07,600 [             Domain.java:pool-3-thread-2:138] - Unrecognized response code: 400 for http://www.usatoday.com/web_sitemap_index.xml
+2016-05-21 18:10:37,433 [             Domain.java:pool-3-thread-1:128] - 404 NOT FOUND: http://jgrapht.org//robots.txt
+
+2016-05-21 23:18:09,910 [             Domain.java:pool-3-thread-1:125] - 301 REDIRECT: http://www.reddit.com/
+
+2016-05-21 23:18:09,913 [             Domain.java:pool-3-thread-1:128] - 404 NOT FOUND: http://www.reddit.com/
+
+2016-05-21 23:18:11,401 [             Domain.java:pool-3-thread-1:210] - Domain:http://www.reddit.com/ page queue emptied after 2 page crawls
+2016-05-21 23:18:21,484 [             Domain.java:pool-3-thread-1:125] - 302 REDIRECT: http://www.stackoverflow.com/questions/ask
+
+2016-05-21 23:18:21,484 [             Domain.java:pool-3-thread-1:128] - 404 NOT FOUND: http://www.stackoverflow.com/questions/ask
+
+2016-05-21 23:19:05,407 [             Domain.java:pool-3-thread-1:138] - Unrecognized response code: 400 for http://www.usatoday.com/web_sitemap_index.xml
+2016-05-21 23:19:38,256 [             Domain.java:pool-3-thread-1:138] - Unrecognized response code: 400 for http://www.usatoday.com/image_sitemap_index.xml
+2016-05-21 23:22:51,153 [             Domain.java:pool-3-thread-1:128] - 404 NOT FOUND: http://jgrapht.org//robots.txt
+
+2016-05-21 23:22:53,100 [             Domain.java:pool-3-thread-1:210] - Domain:http://jgrapht.org/ page queue emptied after 3 page crawls
+2016-05-21 23:22:57,985 [             Domain.java:pool-3-thread-2:128] - 404 NOT FOUND: http://www.draw2d.org//robots.txt
+
+2016-05-21 23:22:58,856 [             Domain.java:pool-3-thread-2:210] - Domain:http://www.draw2d.org/ page queue emptied after 1 page crawls
+2016-05-21 23:22:59,076 [             Domain.java:pool-3-thread-2:125] - 301 REDIRECT: http://www.reddit.com/
+
+2016-05-21 23:22:59,076 [             Domain.java:pool-3-thread-2:128] - 404 NOT FOUND: http://www.reddit.com/
+
+2016-05-21 23:23:00,229 [             Domain.java:pool-3-thread-2:210] - Domain:http://www.reddit.com/ page queue emptied after 2 page crawls
+2016-05-21 23:23:17,146 [             Domain.java:pool-3-thread-1:125] - 302 REDIRECT: http://www.stackoverflow.com/questions/ask
+
+2016-05-21 23:23:17,147 [             Domain.java:pool-3-thread-1:128] - 404 NOT FOUND: http://www.stackoverflow.com/questions/ask
+
+2016-05-21 23:23:55,563 [             Domain.java:pool-3-thread-2:138] - Unrecognized response code: 400 for http://www.usatoday.com/web_sitemap_index.xml
+2016-05-21 23:24:28,403 [             Domain.java:pool-3-thread-2:138] - Unrecognized response code: 400 for http://www.usatoday.com/image_sitemap_index.xml
+2016-05-21 23:25:06,018 [             Domain.java:pool-3-thread-2:128] - 404 NOT FOUND: http://jgrapht.org//robots.txt
+
+2016-05-21 23:25:07,928 [             Domain.java:pool-3-thread-2:210] - Domain:http://jgrapht.org/ page queue emptied after 3 page crawls
+2016-05-21 23:25:12,651 [             Domain.java:pool-3-thread-1:128] - 404 NOT FOUND: http://www.draw2d.org//robots.txt
+
+2016-05-21 23:25:13,529 [             Domain.java:pool-3-thread-1:210] - Domain:http://www.draw2d.org/ page queue emptied after 1 page crawls
+2016-05-21 23:25:13,740 [             Domain.java:pool-3-thread-1:125] - 301 REDIRECT: http://www.reddit.com/
+
+2016-05-21 23:25:13,740 [             Domain.java:pool-3-thread-1:128] - 404 NOT FOUND: http://www.reddit.com/
+
+2016-05-21 23:25:15,170 [             Domain.java:pool-3-thread-1:210] - Domain:http://www.reddit.com/ page queue emptied after 2 page crawls
+2016-05-21 23:25:30,716 [             Domain.java:pool-3-thread-1:125] - 302 REDIRECT: http://www.stackoverflow.com/questions/ask
+
+2016-05-21 23:25:30,717 [             Domain.java:pool-3-thread-1:128] - 404 NOT FOUND: http://www.stackoverflow.com/questions/ask
+
+2016-05-21 23:26:12,306 [             Domain.java:pool-3-thread-2:138] - Unrecognized response code: 400 for http://www.usatoday.com/web_sitemap_index.xml
+2016-05-21 23:26:55,425 [             Domain.java:pool-3-thread-2:138] - Unrecognized response code: 400 for http://www.usatoday.com/video_sitemap_index.xml
+2016-05-21 23:33:15,545 [             Domain.java:pool-3-thread-2:128] - 404 NOT FOUND: http://jgrapht.org//robots.txt
+
+2016-05-21 23:33:17,706 [             Domain.java:pool-3-thread-2:210] - Domain:http://jgrapht.org/ page queue emptied after 3 page crawls
+2016-05-21 23:33:23,142 [             Domain.java:pool-3-thread-1:128] - 404 NOT FOUND: http://www.draw2d.org//robots.txt
+
+2016-05-21 23:33:23,999 [             Domain.java:pool-3-thread-1:210] - Domain:http://www.draw2d.org/ page queue emptied after 1 page crawls
+2016-05-21 23:33:24,170 [             Domain.java:pool-3-thread-1:125] - 301 REDIRECT: http://www.reddit.com/
+
+2016-05-21 23:33:24,171 [             Domain.java:pool-3-thread-1:128] - 404 NOT FOUND: http://www.reddit.com/
+
+2016-05-21 23:33:25,900 [             Domain.java:pool-3-thread-1:210] - Domain:http://www.reddit.com/ page queue emptied after 2 page crawls
+2016-05-21 23:33:43,610 [             Domain.java:pool-3-thread-2:125] - 302 REDIRECT: http://www.stackoverflow.com/questions/ask
+
+2016-05-21 23:33:43,610 [             Domain.java:pool-3-thread-2:128] - 404 NOT FOUND: http://www.stackoverflow.com/questions/ask
+
+2016-05-21 23:34:48,581 [             Domain.java:pool-3-thread-2:138] - Unrecognized response code: 400 for http://www.usatoday.com/image_sitemap_index.xml
+2016-05-21 23:35:35,338 [             Domain.java:pool-3-thread-2:128] - 404 NOT FOUND: http://jgrapht.org//robots.txt
+
+2016-05-21 23:39:13,885 [             Domain.java:pool-3-thread-1:128] - 301 REDIRECT: http://www.reddit.com/
+
+2016-05-21 23:39:13,888 [             Domain.java:pool-3-thread-1:131] - 404 NOT FOUND: http://www.reddit.com/
+
+2016-05-21 23:39:36,770 [             Domain.java:pool-3-thread-1:217] - Domain:http://www.reddit.com/ page queue emptied after 2 page crawls
+2016-05-21 23:41:26,226 [             Domain.java:pool-3-thread-2:131] - 404 NOT FOUND: http://jgrapht.org//robots.txt
+
+2016-05-21 23:41:34,680 [             Domain.java:pool-3-thread-1:128] - 301 REDIRECT: http://www.reddit.com/
+
+2016-05-21 23:41:34,680 [             Domain.java:pool-3-thread-1:131] - 404 NOT FOUND: http://www.reddit.com/
+
+2016-05-21 23:41:34,826 [             Domain.java:pool-3-thread-2:131] - 404 NOT FOUND: http://www.draw2d.org//robots.txt
+
+2016-05-21 23:41:35,694 [             Domain.java:pool-3-thread-2:217] - Domain:http://www.draw2d.org/ page queue emptied after 1 page crawls
+2016-05-21 23:41:38,930 [             Domain.java:pool-3-thread-1:217] - Domain:http://www.reddit.com/ page queue emptied after 2 page crawls
+2016-05-22 14:23:11,359 [             Domain.java:pool-3-thread-2:131] - 404 NOT FOUND: http://jgrapht.org//robots.txt
+
+2016-05-22 14:24:15,341 [             Domain.java:pool-3-thread-2:217] - Domain:http://jgrapht.org/ page queue emptied after 3 page crawls
+2016-05-22 14:24:20,021 [             Domain.java:pool-3-thread-1:131] - 404 NOT FOUND: http://www.draw2d.org//robots.txt
+
+2016-05-22 14:24:20,870 [             Domain.java:pool-3-thread-1:217] - Domain:http://www.draw2d.org/ page queue emptied after 1 page crawls
+2016-05-22 14:24:21,118 [             Domain.java:pool-3-thread-1:128] - 301 REDIRECT: http://www.reddit.com/
+
+2016-05-22 14:24:21,118 [             Domain.java:pool-3-thread-1:131] - 404 NOT FOUND: http://www.reddit.com/
+
+2016-05-22 14:24:22,581 [             Domain.java:pool-3-thread-1:217] - Domain:http://www.reddit.com/ page queue emptied after 2 page crawls
+2016-05-22 18:42:09,579 [             Domain.java:pool-3-thread-2:141] - Unrecognized response code: 400 for http://www.usatoday.com/web_sitemap_index.xml
+2016-05-22 18:42:37,546 [             Domain.java:pool-3-thread-1:131] - 404 NOT FOUND: http://jgrapht.org//robots.txt
+
+2016-05-22 18:42:39,509 [             Domain.java:pool-3-thread-1:217] - Domain:http://jgrapht.org/ page queue emptied after 3 page crawls
+2016-05-22 18:42:42,631 [             Domain.java:pool-3-thread-2:141] - Unrecognized response code: 400 for http://www.usatoday.com/image_sitemap_index.xml
+2016-05-22 18:42:54,834 [             Domain.java:pool-3-thread-2:131] - 404 NOT FOUND: http://www.draw2d.org//robots.txt
+
+2016-05-22 18:42:55,763 [             Domain.java:pool-3-thread-2:217] - Domain:http://www.draw2d.org/ page queue emptied after 1 page crawls
+2016-05-22 18:42:55,995 [             Domain.java:pool-3-thread-2:128] - 301 REDIRECT: http://www.reddit.com/
+
+2016-05-22 18:42:55,995 [             Domain.java:pool-3-thread-2:131] - 404 NOT FOUND: http://www.reddit.com/
+
+2016-05-22 18:42:58,330 [             Domain.java:pool-3-thread-2:217] - Domain:http://www.reddit.com/ page queue emptied after 2 page crawls
+2016-05-22 18:43:08,880 [             Domain.java:pool-3-thread-2:128] - 302 REDIRECT: http://www.stackoverflow.com/questions/ask
+
+2016-05-22 18:43:08,881 [             Domain.java:pool-3-thread-2:131] - 404 NOT FOUND: http://www.stackoverflow.com/questions/ask
+
+2016-05-25 23:09:24,656 [             Domain.java:pool-3-thread-2:131] - 404 NOT FOUND: http://jgrapht.org//robots.txt
+
+2016-05-25 23:09:26,694 [             Domain.java:pool-3-thread-2:217] - Domain:http://jgrapht.org/ page queue emptied after 3 page crawls
+2016-05-25 23:09:31,713 [             Domain.java:pool-3-thread-1:131] - 404 NOT FOUND: http://www.draw2d.org//robots.txt
+
+2016-05-25 23:09:32,570 [             Domain.java:pool-3-thread-1:217] - Domain:http://www.draw2d.org/ page queue emptied after 1 page crawls
+2016-05-25 23:09:32,897 [             Domain.java:pool-3-thread-1:128] - 301 REDIRECT: http://www.reddit.com/
+
+2016-05-25 23:09:32,897 [             Domain.java:pool-3-thread-1:131] - 404 NOT FOUND: http://www.reddit.com/
+
+2016-05-25 23:09:37,929 [             Domain.java:pool-3-thread-1:217] - Domain:http://www.reddit.com/ page queue emptied after 2 page crawls
+2016-05-25 23:09:52,292 [             Domain.java:pool-3-thread-2:128] - 302 REDIRECT: http://www.stackoverflow.com/questions/ask
+
+2016-05-25 23:09:52,293 [             Domain.java:pool-3-thread-2:131] - 404 NOT FOUND: http://www.stackoverflow.com/questions/ask
+
+2016-05-25 23:10:35,460 [             Domain.java:pool-3-thread-2:141] - Unrecognized response code: 400 for http://www.usatoday.com/web_sitemap_index.xml
+2016-05-25 23:11:08,811 [             Domain.java:pool-3-thread-2:141] - Unrecognized response code: 400 for http://www.usatoday.com/image_sitemap_index.xml
+2016-05-25 23:12:00,521 [             Domain.java:pool-3-thread-2:131] - 404 NOT FOUND: http://jgrapht.org//robots.txt
+
+2016-05-25 23:12:02,432 [             Domain.java:pool-3-thread-2:217] - Domain:http://jgrapht.org/ page queue emptied after 3 page crawls
+2016-05-25 23:12:07,137 [             Domain.java:pool-3-thread-1:131] - 404 NOT FOUND: http://www.draw2d.org//robots.txt
+
+2016-05-25 23:12:07,996 [             Domain.java:pool-3-thread-1:217] - Domain:http://www.draw2d.org/ page queue emptied after 1 page crawls
+2016-05-25 23:12:17,613 [             Domain.java:pool-3-thread-1:128] - 301 REDIRECT: http://www.reddit.com/
+
+2016-05-25 23:12:17,614 [             Domain.java:pool-3-thread-1:131] - 404 NOT FOUND: http://www.reddit.com/
+
+2016-05-25 23:12:26,951 [             Domain.java:pool-3-thread-1:217] - Domain:http://www.reddit.com/ page queue emptied after 2 page crawls
+2016-05-25 23:12:32,836 [             Domain.java:pool-3-thread-2:128] - 302 REDIRECT: http://www.stackoverflow.com/questions/ask
+
+2016-05-25 23:12:32,836 [             Domain.java:pool-3-thread-2:131] - 404 NOT FOUND: http://www.stackoverflow.com/questions/ask
+
+2016-05-25 23:13:15,020 [             Domain.java:pool-3-thread-2:141] - Unrecognized response code: 400 for http://www.usatoday.com/web_sitemap_index.xml
+2016-05-25 23:13:40,607 [             Domain.java:pool-3-thread-2:141] - Unrecognized response code: 400 for http://www.usatoday.com/video_sitemap_index.xml
+2016-05-25 23:17:07,887 [             Domain.java:pool-3-thread-2:131] - 404 NOT FOUND: http://jgrapht.org//robots.txt
+
+2016-05-25 23:17:09,818 [             Domain.java:pool-3-thread-2:217] - Domain:http://jgrapht.org/ page queue emptied after 3 page crawls
+2016-05-25 23:17:14,513 [             Domain.java:pool-3-thread-1:131] - 404 NOT FOUND: http://www.draw2d.org//robots.txt
+
+2016-05-25 23:17:15,373 [             Domain.java:pool-3-thread-1:217] - Domain:http://www.draw2d.org/ page queue emptied after 1 page crawls
+2016-05-25 23:17:16,451 [             Domain.java:pool-3-thread-1:128] - 301 REDIRECT: http://www.reddit.com/
+
+2016-05-25 23:17:16,451 [             Domain.java:pool-3-thread-1:131] - 404 NOT FOUND: http://www.reddit.com/
+
+2016-05-25 23:17:17,612 [             Domain.java:pool-3-thread-1:217] - Domain:http://www.reddit.com/ page queue emptied after 2 page crawls
+2016-05-25 23:17:33,556 [             Domain.java:pool-3-thread-1:128] - 302 REDIRECT: http://www.stackoverflow.com/questions/ask
+
+2016-05-25 23:17:33,556 [             Domain.java:pool-3-thread-1:131] - 404 NOT FOUND: http://www.stackoverflow.com/questions/ask
+
+2016-05-25 23:18:16,382 [             Domain.java:pool-3-thread-2:131] - 404 NOT FOUND: http://jgrapht.org//robots.txt
+
+2016-05-25 23:18:18,289 [             Domain.java:pool-3-thread-2:217] - Domain:http://jgrapht.org/ page queue emptied after 3 page crawls
+2016-05-25 23:18:22,079 [             Domain.java:pool-3-thread-1:131] - 404 NOT FOUND: http://www.draw2d.org//robots.txt
+
+2016-05-25 23:18:22,934 [             Domain.java:pool-3-thread-1:217] - Domain:http://www.draw2d.org/ page queue emptied after 1 page crawls
+2016-05-25 23:18:23,152 [             Domain.java:pool-3-thread-1:128] - 301 REDIRECT: http://www.reddit.com/
+
+2016-05-25 23:18:23,153 [             Domain.java:pool-3-thread-1:131] - 404 NOT FOUND: http://www.reddit.com/
+
+2016-05-25 23:18:25,428 [             Domain.java:pool-3-thread-1:217] - Domain:http://www.reddit.com/ page queue emptied after 2 page crawls
+2016-05-25 23:18:39,926 [             Domain.java:pool-3-thread-1:128] - 302 REDIRECT: http://www.stackoverflow.com/questions/ask
+
+2016-05-25 23:18:39,926 [             Domain.java:pool-3-thread-1:131] - 404 NOT FOUND: http://www.stackoverflow.com/questions/ask
+
+2016-05-25 23:19:48,218 [             Domain.java:pool-3-thread-1:131] - 404 NOT FOUND: http://jgrapht.org//robots.txt
+
+2016-05-25 23:19:50,129 [             Domain.java:pool-3-thread-1:217] - Domain:http://jgrapht.org/ page queue emptied after 3 page crawls
+2016-05-25 23:19:54,816 [             Domain.java:pool-3-thread-2:131] - 404 NOT FOUND: http://www.draw2d.org//robots.txt
+
+2016-05-25 23:19:55,674 [             Domain.java:pool-3-thread-2:217] - Domain:http://www.draw2d.org/ page queue emptied after 1 page crawls
+2016-05-25 23:19:55,900 [             Domain.java:pool-3-thread-2:128] - 301 REDIRECT: http://www.reddit.com/
+
+2016-05-25 23:19:55,901 [             Domain.java:pool-3-thread-2:131] - 404 NOT FOUND: http://www.reddit.com/
+
+2016-05-25 23:19:57,055 [             Domain.java:pool-3-thread-2:217] - Domain:http://www.reddit.com/ page queue emptied after 2 page crawls
+2016-05-25 23:20:12,194 [             Domain.java:pool-3-thread-2:128] - 302 REDIRECT: http://www.stackoverflow.com/questions/ask
+
+2016-05-25 23:20:12,194 [             Domain.java:pool-3-thread-2:131] - 404 NOT FOUND: http://www.stackoverflow.com/questions/ask
+
+2016-05-25 23:20:54,252 [             Domain.java:pool-3-thread-1:141] - Unrecognized response code: 400 for http://www.usatoday.com/web_sitemap_index.xml
+2016-05-25 23:25:47,487 [             Domain.java:pool-3-thread-1:131] - 404 NOT FOUND: http://jgrapht.org//robots.txt
+
+2016-05-25 23:25:49,429 [             Domain.java:pool-3-thread-1:217] - Domain:http://jgrapht.org/ page queue emptied after 3 page crawls
+2016-05-25 23:25:54,114 [             Domain.java:pool-3-thread-2:131] - 404 NOT FOUND: http://www.draw2d.org//robots.txt
+
+2016-05-25 23:25:54,973 [             Domain.java:pool-3-thread-2:217] - Domain:http://www.draw2d.org/ page queue emptied after 1 page crawls
+2016-05-25 23:25:56,182 [             Domain.java:pool-3-thread-2:128] - 301 REDIRECT: http://www.reddit.com/
+
+2016-05-25 23:25:56,182 [             Domain.java:pool-3-thread-2:131] - 404 NOT FOUND: http://www.reddit.com/
+
+2016-05-25 23:25:57,341 [             Domain.java:pool-3-thread-2:217] - Domain:http://www.reddit.com/ page queue emptied after 2 page crawls
+2016-05-25 23:25:59,972 [             Domain.java:pool-3-thread-1:141] - Unrecognized response code: 500 for http://www.pixijs.com/projects/
+2016-05-25 23:26:14,492 [             Domain.java:pool-3-thread-2:128] - 302 REDIRECT: http://www.stackoverflow.com/questions/ask
+
+2016-05-25 23:26:14,492 [             Domain.java:pool-3-thread-2:131] - 404 NOT FOUND: http://www.stackoverflow.com/questions/ask
+
+2016-05-25 23:26:40,107 [             Domain.java:pool-3-thread-1:141] - Unrecognized response code: 400 for http://www.usatoday.com/web_sitemap_index.xml
+2016-05-25 23:26:52,788 [             Domain.java:pool-3-thread-2:141] - Unrecognized response code: 420 for http://www.tomshardware.com/articles/
+2016-05-25 23:26:53,645 [             Domain.java:pool-3-thread-2:141] - Unrecognized response code: 420 for http://www.tomshardware.com/forum/
+2016-05-25 23:26:54,522 [             Domain.java:pool-3-thread-2:141] - Unrecognized response code: 420 for http://www.tomshardware.com/forum/forum-33.html
+2016-05-25 23:26:55,355 [             Domain.java:pool-3-thread-2:141] - Unrecognized response code: 420 for http://www.tomshardware.com/forum/forum-28.html
+2016-05-25 23:26:56,165 [             Domain.java:pool-3-thread-2:141] - Unrecognized response code: 420 for http://www.tomshardware.com/forum/forum-74.html
+2016-05-25 23:26:56,993 [             Domain.java:pool-3-thread-2:141] - Unrecognized response code: 420 for http://www.tomshardware.com/forum/forum-30.html
+2016-05-25 23:26:57,868 [             Domain.java:pool-3-thread-2:141] - Unrecognized response code: 420 for http://www.tomshardware.com/forum/forum-13.html
+2016-05-25 23:26:58,698 [             Domain.java:pool-3-thread-2:141] - Unrecognized response code: 420 for http://www.tomshardware.com/forum/forum-32.html
+2016-05-25 23:27:16,169 [             Domain.java:pool-3-thread-1:141] - Unrecognized response code: 400 for http://www.usatoday.com/image_sitemap_index.xml
+2016-05-25 23:31:47,039 [             Domain.java:pool-3-thread-1:131] - 404 NOT FOUND: http://jgrapht.org//robots.txt
+
+2016-05-25 23:31:49,058 [             Domain.java:pool-3-thread-1:217] - Domain:http://jgrapht.org/ page queue emptied after 3 page crawls
+2016-05-25 23:31:53,836 [             Domain.java:pool-3-thread-2:131] - 404 NOT FOUND: http://www.draw2d.org//robots.txt
+
+2016-05-25 23:31:54,692 [             Domain.java:pool-3-thread-2:217] - Domain:http://www.draw2d.org/ page queue emptied after 1 page crawls
+2016-05-25 23:32:00,338 [             Domain.java:pool-3-thread-2:128] - 301 REDIRECT: http://www.reddit.com/
+
+2016-05-25 23:32:00,338 [             Domain.java:pool-3-thread-2:131] - 404 NOT FOUND: http://www.reddit.com/
+
+2016-05-25 23:32:03,427 [             Domain.java:pool-3-thread-2:217] - Domain:http://www.reddit.com/ page queue emptied after 2 page crawls
+2016-05-25 23:32:18,324 [             Domain.java:pool-3-thread-1:128] - 302 REDIRECT: http://www.stackoverflow.com/questions/ask
+
+2016-05-25 23:32:18,325 [             Domain.java:pool-3-thread-1:131] - 404 NOT FOUND: http://www.stackoverflow.com/questions/ask
+
+2016-05-25 23:32:58,548 [             Domain.java:pool-3-thread-1:141] - Unrecognized response code: 420 for http://www.tomshardware.com/articles/
+2016-05-25 23:32:59,359 [             Domain.java:pool-3-thread-1:141] - Unrecognized response code: 420 for http://www.tomshardware.com/forum/
+2016-05-25 23:32:59,980 [             Domain.java:pool-3-thread-2:141] - Unrecognized response code: 400 for http://www.usatoday.com/web_sitemap_index.xml
+2016-05-25 23:33:00,173 [             Domain.java:pool-3-thread-1:141] - Unrecognized response code: 420 for http://www.tomshardware.com/forum/forum-33.html
+2016-05-25 23:33:00,964 [             Domain.java:pool-3-thread-1:141] - Unrecognized response code: 420 for http://www.tomshardware.com/forum/forum-28.html
+2016-05-25 23:33:01,759 [             Domain.java:pool-3-thread-1:141] - Unrecognized response code: 420 for http://www.tomshardware.com/forum/forum-74.html
+2016-05-25 23:33:02,512 [             Domain.java:pool-3-thread-1:141] - Unrecognized response code: 420 for http://www.tomshardware.com/forum/forum-30.html
+2016-05-25 23:33:03,313 [             Domain.java:pool-3-thread-1:141] - Unrecognized response code: 420 for http://www.tomshardware.com/forum/forum-13.html
+2016-05-25 23:33:04,097 [             Domain.java:pool-3-thread-1:141] - Unrecognized response code: 420 for http://www.tomshardware.com/forum/forum-32.html
+2016-05-25 23:33:20,336 [             Domain.java:pool-3-thread-1:131] - 404 NOT FOUND: http://jgrapht.org//robots.txt
+
+2016-05-25 23:33:22,252 [             Domain.java:pool-3-thread-1:217] - Domain:http://jgrapht.org/ page queue emptied after 3 page crawls
+2016-05-25 23:33:28,732 [             Domain.java:pool-3-thread-2:131] - 404 NOT FOUND: http://www.draw2d.org//robots.txt
+
+2016-05-25 23:33:29,589 [             Domain.java:pool-3-thread-2:217] - Domain:http://www.draw2d.org/ page queue emptied after 1 page crawls
+2016-05-25 23:33:30,388 [             Domain.java:pool-3-thread-2:128] - 301 REDIRECT: http://www.reddit.com/
+
+2016-05-25 23:33:30,388 [             Domain.java:pool-3-thread-2:131] - 404 NOT FOUND: http://www.reddit.com/
+
+2016-05-25 23:33:31,557 [             Domain.java:pool-3-thread-2:217] - Domain:http://www.reddit.com/ page queue emptied after 2 page crawls
+2016-05-25 23:33:46,106 [             Domain.java:pool-3-thread-1:128] - 302 REDIRECT: http://www.stackoverflow.com/questions/ask
+
+2016-05-25 23:33:46,106 [             Domain.java:pool-3-thread-1:131] - 404 NOT FOUND: http://www.stackoverflow.com/questions/ask
+
+2016-05-25 23:34:22,230 [             Domain.java:pool-3-thread-1:141] - Unrecognized response code: 420 for http://www.tomshardware.com/articles/
+2016-05-25 23:34:23,059 [             Domain.java:pool-3-thread-1:141] - Unrecognized response code: 420 for http://www.tomshardware.com/forum/
+2016-05-25 23:34:23,938 [             Domain.java:pool-3-thread-1:141] - Unrecognized response code: 420 for http://www.tomshardware.com/forum/forum-33.html
+2016-05-25 23:34:24,770 [             Domain.java:pool-3-thread-1:141] - Unrecognized response code: 420 for http://www.tomshardware.com/forum/forum-28.html
+2016-05-25 23:34:25,380 [             Domain.java:pool-3-thread-2:141] - Unrecognized response code: 400 for http://www.usatoday.com/web_sitemap_index.xml
+2016-05-25 23:34:25,588 [             Domain.java:pool-3-thread-1:141] - Unrecognized response code: 420 for http://www.tomshardware.com/forum/forum-74.html
+2016-05-25 23:34:26,417 [             Domain.java:pool-3-thread-1:141] - Unrecognized response code: 420 for http://www.tomshardware.com/forum/forum-30.html
+2016-05-25 23:34:27,274 [             Domain.java:pool-3-thread-1:141] - Unrecognized response code: 420 for http://www.tomshardware.com/forum/forum-13.html
+2016-05-25 23:34:28,158 [             Domain.java:pool-3-thread-1:141] - Unrecognized response code: 420 for http://www.tomshardware.com/forum/forum-32.html
+2016-05-25 23:35:06,887 [             Domain.java:pool-3-thread-2:131] - 404 NOT FOUND: http://jgrapht.org//robots.txt
+
+2016-05-25 23:35:08,860 [             Domain.java:pool-3-thread-2:217] - Domain:http://jgrapht.org/ page queue emptied after 3 page crawls
+2016-05-25 23:35:13,742 [             Domain.java:pool-3-thread-1:131] - 404 NOT FOUND: http://www.draw2d.org//robots.txt
+
+2016-05-25 23:35:14,601 [             Domain.java:pool-3-thread-1:217] - Domain:http://www.draw2d.org/ page queue emptied after 1 page crawls
+2016-05-25 23:35:18,822 [             Domain.java:pool-3-thread-1:128] - 301 REDIRECT: http://www.reddit.com/
+
+2016-05-25 23:35:18,823 [             Domain.java:pool-3-thread-1:131] - 404 NOT FOUND: http://www.reddit.com/
+
+2016-05-25 23:35:19,990 [             Domain.java:pool-3-thread-1:217] - Domain:http://www.reddit.com/ page queue emptied after 2 page crawls
+2016-05-25 23:35:32,581 [             Domain.java:pool-3-thread-2:128] - 302 REDIRECT: http://www.stackoverflow.com/questions/ask
+
+2016-05-25 23:35:32,581 [             Domain.java:pool-3-thread-2:131] - 404 NOT FOUND: http://www.stackoverflow.com/questions/ask
+
+2016-05-25 23:36:08,878 [             Domain.java:pool-3-thread-1:141] - Unrecognized response code: 420 for http://www.tomshardware.com/articles/
+2016-05-25 23:36:09,630 [             Domain.java:pool-3-thread-1:141] - Unrecognized response code: 420 for http://www.tomshardware.com/forum/
+2016-05-25 23:36:10,391 [             Domain.java:pool-3-thread-1:141] - Unrecognized response code: 420 for http://www.tomshardware.com/forum/forum-33.html
+2016-05-25 23:36:11,210 [             Domain.java:pool-3-thread-1:141] - Unrecognized response code: 420 for http://www.tomshardware.com/forum/forum-28.html
+2016-05-25 23:36:11,989 [             Domain.java:pool-3-thread-1:141] - Unrecognized response code: 420 for http://www.tomshardware.com/forum/forum-74.html
+2016-05-25 23:36:12,744 [             Domain.java:pool-3-thread-1:141] - Unrecognized response code: 420 for http://www.tomshardware.com/forum/forum-30.html
+2016-05-25 23:36:13,549 [             Domain.java:pool-3-thread-1:141] - Unrecognized response code: 420 for http://www.tomshardware.com/forum/forum-13.html
+2016-05-25 23:36:14,353 [             Domain.java:pool-3-thread-1:141] - Unrecognized response code: 420 for http://www.tomshardware.com/forum/forum-32.html
+2016-05-25 23:37:11,953 [             Domain.java:pool-3-thread-1:131] - 404 NOT FOUND: http://jgrapht.org//robots.txt
+
+2016-05-25 23:37:13,866 [             Domain.java:pool-3-thread-1:217] - Domain:http://jgrapht.org/ page queue emptied after 3 page crawls
+2016-05-25 23:37:18,837 [             Domain.java:pool-3-thread-2:131] - 404 NOT FOUND: http://www.draw2d.org//robots.txt
+
+2016-05-25 23:37:19,696 [             Domain.java:pool-3-thread-2:217] - Domain:http://www.draw2d.org/ page queue emptied after 1 page crawls
+2016-05-25 23:37:22,019 [             Domain.java:pool-3-thread-2:128] - 301 REDIRECT: http://www.reddit.com/
+
+2016-05-25 23:37:22,019 [             Domain.java:pool-3-thread-2:131] - 404 NOT FOUND: http://www.reddit.com/
+
+2016-05-25 23:37:23,229 [             Domain.java:pool-3-thread-2:217] - Domain:http://www.reddit.com/ page queue emptied after 2 page crawls
+2016-05-25 23:37:39,197 [             Domain.java:pool-3-thread-2:128] - 302 REDIRECT: http://www.stackoverflow.com/questions/ask
+
+2016-05-25 23:37:39,197 [             Domain.java:pool-3-thread-2:131] - 404 NOT FOUND: http://www.stackoverflow.com/questions/ask
+
+2016-05-26 22:42:46,857 [             Domain.java:pool-3-thread-2:131] - 404 NOT FOUND: http://jgrapht.org//robots.txt
+
+2016-05-26 22:42:48,929 [             Domain.java:pool-3-thread-2:213] - Domain:http://jgrapht.org/ page queue emptied after 3 page crawls
+2016-05-26 22:42:54,089 [             Domain.java:pool-3-thread-1:131] - 404 NOT FOUND: http://www.draw2d.org//robots.txt
+
+2016-05-26 22:42:54,935 [             Domain.java:pool-3-thread-1:213] - Domain:http://www.draw2d.org/ page queue emptied after 1 page crawls
+2016-05-26 22:42:55,229 [             Domain.java:pool-3-thread-1:128] - 301 REDIRECT: http://www.reddit.com/
+
+2016-05-26 22:42:55,229 [             Domain.java:pool-3-thread-1:131] - 404 NOT FOUND: http://www.reddit.com/
+
+2016-05-26 22:42:56,761 [             Domain.java:pool-3-thread-1:213] - Domain:http://www.reddit.com/ page queue emptied after 2 page crawls
+2016-05-26 22:43:13,516 [             Domain.java:pool-3-thread-1:128] - 302 REDIRECT: http://www.stackoverflow.com/questions/ask
+
+2016-05-26 22:43:13,516 [             Domain.java:pool-3-thread-1:131] - 404 NOT FOUND: http://www.stackoverflow.com/questions/ask
+
+2016-05-26 22:49:49,665 [             Domain.java:pool-3-thread-2:131] - 404 NOT FOUND: http://jgrapht.org//robots.txt
+
+2016-05-26 22:49:51,721 [             Domain.java:pool-3-thread-2:213] - Domain:http://jgrapht.org/ page queue emptied after 3 page crawls
+2016-05-26 22:49:56,321 [             Domain.java:pool-3-thread-1:131] - 404 NOT FOUND: http://www.draw2d.org//robots.txt
+
+2016-05-26 22:49:57,162 [             Domain.java:pool-3-thread-1:213] - Domain:http://www.draw2d.org/ page queue emptied after 1 page crawls
+2016-05-26 22:49:57,398 [             Domain.java:pool-3-thread-1:128] - 301 REDIRECT: http://www.reddit.com/
+
+2016-05-26 22:49:57,398 [             Domain.java:pool-3-thread-1:131] - 404 NOT FOUND: http://www.reddit.com/
+
+2016-05-26 22:49:58,570 [             Domain.java:pool-3-thread-1:213] - Domain:http://www.reddit.com/ page queue emptied after 2 page crawls
+2016-05-26 22:50:15,527 [             Domain.java:pool-3-thread-1:128] - 302 REDIRECT: http://www.stackoverflow.com/questions/ask
+
+2016-05-26 22:50:15,527 [             Domain.java:pool-3-thread-1:131] - 404 NOT FOUND: http://www.stackoverflow.com/questions/ask
+
+2016-05-26 22:50:52,337 [             Domain.java:pool-3-thread-1:128] - 302 REDIRECT: http://www.tomshardware.com/community/login
+
+2016-05-26 22:50:52,337 [             Domain.java:pool-3-thread-1:131] - 404 NOT FOUND: http://www.tomshardware.com/community/login
+
+2016-05-26 22:51:09,126 [             Domain.java:pool-3-thread-2:141] - Unrecognized response code: 400 for http://www.usatoday.com/image_sitemap_index.xml
+2016-05-26 22:51:14,576 [             Domain.java:pool-3-thread-1:131] - 404 NOT FOUND: http://jgrapht.org//robots.txt
+
+2016-05-26 22:51:16,492 [             Domain.java:pool-3-thread-1:213] - Domain:http://jgrapht.org/ page queue emptied after 3 page crawls
+2016-05-26 22:51:31,634 [             Domain.java:pool-3-thread-1:131] - 404 NOT FOUND: http://www.draw2d.org//robots.txt
+
+2016-05-26 22:51:32,477 [             Domain.java:pool-3-thread-1:213] - Domain:http://www.draw2d.org/ page queue emptied after 1 page crawls
+2016-05-26 22:51:32,713 [             Domain.java:pool-3-thread-1:128] - 301 REDIRECT: http://www.reddit.com/
+
+2016-05-26 22:51:32,713 [             Domain.java:pool-3-thread-1:131] - 404 NOT FOUND: http://www.reddit.com/
+
+2016-05-26 22:51:34,214 [             Domain.java:pool-3-thread-1:213] - Domain:http://www.reddit.com/ page queue emptied after 2 page crawls
+2016-05-26 22:51:40,140 [             Domain.java:pool-3-thread-2:141] - Unrecognized response code: 400 for http://www.usatoday.com/video_sitemap_index.xml
+2016-05-26 22:51:49,184 [             Domain.java:pool-3-thread-1:128] - 302 REDIRECT: http://www.stackoverflow.com/questions/ask
+
+2016-05-26 22:51:49,184 [             Domain.java:pool-3-thread-1:131] - 404 NOT FOUND: http://www.stackoverflow.com/questions/ask
+
+2016-05-26 22:52:30,208 [             Domain.java:pool-3-thread-2:141] - Unrecognized response code: 400 for http://www.usatoday.com/image_sitemap_index.xml
+2016-05-26 22:52:38,410 [             Domain.java:pool-3-thread-2:131] - 404 NOT FOUND: http://jgrapht.org//robots.txt
+
+2016-05-26 22:52:40,324 [             Domain.java:pool-3-thread-2:213] - Domain:http://jgrapht.org/ page queue emptied after 3 page crawls
+2016-05-26 22:52:44,748 [             Domain.java:pool-3-thread-1:131] - 404 NOT FOUND: http://www.draw2d.org//robots.txt
+
+2016-05-26 22:52:45,590 [             Domain.java:pool-3-thread-1:213] - Domain:http://www.draw2d.org/ page queue emptied after 1 page crawls
+2016-05-26 22:52:45,825 [             Domain.java:pool-3-thread-1:128] - 301 REDIRECT: http://www.reddit.com/
+
+2016-05-26 22:52:45,826 [             Domain.java:pool-3-thread-1:131] - 404 NOT FOUND: http://www.reddit.com/
+
+2016-05-26 22:52:46,997 [             Domain.java:pool-3-thread-1:213] - Domain:http://www.reddit.com/ page queue emptied after 2 page crawls
+2016-05-26 22:53:02,190 [             Domain.java:pool-3-thread-1:128] - 302 REDIRECT: http://www.stackoverflow.com/questions/ask
+
+2016-05-26 22:53:02,190 [             Domain.java:pool-3-thread-1:131] - 404 NOT FOUND: http://www.stackoverflow.com/questions/ask
+
+2016-05-26 22:58:34,410 [             Domain.java:pool-3-thread-2:131] - 404 NOT FOUND: http://jgrapht.org//robots.txt
+
+2016-05-26 22:58:36,370 [             Domain.java:pool-3-thread-2:213] - Domain:http://jgrapht.org/ page queue emptied after 3 page crawls
+2016-05-26 22:58:41,102 [             Domain.java:pool-3-thread-1:131] - 404 NOT FOUND: http://www.draw2d.org//robots.txt
+
+2016-05-26 22:58:41,942 [             Domain.java:pool-3-thread-1:213] - Domain:http://www.draw2d.org/ page queue emptied after 1 page crawls
+2016-05-26 22:58:42,190 [             Domain.java:pool-3-thread-1:128] - 301 REDIRECT: http://www.reddit.com/
+
+2016-05-26 22:58:42,190 [             Domain.java:pool-3-thread-1:131] - 404 NOT FOUND: http://www.reddit.com/
+
+2016-05-26 22:58:43,658 [             Domain.java:pool-3-thread-1:213] - Domain:http://www.reddit.com/ page queue emptied after 2 page crawls
+2016-05-26 22:59:00,925 [             Domain.java:pool-3-thread-1:128] - 302 REDIRECT: http://www.stackoverflow.com/questions/ask
+
+2016-05-26 22:59:00,926 [             Domain.java:pool-3-thread-1:131] - 404 NOT FOUND: http://www.stackoverflow.com/questions/ask
+
+2016-05-26 22:59:45,191 [             Domain.java:pool-3-thread-1:141] - Unrecognized response code: 400 for http://www.usatoday.com/web_sitemap_index.xml
+2016-05-26 22:59:49,256 [             Domain.java:pool-3-thread-2:128] - 302 REDIRECT: http://www.tomshardware.com/community/login
+
+2016-05-26 22:59:49,256 [             Domain.java:pool-3-thread-2:131] - 404 NOT FOUND: http://www.tomshardware.com/community/login
+
+2016-05-28 10:43:08,655 [             Domain.java:pool-3-thread-2:131] - 404 NOT FOUND: http://jgrapht.org//robots.txt
+
+2016-05-28 10:43:10,662 [             Domain.java:pool-3-thread-2:213] - Domain:http://jgrapht.org/ page queue emptied after 3 page crawls
+2016-05-28 10:43:16,112 [             Domain.java:pool-3-thread-1:131] - 404 NOT FOUND: http://www.draw2d.org//robots.txt
+
+2016-05-28 10:43:16,971 [             Domain.java:pool-3-thread-1:213] - Domain:http://www.draw2d.org/ page queue emptied after 1 page crawls
+2016-05-28 10:43:17,222 [             Domain.java:pool-3-thread-1:128] - 301 REDIRECT: http://www.reddit.com/
+
+2016-05-28 10:43:17,222 [             Domain.java:pool-3-thread-1:131] - 404 NOT FOUND: http://www.reddit.com/
+
+2016-05-28 10:43:21,705 [             Domain.java:pool-3-thread-1:213] - Domain:http://www.reddit.com/ page queue emptied after 2 page crawls
+2016-05-28 10:43:37,010 [             Domain.java:pool-3-thread-2:128] - 302 REDIRECT: http://www.stackoverflow.com/questions/ask
+
+2016-05-28 10:43:37,010 [             Domain.java:pool-3-thread-2:131] - 404 NOT FOUND: http://www.stackoverflow.com/questions/ask
+
+2016-05-28 10:44:22,836 [             Domain.java:pool-3-thread-1:128] - 302 REDIRECT: http://www.tomshardware.com/community/login
+
+2016-05-28 10:44:22,836 [             Domain.java:pool-3-thread-1:131] - 404 NOT FOUND: http://www.tomshardware.com/community/login
+
+2016-05-28 10:44:38,512 [             Domain.java:pool-3-thread-2:141] - Unrecognized response code: 400 for http://www.usatoday.com/image_sitemap_index.xml
+2016-05-28 10:45:17,931 [             Domain.java:pool-3-thread-2:131] - 404 NOT FOUND: http://jgrapht.org//robots.txt
+
+2016-05-28 10:45:19,885 [             Domain.java:pool-3-thread-2:213] - Domain:http://jgrapht.org/ page queue emptied after 3 page crawls
+2016-05-28 10:45:24,558 [             Domain.java:pool-3-thread-1:131] - 404 NOT FOUND: http://www.draw2d.org//robots.txt
+
+2016-05-28 10:45:25,431 [             Domain.java:pool-3-thread-1:213] - Domain:http://www.draw2d.org/ page queue emptied after 1 page crawls
+2016-05-28 10:45:26,975 [             Domain.java:pool-3-thread-1:128] - 301 REDIRECT: http://www.reddit.com/
+
+2016-05-28 10:45:26,975 [             Domain.java:pool-3-thread-1:131] - 404 NOT FOUND: http://www.reddit.com/
+
+2016-05-28 10:45:31,584 [             Domain.java:pool-3-thread-1:213] - Domain:http://www.reddit.com/ page queue emptied after 2 page crawls
+2016-05-28 10:45:43,000 [             Domain.java:pool-3-thread-2:128] - 302 REDIRECT: http://www.stackoverflow.com/questions/ask
+
+2016-05-28 10:45:43,000 [             Domain.java:pool-3-thread-2:131] - 404 NOT FOUND: http://www.stackoverflow.com/questions/ask
+
+2016-05-28 10:46:02,037 [             Domain.java:pool-3-thread-2:141] - Unrecognized response code: 500 for http://www.digg.com/channel/technology
+2016-05-28 10:46:43,115 [             Domain.java:pool-3-thread-1:141] - Unrecognized response code: 400 for http://www.usatoday.com/image_sitemap_index.xml
+2016-05-28 11:06:23,971 [             Domain.java:pool-3-thread-1:131] - 404 NOT FOUND: http://jgrapht.org//robots.txt
+
+2016-05-28 11:06:25,879 [             Domain.java:pool-3-thread-1:213] - Domain:http://jgrapht.org/ page queue emptied after 3 page crawls
+2016-05-28 11:06:30,615 [             Domain.java:pool-3-thread-2:131] - 404 NOT FOUND: http://www.draw2d.org//robots.txt
+
+2016-05-28 11:06:31,479 [             Domain.java:pool-3-thread-2:213] - Domain:http://www.draw2d.org/ page queue emptied after 1 page crawls
+2016-05-28 11:06:34,433 [             Domain.java:pool-3-thread-2:128] - 301 REDIRECT: http://www.reddit.com/
+
+2016-05-28 11:06:34,433 [             Domain.java:pool-3-thread-2:131] - 404 NOT FOUND: http://www.reddit.com/
+
+2016-05-28 11:06:38,101 [             Domain.java:pool-3-thread-2:213] - Domain:http://www.reddit.com/ page queue emptied after 2 page crawls
+2016-05-28 11:06:50,901 [             Domain.java:pool-3-thread-1:128] - 302 REDIRECT: http://www.stackoverflow.com/questions/ask
+
+2016-05-28 11:06:50,901 [             Domain.java:pool-3-thread-1:131] - 404 NOT FOUND: http://www.stackoverflow.com/questions/ask
+
+2016-05-28 11:07:59,722 [             Domain.java:pool-3-thread-2:141] - Unrecognized response code: 400 for http://www.usatoday.com/image_sitemap_index.xml
+2016-05-28 11:18:23,754 [             Domain.java:pool-3-thread-2:128] - 301 REDIRECT: http://github.com/robots.txt
+
+2016-05-28 11:18:23,756 [             Domain.java:pool-3-thread-2:131] - 404 NOT FOUND: http://github.com/robots.txt
+
+2016-05-28 11:18:23,911 [             Domain.java:pool-3-thread-2:128] - 301 REDIRECT: http://github.com
+
+2016-05-28 11:18:23,911 [             Domain.java:pool-3-thread-2:131] - 404 NOT FOUND: http://github.com
+
+2016-05-28 11:18:24,321 [             Domain.java:pool-3-thread-1:213] - Domain:http://www.reunitetheriver.com page queue emptied after 1 page crawls
+2016-05-28 11:18:24,412 [             Domain.java:pool-3-thread-2:213] - Domain:http://github.com page queue emptied after 1 page crawls
+2016-05-28 11:18:24,817 [             Domain.java:pool-3-thread-1:131] - 404 NOT FOUND: http://www.yeahbutisitflash.com/robots.txt
+
+2016-05-28 11:18:49,344 [             Domain.java:pool-3-thread-2:213] - Domain:http://www.wearecnn.com page queue emptied after 1 page crawls
+2016-05-28 11:20:16,423 [             Domain.java:pool-3-thread-2:213] - Domain:http://www.abc2news.com page queue emptied after 3 page crawls
+2016-05-28 11:23:54,341 [             Domain.java:pool-3-thread-1:131] - 404 NOT FOUND: http://fox11online.com/robots.txt
+
+2016-05-28 11:30:06,447 [             Domain.java:pool-3-thread-2:128] - 301 REDIRECT: http://denver.cbslocal.com/social/
+
+2016-05-28 11:30:06,450 [             Domain.java:pool-3-thread-2:131] - 404 NOT FOUND: http://denver.cbslocal.com/social/
+
+2016-05-28 11:32:16,920 [             Domain.java:pool-3-thread-2:213] - Domain:https://vine.co page queue emptied after 1 page crawls
+2016-05-28 11:32:24,719 [             Domain.java:pool-3-thread-2:128] - 302 REDIRECT: http://www.washingtonpost.com/robots.txt
+
+2016-05-28 11:32:24,719 [             Domain.java:pool-3-thread-2:131] - 404 NOT FOUND: http://www.washingtonpost.com/robots.txt
+
+2016-05-28 11:32:24,761 [             Domain.java:pool-3-thread-2:128] - 302 REDIRECT: http://www.washingtonpost.com
+
+2016-05-28 11:32:24,761 [             Domain.java:pool-3-thread-2:131] - 404 NOT FOUND: http://www.washingtonpost.com
+
+2016-05-28 11:32:25,262 [             Domain.java:pool-3-thread-2:213] - Domain:http://www.washingtonpost.com page queue emptied after 1 page crawls
+2016-05-28 11:33:21,505 [             Domain.java:pool-3-thread-2:111] - unable to connect to: https://story.californiasunday.com
+[Ljava.lang.StackTraceElement;@7ecf9c89
+2016-05-28 11:33:21,506 [             Domain.java:pool-3-thread-2:122] - Response of 0: 0 for https://story.californiasunday.com!
+2016-05-28 11:33:22,006 [             Domain.java:pool-3-thread-2:213] - Domain:https://story.californiasunday.com page queue emptied after 1 page crawls
+2016-05-28 11:34:04,876 [             Domain.java:pool-3-thread-1:141] - Unrecognized response code: 307 for http://www.theatlantic.com/locator/subscribe-magazine/
+2016-05-28 11:34:19,077 [             Domain.java:pool-3-thread-1:128] - 301 REDIRECT: http://www.bloomberg.com/bcause/?utm_source=bloomberg-menu&utm_medium=bcom
+
+2016-05-28 11:34:19,077 [             Domain.java:pool-3-thread-1:131] - 404 NOT FOUND: http://www.bloomberg.com/bcause/?utm_source=bloomberg-menu&utm_medium=bcom
+
+2016-05-28 11:34:36,691 [             Domain.java:pool-3-thread-2:128] - 302 REDIRECT: https://thump.vice.com
+
+2016-05-28 11:34:36,691 [             Domain.java:pool-3-thread-2:131] - 404 NOT FOUND: https://thump.vice.com
+
+2016-05-28 11:34:37,692 [             Domain.java:pool-3-thread-2:213] - Domain:https://thump.vice.com page queue emptied after 1 page crawls
+2016-05-28 11:34:59,059 [             Domain.java:pool-3-thread-1:131] - 404 NOT FOUND: http://www.wsj.com/nofollow
+
+2016-05-28 11:35:21,002 [             Domain.java:pool-3-thread-1:213] - Domain:http://phaser.io page queue emptied after 1 page crawls
+2016-05-28 11:35:23,015 [             Domain.java:pool-3-thread-1:136] - 403 FORBIDDEN: https://twitter.com/sitemap.xml
+
+2016-05-28 11:35:23,015 [             Domain.java:pool-3-thread-1:137] - Request failure for: https://twitter.com/sitemap.xml, response code: 403
+2016-05-28 11:35:39,594 [             Domain.java:pool-3-thread-1:213] - Domain:https://instagram.com page queue emptied after 1 page crawls
+2016-05-28 11:35:54,770 [             Domain.java:pool-3-thread-1:128] - 301 REDIRECT: http://www.linkedin.com/robots.txt
+
+2016-05-28 11:35:54,771 [             Domain.java:pool-3-thread-1:131] - 404 NOT FOUND: http://www.linkedin.com/robots.txt
+
+2016-05-28 11:35:54,824 [             Domain.java:pool-3-thread-1:128] - 301 REDIRECT: http://www.linkedin.com
+
+2016-05-28 11:35:54,825 [             Domain.java:pool-3-thread-1:131] - 404 NOT FOUND: http://www.linkedin.com
+
+2016-05-28 11:35:55,326 [             Domain.java:pool-3-thread-1:213] - Domain:http://www.linkedin.com page queue emptied after 1 page crawls
+2016-05-28 11:36:03,714 [             Domain.java:pool-3-thread-1:131] - 404 NOT FOUND: https://profile.theguardian.com/robots.txt
+
+2016-05-28 11:36:04,450 [             Domain.java:pool-3-thread-1:131] - 404 NOT FOUND: https://profile.theguardian.com
+
+2016-05-28 11:36:04,951 [             Domain.java:pool-3-thread-1:213] - Domain:https://profile.theguardian.com page queue emptied after 1 page crawls
+2016-05-28 11:36:20,157 [             Domain.java:pool-3-thread-1:128] - 301 REDIRECT: http://jobs.theguardian.com/robots.txt
+
+2016-05-28 11:36:20,158 [             Domain.java:pool-3-thread-1:131] - 404 NOT FOUND: http://jobs.theguardian.com/robots.txt
+
+2016-05-28 11:36:20,464 [             Domain.java:pool-3-thread-1:128] - 301 REDIRECT: http://jobs.theguardian.com
+
+2016-05-28 11:36:20,464 [             Domain.java:pool-3-thread-1:131] - 404 NOT FOUND: http://jobs.theguardian.com
+
+2016-05-28 11:36:20,965 [             Domain.java:pool-3-thread-1:213] - Domain:http://jobs.theguardian.com page queue emptied after 1 page crawls
+2016-05-28 11:36:21,700 [             Domain.java:pool-3-thread-1:131] - 404 NOT FOUND: https://securedrop.theguardian.com/robots.txt
+
+2016-05-28 11:36:22,717 [             Domain.java:pool-3-thread-1:213] - Domain:https://securedrop.theguardian.com page queue emptied after 1 page crawls
+2016-05-28 11:36:23,444 [             Domain.java:pool-3-thread-1:128] - 301 REDIRECT: https://itunes.apple.com
+
+2016-05-28 11:36:23,444 [             Domain.java:pool-3-thread-1:131] - 404 NOT FOUND: https://itunes.apple.com
+
+2016-05-28 11:37:20,080 [             Domain.java:pool-3-thread-1:128] - 301 REDIRECT: https://get.adobe.com/reader?promoid=KLXME
+
+2016-05-28 11:37:20,080 [             Domain.java:pool-3-thread-1:131] - 404 NOT FOUND: https://get.adobe.com/reader?promoid=KLXME
+
+2016-05-28 11:37:21,071 [             Domain.java:pool-3-thread-1:128] - 301 REDIRECT: https://get.adobe.com/flashplayer?promoid=KLXMF
+
+2016-05-28 11:37:21,072 [             Domain.java:pool-3-thread-1:131] - 404 NOT FOUND: https://get.adobe.com/flashplayer?promoid=KLXMF
+
+2016-05-28 11:37:22,058 [             Domain.java:pool-3-thread-1:128] - 301 REDIRECT: https://get.adobe.com/air?promoid=KLXMG
+
+2016-05-28 11:37:22,058 [             Domain.java:pool-3-thread-1:131] - 404 NOT FOUND: https://get.adobe.com/air?promoid=KLXMG
+
+2016-05-28 11:37:23,041 [             Domain.java:pool-3-thread-1:128] - 301 REDIRECT: https://get.adobe.com/shockwave?promoid=KLXMH
+
+2016-05-28 11:37:23,041 [             Domain.java:pool-3-thread-1:131] - 404 NOT FOUND: https://get.adobe.com/shockwave?promoid=KLXMH
+
+2016-05-28 11:37:23,873 [             Domain.java:pool-3-thread-1:131] - 404 NOT FOUND: http://get.adobe.com/creativecloud.html?promoid=NGWGRLSH&mv=other
+
+2016-05-28 11:37:24,703 [             Domain.java:pool-3-thread-1:131] - 404 NOT FOUND: http://get.adobe.com/products/photoshop.html?promoid=8DN85P1Q&mv=other
+
+2016-05-28 11:37:25,534 [             Domain.java:pool-3-thread-1:131] - 404 NOT FOUND: http://get.adobe.com/creativecloud/stock.html?promoid=8JD95K9P&mv=other
+
+2016-05-28 11:37:26,366 [             Domain.java:pool-3-thread-1:131] - 404 NOT FOUND: http://get.adobe.com/creativecloud/buy/students.html?promoid=65FN7X8B&mv=other
+
+2016-05-28 11:37:27,027 [             Domain.java:pool-3-thread-1:131] - 404 NOT FOUND: http://whatbrowser.org/robots.txt
+
+2016-05-28 11:37:27,611 [             Domain.java:pool-3-thread-1:213] - Domain:http://whatbrowser.org page queue emptied after 1 page crawls
+2016-05-28 11:37:27,724 [             Domain.java:pool-3-thread-1:128] - 301 REDIRECT: http://subscribe.theguardian.com/robots.txt
+
+2016-05-28 11:37:27,724 [             Domain.java:pool-3-thread-1:131] - 404 NOT FOUND: http://subscribe.theguardian.com/robots.txt
+
+2016-05-28 11:37:27,786 [             Domain.java:pool-3-thread-1:128] - 301 REDIRECT: http://subscribe.theguardian.com
+
+2016-05-28 11:37:27,787 [             Domain.java:pool-3-thread-1:131] - 404 NOT FOUND: http://subscribe.theguardian.com
+
+2016-05-28 11:37:28,287 [             Domain.java:pool-3-thread-1:213] - Domain:http://subscribe.theguardian.com page queue emptied after 1 page crawls
+2016-05-28 11:38:30,785 [             Domain.java:pool-3-thread-1:128] - 301 REDIRECT: http://www.wired.com/category/security/
+
+2016-05-28 11:38:30,786 [             Domain.java:pool-3-thread-1:131] - 404 NOT FOUND: http://www.wired.com/category/security/
+
+2016-05-28 11:38:33,810 [             Domain.java:pool-3-thread-1:128] - 301 REDIRECT: http://www.wired.com/category/transportation/
+
+2016-05-28 11:38:33,810 [             Domain.java:pool-3-thread-1:131] - 404 NOT FOUND: http://www.wired.com/category/transportation/
+
+2016-05-28 11:39:00,110 [             Domain.java:pool-3-thread-1:128] - 301 REDIRECT: http://jakubmarian.com/sitemap.xml.gz
+
+2016-05-28 11:39:00,110 [             Domain.java:pool-3-thread-1:131] - 404 NOT FOUND: http://jakubmarian.com/sitemap.xml.gz
+
+2016-05-28 11:39:10,129 [             Domain.java:pool-3-thread-1:128] - 302 REDIRECT: http://www.washingtonpost.com/politics/
+
+2016-05-28 11:39:10,130 [             Domain.java:pool-3-thread-1:131] - 404 NOT FOUND: http://www.washingtonpost.com/politics/
+
+2016-05-28 11:39:13,849 [             Domain.java:pool-3-thread-1:128] - 302 REDIRECT: http://www.washingtonpost.com/sports/
+
+2016-05-28 11:39:13,850 [             Domain.java:pool-3-thread-1:131] - 404 NOT FOUND: http://www.washingtonpost.com/sports/
+
+2016-05-28 11:39:14,893 [             Domain.java:pool-3-thread-1:128] - 302 REDIRECT: http://www.washingtonpost.com/local/
+
+2016-05-28 11:39:14,894 [             Domain.java:pool-3-thread-1:131] - 404 NOT FOUND: http://www.washingtonpost.com/local/
+
+2016-05-28 11:39:15,917 [             Domain.java:pool-3-thread-1:128] - 302 REDIRECT: http://www.washingtonpost.com/national/
+
+2016-05-28 11:39:15,918 [             Domain.java:pool-3-thread-1:131] - 404 NOT FOUND: http://www.washingtonpost.com/national/
+
+2016-05-28 11:39:16,966 [             Domain.java:pool-3-thread-1:128] - 302 REDIRECT: http://www.washingtonpost.com/world/
+
+2016-05-28 11:39:16,966 [             Domain.java:pool-3-thread-1:131] - 404 NOT FOUND: http://www.washingtonpost.com/world/
+
+2016-05-28 11:39:17,989 [             Domain.java:pool-3-thread-1:128] - 302 REDIRECT: http://www.washingtonpost.com/business/
+
+2016-05-28 11:39:17,990 [             Domain.java:pool-3-thread-1:131] - 404 NOT FOUND: http://www.washingtonpost.com/business/
+
+2016-05-28 11:39:19,034 [             Domain.java:pool-3-thread-1:128] - 302 REDIRECT: http://www.washingtonpost.com/business/technology/
+
+2016-05-28 11:39:19,034 [             Domain.java:pool-3-thread-1:131] - 404 NOT FOUND: http://www.washingtonpost.com/business/technology/
+
+2016-05-28 11:39:57,875 [             Domain.java:pool-3-thread-1:131] - 404 NOT FOUND: http://www.thebigroundtable.com
+
+2016-05-28 11:39:58,376 [             Domain.java:pool-3-thread-1:213] - Domain:http://www.thebigroundtable.com page queue emptied after 1 page crawls
+2016-05-28 11:40:23,337 [             Domain.java:pool-3-thread-1:128] - 302 REDIRECT: https://broadly.vice.com
+
+2016-05-28 11:40:23,338 [             Domain.java:pool-3-thread-1:131] - 404 NOT FOUND: https://broadly.vice.com
+
+2016-05-28 11:40:24,338 [             Domain.java:pool-3-thread-1:213] - Domain:https://broadly.vice.com page queue emptied after 1 page crawls
+2016-05-28 11:42:26,226 [             Domain.java:pool-3-thread-1:128] - 301 REDIRECT: https://www.wired.com
+
+2016-05-28 11:42:26,227 [             Domain.java:pool-3-thread-1:131] - 404 NOT FOUND: https://www.wired.com
+
+2016-05-28 11:42:31,020 [             Domain.java:pool-3-thread-2:213] - Domain:https://plus.google.com page queue emptied after 3 page crawls
+2016-05-28 11:42:32,514 [             Domain.java:pool-3-thread-1:213] - Domain:https://www.wired.com page queue emptied after 2 page crawls
+2016-05-28 11:44:21,745 [             Domain.java:pool-3-thread-2:111] - unable to connect to: http://null/robots.txt
+[Ljava.lang.StackTraceElement;@6fc8a386
+2016-05-28 11:44:21,746 [             Domain.java:pool-3-thread-2:122] - Response of 0: 0 for http://null/robots.txt!
+2016-05-28 11:44:21,746 [             Domain.java:pool-3-thread-2:111] - unable to connect to: http://null
+[Ljava.lang.StackTraceElement;@61ee129e
+2016-05-28 11:44:21,747 [             Domain.java:pool-3-thread-2:122] - Response of 0: 0 for http://null!
+2016-05-28 11:44:22,248 [             Domain.java:pool-3-thread-2:213] - Domain:http://null page queue emptied after 1 page crawls
+2016-05-28 11:44:23,295 [             Domain.java:pool-3-thread-2:128] - 301 REDIRECT: http://paultrani.com
+
+2016-05-28 11:44:23,295 [             Domain.java:pool-3-thread-2:131] - 404 NOT FOUND: http://paultrani.com
+
+2016-05-28 11:44:23,795 [             Domain.java:pool-3-thread-2:213] - Domain:http://paultrani.com page queue emptied after 1 page crawls
+2016-05-28 11:44:33,413 [             Domain.java:pool-3-thread-1:213] - Domain:http://www.webkitchen.be page queue emptied after 1 page crawls
+2016-05-28 11:44:34,180 [             Domain.java:pool-3-thread-1:131] - 404 NOT FOUND: http://www.bytearray.org/robots.txt
+
+2016-05-28 11:44:45,077 [             Domain.java:pool-3-thread-1:131] - 404 NOT FOUND: http://alecmce.com/robots.txt
+
+2016-05-28 11:45:01,908 [             Domain.java:pool-3-thread-1:131] - 404 NOT FOUND: http://www.flashandmath.com/robots.txt
+
+2016-05-28 11:45:15,572 [             Domain.java:pool-3-thread-2:213] - Domain:http://www.flashstreamworks.com page queue emptied after 1 page crawls
+2016-05-28 11:45:25,297 [             Domain.java:pool-3-thread-2:131] - 404 NOT FOUND: http://www.mikechambers.com/robots.txt
+
+2016-05-28 11:45:27,712 [             Domain.java:pool-3-thread-1:213] - Domain:http://www.littlerobot.org.uk page queue emptied after 2 page crawls
+2016-05-28 11:45:40,142 [             Domain.java:pool-3-thread-2:213] - Domain:http://richardleggett.co.uk page queue emptied after 6 page crawls
+2016-05-28 11:45:52,028 [             Domain.java:pool-3-thread-2:128] - 301 REDIRECT: http://villekoskela.org/robots.txt
+
+2016-05-28 11:45:52,028 [             Domain.java:pool-3-thread-2:131] - 404 NOT FOUND: http://villekoskela.org/robots.txt
+
+2016-05-28 11:45:52,086 [             Domain.java:pool-3-thread-2:128] - 301 REDIRECT: http://villekoskela.org
+
+2016-05-28 11:45:52,086 [             Domain.java:pool-3-thread-2:131] - 404 NOT FOUND: http://villekoskela.org
+
+2016-05-28 11:45:52,587 [             Domain.java:pool-3-thread-2:213] - Domain:http://villekoskela.org page queue emptied after 1 page crawls
+2016-05-28 11:45:58,896 [             Domain.java:pool-3-thread-2:131] - 404 NOT FOUND: http://labs.adobe.com/robots.txt
+
+2016-05-28 11:46:05,287 [             Domain.java:pool-3-thread-2:131] - 404 NOT FOUND: http://www.gotoandlearn.com/robots.txt
+
+2016-05-28 11:46:06,805 [             Domain.java:pool-3-thread-1:213] - Domain:http://www.blobina.com page queue emptied after 1 page crawls
+2016-05-28 11:46:07,112 [             Domain.java:pool-3-thread-1:128] - 302 REDIRECT: http://udk.com/robots.txt
+
+2016-05-28 11:46:07,112 [             Domain.java:pool-3-thread-1:131] - 404 NOT FOUND: http://udk.com/robots.txt
+
+2016-05-28 11:46:07,279 [             Domain.java:pool-3-thread-1:128] - 302 REDIRECT: http://udk.com
+
+2016-05-28 11:46:07,280 [             Domain.java:pool-3-thread-1:131] - 404 NOT FOUND: http://udk.com
+
+2016-05-28 11:46:07,780 [             Domain.java:pool-3-thread-1:213] - Domain:http://udk.com page queue emptied after 1 page crawls
+2016-05-28 11:46:28,482 [             Domain.java:pool-3-thread-2:111] - unable to connect to: http://blog.prevail.co.nz/robots.txt
+[Ljava.lang.StackTraceElement;@7484f41f
+2016-05-28 11:46:28,482 [             Domain.java:pool-3-thread-2:122] - Response of 0: 0 for http://blog.prevail.co.nz/robots.txt!
+2016-05-28 11:46:28,483 [             Domain.java:pool-3-thread-2:111] - unable to connect to: http://blog.prevail.co.nz
+[Ljava.lang.StackTraceElement;@a2a3224
+2016-05-28 11:46:28,484 [             Domain.java:pool-3-thread-2:122] - Response of 0: 0 for http://blog.prevail.co.nz!
+2016-05-28 11:46:28,984 [             Domain.java:pool-3-thread-2:213] - Domain:http://blog.prevail.co.nz page queue emptied after 1 page crawls
+2016-05-28 11:46:29,203 [             Domain.java:pool-3-thread-2:131] - 404 NOT FOUND: http://opensource.adobe.com/robots.txt
+
+2016-05-28 11:46:29,525 [             Domain.java:pool-3-thread-2:128] - 302 REDIRECT: http://opensource.adobe.com
+
+2016-05-28 11:46:29,525 [             Domain.java:pool-3-thread-2:131] - 404 NOT FOUND: http://opensource.adobe.com
+
+2016-05-28 11:46:30,026 [             Domain.java:pool-3-thread-2:213] - Domain:http://opensource.adobe.com page queue emptied after 1 page crawls
+2016-05-28 11:46:30,525 [             Domain.java:pool-3-thread-2:131] - 404 NOT FOUND: http://www.slproweb.com/robots.txt
+
+2016-05-28 11:46:39,629 [             Domain.java:pool-3-thread-2:136] - 403 FORBIDDEN: http://thelab.bleacherreport.com/robots.txt
+
+2016-05-28 11:46:39,629 [             Domain.java:pool-3-thread-2:137] - Request failure for: http://thelab.bleacherreport.com/robots.txt, response code: 403
+2016-05-28 11:46:44,975 [             Domain.java:pool-3-thread-1:128] - 301 REDIRECT: http://unity3d.com/asset-store
+
+2016-05-28 11:46:44,975 [             Domain.java:pool-3-thread-1:131] - 404 NOT FOUND: http://unity3d.com/asset-store
+
+2016-05-28 11:46:48,088 [             Domain.java:pool-3-thread-2:128] - 301 REDIRECT: http://www.scorebig.com/robots.txt
+
+2016-05-28 11:46:48,088 [             Domain.java:pool-3-thread-2:131] - 404 NOT FOUND: http://www.scorebig.com/robots.txt
+
+2016-05-28 11:46:48,124 [             Domain.java:pool-3-thread-2:128] - 301 REDIRECT: http://www.scorebig.com
+
+2016-05-28 11:46:48,124 [             Domain.java:pool-3-thread-2:131] - 404 NOT FOUND: http://www.scorebig.com
+
+2016-05-28 11:46:48,625 [             Domain.java:pool-3-thread-2:213] - Domain:http://www.scorebig.com page queue emptied after 1 page crawls
+2016-05-28 11:46:55,606 [             Domain.java:pool-3-thread-1:128] - 302 REDIRECT: http://unity3d.com/user/login?return=unity-frontpage
+
+2016-05-28 11:46:55,606 [             Domain.java:pool-3-thread-1:131] - 404 NOT FOUND: http://unity3d.com/user/login?return=unity-frontpage
+
+2016-05-28 11:47:01,057 [             Domain.java:pool-3-thread-1:131] - 404 NOT FOUND: http://www.azcardinals.com/robots.txt
+
+2016-05-28 11:47:03,217 [             Domain.java:pool-3-thread-1:136] - 403 FORBIDDEN: http://www.azcardinals.com/.html
+
+2016-05-28 11:47:03,218 [             Domain.java:pool-3-thread-1:137] - Request failure for: http://www.azcardinals.com/.html, response code: 403
+2016-05-28 11:47:12,441 [             Domain.java:pool-3-thread-1:128] - 302 REDIRECT: http://www.azcentral.com/robots.txt
+
+2016-05-28 11:47:12,441 [             Domain.java:pool-3-thread-1:131] - 404 NOT FOUND: http://www.azcentral.com/robots.txt
+
+2016-05-28 11:47:12,639 [             Domain.java:pool-3-thread-1:128] - 302 REDIRECT: http://www.azcentral.com
+
+2016-05-28 11:47:12,639 [             Domain.java:pool-3-thread-1:131] - 404 NOT FOUND: http://www.azcentral.com
+
+2016-05-28 11:47:13,140 [             Domain.java:pool-3-thread-1:213] - Domain:http://www.azcentral.com page queue emptied after 1 page crawls
+2016-05-28 11:48:07,952 [             Domain.java:pool-3-thread-2:136] - 403 FORBIDDEN: https://twitter.com/sitemap.xml
+
+2016-05-28 11:48:07,952 [             Domain.java:pool-3-thread-2:137] - Request failure for: https://twitter.com/sitemap.xml, response code: 403
+2016-05-28 11:48:19,917 [             Domain.java:pool-3-thread-1:213] - Domain:https://instagram.com page queue emptied after 1 page crawls
+2016-05-28 11:48:20,568 [             Domain.java:pool-3-thread-1:128] - 301 REDIRECT: https://itunes.apple.com
+
+2016-05-28 11:48:20,568 [             Domain.java:pool-3-thread-1:131] - 404 NOT FOUND: https://itunes.apple.com
+
+2016-05-28 11:48:33,627 [             Domain.java:pool-3-thread-2:213] - Domain:http://bit.ly page queue emptied after 1 page crawls
+2016-05-28 11:49:53,120 [             Domain.java:pool-3-thread-2:128] - 302 REDIRECT: http://www.cisco.com/c/login/index.html?referer=/c/en/us/index.html
+
+2016-05-28 11:49:53,120 [             Domain.java:pool-3-thread-2:131] - 404 NOT FOUND: http://www.cisco.com/c/login/index.html?referer=/c/en/us/index.html
+
+2016-05-28 11:49:54,353 [             Domain.java:pool-3-thread-2:128] - 302 REDIRECT: http://www.cisco.com/cisco/psn/web/workspace
+
+2016-05-28 11:49:54,353 [             Domain.java:pool-3-thread-2:131] - 404 NOT FOUND: http://www.cisco.com/cisco/psn/web/workspace
+
+2016-05-28 11:50:09,509 [             Domain.java:pool-3-thread-2:131] - 404 NOT FOUND: http://collection.cnn.com/logonPage.do?returnTo=http%3A//collection.cnn.com/content/home.do
+
+2016-05-28 11:50:14,596 [             Domain.java:pool-3-thread-2:131] - 404 NOT FOUND: http://collection.cnn.com/register.do
+
+2016-05-28 11:50:19,338 [             Domain.java:pool-3-thread-1:131] - 404 NOT FOUND: http://www.cnnnewsource.com/cnn_am_advisories_alerts_rundowns_web_11_04-3/
+
+2016-05-28 11:50:19,679 [             Domain.java:pool-3-thread-2:131] - 404 NOT FOUND: http://collection.cnn.com/forgotPasswordPrepare.do
+
+2016-05-28 11:50:24,767 [             Domain.java:pool-3-thread-2:131] - 404 NOT FOUND: http://collection.cnn.com/showBin.do?binId=focused
+
+2016-05-28 11:50:29,920 [             Domain.java:pool-3-thread-2:131] - 404 NOT FOUND: http://collection.cnn.com/showCart.do
+
+2016-05-28 11:50:40,397 [             Domain.java:pool-3-thread-2:131] - 404 NOT FOUND: http://collection.cnn.com/showMyBins.do
+
+2016-05-28 11:50:45,484 [             Domain.java:pool-3-thread-2:131] - 404 NOT FOUND: http://collection.cnn.com/logonPage.do
+
+2016-05-28 11:51:02,917 [             Domain.java:pool-3-thread-2:131] - 404 NOT FOUND: http://imagesource.cnn.com/logonPage.do?returnTo=http%3A//collection.cnn.com/content/home.do
+
+2016-05-28 11:51:08,096 [             Domain.java:pool-3-thread-2:131] - 404 NOT FOUND: http://imagesource.cnn.com/register.do
+
+2016-05-28 11:51:13,270 [             Domain.java:pool-3-thread-2:131] - 404 NOT FOUND: http://imagesource.cnn.com/forgotPasswordPrepare.do
+
+2016-05-28 11:51:18,443 [             Domain.java:pool-3-thread-2:131] - 404 NOT FOUND: http://imagesource.cnn.com/showBin.do?binId=focused
+
+2016-05-28 11:51:23,688 [             Domain.java:pool-3-thread-2:131] - 404 NOT FOUND: http://imagesource.cnn.com/showCart.do
+
+2016-05-28 11:51:34,598 [             Domain.java:pool-3-thread-2:131] - 404 NOT FOUND: http://imagesource.cnn.com/showMyBins.do
+
+2016-05-28 11:51:39,769 [             Domain.java:pool-3-thread-2:131] - 404 NOT FOUND: http://imagesource.cnn.com/logonPage.do
+
+2016-05-28 11:53:17,802 [             Domain.java:pool-3-thread-2:111] - unable to connect to: http://http/robots.txt
+[Ljava.lang.StackTraceElement;@70b337e0
+2016-05-28 11:53:17,803 [             Domain.java:pool-3-thread-2:122] - Response of 0: 0 for http://http/robots.txt!
+2016-05-28 11:53:17,803 [             Domain.java:pool-3-thread-2:111] - unable to connect to: http://http
+[Ljava.lang.StackTraceElement;@2f235698
+2016-05-28 11:53:17,804 [             Domain.java:pool-3-thread-2:122] - Response of 0: 0 for http://http!
+2016-05-28 11:53:18,304 [             Domain.java:pool-3-thread-2:213] - Domain:http://http page queue emptied after 1 page crawls
+2016-05-28 11:53:18,391 [             Domain.java:pool-3-thread-2:128] - 301 REDIRECT: http://twitch.tv/robots.txt
+
+2016-05-28 11:53:18,391 [             Domain.java:pool-3-thread-2:131] - 404 NOT FOUND: http://twitch.tv/robots.txt
+
+2016-05-28 11:53:18,459 [             Domain.java:pool-3-thread-2:128] - 301 REDIRECT: http://twitch.tv
+
+2016-05-28 11:53:18,459 [             Domain.java:pool-3-thread-2:131] - 404 NOT FOUND: http://twitch.tv
+
+2016-05-28 11:53:18,959 [             Domain.java:pool-3-thread-2:213] - Domain:http://twitch.tv page queue emptied after 1 page crawls
+2016-05-28 11:53:33,849 [             Domain.java:pool-3-thread-2:213] - Domain:http://play.it page queue emptied after 3 page crawls
+2016-05-28 11:53:34,197 [             Domain.java:pool-3-thread-2:131] - 404 NOT FOUND: http://my12.wsfa.com/robots.txt
+
+2016-05-28 11:53:49,866 [             Domain.java:pool-3-thread-1:131] - 404 NOT FOUND: http://wsfa.eviesays.com/sweet
+
+2016-05-28 11:54:01,550 [             Domain.java:pool-3-thread-2:131] - 404 NOT FOUND: http://foxcarolina.eviesays.com/sweet
+
+2016-05-28 11:54:57,087 [             Domain.java:pool-3-thread-1:213] - Domain:https://t.co page queue emptied after 1 page crawls
+2016-05-28 11:54:57,340 [             Domain.java:pool-3-thread-1:131] - 404 NOT FOUND: http://pix.kctv5.com/robots.txt
+
+2016-05-28 11:54:59,900 [             Domain.java:pool-3-thread-2:131] - 404 NOT FOUND: http://foxcarolina.eviesays.com/sweet
+
+2016-05-28 11:55:06,495 [             Domain.java:pool-3-thread-1:128] - 302 REDIRECT: http://www.facebook.com/robots.txt
+
+2016-05-28 11:55:06,495 [             Domain.java:pool-3-thread-1:131] - 404 NOT FOUND: http://www.facebook.com/robots.txt
+
+2016-05-28 11:55:06,579 [             Domain.java:pool-3-thread-1:128] - 302 REDIRECT: http://www.facebook.com
+
+2016-05-28 11:55:06,579 [             Domain.java:pool-3-thread-1:131] - 404 NOT FOUND: http://www.facebook.com
+
+2016-05-28 11:55:07,079 [             Domain.java:pool-3-thread-1:213] - Domain:http://www.facebook.com page queue emptied after 1 page crawls
+2016-05-28 11:55:07,769 [             Domain.java:pool-3-thread-1:213] - Domain:https://t.co page queue emptied after 1 page crawls
+2016-05-28 11:55:07,799 [             Domain.java:pool-3-thread-1:111] - unable to connect to: http://radio.comq/robots.txt
+[Ljava.lang.StackTraceElement;@25e6ccae
+2016-05-28 11:55:07,799 [             Domain.java:pool-3-thread-1:122] - Response of 0: 0 for http://radio.comq/robots.txt!
+2016-05-28 11:55:07,800 [             Domain.java:pool-3-thread-1:111] - unable to connect to: http://radio.comq
+[Ljava.lang.StackTraceElement;@152a8e9
+2016-05-28 11:55:07,800 [             Domain.java:pool-3-thread-1:122] - Response of 0: 0 for http://radio.comq!
+2016-05-28 11:55:08,300 [             Domain.java:pool-3-thread-1:213] - Domain:http://radio.comq page queue emptied after 1 page crawls
+2016-05-28 11:55:17,374 [             Domain.java:pool-3-thread-1:131] - 404 NOT FOUND: http://sendit.ksla.com/robots.txt
+
+2016-05-28 11:55:25,683 [             Domain.java:pool-3-thread-2:136] - 403 FORBIDDEN: http://titantv.mobi
+
+2016-05-28 11:55:25,683 [             Domain.java:pool-3-thread-2:137] - Request failure for: http://titantv.mobi, response code: 403
+2016-05-28 11:55:26,184 [             Domain.java:pool-3-thread-2:213] - Domain:http://titantv.mobi page queue emptied after 1 page crawls
+2016-05-28 11:55:51,398 [             Domain.java:pool-3-thread-1:128] - 301 REDIRECT: https://itunes.apple.com
+
+2016-05-28 11:55:51,398 [             Domain.java:pool-3-thread-1:131] - 404 NOT FOUND: https://itunes.apple.com
+
+2016-05-28 11:55:52,885 [             Domain.java:pool-3-thread-2:128] - 302 REDIRECT: http://kdvr.nimbledeals.com/shoppingCart
+
+2016-05-28 11:55:52,886 [             Domain.java:pool-3-thread-2:131] - 404 NOT FOUND: http://kdvr.nimbledeals.com/shoppingCart
+
+2016-05-28 11:55:53,466 [             Domain.java:pool-3-thread-2:128] - 302 REDIRECT: http://kdvr.nimbledeals.com/login
+
+2016-05-28 11:55:53,466 [             Domain.java:pool-3-thread-2:131] - 404 NOT FOUND: http://kdvr.nimbledeals.com/login
+
+2016-05-28 11:55:54,046 [             Domain.java:pool-3-thread-2:128] - 302 REDIRECT: http://kdvr.nimbledeals.com/merchant/login
+
+2016-05-28 11:55:54,046 [             Domain.java:pool-3-thread-2:131] - 404 NOT FOUND: http://kdvr.nimbledeals.com/merchant/login
+
+2016-05-28 11:55:54,626 [             Domain.java:pool-3-thread-2:128] - 302 REDIRECT: http://kdvr.nimbledeals.com/orderStatus
+
+2016-05-28 11:55:54,626 [             Domain.java:pool-3-thread-2:131] - 404 NOT FOUND: http://kdvr.nimbledeals.com/orderStatus
+
+2016-05-28 11:56:00,533 [             Domain.java:pool-3-thread-2:128] - 301 REDIRECT: http://itunes.apple.com
+
+2016-05-28 11:56:00,533 [             Domain.java:pool-3-thread-2:131] - 404 NOT FOUND: http://itunes.apple.com
+
+2016-05-28 11:56:28,745 [             Domain.java:pool-3-thread-1:128] - 302 REDIRECT: http://www.facebook.com/robots.txt
+
+2016-05-28 11:56:28,746 [             Domain.java:pool-3-thread-1:131] - 404 NOT FOUND: http://www.facebook.com/robots.txt
+
+2016-05-28 11:56:28,828 [             Domain.java:pool-3-thread-1:128] - 302 REDIRECT: http://www.facebook.com
+
+2016-05-28 11:56:28,828 [             Domain.java:pool-3-thread-1:131] - 404 NOT FOUND: http://www.facebook.com
+
+2016-05-28 11:56:29,329 [             Domain.java:pool-3-thread-1:213] - Domain:http://www.facebook.com page queue emptied after 1 page crawls
+2016-05-28 11:56:31,157 [             Domain.java:pool-3-thread-1:131] - 404 NOT FOUND: https://stations.fcc.gov/robots.txt
+
+2016-05-28 11:56:38,174 [             Domain.java:pool-3-thread-2:128] - 301 REDIRECT: https://localtvkdvr.files.wordpress.com/robots.txt
+
+2016-05-28 11:56:38,174 [             Domain.java:pool-3-thread-2:131] - 404 NOT FOUND: https://localtvkdvr.files.wordpress.com/robots.txt
+
+2016-05-28 11:56:38,249 [             Domain.java:pool-3-thread-2:128] - 301 REDIRECT: https://localtvkdvr.files.wordpress.com
+
+2016-05-28 11:56:38,249 [             Domain.java:pool-3-thread-2:131] - 404 NOT FOUND: https://localtvkdvr.files.wordpress.com
+
+2016-05-28 11:56:38,749 [             Domain.java:pool-3-thread-2:213] - Domain:https://localtvkdvr.files.wordpress.com page queue emptied after 1 page crawls
+2016-05-28 11:56:43,516 [             Domain.java:pool-3-thread-1:136] - 403 FORBIDDEN: https://twitter.com/sitemap.xml
+
+2016-05-28 11:56:43,516 [             Domain.java:pool-3-thread-1:137] - Request failure for: https://twitter.com/sitemap.xml, response code: 403
+2016-05-28 11:56:51,733 [             Domain.java:pool-3-thread-2:131] - 404 NOT FOUND: http://1800startover.com/robots.txt
+
+2016-05-28 11:56:53,031 [             Domain.java:pool-3-thread-2:213] - Domain:http://1800startover.com page queue emptied after 2 page crawls
+2016-05-28 11:56:57,937 [             Domain.java:pool-3-thread-1:128] - 301 REDIRECT: https://itunes.apple.com
+
+2016-05-28 11:56:57,938 [             Domain.java:pool-3-thread-1:131] - 404 NOT FOUND: https://itunes.apple.com
+
+2016-05-28 11:57:05,453 [             Domain.java:pool-3-thread-2:128] - 301 REDIRECT: http://twitter.com
+
+2016-05-28 11:57:05,453 [             Domain.java:pool-3-thread-2:131] - 404 NOT FOUND: http://twitter.com
+
+2016-05-28 11:57:06,612 [             Domain.java:pool-3-thread-2:136] - 403 FORBIDDEN: https://twitter.com/sitemap.xml
+
+2016-05-28 11:57:06,612 [             Domain.java:pool-3-thread-2:137] - Request failure for: https://twitter.com/sitemap.xml, response code: 403
+2016-05-28 11:57:07,613 [             Domain.java:pool-3-thread-2:213] - Domain:http://twitter.com page queue emptied after 2 page crawls
+2016-05-28 11:57:09,159 [             Domain.java:pool-3-thread-2:131] - 404 NOT FOUND: https://stations.fcc.gov/robots.txt
+
+2016-05-28 11:57:30,650 [             Domain.java:pool-3-thread-1:111] - unable to connect to: http://tribune.com/robots.txt
+[Ljava.lang.StackTraceElement;@493bb18f
+2016-05-28 11:57:30,650 [             Domain.java:pool-3-thread-1:122] - Response of 0: 0 for http://tribune.com/robots.txt!
+2016-05-28 11:57:35,651 [             Domain.java:pool-3-thread-1:111] - unable to connect to: http://tribune.com
+[Ljava.lang.StackTraceElement;@159d2a79
+2016-05-28 11:57:35,651 [             Domain.java:pool-3-thread-1:122] - Response of 0: 0 for http://tribune.com!
+2016-05-28 11:57:36,152 [             Domain.java:pool-3-thread-1:213] - Domain:http://tribune.com page queue emptied after 1 page crawls
+2016-05-28 11:57:53,119 [             Domain.java:pool-3-thread-1:131] - 404 NOT FOUND: http://air.utah.gov/robots.txt
+
+2016-05-28 11:57:59,592 [             Domain.java:pool-3-thread-2:128] - 301 REDIRECT: http://utahavalanchecenter.org/robots.txt
+
+2016-05-28 11:57:59,592 [             Domain.java:pool-3-thread-2:131] - 404 NOT FOUND: http://utahavalanchecenter.org/robots.txt
+
+2016-05-28 11:57:59,720 [             Domain.java:pool-3-thread-2:128] - 301 REDIRECT: http://utahavalanchecenter.org
+
+2016-05-28 11:57:59,720 [             Domain.java:pool-3-thread-2:131] - 404 NOT FOUND: http://utahavalanchecenter.org
+
+2016-05-28 11:58:00,221 [             Domain.java:pool-3-thread-2:213] - Domain:http://utahavalanchecenter.org page queue emptied after 1 page crawls
+2016-05-28 11:58:01,034 [             Domain.java:pool-3-thread-2:213] - Domain:http://go.cnn.com page queue emptied after 1 page crawls
+2016-05-28 11:58:01,376 [             Domain.java:pool-3-thread-2:213] - Domain:http://www.cnnpartners.com page queue emptied after 1 page crawls
+2016-05-28 11:58:13,225 [             Domain.java:pool-3-thread-2:136] - 403 FORBIDDEN: https://twitter.com/sitemap.xml
+
+2016-05-28 11:58:13,225 [             Domain.java:pool-3-thread-2:137] - Request failure for: https://twitter.com/sitemap.xml, response code: 403
+2016-05-28 11:58:18,516 [             Domain.java:pool-3-thread-1:128] - 301 REDIRECT: http://instagram.com/robots.txt
+
+2016-05-28 11:58:18,517 [             Domain.java:pool-3-thread-1:131] - 404 NOT FOUND: http://instagram.com/robots.txt
+
+2016-05-28 11:58:18,599 [             Domain.java:pool-3-thread-1:128] - 301 REDIRECT: http://instagram.com
+
+2016-05-28 11:58:18,600 [             Domain.java:pool-3-thread-1:131] - 404 NOT FOUND: http://instagram.com
+
+2016-05-28 11:58:19,100 [             Domain.java:pool-3-thread-1:213] - Domain:http://instagram.com page queue emptied after 1 page crawls
+2016-05-28 11:58:35,542 [             Domain.java:pool-3-thread-2:213] - Domain:http://www.wearecnn.com page queue emptied after 1 page crawls
+2016-05-28 11:59:01,239 [             Domain.java:pool-3-thread-2:128] - 301 REDIRECT: https://www.theadbl.com/success-stories
+
+2016-05-28 11:59:01,239 [             Domain.java:pool-3-thread-2:131] - 404 NOT FOUND: https://www.theadbl.com/success-stories
+
+2016-05-28 11:59:02,433 [             Domain.java:pool-3-thread-2:128] - 301 REDIRECT: https://www.theadbl.com/blog
+
+2016-05-28 11:59:02,433 [             Domain.java:pool-3-thread-2:131] - 404 NOT FOUND: https://www.theadbl.com/blog
+
+2016-05-28 11:59:07,055 [             Domain.java:pool-3-thread-2:213] - Domain:http://media.hipmunk.com page queue emptied after 2 page crawls
+2016-05-28 11:59:19,886 [             Domain.java:pool-3-thread-1:128] - 302 REDIRECT: http://www.indeed.com/promo/resume
+
+2016-05-28 11:59:19,886 [             Domain.java:pool-3-thread-1:131] - 404 NOT FOUND: http://www.indeed.com/promo/resume
+
+2016-05-28 11:59:20,425 [             Domain.java:pool-3-thread-1:128] - 302 REDIRECT: http://www.indeed.com/account/login?dest=%2F
+
+2016-05-28 11:59:20,426 [             Domain.java:pool-3-thread-1:131] - 404 NOT FOUND: http://www.indeed.com/account/login?dest=%2F
+
+2016-05-28 11:59:22,350 [             Domain.java:pool-3-thread-1:128] - 302 REDIRECT: http://www.indeed.com/promo/gotajob
+
+2016-05-28 11:59:22,351 [             Domain.java:pool-3-thread-1:131] - 404 NOT FOUND: http://www.indeed.com/promo/gotajob
+
+2016-05-28 11:59:34,550 [             Domain.java:pool-3-thread-1:213] - Domain:https://vine.co page queue emptied after 1 page crawls
+2016-05-28 11:59:57,561 [             Domain.java:pool-3-thread-1:128] - 302 REDIRECT: http://meta.writers.stackexchange.com/users/login?ssrc=site_switcher&returnurl=http%3a%2f%2fmeta.writers.stackexchange.com%2f
+
+2016-05-28 11:59:57,562 [             Domain.java:pool-3-thread-1:131] - 404 NOT FOUND: http://meta.writers.stackexchange.com/users/login?ssrc=site_switcher&returnurl=http%3a%2f%2fmeta.writers.stackexchange.com%2f
+
+2016-05-28 12:00:13,441 [             Domain.java:pool-3-thread-1:131] - 404 NOT FOUND: http://blog.stackoverflow.com/robots.txt
+
+2016-05-28 12:00:17,654 [             Domain.java:pool-3-thread-2:131] - 404 NOT FOUND: https://www.hipmunk.com/sitemap-tailwind.xml
+
+2016-05-28 12:00:20,677 [             Domain.java:pool-3-thread-1:131] - 404 NOT FOUND: http://api.addthis.com/robots.txt
+
+2016-05-28 12:00:20,731 [             Domain.java:pool-3-thread-1:131] - 404 NOT FOUND: http://api.addthis.com
+
+2016-05-28 12:00:21,231 [             Domain.java:pool-3-thread-1:213] - Domain:http://api.addthis.com page queue emptied after 1 page crawls
+2016-05-28 12:00:31,530 [             Domain.java:pool-3-thread-2:128] - 302 REDIRECT: http://meta.space.stackexchange.com/users/login?ssrc=site_switcher&returnurl=http%3a%2f%2fmeta.space.stackexchange.com%2f
+
+2016-05-28 12:00:31,531 [             Domain.java:pool-3-thread-2:131] - 404 NOT FOUND: http://meta.space.stackexchange.com/users/login?ssrc=site_switcher&returnurl=http%3a%2f%2fmeta.space.stackexchange.com%2f
+
+2016-05-28 12:00:36,185 [             Domain.java:pool-3-thread-1:131] - 404 NOT FOUND: http://blog.stackoverflow.com/robots.txt
+
+2016-05-28 12:00:43,186 [             Domain.java:pool-3-thread-1:131] - 404 NOT FOUND: http://api.addthis.com/robots.txt
+
+2016-05-28 12:00:43,232 [             Domain.java:pool-3-thread-1:131] - 404 NOT FOUND: http://api.addthis.com
+
+2016-05-28 12:00:43,733 [             Domain.java:pool-3-thread-1:213] - Domain:http://api.addthis.com page queue emptied after 1 page crawls
+2016-05-28 12:01:00,152 [             Domain.java:pool-3-thread-2:131] - 404 NOT FOUND: http://api.addthis.com/robots.txt
+
+2016-05-28 12:01:00,205 [             Domain.java:pool-3-thread-2:131] - 404 NOT FOUND: http://api.addthis.com
+
+2016-05-28 12:01:00,705 [             Domain.java:pool-3-thread-2:213] - Domain:http://api.addthis.com page queue emptied after 1 page crawls
+2016-05-28 12:13:04,811 [             Domain.java:pool-3-thread-1:213] - Domain:https://plus.google.com page queue emptied after 3 page crawls
+2016-05-28 12:13:18,705 [             Domain.java:pool-3-thread-1:128] - 302 REDIRECT: http://nymag.com/accountcenter/login.cgi
+
+2016-05-28 12:13:18,706 [             Domain.java:pool-3-thread-1:131] - 404 NOT FOUND: http://nymag.com/accountcenter/login.cgi
+
+2016-05-28 12:13:20,514 [             Domain.java:pool-3-thread-1:213] - Domain:http://www.grubstreet.com page queue emptied after 1 page crawls
+2016-05-28 12:13:23,034 [             Domain.java:pool-3-thread-1:136] - 403 FORBIDDEN: https://twitter.com/sitemap.xml
+
+2016-05-28 12:13:23,034 [             Domain.java:pool-3-thread-1:137] - Request failure for: https://twitter.com/sitemap.xml, response code: 403
+2016-05-28 12:13:23,795 [             Domain.java:pool-3-thread-2:213] - Domain:https://plus.google.com page queue emptied after 3 page crawls
+2016-05-28 12:13:24,787 [             Domain.java:pool-3-thread-2:128] - 302 REDIRECT: http://my.nymag.com
+
+2016-05-28 12:13:24,787 [             Domain.java:pool-3-thread-2:131] - 404 NOT FOUND: http://my.nymag.com
+
+2016-05-28 12:13:25,288 [             Domain.java:pool-3-thread-2:213] - Domain:http://my.nymag.com page queue emptied after 1 page crawls
+2016-05-28 12:13:25,929 [             Domain.java:pool-3-thread-2:128] - 302 REDIRECT: https://secure.nymag.com
+
+2016-05-28 12:13:25,929 [             Domain.java:pool-3-thread-2:131] - 404 NOT FOUND: https://secure.nymag.com
+
+2016-05-28 12:13:26,430 [             Domain.java:pool-3-thread-2:213] - Domain:https://secure.nymag.com page queue emptied after 1 page crawls
+2016-05-28 12:13:26,553 [             Domain.java:pool-3-thread-2:128] - 301 REDIRECT: http://www.twitter.com
+
+2016-05-28 12:13:26,553 [             Domain.java:pool-3-thread-2:131] - 404 NOT FOUND: http://www.twitter.com
+
+2016-05-28 12:13:27,054 [             Domain.java:pool-3-thread-2:213] - Domain:http://www.twitter.com page queue emptied after 1 page crawls
+2016-05-28 12:14:01,093 [             Domain.java:pool-3-thread-2:213] - Domain:https://www.instagram.com page queue emptied after 1 page crawls
+2016-05-28 12:14:32,615 [             Domain.java:pool-3-thread-1:128] - 302 REDIRECT: http://www.resellerratings.com/store/add
+
+2016-05-28 12:14:32,615 [             Domain.java:pool-3-thread-1:131] - 404 NOT FOUND: http://www.resellerratings.com/store/add
+
+2016-05-28 12:14:38,048 [             Domain.java:pool-3-thread-1:128] - 301 REDIRECT: http://benefits.glassesusa.com/robots.txt
+
+2016-05-28 12:14:38,048 [             Domain.java:pool-3-thread-1:131] - 404 NOT FOUND: http://benefits.glassesusa.com/robots.txt
+
+2016-05-28 12:14:38,157 [             Domain.java:pool-3-thread-1:128] - 301 REDIRECT: http://benefits.glassesusa.com
+
+2016-05-28 12:14:38,157 [             Domain.java:pool-3-thread-1:131] - 404 NOT FOUND: http://benefits.glassesusa.com
+
+2016-05-28 12:14:38,658 [             Domain.java:pool-3-thread-1:213] - Domain:http://benefits.glassesusa.com page queue emptied after 1 page crawls
+2016-05-28 12:14:40,967 [             Domain.java:pool-3-thread-1:136] - 403 FORBIDDEN: https://twitter.com/sitemap.xml
+
+2016-05-28 12:14:40,968 [             Domain.java:pool-3-thread-1:137] - Request failure for: https://twitter.com/sitemap.xml, response code: 403

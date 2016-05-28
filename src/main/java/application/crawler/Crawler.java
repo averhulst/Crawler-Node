@@ -91,6 +91,8 @@ public class Crawler{
             }
             messenger.getQueue("crawlResults").setContentEncoding("gzip");
             messenger.getQueue("crawlResults").publishMessage(outBoundMessage);
+        } else {
+            System.out.println("wat");
         }
 
         logger.info("Finished crawling: " + crawledDomain.getDomainURI() + " - crawled " + crawledDomain.getCrawlCount() + " pages");

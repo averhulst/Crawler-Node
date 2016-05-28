@@ -113,7 +113,7 @@ public class Page{
             put("head", head.toString());
             put("body", body.toString());
         }};
-        page.put(Util.toSha256(url.getPath() + url.getQuery()), source).toString();
+        page.put(url.getPath() + url.getQuery(), source).toString();
         return page.toString();
     }
 
