@@ -1072,3 +1072,7 @@
 2016-05-28 12:14:40,967 [             Domain.java:pool-3-thread-1:136] - 403 FORBIDDEN: https://twitter.com/sitemap.xml
 
 2016-05-28 12:14:40,968 [             Domain.java:pool-3-thread-1:137] - Request failure for: https://twitter.com/sitemap.xml, response code: 403
+2016-05-28 16:19:20,608 [             Domain.java:pool-3-thread-1:131] - 404 NOT FOUND: http://academy.sensortower.com/robots.txt
+
+2016-05-28 16:19:20,608 [             Domain.java:pool-3-thread-2:131] - 404 NOT FOUND: http://help.sensortower.com/robots.txt
+
