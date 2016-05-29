@@ -11,7 +11,7 @@ public class Main {
         System.out.println(availableCpus + " processors found, using " + crawlerWorkerThreadCount + " worker threads for crawling");
 
         BasicConfigurator.configure();
-        Crawler crawler = new Crawler(2);
+        Crawler crawler = new Crawler(crawlerWorkerThreadCount);
         crawler.crawl();
     }
 
