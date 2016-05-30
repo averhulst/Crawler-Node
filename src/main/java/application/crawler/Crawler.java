@@ -53,7 +53,7 @@ public class Crawler{
     private void printCrawlRate(){
         float upTimeInSeconds = (int) (System.currentTimeMillis() - timeAtBootUp) / 1000;
         crawlRatePerMin = totalCrawls / (upTimeInSeconds / 60);
-        logger.info("*******************  Total crawls:  " + totalCrawls + + Math.round(crawlRatePerMin*100.0)/100.0 + " domains per minute, running for " + upTimeInSeconds + " seconds. Actively crawling " + activelyCrawlingDomains.size() + " domains");
+        logger.info("*******************  Total crawls:  " + totalCrawls + ", " + Math.round(crawlRatePerMin*100.0)/100.0 + " domains per minute, running for " + upTimeInSeconds + " seconds. Actively crawling " + activelyCrawlingDomains.size() + " domains");
 
     }
 
