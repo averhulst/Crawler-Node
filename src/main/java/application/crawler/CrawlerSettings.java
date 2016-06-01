@@ -10,7 +10,7 @@ public class CrawlerSettings {
 
     static {
         DOMAIN_PAGE_CRAWL_CEILING = 10;
-        SEARCH_STRING = "news";
+        SEARCH_STRING = "tomato";
     }
 
 }
