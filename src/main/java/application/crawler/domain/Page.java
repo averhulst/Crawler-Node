@@ -62,7 +62,9 @@ public class Page{
                 }
 
             } catch (URISyntaxException e) {
-                e.printStackTrace();
+//                ignore these for now
+//                e.printStackTrace();
+                // TODO: improve this
             }
         }
     }
