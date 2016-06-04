@@ -173,21 +173,17 @@ public class Domain implements Runnable{
     }
 
     private void processDiscoveredDomains(List<URI> domains){
-        for(URI url: domains){
-            if(!discoveredDomains.contains(url)){
-                discoveredDomains.add(url);
-            }
-        }
+        domains.stream().filter(
+            url -> (
+                !discoveredDomains.contains(url)
+                && discoveredDomains.size() < CrawlerSettings.DISCOVERED_DOMAIN_LIMIT)
+            ).forEach(url -> discoveredDomains.add(url));
     }
 
     private void processDiscoveredPages(List<URI>  discoveredPages){
-        for(URI url : discoveredPages){
-            if(!isCrawled(url)){
-                if(robotsTxt.urlIsAllowed(url)){
-                    pageQueue.enqueueURI(url);
-                }
-            }
-        }
+        discoveredPages.stream().filter(url -> !isCrawled(url)).filter(url -> robotsTxt.urlIsAllowed(url)).forEach(url -> {
+            pageQueue.enqueueURI(url);
+        });
     }
 
     public List<URI> getDiscoveredDomains(){
