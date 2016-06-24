@@ -14,5 +14,10 @@
       "Port": 27219,
       "User_name": "crawlernode",
       "Pass": "nodelol"
+    },
+
+    "REDIS_SERVER" : {
+      "Address": "71.226.124.148",
+      "Port": 6379,
     }
 }

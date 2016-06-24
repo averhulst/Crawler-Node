@@ -2,6 +2,7 @@ package application.crawler;
 
 import application.crawler.domain.Domain;
 import application.crawler.util.Util;
+import com.sun.org.apache.xpath.internal.SourceTree;
 import org.apache.commons.lang3.StringUtils;
 import service.messaging.MessengerImpl;
 
@@ -17,8 +18,7 @@ public class Crawler{
     private static UrlQueue domainQueue = new UrlQueue();
     private static HashMap<String, Domain> activelyCrawlingDomains = new HashMap<String, Domain>();
     private static long timeAtBootUp;
-    private static float crawlRatePerMin;
-    private static int totalCrawls;
+    private CrawlerStatistics statistics = new CrawlerStatistics();
     private int threadCount;
     private boolean running = true;
     private MessengerImpl messenger;
@@ -50,10 +50,17 @@ public class Crawler{
         }
     }
 
-    private void printCrawlRate(){
+    private void updateCrawlerStats(){
         float upTimeInSeconds = (int) (System.currentTimeMillis() - timeAtBootUp) / 1000;
-        crawlRatePerMin = totalCrawls / (upTimeInSeconds / 60);
-        logger.info("*******************  Total crawls:  " + totalCrawls + ", " + Math.round(crawlRatePerMin*100.0)/100.0 + " domains per minute, running for " + upTimeInSeconds + " seconds. Actively crawling " + activelyCrawlingDomains.size() + " domains");
+
+        statistics.setTotalDomainCrawls(statistics.getTotalDomainCrawls() + 1);
+        statistics.setDomainCrawlsPerMin((float)(Math.round(statistics.getTotalDomainCrawls() / (upTimeInSeconds / 60))));
+        statistics.setActivelyCrawlingDomains(activelyCrawlingDomains.values());
+        statistics.setUpTimeInSeconds(Math.round(upTimeInSeconds));
+
+        messenger.publishStatus(statistics.toString());
+
+        logger.info("*******************  Total crawls:  " + statistics.getTotalDomainCrawls() + ", " + statistics.getDomainCrawlsPerMin() + " domains per minute, running for " + statistics.getUpTimeInSeconds() + " seconds. Actively crawling " + statistics.getActivelyCrawlingDomains().size() + " domains");
 
     }
 
@@ -96,7 +103,6 @@ public class Crawler{
         }
 
         logger.info("Finished crawling: " + crawledDomain.getDomainURI() + " - crawled " + crawledDomain.getCrawlCount() + " pages");
-        totalCrawls++;
     }
 
     private class RunnableDomain implements Runnable{
@@ -115,7 +121,7 @@ public class Crawler{
             }
 
             finalizeDomainCrawl(domain);
-            printCrawlRate();
+            updateCrawlerStats();
         }
 
     }

@@ -12,6 +12,9 @@ public class Environment {
     public static final String DOMAIN_QUEUE_DB_ADDRESS;
     public static final int    DOMAIN_QUEUE_DB_PORT;
 
+    public static final String REDIS_SERVER_ADDRESS;
+    public static final int    REDIS_SERVER_PORT;
+
     public static final String MESSAGING_SERVICE_ADDRESS;
     public static final int    MESSAGING_SERVICE_PORT;
     public static final String MESSAGING_SERVICE_USER_NAME;
@@ -35,8 +38,10 @@ public class Environment {
         DOMAIN_QUEUE_DB_PORT        =  (int)environmentJSON.getJSONObject("DOMAIN_QUEUE_DB").get("Port");
         MESSAGING_SERVICE_ADDRESS   =  environmentJSON.getJSONObject("MESSAGING_SERVICE").getString("Address");
         MESSAGING_SERVICE_PORT      =  (int)environmentJSON.getJSONObject("MESSAGING_SERVICE").get("Port");
-        MESSAGING_SERVICE_USER_NAME   =  environmentJSON.getJSONObject("MESSAGING_SERVICE").getString("User_name");
+        MESSAGING_SERVICE_USER_NAME =  environmentJSON.getJSONObject("MESSAGING_SERVICE").getString("User_name");
         MESSAGING_SERVICE_PASS      =  environmentJSON.getJSONObject("MESSAGING_SERVICE").getString("Pass");
+        REDIS_SERVER_ADDRESS        =  environmentJSON.getJSONObject("REDIS_SERVER").getString("Address");
+        REDIS_SERVER_PORT           =  (int)environmentJSON.getJSONObject("REDIS_SERVER").get("Port");
 
     }
 
