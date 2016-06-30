@@ -77,6 +77,7 @@ public class CrawlerStatistics {
         response.put("totalDomainCrawls", totalDomainCrawls);
         response.put("upTimeInSeconds", upTimeInSeconds);
         response.put("crawlerId", crawlerId);
+        response.put("totalPageCrawls", totalPageCrawls);
 
         JSONArray activelyCrawlingDomainsJson = new JSONArray();
 
