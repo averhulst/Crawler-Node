@@ -50,13 +50,14 @@ public class Crawler{
         }
     }
 
-    private void updateCrawlerStats(){
+    private void updateCrawlerStats(Domain d){
         float upTimeInSeconds = (int) (System.currentTimeMillis() - timeAtBootUp) / 1000;
 
         statistics.setTotalDomainCrawls(statistics.getTotalDomainCrawls() + 1);
         statistics.setDomainCrawlsPerMin((float)(Math.round(statistics.getTotalDomainCrawls() / (upTimeInSeconds / 60))));
         statistics.setActivelyCrawlingDomains(activelyCrawlingDomains.values());
         statistics.setUpTimeInSeconds(Math.round(upTimeInSeconds));
+        statistics.setTotalPageCrawls(statistics.getTotalPageCrawls() + d.getCrawledURIs().size());
 
         messenger.publishStatus(statistics.toString());
 
@@ -121,7 +122,7 @@ public class Crawler{
             }
 
             finalizeDomainCrawl(domain);
-            updateCrawlerStats();
+            updateCrawlerStats(domain);
         }
 
     }

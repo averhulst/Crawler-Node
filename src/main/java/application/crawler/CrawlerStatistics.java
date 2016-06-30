@@ -12,6 +12,7 @@ import java.util.Collection;
 
 public class CrawlerStatistics {
     private float domainCrawlsPerMin;
+    private int totalPageCrawls = 0;
     private int totalDomainCrawls = 0;
     private int upTimeInSeconds;
     private Collection<Domain> activelyCrawlingDomains;
@@ -51,6 +52,14 @@ public class CrawlerStatistics {
 
     public void setUpTimeInSeconds(int upTimeInSeconds) {
         this.upTimeInSeconds = upTimeInSeconds;
+    }
+
+    public int getTotalPageCrawls() {
+        return totalPageCrawls;
+    }
+
+    public void setTotalPageCrawls(int totalPageCrawls) {
+        this.totalPageCrawls = totalPageCrawls;
     }
 
     public Collection<Domain> getActivelyCrawlingDomains() {

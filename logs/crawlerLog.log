@@ -1420,3 +1420,123 @@
 2016-06-23 23:30:43,566 [            Crawler.java:pool-3-thread-1:105] - Finished crawling: http://www.minecraft-hk.com - crawled 1 pages
 2016-06-23 23:32:36,220 [            Crawler.java:pool-3-thread-9:105] - Finished crawling: http://plus.google.com - crawled 1 pages
 2016-06-23 23:34:01,192 [            Crawler.java:pool-3-thread-2:105] - Finished crawling: http://vscs.cri.cn - crawled 1 pages
+2016-06-24 21:03:22,578 [            Crawler.java:pool-3-thread-4:105] - Finished crawling: http://chinesecity.cri.cn - crawled 0 pages
+2016-06-24 21:03:22,585 [            Crawler.java:pool-3-thread-4:63] - *******************  Total crawls:  1, 60.0 domains per minute, running for 1 seconds. Actively crawling 9 domains
+2016-06-24 21:03:22,953 [            Crawler.java:pool-3-thread-3:105] - Finished crawling: http://www.lyta.com.cn - crawled 1 pages
+2016-06-24 21:03:24,907 [            Crawler.java:pool-3-thread-10:105] - Finished crawling: http://www.hitfm.cn - crawled 1 pages
+2016-06-24 21:03:29,790 [            Crawler.java:pool-3-thread-9:105] - Finished crawling: http://newsradio.cri.cn - crawled 10 pages
+2016-06-24 21:03:31,068 [            Crawler.java:pool-3-thread-5:105] - Finished crawling: http://www.chinesefilms.cn - crawled 10 pages
+2016-06-24 21:03:31,271 [            Crawler.java:pool-3-thread-12:105] - Finished crawling: http://www.npc.gov.cn - crawled 0 pages
+2016-06-24 21:03:31,995 [            Crawler.java:pool-3-thread-2:105] - Finished crawling: http://www.cri.com.cn - crawled 10 pages
+2016-06-24 21:06:01,586 [            Crawler.java:pool-3-thread-5:105] - Finished crawling: http://www.tibet.cn - crawled 2 pages
+2016-06-24 21:06:01,642 [            Crawler.java:pool-3-thread-5:63] - *******************  Total crawls:  1, 60.0 domains per minute, running for 1 seconds. Actively crawling 9 domains
+2016-06-24 21:06:03,202 [            Crawler.java:pool-3-thread-5:105] - Finished crawling: http://weather.cri.cn - crawled 1 pages
+2016-06-24 21:06:03,209 [            Crawler.java:pool-3-thread-5:63] - *******************  Total crawls:  2, 40.0 domains per minute, running for 3 seconds. Actively crawling 9 domains
+2016-06-24 21:06:10,238 [            Crawler.java:pool-3-thread-3:105] - Finished crawling: http://www.youth.cn - crawled 10 pages
+2016-06-24 21:06:10,242 [            Crawler.java:pool-3-thread-3:63] - *******************  Total crawls:  3, 18.0 domains per minute, running for 10 seconds. Actively crawling 9 domains
+2016-06-24 21:06:10,578 [            Crawler.java:pool-3-thread-6:105] - Finished crawling: http://rencai.people.com.cn - crawled 10 pages
+2016-06-24 21:06:10,582 [            Crawler.java:pool-3-thread-6:63] - *******************  Total crawls:  4, 24.0 domains per minute, running for 10 seconds. Actively crawling 9 domains
+2016-06-24 21:06:11,547 [            Crawler.java:pool-3-thread-8:105] - Finished crawling: http://www.crir.com.cn - crawled 10 pages
+2016-06-24 21:06:11,551 [            Crawler.java:pool-3-thread-8:63] - *******************  Total crawls:  5, 27.0 domains per minute, running for 11 seconds. Actively crawling 9 domains
+2016-06-24 21:06:12,104 [            Crawler.java:pool-3-thread-6:105] - Finished crawling: http://www.chinaradio.cn - crawled 1 pages
+2016-06-24 21:06:12,108 [            Crawler.java:pool-3-thread-6:63] - *******************  Total crawls:  6, 30.0 domains per minute, running for 12 seconds. Actively crawling 9 domains
+2016-06-24 21:06:12,830 [            Crawler.java:pool-3-thread-7:105] - Finished crawling: http://sputniknews.cn - crawled 10 pages
+2016-06-24 21:06:12,835 [            Crawler.java:pool-3-thread-7:63] - *******************  Total crawls:  7, 35.0 domains per minute, running for 12 seconds. Actively crawling 9 domains
+2016-06-24 21:06:13,400 [            Crawler.java:pool-3-thread-2:105] - Finished crawling: http://cn.chinadaily.com.cn - crawled 10 pages
+2016-06-24 21:06:13,408 [            Crawler.java:pool-3-thread-2:63] - *******************  Total crawls:  8, 37.0 domains per minute, running for 13 seconds. Actively crawling 9 domains
+2016-06-24 21:06:13,920 [            Crawler.java:pool-3-thread-5:105] - Finished crawling: http://bbs.cri.cn - crawled 1 pages
+2016-06-24 21:06:13,926 [            Crawler.java:pool-3-thread-5:63] - *******************  Total crawls:  9, 42.0 domains per minute, running for 13 seconds. Actively crawling 9 domains
+2016-06-24 21:06:15,307 [            Crawler.java:pool-3-thread-1:105] - Finished crawling: http://www.nhfpc.gov.cn - crawled 10 pages
+2016-06-24 21:06:15,311 [            Crawler.java:pool-3-thread-1:63] - *******************  Total crawls:  10, 40.0 domains per minute, running for 15 seconds. Actively crawling 9 domains
+2016-06-24 21:06:15,494 [            Crawler.java:pool-3-thread-4:105] - Finished crawling: http://www.taiwan.cn - crawled 10 pages
+2016-06-24 21:06:15,498 [            Crawler.java:pool-3-thread-4:63] - *******************  Total crawls:  11, 44.0 domains per minute, running for 15 seconds. Actively crawling 9 domains
+2016-06-24 21:06:20,974 [            Crawler.java:pool-3-thread-9:105] - Finished crawling: http://www.chinaso.com - crawled 10 pages
+2016-06-24 21:06:20,978 [            Crawler.java:pool-3-thread-9:63] - *******************  Total crawls:  12, 36.0 domains per minute, running for 20 seconds. Actively crawling 9 domains
+2016-06-24 21:06:22,324 [            Crawler.java:pool-3-thread-3:105] - Finished crawling: http://www.itaiwannews.cn - crawled 10 pages
+2016-06-24 21:06:22,327 [            Crawler.java:pool-3-thread-3:63] - *******************  Total crawls:  13, 35.0 domains per minute, running for 22 seconds. Actively crawling 9 domains
+2016-06-24 21:06:22,396 [            Crawler.java:pool-3-thread-9:105] - Finished crawling: http://www.chinesecity.com.cn - crawled 1 pages
+2016-06-24 21:06:22,401 [            Crawler.java:pool-3-thread-9:63] - *******************  Total crawls:  14, 38.0 domains per minute, running for 22 seconds. Actively crawling 9 domains
+2016-06-24 21:06:23,124 [            Crawler.java:pool-3-thread-6:105] - Finished crawling: http://www.gocea.net - crawled 10 pages
+2016-06-24 21:06:23,127 [            Crawler.java:pool-3-thread-6:63] - *******************  Total crawls:  15, 39.0 domains per minute, running for 23 seconds. Actively crawling 9 domains
+2016-06-24 21:06:23,481 [            Crawler.java:pool-3-thread-6:105] - Finished crawling: http://city.ce.cn - crawled 1 pages
+2016-06-24 21:06:23,485 [            Crawler.java:pool-3-thread-6:63] - *******************  Total crawls:  16, 42.0 domains per minute, running for 23 seconds. Actively crawling 9 domains
+2016-06-24 21:06:25,697 [            Crawler.java:pool-3-thread-2:105] - Finished crawling: http://www.gqb.gov.cn - crawled 10 pages
+2016-06-24 21:06:25,703 [            Crawler.java:pool-3-thread-2:63] - *******************  Total crawls:  17, 41.0 domains per minute, running for 25 seconds. Actively crawling 9 domains
+2016-06-24 21:06:26,045 [            Crawler.java:pool-3-thread-1:105] - Finished crawling: http://data.gb.cri.cn - crawled 1 pages
+2016-06-24 21:06:26,056 [            Crawler.java:pool-3-thread-1:63] - *******************  Total crawls:  18, 43.0 domains per minute, running for 25 seconds. Actively crawling 9 domains
+2016-06-24 21:06:26,422 [            Crawler.java:pool-3-thread-5:105] - Finished crawling: http://www.tailian.org.cn - crawled 10 pages
+2016-06-24 21:06:26,425 [            Crawler.java:pool-3-thread-5:63] - *******************  Total crawls:  19, 44.0 domains per minute, running for 26 seconds. Actively crawling 9 domains
+2016-06-24 21:10:06,926 [            Crawler.java:pool-3-thread-4:105] - Finished crawling: http://travel.ce.cn - crawled 1 pages
+2016-06-24 21:10:06,978 [            Crawler.java:pool-3-thread-4:63] - *******************  Total crawls:  1, 2.14748365E9 domains per minute, running for 0 seconds. Actively crawling 9 domains
+2016-06-24 21:10:09,413 [            Crawler.java:pool-3-thread-1:105] - Finished crawling: http://travel.cntv.cn - crawled 2 pages
+2016-06-24 21:10:09,418 [            Crawler.java:pool-3-thread-1:63] - *******************  Total crawls:  2, 60.0 domains per minute, running for 2 seconds. Actively crawling 8 domains
+2016-06-24 21:10:10,011 [            Crawler.java:pool-3-thread-1:105] - Finished crawling: http://travel.enorth.com.cn - crawled 1 pages
+2016-06-24 21:10:10,022 [            Crawler.java:pool-3-thread-1:63] - *******************  Total crawls:  3, 60.0 domains per minute, running for 3 seconds. Actively crawling 9 domains
+2016-06-24 21:10:16,559 [            Crawler.java:pool-3-thread-3:105] - Finished crawling: http://market.cnta.gov.cn - crawled 10 pages
+2016-06-24 21:10:16,564 [            Crawler.java:pool-3-thread-3:63] - *******************  Total crawls:  4, 24.0 domains per minute, running for 10 seconds. Actively crawling 9 domains
+2016-06-24 21:10:17,055 [            Crawler.java:pool-3-thread-7:105] - Finished crawling: http://tour.cyol.com - crawled 10 pages
+2016-06-24 21:10:17,059 [            Crawler.java:pool-3-thread-7:63] - *******************  Total crawls:  5, 30.0 domains per minute, running for 10 seconds. Actively crawling 9 domains
+2016-06-24 21:10:17,270 [            Crawler.java:pool-3-thread-5:105] - Finished crawling: http://travel.taiwan.cn - crawled 10 pages
+2016-06-24 21:10:17,274 [            Crawler.java:pool-3-thread-5:63] - *******************  Total crawls:  6, 36.0 domains per minute, running for 10 seconds. Actively crawling 9 domains
+2016-06-24 21:10:18,695 [            Crawler.java:pool-3-thread-4:105] - Finished crawling: http://travel.cnhubei.com - crawled 10 pages
+2016-06-24 21:10:18,700 [            Crawler.java:pool-3-thread-4:63] - *******************  Total crawls:  7, 35.0 domains per minute, running for 12 seconds. Actively crawling 9 domains
+2016-06-24 21:10:20,519 [            Crawler.java:pool-3-thread-9:105] - Finished crawling: http://travel.qianlong.com - crawled 10 pages
+2016-06-24 21:10:20,523 [            Crawler.java:pool-3-thread-9:63] - *******************  Total crawls:  8, 34.0 domains per minute, running for 14 seconds. Actively crawling 9 domains
+2016-06-24 21:10:20,671 [            Crawler.java:pool-3-thread-8:105] - Finished crawling: http://fashion.ifeng.com - crawled 10 pages
+2016-06-24 21:10:20,674 [            Crawler.java:pool-3-thread-8:63] - *******************  Total crawls:  9, 39.0 domains per minute, running for 14 seconds. Actively crawling 9 domains
+2016-06-24 21:10:22,621 [            Crawler.java:pool-3-thread-1:105] - Finished crawling: http://travel.anhuinews.com - crawled 10 pages
+2016-06-24 21:10:22,626 [            Crawler.java:pool-3-thread-1:63] - *******************  Total crawls:  10, 37.0 domains per minute, running for 16 seconds. Actively crawling 9 domains
+2016-06-24 21:10:22,973 [            Crawler.java:pool-3-thread-2:105] - Finished crawling: http://travel.gmw.cn - crawled 10 pages
+2016-06-24 21:10:22,979 [            Crawler.java:pool-3-thread-2:63] - *******************  Total crawls:  11, 41.0 domains per minute, running for 16 seconds. Actively crawling 9 domains
+2016-06-24 21:10:24,371 [            Crawler.java:pool-3-thread-1:105] - Finished crawling: http://www.guilin.com.cn - crawled 1 pages
+2016-06-24 21:10:24,376 [            Crawler.java:pool-3-thread-1:63] - *******************  Total crawls:  12, 42.0 domains per minute, running for 17 seconds. Actively crawling 9 domains
+2016-06-24 21:16:29,144 [            Crawler.java:pool-3-thread-3:105] - Finished crawling: http://www.hrblyj.com.cn - crawled 1 pages
+2016-06-24 21:20:30,140 [            Crawler.java:pool-3-thread-6:105] - Finished crawling: http://apps.microsoft.com - crawled 1 pages
+2016-06-24 21:24:43,092 [            Crawler.java:pool-3-thread-6:105] - Finished crawling: http://baby.ce.cn - crawled 1 pages
+2016-06-24 21:24:43,094 [            Crawler.java:pool-3-thread-2:105] - Finished crawling: http://district.ce.cn - crawled 1 pages
+2016-06-24 21:24:43,096 [            Crawler.java:pool-3-thread-1:105] - Finished crawling: http://intl.ce.cn - crawled 1 pages
+2016-06-24 21:24:43,124 [            Crawler.java:pool-3-thread-5:105] - Finished crawling: http://views.ce.cn - crawled 1 pages
+2016-06-24 21:24:43,127 [            Crawler.java:pool-3-thread-9:105] - Finished crawling: http://life.ce.cn - crawled 1 pages
+2016-06-24 21:24:43,131 [            Crawler.java:pool-3-thread-8:105] - Finished crawling: http://tech.ce.cn - crawled 1 pages
+2016-06-24 21:24:43,146 [            Crawler.java:pool-3-thread-5:63] - *******************  Total crawls:  6, 2.14748365E9 domains per minute, running for 0 seconds. Actively crawling 9 domains
+2016-06-24 21:24:43,241 [            Crawler.java:pool-3-thread-3:105] - Finished crawling: http://fangtan.ce.cn - crawled 1 pages
+2016-06-24 21:24:43,249 [            Crawler.java:pool-3-thread-7:105] - Finished crawling: http://expo.ce.cn - crawled 1 pages
+2016-06-24 21:24:43,253 [            Crawler.java:pool-3-thread-3:63] - *******************  Total crawls:  8, 2.14748365E9 domains per minute, running for 0 seconds. Actively crawling 9 domains
+2016-06-24 21:24:43,260 [            Crawler.java:pool-3-thread-7:63] - *******************  Total crawls:  8, 2.14748365E9 domains per minute, running for 0 seconds. Actively crawling 9 domains
+2016-06-24 21:24:43,501 [            Crawler.java:pool-3-thread-5:105] - Finished crawling: http://health.ce.cn - crawled 1 pages
+2016-06-24 21:24:43,507 [            Crawler.java:pool-3-thread-10:105] - Finished crawling: http://shuhua.ce.cn - crawled 1 pages
+2016-06-24 21:24:43,510 [            Crawler.java:pool-3-thread-5:63] - *******************  Total crawls:  10, 2.14748365E9 domains per minute, running for 0 seconds. Actively crawling 8 domains
+2016-06-24 21:24:43,514 [            Crawler.java:pool-3-thread-11:105] - Finished crawling: http://fashion.ce.cn - crawled 1 pages
+2016-06-24 21:24:43,515 [            Crawler.java:pool-3-thread-10:63] - *******************  Total crawls:  11, 2.14748365E9 domains per minute, running for 0 seconds. Actively crawling 9 domains
+2016-06-24 21:24:43,520 [            Crawler.java:pool-3-thread-13:105] - Finished crawling: http://russia.ce.cn - crawled 1 pages
+2016-06-24 21:24:43,524 [            Crawler.java:pool-3-thread-11:63] - *******************  Total crawls:  12, 2.14748365E9 domains per minute, running for 0 seconds. Actively crawling 7 domains
+2016-06-24 21:24:43,526 [            Crawler.java:pool-3-thread-14:105] - Finished crawling: http://12365.ce.cn - crawled 1 pages
+2016-06-24 21:24:43,531 [            Crawler.java:pool-3-thread-12:105] - Finished crawling: http://foodsafety.ce.cn - crawled 1 pages
+2016-06-24 21:24:43,532 [            Crawler.java:pool-3-thread-13:63] - *******************  Total crawls:  14, 2.14748365E9 domains per minute, running for 0 seconds. Actively crawling 7 domains
+2016-06-24 21:24:43,548 [            Crawler.java:pool-3-thread-12:63] - *******************  Total crawls:  14, 2.14748365E9 domains per minute, running for 0 seconds. Actively crawling 9 domains
+2016-06-24 21:24:43,628 [            Crawler.java:pool-3-thread-3:105] - Finished crawling: http://comic.ce.cn - crawled 1 pages
+2016-06-24 21:24:43,632 [            Crawler.java:pool-3-thread-3:63] - *******************  Total crawls:  15, 900.0 domains per minute, running for 1 seconds. Actively crawling 9 domains
+2016-06-24 21:24:43,633 [            Crawler.java:pool-3-thread-7:105] - Finished crawling: http://book.ce.cn - crawled 1 pages
+2016-06-24 21:24:43,638 [            Crawler.java:pool-3-thread-7:63] - *******************  Total crawls:  16, 960.0 domains per minute, running for 1 seconds. Actively crawling 9 domains
+2016-06-24 21:24:43,901 [            Crawler.java:pool-3-thread-10:105] - Finished crawling: http://europe.ce.cn - crawled 1 pages
+2016-06-24 21:24:43,903 [            Crawler.java:pool-3-thread-11:105] - Finished crawling: http://paper.ce.cn - crawled 1 pages
+2016-06-24 21:24:43,909 [            Crawler.java:pool-3-thread-10:63] - *******************  Total crawls:  18, 1080.0 domains per minute, running for 1 seconds. Actively crawling 8 domains
+2016-06-24 21:24:43,911 [            Crawler.java:pool-3-thread-5:105] - Finished crawling: http://gongyi.ce.cn - crawled 1 pages
+2016-06-24 21:24:43,913 [            Crawler.java:pool-3-thread-11:63] - *******************  Total crawls:  19, 1140.0 domains per minute, running for 1 seconds. Actively crawling 9 domains
+2016-06-24 21:24:45,508 [            Crawler.java:pool-3-thread-13:105] - Finished crawling: http://zqrb.ccstock.cn - crawled 1 pages
+2016-06-24 21:24:45,520 [            Crawler.java:pool-3-thread-13:63] - *******************  Total crawls:  20, 600.0 domains per minute, running for 2 seconds. Actively crawling 9 domains
+2016-06-24 21:30:12,820 [            Crawler.java:pool-3-thread-7:105] - Finished crawling: http://www.ifeng.com - crawled 1 pages
+2016-06-24 21:30:12,824 [            Crawler.java:pool-3-thread-1:105] - Finished crawling: http://data.ce.cn - crawled 1 pages
+2016-06-24 21:30:12,881 [            Crawler.java:pool-3-thread-1:63] - *******************  Total crawls:  2, 2.14748365E9 domains per minute, running for 0 seconds. Actively crawling 9 domains
+2016-06-24 21:30:25,194 [            Crawler.java:pool-3-thread-10:105] - Finished crawling: http://www.ccdi.gov.cn - crawled 10 pages
+2016-06-24 21:32:48,044 [            Crawler.java:pool-3-thread-6:105] - Finished crawling: http://www.kaiwind.com - crawled 1 pages
+2016-06-24 21:33:28,289 [            Crawler.java:pool-3-thread-1:105] - Finished crawling: http://www.sda.gov.cn - crawled 1 pages
+2016-06-24 22:30:55,981 [            Crawler.java:pool-3-thread-5:105] - Finished crawling: http://www.chinafoods.cn - crawled 1 pages
+2016-06-24 22:30:56,015 [            Crawler.java:pool-3-thread-5:63] - *******************  Total crawls:  1, 20.0 domains per minute, running for 3 seconds. Actively crawling 9 domains
+2016-06-24 22:30:56,233 [            Crawler.java:pool-3-thread-3:105] - Finished crawling: http://food.cntv.cn - crawled 2 pages
+2016-06-24 22:30:56,236 [            Crawler.java:pool-3-thread-3:63] - *******************  Total crawls:  2, 40.0 domains per minute, running for 3 seconds. Actively crawling 9 domains
+2016-06-24 22:32:28,634 [            Crawler.java:pool-3-thread-5:105] - Finished crawling: http://survey.fang.com - crawled 1 pages
+2016-06-24 22:32:28,706 [            Crawler.java:pool-3-thread-5:63] - *******************  Total crawls:  1, 60.0 domains per minute, running for 1 seconds. Actively crawling 9 domains
+2016-06-24 22:34:33,809 [            Crawler.java:pool-3-thread-2:105] - Finished crawling: http://www.baih365.com - crawled 10 pages
+2016-06-24 22:35:06,161 [            Crawler.java:pool-3-thread-9:105] - Finished crawling: http://epaper.indaa.com.cn - crawled 1 pages
+2016-06-24 22:35:33,019 [            Crawler.java:pool-3-thread-8:105] - Finished crawling: http://www.energy.hc360.com - crawled 10 pages

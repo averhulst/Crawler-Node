@@ -1305,3 +1305,249 @@
 2016-06-23 23:33:59,673 [             Domain.java:pool-3-thread-6:131] - 404 NOT FOUND: http://eco.cri.cn/robots.txt
 
 2016-06-23 23:34:01,177 [             Domain.java:pool-3-thread-2:209] - Domain:http://vscs.cri.cn page queue emptied after 1 page crawls
+2016-06-24 21:03:21,884 [             Domain.java:pool-3-thread-1:131] - 404 NOT FOUND: http://www.gywb.cn/robots.txt
+
+2016-06-24 21:03:22,206 [             Domain.java:pool-3-thread-9:131] - 404 NOT FOUND: http://newsradio.cri.cn/robots.txt
+
+2016-06-24 21:03:22,212 [             Domain.java:pool-3-thread-4:131] - 404 NOT FOUND: http://chinesecity.cri.cn/robots.txt
+
+2016-06-24 21:03:22,224 [             Domain.java:pool-3-thread-6:131] - 404 NOT FOUND: http://jiaoxue.cri.cn/robots.txt
+
+2016-06-24 21:03:22,228 [             Domain.java:pool-3-thread-7:131] - 404 NOT FOUND: http://auto.youth.cn/robots.txt
+
+2016-06-24 21:03:22,244 [             Domain.java:pool-3-thread-5:131] - 404 NOT FOUND: http://www.chinesefilms.cn/robots.txt
+
+2016-06-24 21:03:22,278 [             Domain.java:pool-3-thread-2:131] - 404 NOT FOUND: http://www.cri.com.cn/robots.txt
+
+2016-06-24 21:03:22,950 [             Domain.java:pool-3-thread-3:209] - Domain:http://www.lyta.com.cn page queue emptied after 1 page crawls
+2016-06-24 21:03:24,892 [             Domain.java:pool-3-thread-10:209] - Domain:http://www.hitfm.cn page queue emptied after 1 page crawls
+2016-06-24 21:03:25,448 [             Domain.java:pool-3-thread-11:131] - 404 NOT FOUND: http://www.china.com/robots.txt
+
+2016-06-24 21:03:26,577 [             Domain.java:pool-3-thread-8:111] - unable to connect to: http://jubao.12377.cn/robots.txt
+[Ljava.lang.StackTraceElement;@44a00ab0
+2016-06-24 21:03:26,577 [             Domain.java:pool-3-thread-8:122] - Response of 0: 0 for http://jubao.12377.cn/robots.txt!
+2016-06-24 21:03:30,813 [             Domain.java:pool-3-thread-12:131] - 404 NOT FOUND: http://www.npc.gov.cn/robots.txt
+
+2016-06-24 21:03:31,579 [             Domain.java:pool-3-thread-8:111] - unable to connect to: http://jubao.12377.cn
+[Ljava.lang.StackTraceElement;@37c06839
+2016-06-24 21:03:31,579 [             Domain.java:pool-3-thread-8:122] - Response of 0: 0 for http://jubao.12377.cn!
+2016-06-24 21:03:32,079 [             Domain.java:pool-3-thread-8:209] - Domain:http://jubao.12377.cn page queue emptied after 1 page crawls
+2016-06-24 21:06:00,627 [             Domain.java:pool-3-thread-3:131] - 404 NOT FOUND: http://www.youth.cn/robots.txt
+
+2016-06-24 21:06:00,673 [             Domain.java:pool-3-thread-2:131] - 404 NOT FOUND: http://cn.chinadaily.com.cn/robots.txt
+
+2016-06-24 21:06:01,100 [             Domain.java:pool-3-thread-6:131] - 404 NOT FOUND: http://rencai.people.com.cn/robots.txt
+
+2016-06-24 21:06:01,248 [             Domain.java:pool-3-thread-8:131] - 404 NOT FOUND: http://www.crir.com.cn/robots.txt
+
+2016-06-24 21:06:01,567 [             Domain.java:pool-3-thread-5:209] - Domain:http://www.tibet.cn page queue emptied after 2 page crawls
+2016-06-24 21:06:02,295 [             Domain.java:pool-3-thread-5:131] - 404 NOT FOUND: http://weather.cri.cn/robots.txt
+
+2016-06-24 21:06:02,697 [             Domain.java:pool-3-thread-5:131] - 404 NOT FOUND: http://weather.cri.cn
+
+2016-06-24 21:06:03,198 [             Domain.java:pool-3-thread-5:209] - Domain:http://weather.cri.cn page queue emptied after 1 page crawls
+2016-06-24 21:06:03,611 [             Domain.java:pool-3-thread-1:141] - Unrecognized response code: 400 for http://www.nhfpc.gov.cn/../zhuzhan/index.shtml
+2016-06-24 21:06:08,413 [             Domain.java:pool-3-thread-5:111] - unable to connect to: http://bbs.cri.cn/robots.txt
+[Ljava.lang.StackTraceElement;@4eb5fccb
+2016-06-24 21:06:08,414 [             Domain.java:pool-3-thread-5:122] - Response of 0: 0 for http://bbs.cri.cn/robots.txt!
+2016-06-24 21:06:08,775 [             Domain.java:pool-3-thread-3:131] - 404 NOT FOUND: http://www.youth.cn/games
+
+2016-06-24 21:06:10,992 [             Domain.java:pool-3-thread-3:131] - 404 NOT FOUND: http://www.itaiwannews.cn/robots.txt
+
+2016-06-24 21:06:11,276 [             Domain.java:pool-3-thread-6:131] - 404 NOT FOUND: http://www.chinaradio.cn/robots.txt
+
+2016-06-24 21:06:12,102 [             Domain.java:pool-3-thread-6:209] - Domain:http://www.chinaradio.cn page queue emptied after 1 page crawls
+2016-06-24 21:06:13,035 [             Domain.java:pool-3-thread-6:131] - 404 NOT FOUND: http://www.gocea.net/robots.txt
+
+2016-06-24 21:06:13,415 [             Domain.java:pool-3-thread-5:111] - unable to connect to: http://bbs.cri.cn
+[Ljava.lang.StackTraceElement;@13a5dcf3
+2016-06-24 21:06:13,415 [             Domain.java:pool-3-thread-5:122] - Response of 0: 0 for http://bbs.cri.cn!
+2016-06-24 21:06:13,592 [             Domain.java:pool-3-thread-7:131] - 404 NOT FOUND: http://www.chinaql.org/robots.txt
+
+2016-06-24 21:06:13,915 [             Domain.java:pool-3-thread-5:209] - Domain:http://bbs.cri.cn page queue emptied after 1 page crawls
+2016-06-24 21:06:14,202 [             Domain.java:pool-3-thread-2:131] - 404 NOT FOUND: http://www.gqb.gov.cn/robots.txt
+
+2016-06-24 21:06:15,634 [             Domain.java:pool-3-thread-5:131] - 404 NOT FOUND: http://www.tailian.org.cn/robots.txt
+
+2016-06-24 21:06:16,243 [             Domain.java:pool-3-thread-4:131] - 404 NOT FOUND: http://www.chinarank.org.cn/robots.txt
+
+2016-06-24 21:06:20,538 [             Domain.java:pool-3-thread-1:111] - unable to connect to: http://data.gb.cri.cn/robots.txt
+[Ljava.lang.StackTraceElement;@6fc31123
+2016-06-24 21:06:20,538 [             Domain.java:pool-3-thread-1:122] - Response of 0: 0 for http://data.gb.cri.cn/robots.txt!
+2016-06-24 21:06:20,775 [             Domain.java:pool-3-thread-4:141] - Unrecognized response code: 400 for http://www.chinarank.org.cn/../aboutus/faq.html
+2016-06-24 21:06:21,648 [             Domain.java:pool-3-thread-9:131] - 404 NOT FOUND: http://www.chinesecity.com.cn/robots.txt
+
+2016-06-24 21:06:22,392 [             Domain.java:pool-3-thread-9:209] - Domain:http://www.chinesecity.com.cn page queue emptied after 1 page crawls
+2016-06-24 21:06:23,479 [             Domain.java:pool-3-thread-6:209] - Domain:http://city.ce.cn page queue emptied after 1 page crawls
+2016-06-24 21:06:24,128 [             Domain.java:pool-3-thread-6:131] - 404 NOT FOUND: http://city.gmw.cn/robots.txt
+
+2016-06-24 21:06:25,539 [             Domain.java:pool-3-thread-1:111] - unable to connect to: http://data.gb.cri.cn
+[Ljava.lang.StackTraceElement;@5f3257ce
+2016-06-24 21:06:25,540 [             Domain.java:pool-3-thread-1:122] - Response of 0: 0 for http://data.gb.cri.cn!
+2016-06-24 21:06:26,000 [             Domain.java:pool-3-thread-4:141] - Unrecognized response code: 400 for http://www.chinarank.org.cn/../category/Rank.do
+2016-06-24 21:06:26,041 [             Domain.java:pool-3-thread-1:209] - Domain:http://data.gb.cri.cn page queue emptied after 1 page crawls
+2016-06-24 21:06:26,257 [             Domain.java:pool-3-thread-2:131] - 404 NOT FOUND: http://city.china.com/robots.txt
+
+2016-06-24 21:06:27,104 [             Domain.java:pool-3-thread-5:131] - 404 NOT FOUND: http://radio.crionline.cn/robots.txt
+
+2016-06-24 21:06:28,217 [             Domain.java:pool-3-thread-4:131] - 404 NOT FOUND: http://www.chinarank.org.cn/cr-nielsen/20091224/
+
+2016-06-24 21:06:29,112 [             Domain.java:pool-3-thread-4:141] - Unrecognized response code: 400 for http://www.chinarank.org.cn/../top100/Rank.do
+2016-06-24 21:06:30,017 [             Domain.java:pool-3-thread-4:141] - Unrecognized response code: 400 for http://www.chinarank.org.cn/../overview/Info.do?url=baidu.com
+2016-06-24 21:06:30,912 [             Domain.java:pool-3-thread-4:141] - Unrecognized response code: 400 for http://www.chinarank.org.cn/../overview/Info.do?url=qq.com
+2016-06-24 21:10:06,917 [             Domain.java:pool-3-thread-4:209] - Domain:http://travel.ce.cn page queue emptied after 1 page crawls
+2016-06-24 21:10:07,382 [             Domain.java:pool-3-thread-9:136] - 403 FORBIDDEN: http://travel.qianlong.com/robots.txt
+
+2016-06-24 21:10:07,383 [             Domain.java:pool-3-thread-9:137] - Request failure for: http://travel.qianlong.com/robots.txt, response code: 403
+2016-06-24 21:10:09,408 [             Domain.java:pool-3-thread-1:209] - Domain:http://travel.cntv.cn page queue emptied after 2 page crawls
+2016-06-24 21:10:10,008 [             Domain.java:pool-3-thread-1:209] - Domain:http://travel.enorth.com.cn page queue emptied after 1 page crawls
+2016-06-24 21:10:10,789 [             Domain.java:pool-3-thread-1:131] - 404 NOT FOUND: http://travel.anhuinews.com/robots.txt
+
+2016-06-24 21:10:17,502 [             Domain.java:pool-3-thread-3:131] - 404 NOT FOUND: http://www.gwyou.com/robots.txt
+
+2016-06-24 21:10:18,551 [             Domain.java:pool-3-thread-7:131] - 404 NOT FOUND: http://travel.newssc.org/robots.txt
+
+2016-06-24 21:10:21,166 [             Domain.java:pool-3-thread-9:131] - 404 NOT FOUND: http://www.dalitravel.gov.cn/robots.txt
+
+2016-06-24 21:10:23,423 [             Domain.java:pool-3-thread-1:131] - 404 NOT FOUND: http://www.guilin.com.cn/robots.txt
+
+2016-06-24 21:10:23,940 [             Domain.java:pool-3-thread-4:111] - unable to connect to: http://www.cdta.cn/robots.txt
+[Ljava.lang.StackTraceElement;@6f2709d2
+2016-06-24 21:10:23,940 [             Domain.java:pool-3-thread-4:122] - Response of 0: 0 for http://www.cdta.cn/robots.txt!
+2016-06-24 21:10:24,365 [             Domain.java:pool-3-thread-1:209] - Domain:http://www.guilin.com.cn page queue emptied after 1 page crawls
+2016-06-24 21:16:27,903 [             Domain.java:pool-3-thread-8:131] - 404 NOT FOUND: http://www.xian-tourism.com/robots.txt
+
+2016-06-24 21:16:27,996 [             Domain.java:pool-3-thread-4:131] - 404 NOT FOUND: http://www.sanyatour.com/robots.txt
+
+2016-06-24 21:16:28,009 [             Domain.java:pool-3-thread-1:131] - 404 NOT FOUND: http://www.visitsz.com/robots.txt
+
+2016-06-24 21:16:28,128 [             Domain.java:pool-3-thread-2:131] - 404 NOT FOUND: http://www.531springs.com/robots.txt
+
+2016-06-24 21:16:28,176 [             Domain.java:pool-3-thread-3:131] - 404 NOT FOUND: http://www.hrblyj.com.cn/robots.txt
+
+2016-06-24 21:16:28,227 [             Domain.java:pool-3-thread-6:131] - 404 NOT FOUND: http://www.hsta.gov.cn/robots.txt
+
+2016-06-24 21:16:28,672 [             Domain.java:pool-3-thread-9:141] - Unrecognized response code: 504 for http://www.bj.xinhuanet.com/robots.txt
+2016-06-24 21:16:29,140 [             Domain.java:pool-3-thread-3:209] - Domain:http://www.hrblyj.com.cn page queue emptied after 1 page crawls
+2016-06-24 21:20:29,567 [             Domain.java:pool-3-thread-6:128] - 301 REDIRECT: http://apps.microsoft.com/robots.txt
+
+2016-06-24 21:20:29,569 [             Domain.java:pool-3-thread-6:131] - 404 NOT FOUND: http://apps.microsoft.com/robots.txt
+
+2016-06-24 21:20:29,606 [             Domain.java:pool-3-thread-6:128] - 301 REDIRECT: http://apps.microsoft.com
+
+2016-06-24 21:20:29,606 [             Domain.java:pool-3-thread-6:131] - 404 NOT FOUND: http://apps.microsoft.com
+
+2016-06-24 21:20:29,876 [             Domain.java:pool-3-thread-2:131] - 404 NOT FOUND: http://0898567.com/robots.txt
+
+2016-06-24 21:20:30,113 [             Domain.java:pool-3-thread-6:209] - Domain:http://apps.microsoft.com page queue emptied after 1 page crawls
+2016-06-24 21:24:43,082 [             Domain.java:pool-3-thread-1:209] - Domain:http://intl.ce.cn page queue emptied after 1 page crawls
+2016-06-24 21:24:43,082 [             Domain.java:pool-3-thread-6:209] - Domain:http://baby.ce.cn page queue emptied after 1 page crawls
+2016-06-24 21:24:43,082 [             Domain.java:pool-3-thread-9:209] - Domain:http://life.ce.cn page queue emptied after 1 page crawls
+2016-06-24 21:24:43,082 [             Domain.java:pool-3-thread-8:209] - Domain:http://tech.ce.cn page queue emptied after 1 page crawls
+2016-06-24 21:24:43,082 [             Domain.java:pool-3-thread-5:209] - Domain:http://views.ce.cn page queue emptied after 1 page crawls
+2016-06-24 21:24:43,089 [             Domain.java:pool-3-thread-2:209] - Domain:http://district.ce.cn page queue emptied after 1 page crawls
+2016-06-24 21:24:43,239 [             Domain.java:pool-3-thread-3:209] - Domain:http://fangtan.ce.cn page queue emptied after 1 page crawls
+2016-06-24 21:24:43,245 [             Domain.java:pool-3-thread-7:209] - Domain:http://expo.ce.cn page queue emptied after 1 page crawls
+2016-06-24 21:24:43,498 [             Domain.java:pool-3-thread-5:209] - Domain:http://health.ce.cn page queue emptied after 1 page crawls
+2016-06-24 21:24:43,504 [             Domain.java:pool-3-thread-10:209] - Domain:http://shuhua.ce.cn page queue emptied after 1 page crawls
+2016-06-24 21:24:43,509 [             Domain.java:pool-3-thread-11:209] - Domain:http://fashion.ce.cn page queue emptied after 1 page crawls
+2016-06-24 21:24:43,515 [             Domain.java:pool-3-thread-13:209] - Domain:http://russia.ce.cn page queue emptied after 1 page crawls
+2016-06-24 21:24:43,518 [             Domain.java:pool-3-thread-4:131] - 404 NOT FOUND: http://blog.ce.cn/robots.txt
+
+2016-06-24 21:24:43,522 [             Domain.java:pool-3-thread-14:209] - Domain:http://12365.ce.cn page queue emptied after 1 page crawls
+2016-06-24 21:24:43,523 [             Domain.java:pool-3-thread-12:209] - Domain:http://foodsafety.ce.cn page queue emptied after 1 page crawls
+2016-06-24 21:24:43,626 [             Domain.java:pool-3-thread-3:209] - Domain:http://comic.ce.cn page queue emptied after 1 page crawls
+2016-06-24 21:24:43,630 [             Domain.java:pool-3-thread-7:209] - Domain:http://book.ce.cn page queue emptied after 1 page crawls
+2016-06-24 21:24:43,899 [             Domain.java:pool-3-thread-10:209] - Domain:http://europe.ce.cn page queue emptied after 1 page crawls
+2016-06-24 21:24:43,901 [             Domain.java:pool-3-thread-11:209] - Domain:http://paper.ce.cn page queue emptied after 1 page crawls
+2016-06-24 21:24:43,908 [             Domain.java:pool-3-thread-5:209] - Domain:http://gongyi.ce.cn page queue emptied after 1 page crawls
+2016-06-24 21:24:44,419 [             Domain.java:pool-3-thread-3:131] - 404 NOT FOUND: http://www.jingji.com.cn/robots.txt
+
+2016-06-24 21:24:44,849 [             Domain.java:pool-3-thread-11:131] - 404 NOT FOUND: http://www.zgshzz.com/robots.txt
+
+2016-06-24 21:24:45,504 [             Domain.java:pool-3-thread-13:209] - Domain:http://zqrb.ccstock.cn page queue emptied after 1 page crawls
+2016-06-24 21:30:12,807 [             Domain.java:pool-3-thread-7:209] - Domain:http://www.ifeng.com page queue emptied after 1 page crawls
+2016-06-24 21:30:12,807 [             Domain.java:pool-3-thread-1:209] - Domain:http://data.ce.cn page queue emptied after 1 page crawls
+2016-06-24 21:30:13,107 [             Domain.java:pool-3-thread-6:131] - 404 NOT FOUND: http://www.workercn.cn/robots.txt
+
+2016-06-24 21:30:13,582 [             Domain.java:pool-3-thread-10:131] - 404 NOT FOUND: http://www.ccdi.gov.cn/robots.txt
+
+2016-06-24 21:30:15,963 [             Domain.java:pool-3-thread-9:131] - 404 NOT FOUND: http://www.360.com/robots.txt
+
+2016-06-24 21:30:17,556 [             Domain.java:pool-3-thread-6:131] - 404 NOT FOUND: http://www.workercn.cn/html/main/indexold.shtml
+
+2016-06-24 21:32:48,034 [             Domain.java:pool-3-thread-6:209] - Domain:http://www.kaiwind.com page queue emptied after 1 page crawls
+2016-06-24 21:33:28,284 [             Domain.java:pool-3-thread-1:209] - Domain:http://www.sda.gov.cn page queue emptied after 1 page crawls
+2016-06-24 22:30:53,461 [             Domain.java:pool-3-thread-2:131] - 404 NOT FOUND: http://food.china.com.cn/robots.txt
+
+2016-06-24 22:30:53,484 [             Domain.java:pool-3-thread-1:131] - 404 NOT FOUND: http://www.spaq.people.com.cn/robots.txt
+
+2016-06-24 22:30:53,702 [             Domain.java:pool-3-thread-6:131] - 404 NOT FOUND: http://life.rednet.cn/robots.txt
+
+2016-06-24 22:30:53,857 [             Domain.java:pool-3-thread-9:131] - 404 NOT FOUND: http://sp.cnhubei.com/robots.txt
+
+2016-06-24 22:30:55,472 [             Domain.java:pool-3-thread-5:111] - unable to connect to: http://www.chinafoods.cn/robots.txt
+[Ljava.lang.StackTraceElement;@1d699e8
+2016-06-24 22:30:55,472 [             Domain.java:pool-3-thread-5:122] - Response of 0: 0 for http://www.chinafoods.cn/robots.txt!
+2016-06-24 22:30:55,473 [             Domain.java:pool-3-thread-5:111] - unable to connect to: http://www.chinafoods.cn
+[Ljava.lang.StackTraceElement;@b2ef298
+2016-06-24 22:30:55,475 [             Domain.java:pool-3-thread-5:122] - Response of 0: 0 for http://www.chinafoods.cn!
+2016-06-24 22:30:55,502 [             Domain.java:pool-3-thread-9:131] - 404 NOT FOUND: http://sp.cnhubei.com/sp.cnhubei.com
+
+2016-06-24 22:30:55,976 [             Domain.java:pool-3-thread-5:209] - Domain:http://www.chinafoods.cn page queue emptied after 1 page crawls
+2016-06-24 22:30:56,231 [             Domain.java:pool-3-thread-3:209] - Domain:http://food.cntv.cn page queue emptied after 2 page crawls
+2016-06-24 22:30:57,748 [             Domain.java:pool-3-thread-3:131] - 404 NOT FOUND: http://www.food.hc360.com/robots.txt
+
+2016-06-24 22:30:59,896 [             Domain.java:pool-3-thread-4:141] - Unrecognized response code: 500 for http://www.qgtjh.com/index.asp
+2016-06-24 22:32:27,487 [             Domain.java:pool-3-thread-6:131] - 404 NOT FOUND: http://digi.it.sohu.com/robots.txt
+
+2016-06-24 22:32:27,617 [             Domain.java:pool-3-thread-5:131] - 404 NOT FOUND: http://survey.fang.com/robots.txt
+
+2016-06-24 22:32:27,866 [             Domain.java:pool-3-thread-3:131] - 404 NOT FOUND: http://www.yyysp.org/robots.txt
+
+2016-06-24 22:32:27,880 [             Domain.java:pool-3-thread-1:131] - 404 NOT FOUND: http://www.cdia.org.cn/robots.txt
+
+2016-06-24 22:32:28,062 [             Domain.java:pool-3-thread-5:136] - 403 FORBIDDEN: http://survey.fang.com
+
+2016-06-24 22:32:28,063 [             Domain.java:pool-3-thread-5:137] - Request failure for: http://survey.fang.com, response code: 403
+2016-06-24 22:32:28,628 [             Domain.java:pool-3-thread-5:209] - Domain:http://survey.fang.com page queue emptied after 1 page crawls
+2016-06-24 22:32:30,651 [             Domain.java:pool-3-thread-3:136] - 403 FORBIDDEN: http://www.yyysp.org/../
+
+2016-06-24 22:32:30,652 [             Domain.java:pool-3-thread-3:137] - Request failure for: http://www.yyysp.org/../, response code: 403
+2016-06-24 22:34:27,673 [             Domain.java:pool-3-thread-2:131] - 404 NOT FOUND: http://www.baih365.com/robots.txt
+
+2016-06-24 22:34:28,044 [             Domain.java:pool-3-thread-4:131] - 404 NOT FOUND: http://ec.sootoo.com/robots.txt
+
+2016-06-24 22:34:28,061 [             Domain.java:pool-3-thread-5:131] - 404 NOT FOUND: http://www.cheari.com/robots.txt
+
+2016-06-24 22:34:30,558 [             Domain.java:pool-3-thread-5:131] - 404 NOT FOUND: http://www.cheari.com/index.html
+
+2016-06-24 22:34:31,443 [             Domain.java:pool-3-thread-5:131] - 404 NOT FOUND: http://www.cheari.com/pingce.action
+
+2016-06-24 22:34:32,331 [             Domain.java:pool-3-thread-5:131] - 404 NOT FOUND: http://www.cheari.com/pinpai.action
+
+2016-06-24 22:34:33,021 [             Domain.java:pool-3-thread-5:131] - 404 NOT FOUND: http://www.cheari.com/zhuanti.action
+
+2016-06-24 22:34:33,712 [             Domain.java:pool-3-thread-5:131] - 404 NOT FOUND: http://www.cheari.com/tyg.action
+
+2016-06-24 22:35:05,517 [             Domain.java:pool-3-thread-9:111] - unable to connect to: http://epaper.indaa.com.cn/robots.txt
+[Ljava.lang.StackTraceElement;@76203536
+2016-06-24 22:35:05,604 [             Domain.java:pool-3-thread-9:122] - Response of 0: 0 for http://epaper.indaa.com.cn/robots.txt!
+2016-06-24 22:35:05,606 [             Domain.java:pool-3-thread-9:111] - unable to connect to: http://epaper.indaa.com.cn
+[Ljava.lang.StackTraceElement;@6187e50a
+2016-06-24 22:35:05,607 [             Domain.java:pool-3-thread-9:122] - Response of 0: 0 for http://epaper.indaa.com.cn!
+2016-06-24 22:35:05,867 [             Domain.java:pool-3-thread-5:131] - 404 NOT FOUND: http://www.chinaero.com.cn/robots.txt
+
+2016-06-24 22:35:05,895 [             Domain.java:pool-3-thread-4:131] - 404 NOT FOUND: http://www.wefweb.com/robots.txt
+
+2016-06-24 22:35:05,963 [             Domain.java:pool-3-thread-6:131] - 404 NOT FOUND: http://www.nengyuan.net/robots.txt
+
+2016-06-24 22:35:06,155 [             Domain.java:pool-3-thread-9:209] - Domain:http://epaper.indaa.com.cn page queue emptied after 1 page crawls
+2016-06-24 22:35:24,118 [             Domain.java:pool-3-thread-9:131] - 404 NOT FOUND: http://www.21tyn.com/robots.txt
+
+2016-06-24 22:35:24,155 [             Domain.java:pool-3-thread-3:131] - 404 NOT FOUND: http://www.cusdn.org.cn/robots.txt
+
+2016-06-24 22:35:24,176 [             Domain.java:pool-3-thread-6:131] - 404 NOT FOUND: http://www.118power.com/robots.txt
+
+2016-06-24 22:35:24,706 [             Domain.java:pool-3-thread-8:131] - 404 NOT FOUND: http://www.energy.hc360.com/robots.txt
+

@@ -220,4 +220,8 @@ public class Domain implements Runnable{
     public String toJson() {
         return domainJson.toString();
     }
+
+    public List<URI> getCrawledURIs() {
+        return crawledURIs;
+    }
 }

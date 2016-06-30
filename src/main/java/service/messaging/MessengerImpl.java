@@ -15,7 +15,7 @@ public class MessengerImpl implements Messenger{
     private ConnectionFactory connectionFactory;
     private Map<String, Queue> queues;
     private JedisPool pool = new JedisPool(Environment.REDIS_SERVER_ADDRESS, Environment.REDIS_SERVER_PORT);
-    Jedis jedis = pool.getResource();
+    Jedis jedis;
 
     public MessengerImpl(){
         connectionFactory = new ConnectionFactory();
@@ -46,11 +46,12 @@ public class MessengerImpl implements Messenger{
     }
 
     public void publishStatus(String status) {
+        jedis = pool.getResource();
         JSONObject json = new JSONObject(status);
         try {
             String key = json.get("crawlerId").toString();
-            jedis.sadd(key, json.toString());
-            jedis.expire(key, 180);
+            jedis.hset("crawlerNodes", key, json.toString());
+            jedis.expire("crawlerNodes", 180);
         } catch (JedisException e) {
             e.printStackTrace();
         } finally {
