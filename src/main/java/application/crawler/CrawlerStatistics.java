@@ -17,6 +17,8 @@ public class CrawlerStatistics {
     private int upTimeInSeconds;
     private Collection<Domain> activelyCrawlingDomains;
     private String crawlerId;
+    private int threadCount;
+    private int physicalProcessors;
 
     public CrawlerStatistics() {
         determineCrawlerId();
@@ -68,6 +70,22 @@ public class CrawlerStatistics {
 
     public void setActivelyCrawlingDomains(Collection<Domain> activelyCrawlingDomains) {
         this.activelyCrawlingDomains = activelyCrawlingDomains;
+    }
+
+    public int getThreadCount() {
+        return threadCount;
+    }
+
+    public void setThreadCount(int threadCount) {
+        this.threadCount = threadCount;
+    }
+
+    public int getPhysicalProcessors() {
+        return physicalProcessors;
+    }
+
+    public void setPhysicalProcessors(int physicalProcessors) {
+        this.physicalProcessors = physicalProcessors;
     }
 
     public String toString() {

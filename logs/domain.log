@@ -1551,3 +1551,1890 @@
 
 2016-06-24 22:35:24,706 [             Domain.java:pool-3-thread-8:131] - 404 NOT FOUND: http://www.energy.hc360.com/robots.txt
 
+2016-06-29 22:56:22,345 [             Domain.java:pool-3-thread-1:128] - 301 REDIRECT: http://wrightsmedia.com/robots.txt
+
+2016-06-29 22:56:22,348 [             Domain.java:pool-3-thread-1:131] - 404 NOT FOUND: http://wrightsmedia.com/robots.txt
+
+2016-06-29 22:56:22,453 [             Domain.java:pool-3-thread-1:128] - 301 REDIRECT: http://wrightsmedia.com
+
+2016-06-29 22:56:22,454 [             Domain.java:pool-3-thread-1:131] - 404 NOT FOUND: http://wrightsmedia.com
+
+2016-06-29 22:56:22,937 [             Domain.java:pool-3-thread-2:111] - unable to connect to: https://orders.purch.com/robots.txt
+[Ljava.lang.StackTraceElement;@1dcab990
+2016-06-29 22:56:22,938 [             Domain.java:pool-3-thread-2:122] - Response of 0: 0 for https://orders.purch.com/robots.txt!
+2016-06-29 22:56:22,966 [             Domain.java:pool-3-thread-1:209] - Domain:http://wrightsmedia.com page queue emptied after 1 page crawls
+2016-06-29 22:56:23,115 [             Domain.java:pool-3-thread-2:111] - unable to connect to: https://orders.purch.com
+[Ljava.lang.StackTraceElement;@ef534e5
+2016-06-29 22:56:23,115 [             Domain.java:pool-3-thread-2:122] - Response of 0: 0 for https://orders.purch.com!
+2016-06-29 22:56:23,395 [             Domain.java:pool-3-thread-1:209] - Domain:https://techmedianetwork.applytojob.com page queue emptied after 1 page crawls
+2016-06-29 22:56:23,616 [             Domain.java:pool-3-thread-2:209] - Domain:https://orders.purch.com page queue emptied after 1 page crawls
+2016-06-29 22:56:31,541 [             Domain.java:pool-3-thread-2:209] - Domain:http://www.shopsavvy.com page queue emptied after 1 page crawls
+2016-06-29 22:56:31,704 [             Domain.java:pool-3-thread-2:209] - Domain:http://www.purchmarketplace.com page queue emptied after 1 page crawls
+2016-06-29 22:58:17,979 [             Domain.java:pool-3-thread-2:131] - 404 NOT FOUND: http://thegreatteenadvice.tumblr.com/sitemap.xml
+
+2016-06-29 22:58:31,338 [             Domain.java:pool-3-thread-2:131] - 404 NOT FOUND: https://besteyemakeup.joomla.com/robots.txt
+
+2016-06-29 22:58:48,863 [             Domain.java:pool-3-thread-2:128] - 301 REDIRECT: http://michaelvandenberg.com/robots.txt
+
+2016-06-29 22:58:48,864 [             Domain.java:pool-3-thread-2:131] - 404 NOT FOUND: http://michaelvandenberg.com/robots.txt
+
+2016-06-29 22:58:48,907 [             Domain.java:pool-3-thread-2:128] - 301 REDIRECT: http://michaelvandenberg.com
+
+2016-06-29 22:58:48,908 [             Domain.java:pool-3-thread-2:131] - 404 NOT FOUND: http://michaelvandenberg.com
+
+2016-06-29 22:58:49,408 [             Domain.java:pool-3-thread-2:209] - Domain:http://michaelvandenberg.com page queue emptied after 1 page crawls
+2016-06-29 22:59:07,304 [             Domain.java:pool-3-thread-2:209] - Domain:http://studio100.com page queue emptied after 1 page crawls
+2016-06-29 22:59:32,342 [             Domain.java:pool-3-thread-2:131] - 404 NOT FOUND: http://happy2013.epic.net/robots.txt
+
+2016-06-29 22:59:33,135 [             Domain.java:pool-3-thread-2:209] - Domain:http://happy2013.epic.net page queue emptied after 1 page crawls
+2016-06-29 22:59:35,431 [             Domain.java:pool-3-thread-2:131] - 404 NOT FOUND: http://www.awwwards.com/sitemap.xml
+
+2016-06-29 23:00:07,944 [             Domain.java:pool-3-thread-1:128] - 302 REDIRECT: http://www.kiplinger.com/login/wlogin.php?Pub=kcm
+
+2016-06-29 23:00:07,945 [             Domain.java:pool-3-thread-1:131] - 404 NOT FOUND: http://www.kiplinger.com/login/wlogin.php?Pub=kcm
+
+2016-06-29 23:00:08,528 [             Domain.java:pool-3-thread-1:128] - 302 REDIRECT: http://www.kiplinger.com/login/register.php
+
+2016-06-29 23:00:08,528 [             Domain.java:pool-3-thread-1:131] - 404 NOT FOUND: http://www.kiplinger.com/login/register.php
+
+2016-06-29 23:00:10,677 [             Domain.java:pool-3-thread-1:128] - 302 REDIRECT: http://www.kiplinger.com/store/letter-promo/index.html
+
+2016-06-29 23:00:10,677 [             Domain.java:pool-3-thread-1:131] - 404 NOT FOUND: http://www.kiplinger.com/store/letter-promo/index.html
+
+2016-06-29 23:00:11,919 [             Domain.java:pool-3-thread-1:128] - 302 REDIRECT: http://www.kiplinger.com/orders/index.php?pub=kip&id=ISUB
+
+2016-06-29 23:00:11,919 [             Domain.java:pool-3-thread-1:131] - 404 NOT FOUND: http://www.kiplinger.com/orders/index.php?pub=kip&id=ISUB
+
+2016-06-29 23:00:12,497 [             Domain.java:pool-3-thread-1:128] - 301 REDIRECT: http://be.linkedin.com/robots.txt
+
+2016-06-29 23:00:12,497 [             Domain.java:pool-3-thread-1:131] - 404 NOT FOUND: http://be.linkedin.com/robots.txt
+
+2016-06-29 23:00:12,565 [             Domain.java:pool-3-thread-1:128] - 301 REDIRECT: http://be.linkedin.com
+
+2016-06-29 23:00:12,565 [             Domain.java:pool-3-thread-1:131] - 404 NOT FOUND: http://be.linkedin.com
+
+2016-06-29 23:00:13,065 [             Domain.java:pool-3-thread-1:209] - Domain:http://be.linkedin.com page queue emptied after 1 page crawls
+2016-06-29 23:00:13,809 [             Domain.java:pool-3-thread-1:131] - 404 NOT FOUND: http://www.leidgens.be/robots.txt
+
+2016-06-29 23:00:14,609 [             Domain.java:pool-3-thread-1:209] - Domain:http://www.leidgens.be page queue emptied after 1 page crawls
+2016-06-29 23:00:15,100 [             Domain.java:pool-3-thread-1:128] - 301 REDIRECT: http://www.thefwa.com/robots.txt
+
+2016-06-29 23:00:15,100 [             Domain.java:pool-3-thread-1:131] - 404 NOT FOUND: http://www.thefwa.com/robots.txt
+
+2016-06-29 23:00:15,290 [             Domain.java:pool-3-thread-1:128] - 301 REDIRECT: http://www.thefwa.com
+
+2016-06-29 23:00:15,290 [             Domain.java:pool-3-thread-1:131] - 404 NOT FOUND: http://www.thefwa.com
+
+2016-06-29 23:00:15,790 [             Domain.java:pool-3-thread-1:209] - Domain:http://www.thefwa.com page queue emptied after 1 page crawls
+2016-06-29 23:00:16,059 [             Domain.java:pool-3-thread-1:128] - 302 REDIRECT: http://www.chromeexperiments.com/robots.txt
+
+2016-06-29 23:00:16,059 [             Domain.java:pool-3-thread-1:131] - 404 NOT FOUND: http://www.chromeexperiments.com/robots.txt
+
+2016-06-29 23:00:16,129 [             Domain.java:pool-3-thread-1:128] - 302 REDIRECT: http://www.chromeexperiments.com
+
+2016-06-29 23:00:16,129 [             Domain.java:pool-3-thread-1:131] - 404 NOT FOUND: http://www.chromeexperiments.com
+
+2016-06-29 23:00:16,630 [             Domain.java:pool-3-thread-1:209] - Domain:http://www.chromeexperiments.com page queue emptied after 1 page crawls
+2016-06-29 23:00:17,346 [             Domain.java:pool-3-thread-1:128] - 301 REDIRECT: http://www.wujunze.com/robots.txt
+
+2016-06-29 23:00:17,346 [             Domain.java:pool-3-thread-1:131] - 404 NOT FOUND: http://www.wujunze.com/robots.txt
+
+2016-06-29 23:00:17,763 [             Domain.java:pool-3-thread-1:128] - 301 REDIRECT: http://www.wujunze.com
+
+2016-06-29 23:00:17,764 [             Domain.java:pool-3-thread-1:131] - 404 NOT FOUND: http://www.wujunze.com
+
+2016-06-29 23:00:18,264 [             Domain.java:pool-3-thread-1:209] - Domain:http://www.wujunze.com page queue emptied after 1 page crawls
+2016-06-29 23:00:38,051 [             Domain.java:pool-3-thread-1:111] - unable to connect to: https://hao.360.cn/robots.txt
+[Ljava.lang.StackTraceElement;@4dc7c7f5
+2016-06-29 23:00:38,051 [             Domain.java:pool-3-thread-1:122] - Response of 0: 0 for https://hao.360.cn/robots.txt!
+2016-06-29 23:00:38,451 [             Domain.java:pool-3-thread-1:111] - unable to connect to: https://hao.360.cn
+[Ljava.lang.StackTraceElement;@69bba5e0
+2016-06-29 23:00:38,452 [             Domain.java:pool-3-thread-1:122] - Response of 0: 0 for https://hao.360.cn!
+2016-06-29 23:00:38,952 [             Domain.java:pool-3-thread-1:209] - Domain:https://hao.360.cn page queue emptied after 1 page crawls
+2016-06-29 23:00:39,051 [             Domain.java:pool-3-thread-1:111] - unable to connect to: http://www.zhihu.so/robots.txt
+[Ljava.lang.StackTraceElement;@3922aca4
+2016-06-29 23:00:39,051 [             Domain.java:pool-3-thread-1:122] - Response of 0: 0 for http://www.zhihu.so/robots.txt!
+2016-06-29 23:00:39,051 [             Domain.java:pool-3-thread-1:111] - unable to connect to: http://www.zhihu.so
+[Ljava.lang.StackTraceElement;@4a293c1a
+2016-06-29 23:00:39,051 [             Domain.java:pool-3-thread-1:122] - Response of 0: 0 for http://www.zhihu.so!
+2016-06-29 23:00:39,551 [             Domain.java:pool-3-thread-1:209] - Domain:http://www.zhihu.so page queue emptied after 1 page crawls
+2016-06-29 23:00:40,011 [             Domain.java:pool-3-thread-1:209] - Domain:http://www.0460.com page queue emptied after 1 page crawls
+2016-06-29 23:01:08,857 [             Domain.java:pool-3-thread-2:131] - 404 NOT FOUND: http://www.mengzifei.com/robots.txt
+
+2016-06-29 23:01:35,557 [             Domain.java:pool-3-thread-2:131] - 404 NOT FOUND: http://www.gohuu.com/bbs.zzbaike.com
+
+2016-06-29 23:01:37,444 [             Domain.java:pool-3-thread-1:209] - Domain:http://qiusongsong.net page queue emptied after 1 page crawls
+2016-06-29 23:01:41,936 [             Domain.java:pool-3-thread-2:136] - 403 FORBIDDEN: http://www.516680.com/../Home.asp
+
+2016-06-29 23:01:41,936 [             Domain.java:pool-3-thread-2:137] - Request failure for: http://www.516680.com/../Home.asp, response code: 403
+2016-06-29 23:01:43,000 [             Domain.java:pool-3-thread-2:136] - 403 FORBIDDEN: http://www.516680.com/../login.asp
+
+2016-06-29 23:01:43,000 [             Domain.java:pool-3-thread-2:137] - Request failure for: http://www.516680.com/../login.asp, response code: 403
+2016-06-29 23:01:44,104 [             Domain.java:pool-3-thread-2:136] - 403 FORBIDDEN: http://www.516680.com/../User/
+
+2016-06-29 23:01:44,104 [             Domain.java:pool-3-thread-2:137] - Request failure for: http://www.516680.com/../User/, response code: 403
+2016-06-29 23:01:45,206 [             Domain.java:pool-3-thread-2:136] - 403 FORBIDDEN: http://www.516680.com/../news_add.asp
+
+2016-06-29 23:01:45,207 [             Domain.java:pool-3-thread-2:137] - Request failure for: http://www.516680.com/../news_add.asp, response code: 403
+2016-06-29 23:01:46,323 [             Domain.java:pool-3-thread-1:209] - Domain:http://www.juhemulu.com page queue emptied after 2 page crawls
+2016-06-29 23:01:51,149 [             Domain.java:pool-3-thread-1:131] - 404 NOT FOUND: http://daliuzi.cn/sitemap.xml
+
+2016-06-29 23:01:52,027 [             Domain.java:pool-3-thread-1:111] - unable to connect to: https://daliuzi.cn
+[Ljava.lang.StackTraceElement;@2e91fc04
+2016-06-29 23:01:52,027 [             Domain.java:pool-3-thread-1:122] - Response of 0: 0 for https://daliuzi.cn!
+2016-06-29 23:01:58,155 [             Domain.java:pool-3-thread-1:111] - unable to connect to: https://daliuzi.cn/life/
+[Ljava.lang.StackTraceElement;@6871d442
+2016-06-29 23:01:58,155 [             Domain.java:pool-3-thread-1:122] - Response of 0: 0 for https://daliuzi.cn/life/!
+2016-06-29 23:01:59,103 [             Domain.java:pool-3-thread-1:111] - unable to connect to: https://daliuzi.cn/share/
+[Ljava.lang.StackTraceElement;@516b430a
+2016-06-29 23:01:59,103 [             Domain.java:pool-3-thread-1:122] - Response of 0: 0 for https://daliuzi.cn/share/!
+2016-06-29 23:01:59,951 [             Domain.java:pool-3-thread-1:111] - unable to connect to: https://daliuzi.cn/about/
+[Ljava.lang.StackTraceElement;@73f60acb
+2016-06-29 23:01:59,951 [             Domain.java:pool-3-thread-1:122] - Response of 0: 0 for https://daliuzi.cn/about/!
+2016-06-29 23:02:06,834 [             Domain.java:pool-3-thread-1:131] - 404 NOT FOUND: http://fortawesome.github.io/robots.txt
+
+2016-06-29 23:02:06,957 [             Domain.java:pool-3-thread-1:131] - 404 NOT FOUND: http://fortawesome.github.io
+
+2016-06-29 23:02:07,457 [             Domain.java:pool-3-thread-1:209] - Domain:http://fortawesome.github.io page queue emptied after 1 page crawls
+2016-06-29 23:03:46,486 [             Domain.java:pool-3-thread-1:136] - 403 FORBIDDEN: http://free.67.com
+
+2016-06-29 23:03:46,486 [             Domain.java:pool-3-thread-1:137] - Request failure for: http://free.67.com, response code: 403
+2016-06-29 23:03:46,986 [             Domain.java:pool-3-thread-1:209] - Domain:http://free.67.com page queue emptied after 1 page crawls
+2016-06-29 23:03:49,047 [             Domain.java:pool-3-thread-1:209] - Domain:http://service.t.sina.com.cn page queue emptied after 1 page crawls
+2016-06-29 23:03:49,503 [             Domain.java:pool-3-thread-1:131] - 404 NOT FOUND: http://v.t.qq.com/robots.txt
+
+2016-06-29 23:03:50,399 [             Domain.java:pool-3-thread-1:209] - Domain:http://v.t.qq.com page queue emptied after 1 page crawls
+2016-06-29 23:03:53,846 [             Domain.java:pool-3-thread-2:131] - 404 NOT FOUND: http://www.rosat.com.cn/robots.txt
+
+2016-06-29 23:03:54,805 [             Domain.java:pool-3-thread-2:209] - Domain:http://www.rosat.com.cn page queue emptied after 1 page crawls
+2016-06-29 23:03:55,744 [             Domain.java:pool-3-thread-2:131] - 404 NOT FOUND: http://www.tianyi.tv/robots.txt
+
+2016-06-29 23:03:56,613 [             Domain.java:pool-3-thread-2:209] - Domain:http://www.tianyi.tv page queue emptied after 1 page crawls
+2016-06-29 23:03:56,892 [             Domain.java:pool-3-thread-2:111] - unable to connect to: http://www.tdzh.net/robots.txt
+[Ljava.lang.StackTraceElement;@57e88da5
+2016-06-29 23:03:56,892 [             Domain.java:pool-3-thread-2:122] - Response of 0: 0 for http://www.tdzh.net/robots.txt!
+2016-06-29 23:03:56,892 [             Domain.java:pool-3-thread-2:111] - unable to connect to: http://www.tdzh.net
+[Ljava.lang.StackTraceElement;@4ea3e36
+2016-06-29 23:03:56,892 [             Domain.java:pool-3-thread-2:122] - Response of 0: 0 for http://www.tdzh.net!
+2016-06-29 23:03:57,392 [             Domain.java:pool-3-thread-2:209] - Domain:http://www.tdzh.net page queue emptied after 1 page crawls
+2016-06-29 23:03:58,110 [             Domain.java:pool-3-thread-2:209] - Domain:http://www.isongsong.com page queue emptied after 1 page crawls
+2016-06-29 23:03:59,094 [             Domain.java:pool-3-thread-2:131] - 404 NOT FOUND: http://www.cathaymedia.com/robots.txt
+
+2016-06-29 23:04:10,847 [             Domain.java:pool-3-thread-1:131] - 404 NOT FOUND: http://www.hairuntv.com/a/about.html
+
+2016-06-29 23:04:11,732 [             Domain.java:pool-3-thread-1:131] - 404 NOT FOUND: http://www.hairuntv.com/a/contact.html
+
+2016-06-29 23:04:12,615 [             Domain.java:pool-3-thread-1:131] - 404 NOT FOUND: http://www.hairuntv.com/a/copyright.html
+
+2016-06-29 23:04:13,506 [             Domain.java:pool-3-thread-1:131] - 404 NOT FOUND: http://www.hairuntv.com/a/tougao.html
+
+2016-06-29 23:04:16,216 [             Domain.java:pool-3-thread-2:111] - unable to connect to: http://space.dianshiju.cctv.com/robots.txt
+[Ljava.lang.StackTraceElement;@4bd6da42
+2016-06-29 23:04:16,216 [             Domain.java:pool-3-thread-2:122] - Response of 0: 0 for http://space.dianshiju.cctv.com/robots.txt!
+2016-06-29 23:04:16,216 [             Domain.java:pool-3-thread-2:111] - unable to connect to: http://space.dianshiju.cctv.com
+[Ljava.lang.StackTraceElement;@67decf64
+2016-06-29 23:04:16,216 [             Domain.java:pool-3-thread-2:122] - Response of 0: 0 for http://space.dianshiju.cctv.com!
+2016-06-29 23:04:16,717 [             Domain.java:pool-3-thread-2:209] - Domain:http://space.dianshiju.cctv.com page queue emptied after 1 page crawls
+2016-06-29 23:04:21,158 [             Domain.java:pool-3-thread-1:111] - unable to connect to: http://www.hlbn-ent.com/robots.txt
+[Ljava.lang.StackTraceElement;@6006811e
+2016-06-29 23:04:21,159 [             Domain.java:pool-3-thread-1:122] - Response of 0: 0 for http://www.hlbn-ent.com/robots.txt!
+2016-06-29 23:04:21,159 [             Domain.java:pool-3-thread-1:111] - unable to connect to: http://www.hlbn-ent.com
+[Ljava.lang.StackTraceElement;@5e37c4f4
+2016-06-29 23:04:21,159 [             Domain.java:pool-3-thread-1:122] - Response of 0: 0 for http://www.hlbn-ent.com!
+2016-06-29 23:04:21,659 [             Domain.java:pool-3-thread-1:209] - Domain:http://www.hlbn-ent.com page queue emptied after 1 page crawls
+2016-06-29 23:04:22,969 [             Domain.java:pool-3-thread-1:209] - Domain:http://dap.gentags.net page queue emptied after 1 page crawls
+2016-06-29 23:04:30,152 [             Domain.java:pool-3-thread-1:128] - 302 REDIRECT: http://kdvr.nimbledeals.com/shoppingCart
+
+2016-06-29 23:04:30,152 [             Domain.java:pool-3-thread-1:131] - 404 NOT FOUND: http://kdvr.nimbledeals.com/shoppingCart
+
+2016-06-29 23:04:30,740 [             Domain.java:pool-3-thread-1:128] - 302 REDIRECT: http://kdvr.nimbledeals.com/login
+
+2016-06-29 23:04:30,741 [             Domain.java:pool-3-thread-1:131] - 404 NOT FOUND: http://kdvr.nimbledeals.com/login
+
+2016-06-29 23:04:30,831 [             Domain.java:pool-3-thread-2:128] - 301 REDIRECT: http://www.instagram.com/robots.txt
+
+2016-06-29 23:04:30,831 [             Domain.java:pool-3-thread-2:131] - 404 NOT FOUND: http://www.instagram.com/robots.txt
+
+2016-06-29 23:04:30,852 [             Domain.java:pool-3-thread-2:128] - 301 REDIRECT: http://www.instagram.com
+
+2016-06-29 23:04:30,852 [             Domain.java:pool-3-thread-2:131] - 404 NOT FOUND: http://www.instagram.com
+
+2016-06-29 23:04:31,317 [             Domain.java:pool-3-thread-1:128] - 302 REDIRECT: http://kdvr.nimbledeals.com/merchant/login
+
+2016-06-29 23:04:31,318 [             Domain.java:pool-3-thread-1:131] - 404 NOT FOUND: http://kdvr.nimbledeals.com/merchant/login
+
+2016-06-29 23:04:31,352 [             Domain.java:pool-3-thread-2:209] - Domain:http://www.instagram.com page queue emptied after 1 page crawls
+2016-06-29 23:04:31,616 [             Domain.java:pool-3-thread-2:128] - 301 REDIRECT: https://localtvkdvr.files.wordpress.com/robots.txt
+
+2016-06-29 23:04:31,616 [             Domain.java:pool-3-thread-2:131] - 404 NOT FOUND: https://localtvkdvr.files.wordpress.com/robots.txt
+
+2016-06-29 23:04:31,757 [             Domain.java:pool-3-thread-2:128] - 301 REDIRECT: https://localtvkdvr.files.wordpress.com
+
+2016-06-29 23:04:31,757 [             Domain.java:pool-3-thread-2:131] - 404 NOT FOUND: https://localtvkdvr.files.wordpress.com
+
+2016-06-29 23:04:31,910 [             Domain.java:pool-3-thread-1:128] - 302 REDIRECT: http://kdvr.nimbledeals.com/orderStatus
+
+2016-06-29 23:04:31,910 [             Domain.java:pool-3-thread-1:131] - 404 NOT FOUND: http://kdvr.nimbledeals.com/orderStatus
+
+2016-06-29 23:04:32,257 [             Domain.java:pool-3-thread-2:209] - Domain:https://localtvkdvr.files.wordpress.com page queue emptied after 1 page crawls
+2016-06-29 23:04:44,740 [             Domain.java:pool-3-thread-2:128] - 301 REDIRECT: http://www.google.com.hk/advanced_search?hl=zh-HK&authuser=0
+
+2016-06-29 23:04:44,741 [             Domain.java:pool-3-thread-2:131] - 404 NOT FOUND: http://www.google.com.hk/advanced_search?hl=zh-HK&authuser=0
+
+2016-06-29 23:04:45,435 [             Domain.java:pool-3-thread-2:128] - 302 REDIRECT: http://www.google.com.hk/language_tools?hl=zh-HK&authuser=0
+
+2016-06-29 23:04:45,435 [             Domain.java:pool-3-thread-2:131] - 404 NOT FOUND: http://www.google.com.hk/language_tools?hl=zh-HK&authuser=0
+
+2016-06-29 23:04:46,024 [             Domain.java:pool-3-thread-2:128] - 301 REDIRECT: http://www.google.com.hk/intl/zh-TW/ads/
+
+2016-06-29 23:04:46,024 [             Domain.java:pool-3-thread-2:131] - 404 NOT FOUND: http://www.google.com.hk/intl/zh-TW/ads/
+
+2016-06-29 23:04:52,542 [             Domain.java:pool-3-thread-2:111] - unable to connect to: http://www.infomall.cn/robots.txt
+[Ljava.lang.StackTraceElement;@3a4b75c5
+2016-06-29 23:04:52,542 [             Domain.java:pool-3-thread-2:122] - Response of 0: 0 for http://www.infomall.cn/robots.txt!
+2016-06-29 23:04:57,543 [             Domain.java:pool-3-thread-2:111] - unable to connect to: http://www.infomall.cn
+[Ljava.lang.StackTraceElement;@26c4d7a4
+2016-06-29 23:04:57,543 [             Domain.java:pool-3-thread-2:122] - Response of 0: 0 for http://www.infomall.cn!
+2016-06-29 23:04:58,043 [             Domain.java:pool-3-thread-2:209] - Domain:http://www.infomall.cn page queue emptied after 1 page crawls
+2016-06-29 23:05:08,354 [             Domain.java:pool-3-thread-1:131] - 404 NOT FOUND: http://developer.baidu.com/robots.txt
+
+2016-06-29 23:05:12,034 [             Domain.java:pool-3-thread-2:128] - 301 REDIRECT: http://lbsyun.baidu.com/apiconsole/key
+
+2016-06-29 23:05:12,034 [             Domain.java:pool-3-thread-2:131] - 404 NOT FOUND: http://lbsyun.baidu.com/apiconsole/key
+
+2016-06-29 23:05:26,715 [             Domain.java:pool-3-thread-1:131] - 404 NOT FOUND: http://zhuti.xiaomi.com/robots.txt
+
+2016-06-29 23:05:30,158 [             Domain.java:pool-3-thread-1:128] - 302 REDIRECT: http://zhuti.xiaomi.com/login?referer=http%3A%2F%2Fzhuti.xiaomi.com
+
+2016-06-29 23:05:30,158 [             Domain.java:pool-3-thread-1:131] - 404 NOT FOUND: http://zhuti.xiaomi.com/login?referer=http%3A%2F%2Fzhuti.xiaomi.com
+
+2016-06-29 23:05:30,197 [             Domain.java:pool-3-thread-2:131] - 404 NOT FOUND: http://www.cameronsworld.net/mp3/cameronsworld.mp3
+
+2016-06-29 23:05:31,150 [             Domain.java:pool-3-thread-2:131] - 404 NOT FOUND: http://www.cameronsworld.net/mp3/rejectedworld.mp3
+
+2016-06-29 23:05:37,450 [             Domain.java:pool-3-thread-1:131] - 404 NOT FOUND: http://www.hojocn.com/robots.txt
+
+2016-06-29 23:05:41,626 [             Domain.java:pool-3-thread-1:131] - 404 NOT FOUND: http://www.hojocn.com/register.php
+
+2016-06-29 23:05:42,488 [             Domain.java:pool-3-thread-1:131] - 404 NOT FOUND: http://www.hojocn.com/logging.php?action=login
+
+2016-06-29 23:05:42,682 [             Domain.java:pool-3-thread-2:128] - 301 REDIRECT: http://www.laobeike.com/taobao
+
+2016-06-29 23:05:42,682 [             Domain.java:pool-3-thread-2:131] - 404 NOT FOUND: http://www.laobeike.com/taobao
+
+2016-06-29 23:05:43,370 [             Domain.java:pool-3-thread-1:131] - 404 NOT FOUND: http://www.hojocn.com/member.php?action=list
+
+2016-06-29 23:05:44,225 [             Domain.java:pool-3-thread-1:131] - 404 NOT FOUND: http://www.hojocn.com/stats.php
+
+2016-06-29 23:05:45,084 [             Domain.java:pool-3-thread-1:131] - 404 NOT FOUND: http://www.hojocn.com/faq.php
+
+2016-06-29 23:05:45,992 [             Domain.java:pool-3-thread-1:131] - 404 NOT FOUND: http://www.hojocn.com/index.php
+
+2016-06-29 23:05:47,235 [             Domain.java:pool-3-thread-1:131] - 404 NOT FOUND: http://puckio.com/robots.txt
+
+2016-06-29 23:05:57,020 [             Domain.java:pool-3-thread-2:111] - unable to connect to: http://www.laobeike.com/view
+[Ljava.lang.StackTraceElement;@5229048d
+2016-06-29 23:05:57,020 [             Domain.java:pool-3-thread-2:122] - Response of 0: 0 for http://www.laobeike.com/view!
+2016-06-29 23:06:02,331 [             Domain.java:pool-3-thread-1:131] - 404 NOT FOUND: http://nathanfriend.io/robots.txt
+
+2016-06-29 23:06:05,678 [             Domain.java:pool-3-thread-1:131] - 404 NOT FOUND: http://nathanfriend.io/./gallery/
+
+2016-06-29 23:06:06,178 [             Domain.java:pool-3-thread-1:209] - Domain:http://nathanfriend.io page queue emptied after 6 page crawls
+2016-06-29 23:06:07,589 [             Domain.java:pool-3-thread-1:131] - 404 NOT FOUND: http://www.e-chinalife.com/robots.txt
+
+2016-06-29 23:06:15,645 [             Domain.java:pool-3-thread-2:131] - 404 NOT FOUND: http://www.jiujiuai.com.cn/robots.txt
+
+2016-06-29 23:06:23,433 [             Domain.java:pool-3-thread-1:209] - Domain:http://www.lzfrp.com page queue emptied after 1 page crawls
+2016-06-29 23:06:24,572 [             Domain.java:pool-3-thread-1:131] - 404 NOT FOUND: http://www.5188.cc/robots.txt
+
+2016-06-29 23:06:25,782 [             Domain.java:pool-3-thread-1:209] - Domain:http://www.5188.cc page queue emptied after 1 page crawls
+2016-06-29 23:06:26,869 [             Domain.java:pool-3-thread-1:131] - 404 NOT FOUND: http://www.chinayanghe.com/robots.txt
+
+2016-06-29 23:07:08,231 [             Domain.java:pool-3-thread-1:136] - 403 FORBIDDEN: http://www.bbtnews.com.cn/robots.txt
+
+2016-06-29 23:07:08,231 [             Domain.java:pool-3-thread-1:137] - Request failure for: http://www.bbtnews.com.cn/robots.txt, response code: 403
+2016-06-29 23:07:25,034 [             Domain.java:pool-3-thread-1:209] - Domain:http://epaper.jinghua.cn page queue emptied after 1 page crawls
+2016-06-29 23:07:25,904 [             Domain.java:pool-3-thread-1:131] - 404 NOT FOUND: http://ccnews.people.com.cn/robots.txt
+
+2016-06-29 23:08:32,826 [             Domain.java:pool-3-thread-1:131] - 404 NOT FOUND: http://px.caiyuan888.com/robots.txt
+
+2016-06-29 23:08:44,848 [             Domain.java:pool-3-thread-1:131] - 404 NOT FOUND: http://www.caiyuan888.com/robots.txt
+
+2016-06-29 23:09:19,287 [             Domain.java:pool-3-thread-1:131] - 404 NOT FOUND: http://www.xblaw.com/robots.txt
+
+2016-06-29 23:09:20,939 [             Domain.java:pool-3-thread-1:209] - Domain:http://www.xblaw.com page queue emptied after 1 page crawls
+2016-06-29 23:09:21,932 [             Domain.java:pool-3-thread-1:131] - 404 NOT FOUND: http://www.cqsdyx.com/robots.txt
+
+2016-06-29 23:10:43,228 [             Domain.java:pool-3-thread-1:111] - unable to connect to: https://www.tongtongdai.com.cn/robots.txt
+[Ljava.lang.StackTraceElement;@7f7fef49
+2016-06-29 23:10:43,228 [             Domain.java:pool-3-thread-1:122] - Response of 0: 0 for https://www.tongtongdai.com.cn/robots.txt!
+2016-06-29 23:10:43,941 [             Domain.java:pool-3-thread-1:111] - unable to connect to: https://www.tongtongdai.com.cn
+[Ljava.lang.StackTraceElement;@7874c3b6
+2016-06-29 23:10:43,941 [             Domain.java:pool-3-thread-1:122] - Response of 0: 0 for https://www.tongtongdai.com.cn!
+2016-06-29 23:10:44,442 [             Domain.java:pool-3-thread-1:209] - Domain:https://www.tongtongdai.com.cn page queue emptied after 1 page crawls
+2016-06-29 23:10:45,208 [             Domain.java:pool-3-thread-1:128] - 301 REDIRECT: http://www.jincangdai.com/robots.txt
+
+2016-06-29 23:10:45,208 [             Domain.java:pool-3-thread-1:131] - 404 NOT FOUND: http://www.jincangdai.com/robots.txt
+
+2016-06-29 23:10:45,618 [             Domain.java:pool-3-thread-1:128] - 301 REDIRECT: http://www.jincangdai.com
+
+2016-06-29 23:10:45,618 [             Domain.java:pool-3-thread-1:131] - 404 NOT FOUND: http://www.jincangdai.com
+
+2016-06-29 23:10:46,118 [             Domain.java:pool-3-thread-1:209] - Domain:http://www.jincangdai.com page queue emptied after 1 page crawls
+2016-06-29 23:10:48,315 [             Domain.java:pool-3-thread-1:131] - 404 NOT FOUND: http://www.cqgcc.com.cn/robots.txt
+
+2016-06-29 23:11:39,483 [             Domain.java:pool-3-thread-1:209] - Domain:http://www.cqbaochuang.bmw.com.cn page queue emptied after 1 page crawls
+2016-06-29 23:11:40,210 [             Domain.java:pool-3-thread-1:131] - 404 NOT FOUND: http://www.cqsfyw.cn/robots.txt
+
+2016-06-29 23:11:43,143 [             Domain.java:pool-3-thread-1:131] - 404 NOT FOUND: http://www.cqsfyw.cn/5
+
+2016-06-29 23:11:51,393 [             Domain.java:pool-3-thread-1:131] - 404 NOT FOUND: http://www.ccqtgb.com/robots.txt
+
+2016-06-29 23:12:05,288 [             Domain.java:pool-3-thread-1:131] - 404 NOT FOUND: http://www.cq.xinhuanet.com/robots.txt
+
+2016-06-29 23:12:23,896 [             Domain.java:pool-3-thread-1:131] - 404 NOT FOUND: http://cq.people.com.cn/robots.txt
+
+2016-06-29 23:12:37,027 [             Domain.java:pool-3-thread-1:131] - 404 NOT FOUND: http://difang.gmw.cn/baidu_difang.xml
+
+2016-06-29 23:12:38,000 [             Domain.java:pool-3-thread-1:131] - 404 NOT FOUND: http://difang.gmw.cn/google_difang.xml
+
+2016-06-29 23:12:38,968 [             Domain.java:pool-3-thread-1:131] - 404 NOT FOUND: http://difang.gmw.cn/bing_difang.xml
+
+2016-06-29 23:12:39,729 [             Domain.java:pool-3-thread-2:111] - unable to connect to: http://www.jiujiuai.com.cn/videos/1.flv
+[Ljava.lang.StackTraceElement;@c9709b
+2016-06-29 23:12:39,922 [             Domain.java:pool-3-thread-1:131] - 404 NOT FOUND: http://difang.gmw.cn/sogou_difang.xml
+
+2016-06-29 23:12:41,859 [             Domain.java:pool-3-thread-2:131] - 404 NOT FOUND: http://www.cq.chinanews.com.cn/robots.txt
+
+2016-06-29 23:12:46,694 [             Domain.java:pool-3-thread-1:131] - 404 NOT FOUND: http://www.cbg.cn/robots.txt
+
+2016-06-29 23:13:07,843 [             Domain.java:pool-3-thread-2:111] - unable to connect to: http://www.cqwb.com.cn/robots.txt
+[Ljava.lang.StackTraceElement;@614dc81a
+2016-06-29 23:13:07,843 [             Domain.java:pool-3-thread-2:122] - Response of 0: 0 for http://www.cqwb.com.cn/robots.txt!
+2016-06-29 23:13:07,843 [             Domain.java:pool-3-thread-2:111] - unable to connect to: http://www.cqwb.com.cn
+[Ljava.lang.StackTraceElement;@61344a60
+2016-06-29 23:13:07,843 [             Domain.java:pool-3-thread-2:122] - Response of 0: 0 for http://www.cqwb.com.cn!
+2016-06-29 23:13:08,343 [             Domain.java:pool-3-thread-2:209] - Domain:http://www.cqwb.com.cn page queue emptied after 1 page crawls
+2016-06-29 23:13:14,148 [             Domain.java:pool-3-thread-1:209] - Domain:http://e.chinacqsb.com page queue emptied after 1 page crawls
+2016-06-29 23:13:14,829 [             Domain.java:pool-3-thread-1:131] - 404 NOT FOUND: http://special.cqnews.net/robots.txt
+
+2016-06-29 23:13:22,493 [             Domain.java:pool-3-thread-2:209] - Domain:http://cqrbepaper.cqnews.net page queue emptied after 1 page crawls
+2016-06-29 23:13:23,270 [             Domain.java:pool-3-thread-2:131] - 404 NOT FOUND: http://sdjn.evergrande.com/robots.txt
+
+2016-06-29 23:13:27,275 [             Domain.java:pool-3-thread-1:131] - 404 NOT FOUND: http://www.inspur.com/robots.txt
+
+2016-06-29 23:13:55,359 [             Domain.java:pool-3-thread-2:131] - 404 NOT FOUND: http://www.hisense.com/robots.txt
+
+2016-06-29 23:13:56,129 [             Domain.java:pool-3-thread-2:209] - Domain:http://www.hisense.com page queue emptied after 1 page crawls
+2016-06-29 23:14:08,317 [             Domain.java:pool-3-thread-1:131] - 404 NOT FOUND: http://www.ccb.com/robots.txt
+
+2016-06-29 23:14:09,326 [             Domain.java:pool-3-thread-1:209] - Domain:http://www.ccb.com page queue emptied after 1 page crawls
+2016-06-29 23:14:10,490 [             Domain.java:pool-3-thread-2:131] - 404 NOT FOUND: http://bank.ecitic.com/robots.txt
+
+2016-06-29 23:14:11,787 [             Domain.java:pool-3-thread-1:209] - Domain:http://www.cnhtc.com.cn page queue emptied after 2 page crawls
+2016-06-29 23:14:12,585 [             Domain.java:pool-3-thread-1:131] - 404 NOT FOUND: http://www.jiangsu.gov.cn/robots.txt
+
+2016-06-29 23:14:22,681 [             Domain.java:pool-3-thread-2:131] - 404 NOT FOUND: http://xh.xhby.net/robots.txt
+
+2016-06-29 23:14:23,533 [             Domain.java:pool-3-thread-2:209] - Domain:http://xh.xhby.net page queue emptied after 1 page crawls
+2016-06-29 23:14:24,133 [             Domain.java:pool-3-thread-2:131] - 404 NOT FOUND: http://www.jschina.com.cn/robots.txt
+
+2016-06-29 23:14:26,508 [             Domain.java:pool-3-thread-1:209] - Domain:http://www.xhby.net page queue emptied after 1 page crawls
+2016-06-29 23:14:27,160 [             Domain.java:pool-3-thread-1:131] - 404 NOT FOUND: http://www.yangtse.com/robots.txt
+
+2016-06-29 23:14:35,677 [             Domain.java:pool-3-thread-1:131] - 404 NOT FOUND: http://www.xdkb.net/robots.txt
+
+2016-06-29 23:14:42,305 [             Domain.java:pool-3-thread-1:131] - 404 NOT FOUND: http://www.xdkb.net/index/article/2016-06/30/content_1003624.htm蔬菜喷洒甲醛会怎样？多次冲洗仍有残留
+
+2016-06-29 23:14:48,176 [             Domain.java:pool-3-thread-1:131] - 404 NOT FOUND: http://njrb.njdaily.cn/robots.txt
+
+2016-06-29 23:14:48,600 [             Domain.java:pool-3-thread-2:136] - 403 FORBIDDEN: http://www.njdfwb.com/robots.txt
+
+2016-06-29 23:14:48,600 [             Domain.java:pool-3-thread-2:137] - Request failure for: http://www.njdfwb.com/robots.txt, response code: 403
+2016-06-29 23:14:48,956 [             Domain.java:pool-3-thread-2:136] - 403 FORBIDDEN: http://www.njdfwb.com
+
+2016-06-29 23:14:48,956 [             Domain.java:pool-3-thread-2:137] - Request failure for: http://www.njdfwb.com, response code: 403
+2016-06-29 23:14:49,024 [             Domain.java:pool-3-thread-1:209] - Domain:http://njrb.njdaily.cn page queue emptied after 1 page crawls
+2016-06-29 23:14:49,456 [             Domain.java:pool-3-thread-2:209] - Domain:http://www.njdfwb.com page queue emptied after 1 page crawls
+2016-06-29 23:14:49,921 [             Domain.java:pool-3-thread-1:136] - 403 FORBIDDEN: http://www.longhoo.net/robots.txt
+
+2016-06-29 23:14:49,921 [             Domain.java:pool-3-thread-1:137] - Request failure for: http://www.longhoo.net/robots.txt, response code: 403
+2016-06-29 23:15:03,366 [             Domain.java:pool-3-thread-2:131] - 404 NOT FOUND: http://js.people.com.cn/robots.txt
+
+2016-06-29 23:15:04,043 [             Domain.java:pool-3-thread-1:131] - 404 NOT FOUND: http://jlwb.njnews.cn/robots.txt
+
+2016-06-29 23:15:07,977 [             Domain.java:pool-3-thread-1:209] - Domain:http://jlwb.njnews.cn page queue emptied after 1 page crawls
+2016-06-29 23:15:35,259 [             Domain.java:pool-3-thread-1:209] - Domain:https://m.me page queue emptied after 1 page crawls
+2016-06-29 23:15:42,328 [             Domain.java:pool-3-thread-1:131] - 404 NOT FOUND: http://isenc.com/robots.txt
+
+2016-06-29 23:15:42,419 [             Domain.java:pool-3-thread-2:131] - 404 NOT FOUND: http://hzjjn.com/robots.txt
+
+2016-06-29 23:15:50,503 [             Domain.java:pool-3-thread-1:131] - 404 NOT FOUND: http://isenc.com/pro
+
+2016-06-29 23:15:51,705 [             Domain.java:pool-3-thread-2:209] - Domain:http://ti.me page queue emptied after 1 page crawls
+2016-06-29 23:16:06,773 [             Domain.java:pool-3-thread-2:128] - 301 REDIRECT: http://red.org/robots.txt
+
+2016-06-29 23:16:06,773 [             Domain.java:pool-3-thread-2:131] - 404 NOT FOUND: http://red.org/robots.txt
+
+2016-06-29 23:16:06,826 [             Domain.java:pool-3-thread-2:128] - 301 REDIRECT: http://red.org
+
+2016-06-29 23:16:06,826 [             Domain.java:pool-3-thread-2:131] - 404 NOT FOUND: http://red.org
+
+2016-06-29 23:16:07,326 [             Domain.java:pool-3-thread-2:209] - Domain:http://red.org page queue emptied after 1 page crawls
+2016-06-29 23:16:54,138 [             Domain.java:pool-3-thread-2:128] - 302 REDIRECT: http://ifaw.org/united-states/secure/donate/support-ifaws-work
+
+2016-06-29 23:16:54,138 [             Domain.java:pool-3-thread-2:131] - 404 NOT FOUND: http://ifaw.org/united-states/secure/donate/support-ifaws-work
+
+2016-06-29 23:16:54,788 [             Domain.java:pool-3-thread-1:111] - unable to connect to: http://souba.me/robots.txt
+[Ljava.lang.StackTraceElement;@17a209d7
+2016-06-29 23:16:54,788 [             Domain.java:pool-3-thread-1:122] - Response of 0: 0 for http://souba.me/robots.txt!
+2016-06-29 23:16:59,789 [             Domain.java:pool-3-thread-1:111] - unable to connect to: http://souba.me
+[Ljava.lang.StackTraceElement;@2633aa31
+2016-06-29 23:16:59,789 [             Domain.java:pool-3-thread-1:122] - Response of 0: 0 for http://souba.me!
+2016-06-29 23:17:00,289 [             Domain.java:pool-3-thread-1:209] - Domain:http://souba.me page queue emptied after 1 page crawls
+2016-06-29 23:17:07,794 [             Domain.java:pool-3-thread-2:209] - Domain:http://m.80s.tw page queue emptied after 1 page crawls
+2016-06-29 23:17:18,038 [             Domain.java:pool-3-thread-1:209] - Domain:http://jh40.com page queue emptied after 1 page crawls
+2016-06-29 23:17:18,333 [             Domain.java:pool-3-thread-1:209] - Domain:http://8451.com page queue emptied after 1 page crawls
+2016-06-29 23:17:20,591 [             Domain.java:pool-3-thread-1:111] - unable to connect to: http://whttp/robots.txt
+[Ljava.lang.StackTraceElement;@b08a6d8
+2016-06-29 23:17:20,591 [             Domain.java:pool-3-thread-1:122] - Response of 0: 0 for http://whttp/robots.txt!
+2016-06-29 23:17:20,591 [             Domain.java:pool-3-thread-1:111] - unable to connect to: http://whttp
+[Ljava.lang.StackTraceElement;@d7afba
+2016-06-29 23:17:20,591 [             Domain.java:pool-3-thread-1:122] - Response of 0: 0 for http://whttp!
+2016-06-29 23:17:21,092 [             Domain.java:pool-3-thread-1:209] - Domain:http://whttp page queue emptied after 1 page crawls
+2016-06-29 23:17:30,697 [             Domain.java:pool-3-thread-2:128] - 301 REDIRECT: http://www.privacyassociation.org/sitemap.xml
+
+2016-06-29 23:17:30,697 [             Domain.java:pool-3-thread-2:131] - 404 NOT FOUND: http://www.privacyassociation.org/sitemap.xml
+
+2016-06-29 23:17:31,478 [             Domain.java:pool-3-thread-1:131] - 404 NOT FOUND: http://epic.net/robots.txt
+
+2016-06-29 23:18:07,201 [             Domain.java:pool-3-thread-1:131] - 404 NOT FOUND: http://esjy.cc/robots.txt
+
+2016-06-29 23:18:14,864 [             Domain.java:pool-3-thread-2:209] - Domain:http://suhe88.cn page queue emptied after 1 page crawls
+2016-06-29 23:18:24,892 [             Domain.java:pool-3-thread-2:128] - 302 REDIRECT: http://cnyls.cn/plugin.php?id=sina_login:index&operation=init
+
+2016-06-29 23:18:24,892 [             Domain.java:pool-3-thread-2:131] - 404 NOT FOUND: http://cnyls.cn/plugin.php?id=sina_login:index&operation=init
+
+2016-06-29 23:18:28,467 [             Domain.java:pool-3-thread-1:111] - unable to connect to: http://wn114.net/robots.txt
+[Ljava.lang.StackTraceElement;@73ce2c6
+2016-06-29 23:18:28,467 [             Domain.java:pool-3-thread-1:122] - Response of 0: 0 for http://wn114.net/robots.txt!
+2016-06-29 23:18:33,468 [             Domain.java:pool-3-thread-1:111] - unable to connect to: http://wn114.net
+[Ljava.lang.StackTraceElement;@3ce5b232
+2016-06-29 23:18:33,468 [             Domain.java:pool-3-thread-1:122] - Response of 0: 0 for http://wn114.net!
+2016-06-29 23:18:33,968 [             Domain.java:pool-3-thread-1:209] - Domain:http://wn114.net page queue emptied after 1 page crawls
+2016-06-29 23:18:39,198 [             Domain.java:pool-3-thread-1:128] - 301 REDIRECT: http://bcsite.cn/robots.txt
+
+2016-06-29 23:18:39,198 [             Domain.java:pool-3-thread-1:131] - 404 NOT FOUND: http://bcsite.cn/robots.txt
+
+2016-06-29 23:18:39,618 [             Domain.java:pool-3-thread-1:128] - 301 REDIRECT: http://bcsite.cn
+
+2016-06-29 23:18:39,618 [             Domain.java:pool-3-thread-1:131] - 404 NOT FOUND: http://bcsite.cn
+
+2016-06-29 23:18:40,118 [             Domain.java:pool-3-thread-1:209] - Domain:http://bcsite.cn page queue emptied after 1 page crawls
+2016-06-29 23:18:41,652 [             Domain.java:pool-3-thread-1:131] - 404 NOT FOUND: http://www.js.xinhuanet.com/robots.txt
+
+2016-06-29 23:18:44,189 [             Domain.java:pool-3-thread-2:131] - 404 NOT FOUND: http://www.yuxiucaifu.com/robots.txt
+
+2016-06-29 23:18:53,525 [             Domain.java:pool-3-thread-2:131] - 404 NOT FOUND: http://www.scdeyi.com/robots.txt
+
+2016-06-29 23:18:54,996 [             Domain.java:pool-3-thread-2:209] - Domain:http://www.scdeyi.com page queue emptied after 1 page crawls
+2016-06-29 23:19:11,901 [             Domain.java:pool-3-thread-2:131] - 404 NOT FOUND: http://www.eastcd.com/robots.txt
+
+2016-06-29 23:19:27,079 [             Domain.java:pool-3-thread-1:131] - 404 NOT FOUND: http://www.mydjy.com/robots.txt
+
+2016-06-29 23:19:35,569 [             Domain.java:pool-3-thread-2:131] - 404 NOT FOUND: http://jcpt.chengdu.gov.cn/robots.txt
+
+2016-06-29 23:19:36,526 [             Domain.java:pool-3-thread-2:209] - Domain:http://jcpt.chengdu.gov.cn page queue emptied after 1 page crawls
+2016-06-29 23:19:37,273 [             Domain.java:pool-3-thread-2:131] - 404 NOT FOUND: http://special.scdaily.scol.com.cn/robots.txt
+
+2016-06-29 23:19:38,418 [             Domain.java:pool-3-thread-2:209] - Domain:http://special.scdaily.scol.com.cn page queue emptied after 1 page crawls
+2016-06-29 23:19:43,392 [             Domain.java:pool-3-thread-1:131] - 404 NOT FOUND: http://tv.newssc.org/robots.txt
+
+2016-06-29 23:19:51,594 [             Domain.java:pool-3-thread-2:131] - 404 NOT FOUND: http://video.scol.com.cn/robots.txt
+
+2016-06-29 23:20:03,039 [             Domain.java:pool-3-thread-2:131] - 404 NOT FOUND: http://www.sctv.com/robots.txt
+
+2016-06-29 23:20:03,159 [             Domain.java:pool-3-thread-1:131] - 404 NOT FOUND: http://www.sc.xinhuanet.com/robots.txt
+
+2016-06-29 23:20:13,377 [             Domain.java:pool-3-thread-2:131] - 404 NOT FOUND: http://www.zgnx.gov.cn/robots.txt
+
+2016-06-29 23:20:15,606 [             Domain.java:pool-3-thread-1:131] - 404 NOT FOUND: http://www.cdwh.gov.cn/robots.txt
+
+2016-06-29 23:20:24,914 [             Domain.java:pool-3-thread-1:131] - 404 NOT FOUND: http://www.dazhu.gov.cn/robots.txt
+
+2016-06-29 23:20:26,586 [             Domain.java:pool-3-thread-2:131] - 404 NOT FOUND: http://www.sass.cn/robots.txt
+
+2016-06-29 23:20:36,408 [             Domain.java:pool-3-thread-1:111] - unable to connect to: http://www.scyjtd.com/robots.txt
+[Ljava.lang.StackTraceElement;@4f822697
+2016-06-29 23:20:36,408 [             Domain.java:pool-3-thread-1:122] - Response of 0: 0 for http://www.scyjtd.com/robots.txt!
+2016-06-29 23:20:36,408 [             Domain.java:pool-3-thread-1:111] - unable to connect to: http://www.scyjtd.com
+[Ljava.lang.StackTraceElement;@2fc8c773
+2016-06-29 23:20:36,408 [             Domain.java:pool-3-thread-1:122] - Response of 0: 0 for http://www.scyjtd.com!
+2016-06-29 23:20:36,530 [             Domain.java:pool-3-thread-2:131] - 404 NOT FOUND: http://www.wenjiang.gov.cn/robots.txt
+
+2016-06-29 23:20:36,909 [             Domain.java:pool-3-thread-1:209] - Domain:http://www.scyjtd.com page queue emptied after 1 page crawls
+2016-06-29 23:20:39,156 [             Domain.java:pool-3-thread-1:131] - 404 NOT FOUND: http://www.wjnews.com.cn/robots.txt
+
+2016-06-29 23:20:50,052 [             Domain.java:pool-3-thread-1:131] - 404 NOT FOUND: http://www.danba.gov.cn/robots.txt
+
+2016-06-29 23:20:57,104 [             Domain.java:pool-3-thread-2:131] - 404 NOT FOUND: http://www.dachuan.gov.cn/robots.txt
+
+2016-06-29 23:21:00,956 [             Domain.java:pool-3-thread-2:209] - Domain:http://www.dachuan.gov.cn page queue emptied after 1 page crawls
+2016-06-29 23:21:03,972 [             Domain.java:pool-3-thread-2:131] - 404 NOT FOUND: http://www.huayuantown.gov.cn/robots.txt
+
+2016-06-29 23:21:25,138 [             Domain.java:pool-3-thread-1:131] - 404 NOT FOUND: http://www.sdy.gov.cn/robots.txt
+
+2016-06-29 23:21:36,000 [             Domain.java:pool-3-thread-2:131] - 404 NOT FOUND: http://www.day.gov.cn/robots.txt
+
+2016-06-29 23:21:36,032 [             Domain.java:pool-3-thread-1:131] - 404 NOT FOUND: http://www.wccdaily.com.cn/robots.txt
+
+2016-06-29 23:21:44,159 [             Domain.java:pool-3-thread-1:131] - 404 NOT FOUND: http://www.wccdaily.com.cn/335929.shtml
+
+2016-06-29 23:21:45,083 [             Domain.java:pool-3-thread-1:131] - 404 NOT FOUND: http://www.wccdaily.com.cn/335930.shtml
+
+2016-06-29 23:21:49,312 [             Domain.java:pool-3-thread-2:111] - unable to connect to: http://www.day.gov.cn:8080/
+[Ljava.lang.StackTraceElement;@1eef3446
+2016-06-29 23:21:49,312 [             Domain.java:pool-3-thread-2:122] - Response of 0: 0 for http://www.day.gov.cn:8080/!
+2016-06-29 23:21:59,342 [             Domain.java:pool-3-thread-1:131] - 404 NOT FOUND: http://mc.sun0769.com/robots.txt
+
+2016-06-29 23:22:03,065 [             Domain.java:pool-3-thread-2:131] - 404 NOT FOUND: http://www.zhouheiya.cn/robots.txt
+
+2016-06-29 23:22:49,194 [             Domain.java:pool-3-thread-2:128] - 301 REDIRECT: http://www.cntaiping.com/loginAct/login.jspx
+
+2016-06-29 23:22:49,194 [             Domain.java:pool-3-thread-2:131] - 404 NOT FOUND: http://www.cntaiping.com/loginAct/login.jspx
+
+2016-06-29 23:22:50,667 [             Domain.java:pool-3-thread-2:131] - 404 NOT FOUND: http://gd.people.com.cn/robots.txt
+
+2016-06-29 23:22:52,856 [             Domain.java:pool-3-thread-1:131] - 404 NOT FOUND: http://www.gd.chinanews.com/robots.txt
+
+2016-06-29 23:23:09,927 [             Domain.java:pool-3-thread-1:131] - 404 NOT FOUND: http://www.hp.gov.cn/robots.txt
+
+2016-06-29 23:23:12,583 [             Domain.java:pool-3-thread-1:141] - Unrecognized response code: 400 for http://www.hp.gov.cn/../hp/zwywt/201606/eff8d733f3384ebc8fb6fbd806a1a6fe.shtml
+2016-06-29 23:23:12,657 [             Domain.java:pool-3-thread-2:131] - 404 NOT FOUND: http://www.gdhrss.gov.cn/robots.txt
+
+2016-06-29 23:23:13,493 [             Domain.java:pool-3-thread-1:141] - Unrecognized response code: 400 for http://www.hp.gov.cn/../hp/zwywt/201606/5faec0a6a6964dc296d21f612b96ef6b.shtml
+2016-06-29 23:23:13,950 [             Domain.java:pool-3-thread-2:209] - Domain:http://www.gdhrss.gov.cn page queue emptied after 1 page crawls
+2016-06-29 23:23:14,421 [             Domain.java:pool-3-thread-1:141] - Unrecognized response code: 400 for http://www.hp.gov.cn/../hp/zwywt/201606/963bb909bc2143608c27983d3b543ed0.shtml
+2016-06-29 23:23:14,573 [             Domain.java:pool-3-thread-2:128] - 301 REDIRECT: http://www.gdf.gov.cn/robots.txt
+
+2016-06-29 23:23:14,573 [             Domain.java:pool-3-thread-2:131] - 404 NOT FOUND: http://www.gdf.gov.cn/robots.txt
+
+2016-06-29 23:23:14,934 [             Domain.java:pool-3-thread-2:128] - 301 REDIRECT: http://www.gdf.gov.cn
+
+2016-06-29 23:23:14,934 [             Domain.java:pool-3-thread-2:131] - 404 NOT FOUND: http://www.gdf.gov.cn
+
+2016-06-29 23:23:15,324 [             Domain.java:pool-3-thread-1:141] - Unrecognized response code: 400 for http://www.hp.gov.cn/../hp/zwywt/201606/2185998ef65f4a649e4988f2aaf4a8d7.shtml
+2016-06-29 23:23:15,434 [             Domain.java:pool-3-thread-2:209] - Domain:http://www.gdf.gov.cn page queue emptied after 1 page crawls
+2016-06-29 23:23:16,163 [             Domain.java:pool-3-thread-2:131] - 404 NOT FOUND: http://chaozhoudaily.com/robots.txt
+
+2016-06-29 23:23:16,225 [             Domain.java:pool-3-thread-1:141] - Unrecognized response code: 400 for http://www.hp.gov.cn/../hp/zwywt/201605/437e045fa91c4892b9a1996f1f3d32af.shtml
+2016-06-29 23:23:22,523 [             Domain.java:pool-3-thread-1:131] - 404 NOT FOUND: http://www.gdwater.gov.cn/robots.txt
+
+2016-06-29 23:23:28,826 [             Domain.java:pool-3-thread-2:131] - 404 NOT FOUND: http://www.gdga.gov.cn/robots.txt
+
+2016-06-29 23:23:37,078 [             Domain.java:pool-3-thread-1:131] - 404 NOT FOUND: http://www.gzjd.gov.cn/robots.txt
+
+2016-06-29 23:23:44,502 [             Domain.java:pool-3-thread-2:209] - Domain:http://kb.southcn.com page queue emptied after 1 page crawls
+2016-06-29 23:23:45,125 [             Domain.java:pool-3-thread-2:131] - 404 NOT FOUND: http://epaper.southcn.com/robots.txt
+
+2016-06-29 23:23:46,376 [             Domain.java:pool-3-thread-2:209] - Domain:http://epaper.southcn.com page queue emptied after 1 page crawls
+2016-06-29 23:24:21,133 [             Domain.java:pool-3-thread-1:131] - 404 NOT FOUND: http://sn.people.com.cn/robots.txt
+
+2016-06-29 23:24:21,334 [             Domain.java:pool-3-thread-2:131] - 404 NOT FOUND: http://sn.chinadaily.com.cn/robots.txt
+
+2016-06-29 23:24:32,281 [             Domain.java:pool-3-thread-2:131] - 404 NOT FOUND: http://sn.china.com/robots.txt
+
+2016-06-29 23:24:33,991 [             Domain.java:pool-3-thread-1:209] - Domain:http://xian.qq.com page queue emptied after 1 page crawls
+2016-06-29 23:24:44,548 [             Domain.java:pool-3-thread-2:131] - 404 NOT FOUND: http://epaper.xiancn.com/robots.txt
+
+2016-06-29 23:24:49,534 [             Domain.java:pool-3-thread-1:209] - Domain:http://www.xiancn.com page queue emptied after 3 page crawls
+2016-06-29 23:24:50,517 [             Domain.java:pool-3-thread-2:209] - Domain:http://epaper.xiancn.com page queue emptied after 6 page crawls
+2016-06-29 23:24:56,703 [             Domain.java:pool-3-thread-1:131] - 404 NOT FOUND: http://epaper.sanqin.com/robots.txt
+
+2016-06-29 23:24:57,596 [             Domain.java:pool-3-thread-1:209] - Domain:http://epaper.sanqin.com page queue emptied after 1 page crawls
+2016-06-29 23:25:01,960 [             Domain.java:pool-3-thread-2:131] - 404 NOT FOUND: http://www.cnwest.com/target=_blank
+
+2016-06-29 23:25:24,550 [             Domain.java:pool-3-thread-2:131] - 404 NOT FOUND: http://sn.ifeng.com/robots.txt
+
+2016-06-29 23:25:35,362 [             Domain.java:pool-3-thread-1:131] - 404 NOT FOUND: http://www.xatvs.com/robots.txt
+
+2016-06-29 23:27:02,881 [             Domain.java:pool-3-thread-2:136] - 403 FORBIDDEN: http://www.zgswcn.com/robots.txt
+
+2016-06-29 23:27:02,881 [             Domain.java:pool-3-thread-2:137] - Request failure for: http://www.zgswcn.com/robots.txt, response code: 403
+2016-06-29 23:27:08,530 [             Domain.java:pool-3-thread-1:111] - unable to connect to: http://www.songhe.com.cn/robots.txt
+[Ljava.lang.StackTraceElement;@638d8332
+2016-06-29 23:27:08,530 [             Domain.java:pool-3-thread-1:122] - Response of 0: 0 for http://www.songhe.com.cn/robots.txt!
+2016-06-29 23:27:13,531 [             Domain.java:pool-3-thread-1:111] - unable to connect to: http://www.songhe.com.cn
+[Ljava.lang.StackTraceElement;@3de5b74a
+2016-06-29 23:27:13,531 [             Domain.java:pool-3-thread-1:122] - Response of 0: 0 for http://www.songhe.com.cn!
+2016-06-29 23:27:14,031 [             Domain.java:pool-3-thread-1:209] - Domain:http://www.songhe.com.cn page queue emptied after 1 page crawls
+2016-06-29 23:27:14,890 [             Domain.java:pool-3-thread-1:131] - 404 NOT FOUND: http://house.people.com.cn/robots.txt
+
+2016-06-29 23:27:24,781 [             Domain.java:pool-3-thread-1:131] - 404 NOT FOUND: http://js.china.com.cn/robots.txt
+
+2016-06-29 23:27:29,649 [             Domain.java:pool-3-thread-2:131] - 404 NOT FOUND: http://www.psbc.com/robots.txt
+
+2016-06-29 23:27:30,583 [             Domain.java:pool-3-thread-2:209] - Domain:http://www.psbc.com page queue emptied after 1 page crawls
+2016-06-29 23:27:31,537 [             Domain.java:pool-3-thread-2:131] - 404 NOT FOUND: http://www.sriff.cn/robots.txt
+
+2016-06-29 23:27:42,314 [             Domain.java:pool-3-thread-1:131] - 404 NOT FOUND: http://www.csfe116.cn/robots.txt
+
+2016-06-29 23:27:52,667 [             Domain.java:pool-3-thread-2:131] - 404 NOT FOUND: http://web.618.gov.cn/robots.txt
+
+2016-06-29 23:27:58,209 [             Domain.java:pool-3-thread-1:131] - 404 NOT FOUND: http://www.chinafair.org.cn/robots.txt
+
+2016-06-29 23:27:59,198 [             Domain.java:pool-3-thread-1:209] - Domain:http://www.chinafair.org.cn page queue emptied after 1 page crawls
+2016-06-29 23:28:06,601 [             Domain.java:pool-3-thread-1:141] - Unrecognized response code: 502 for http://www.china518.gov.cn/index.php?r=pages/category/index&cid=8
+2016-06-29 23:29:09,751 [             Domain.java:pool-3-thread-2:131] - 404 NOT FOUND: http://www.gd.xinhuanet.com/robots.txt
+
+2016-06-29 23:29:25,140 [             Domain.java:pool-3-thread-1:128] - 302 REDIRECT: http://jf.10086.cn/portal/user/web/UserBaseAction?action=getUserBaseInfo
+
+2016-06-29 23:29:25,140 [             Domain.java:pool-3-thread-1:131] - 404 NOT FOUND: http://jf.10086.cn/portal/user/web/UserBaseAction?action=getUserBaseInfo
+
+2016-06-29 23:29:30,049 [             Domain.java:pool-3-thread-1:128] - 302 REDIRECT: http://jf.10086.cn/asynorder/user/web/UserOrderQueryAction?action=initTuanOrderQuery&timePrior=90
+
+2016-06-29 23:29:30,049 [             Domain.java:pool-3-thread-1:131] - 404 NOT FOUND: http://jf.10086.cn/asynorder/user/web/UserOrderQueryAction?action=initTuanOrderQuery&timePrior=90
+
+2016-06-29 23:29:31,447 [             Domain.java:pool-3-thread-1:128] - 302 REDIRECT: http://jf.10086.cn/portal/user/web/UserAccountAction?action=showUserFavoriteWare
+
+2016-06-29 23:29:31,447 [             Domain.java:pool-3-thread-1:131] - 404 NOT FOUND: http://jf.10086.cn/portal/user/web/UserAccountAction?action=showUserFavoriteWare
+
+2016-06-29 23:29:32,830 [             Domain.java:pool-3-thread-1:128] - 302 REDIRECT: http://jf.10086.cn/user/userLotteryInfoQuery.jsp
+
+2016-06-29 23:29:32,830 [             Domain.java:pool-3-thread-1:131] - 404 NOT FOUND: http://jf.10086.cn/user/userLotteryInfoQuery.jsp
+
+2016-06-29 23:29:34,177 [             Domain.java:pool-3-thread-1:128] - 302 REDIRECT: http://jf.10086.cn/portal/order/web/ShoppingCartAction?action=showUserShopInfo
+
+2016-06-29 23:29:34,177 [             Domain.java:pool-3-thread-1:131] - 404 NOT FOUND: http://jf.10086.cn/portal/order/web/ShoppingCartAction?action=showUserShopInfo
+
+2016-06-29 23:29:38,531 [             Domain.java:pool-3-thread-1:128] - 302 REDIRECT: http://jf.10086.cn/portal/user/web/UserBaseAction?action=getUserBaseInfo
+
+2016-06-29 23:29:38,531 [             Domain.java:pool-3-thread-1:131] - 404 NOT FOUND: http://jf.10086.cn/portal/user/web/UserBaseAction?action=getUserBaseInfo
+
+2016-06-29 23:29:55,978 [             Domain.java:pool-3-thread-1:131] - 404 NOT FOUND: http://www.fz96336.com/robots.txt
+
+2016-06-29 23:30:18,346 [             Domain.java:pool-3-thread-2:131] - 404 NOT FOUND: http://www.58015.com.cn/robots.txt
+
+2016-06-29 23:30:20,365 [             Domain.java:pool-3-thread-1:131] - 404 NOT FOUND: http://www.icbc.com.cn/robots.txt
+
+2016-06-29 23:30:20,934 [             Domain.java:pool-3-thread-1:209] - Domain:http://www.icbc.com.cn page queue emptied after 1 page crawls
+2016-06-29 23:30:24,879 [             Domain.java:pool-3-thread-1:131] - 404 NOT FOUND: http://www.10010.com/sitemap_decorater.xml.gz
+
+2016-06-29 23:30:25,937 [             Domain.java:pool-3-thread-1:131] - 404 NOT FOUND: http://www.10010.com/sitemap_goodsDetail.xml.gz
+
+2016-06-29 23:30:27,018 [             Domain.java:pool-3-thread-1:131] - 404 NOT FOUND: http://www.10010.com/sitemap_searchInfoList.xml.gz
+
+2016-06-29 23:30:28,046 [             Domain.java:pool-3-thread-1:131] - 404 NOT FOUND: http://www.10010.com/sitemap_woDetail1.xml.gz
+
+2016-06-29 23:30:29,094 [             Domain.java:pool-3-thread-1:131] - 404 NOT FOUND: http://www.10010.com/sitemap_woDetail2.xml.gz
+
+2016-06-29 23:30:30,146 [             Domain.java:pool-3-thread-1:131] - 404 NOT FOUND: http://www.10010.com/sitemap_woList.xml.gz
+
+2016-06-29 23:30:38,521 [             Domain.java:pool-3-thread-1:209] - Domain:http://gcbc.cnr.cn page queue emptied after 1 page crawls
+2016-06-29 23:30:46,115 [             Domain.java:pool-3-thread-1:131] - 404 NOT FOUND: http://www.fjnx.com.cn/robots.txt
+
+2016-06-29 23:30:58,354 [             Domain.java:pool-3-thread-1:111] - unable to connect to: http://www.fjnx.com.cn:81
+[Ljava.lang.StackTraceElement;@6a4db8b
+2016-06-29 23:30:58,354 [             Domain.java:pool-3-thread-1:122] - Response of 0: 0 for http://www.fjnx.com.cn:81!
+2016-06-29 23:30:58,744 [             Domain.java:pool-3-thread-2:131] - 404 NOT FOUND: http://www.jeuronghotel.com/robots.txt
+
+2016-06-29 23:31:07,674 [             Domain.java:pool-3-thread-1:131] - 404 NOT FOUND: http://www.jlq.com.cn/robots.txt
+
+2016-06-29 23:31:21,512 [             Domain.java:pool-3-thread-1:131] - 404 NOT FOUND: http://www.hubei.gov.cn/robots.txt
+
+2016-06-29 23:31:32,267 [             Domain.java:pool-3-thread-2:131] - 404 NOT FOUND: http://www.hbwh.gov.cn/robots.txt
+
+2016-06-29 23:31:35,347 [             Domain.java:pool-3-thread-1:131] - 404 NOT FOUND: http://www.hb.xinhuanet.com/robots.txt
+
+2016-06-29 23:31:45,199 [             Domain.java:pool-3-thread-2:131] - 404 NOT FOUND: http://hb.people.com.cn/robots.txt
+
+2016-06-29 23:31:55,323 [             Domain.java:pool-3-thread-2:131] - 404 NOT FOUND: http://www.hb.chinanews.com/robots.txt
+
+2016-06-29 23:32:06,556 [             Domain.java:pool-3-thread-1:131] - 404 NOT FOUND: http://hb.china.com/robots.txt
+
+2016-06-29 23:32:07,255 [             Domain.java:pool-3-thread-2:111] - unable to connect to: http://cszyh.chutian78.com/robots.txt
+[Ljava.lang.StackTraceElement;@34adfd52
+2016-06-29 23:32:07,255 [             Domain.java:pool-3-thread-2:122] - Response of 0: 0 for http://cszyh.chutian78.com/robots.txt!
+2016-06-29 23:32:07,257 [             Domain.java:pool-3-thread-2:111] - unable to connect to: http://cszyh.chutian78.com
+[Ljava.lang.StackTraceElement;@19517f7a
+2016-06-29 23:32:07,257 [             Domain.java:pool-3-thread-2:122] - Response of 0: 0 for http://cszyh.chutian78.com!
+2016-06-29 23:32:07,757 [             Domain.java:pool-3-thread-2:209] - Domain:http://cszyh.chutian78.com page queue emptied after 1 page crawls
+2016-06-29 23:32:13,397 [             Domain.java:pool-3-thread-2:111] - unable to connect to: http://www.kuvps.com/robots.txt
+[Ljava.lang.StackTraceElement;@7efb2512
+2016-06-29 23:32:13,397 [             Domain.java:pool-3-thread-2:122] - Response of 0: 0 for http://www.kuvps.com/robots.txt!
+2016-06-29 23:32:18,398 [             Domain.java:pool-3-thread-2:111] - unable to connect to: http://www.kuvps.com
+[Ljava.lang.StackTraceElement;@256700f2
+2016-06-29 23:32:18,398 [             Domain.java:pool-3-thread-2:122] - Response of 0: 0 for http://www.kuvps.com!
+2016-06-29 23:32:18,898 [             Domain.java:pool-3-thread-2:209] - Domain:http://www.kuvps.com page queue emptied after 1 page crawls
+2016-06-29 23:32:19,100 [             Domain.java:pool-3-thread-2:128] - 301 REDIRECT: http://www.securedservers.com/robots.txt
+
+2016-06-29 23:32:19,100 [             Domain.java:pool-3-thread-2:131] - 404 NOT FOUND: http://www.securedservers.com/robots.txt
+
+2016-06-29 23:32:19,171 [             Domain.java:pool-3-thread-2:128] - 301 REDIRECT: http://www.securedservers.com
+
+2016-06-29 23:32:19,172 [             Domain.java:pool-3-thread-2:131] - 404 NOT FOUND: http://www.securedservers.com
+
+2016-06-29 23:32:19,672 [             Domain.java:pool-3-thread-2:209] - Domain:http://www.securedservers.com page queue emptied after 1 page crawls
+2016-06-29 23:32:20,321 [             Domain.java:pool-3-thread-2:128] - 301 REDIRECT: http://www.crazydomains.com.au/robots.txt
+
+2016-06-29 23:32:20,321 [             Domain.java:pool-3-thread-2:131] - 404 NOT FOUND: http://www.crazydomains.com.au/robots.txt
+
+2016-06-29 23:32:20,778 [             Domain.java:pool-3-thread-2:128] - 301 REDIRECT: http://www.crazydomains.com.au
+
+2016-06-29 23:32:20,778 [             Domain.java:pool-3-thread-2:131] - 404 NOT FOUND: http://www.crazydomains.com.au
+
+2016-06-29 23:32:21,279 [             Domain.java:pool-3-thread-2:209] - Domain:http://www.crazydomains.com.au page queue emptied after 1 page crawls
+2016-06-29 23:32:32,475 [             Domain.java:pool-3-thread-2:111] - unable to connect to: http://xujunyi.com/robots.txt
+[Ljava.lang.StackTraceElement;@2bbac587
+2016-06-29 23:32:32,476 [             Domain.java:pool-3-thread-2:122] - Response of 0: 0 for http://xujunyi.com/robots.txt!
+2016-06-29 23:32:32,476 [             Domain.java:pool-3-thread-2:111] - unable to connect to: http://xujunyi.com
+[Ljava.lang.StackTraceElement;@3902c525
+2016-06-29 23:32:32,476 [             Domain.java:pool-3-thread-2:122] - Response of 0: 0 for http://xujunyi.com!
+2016-06-29 23:32:32,976 [             Domain.java:pool-3-thread-2:209] - Domain:http://xujunyi.com page queue emptied after 1 page crawls
+2016-06-29 23:32:42,639 [             Domain.java:pool-3-thread-1:209] - Domain:http://soxiqi.com page queue emptied after 1 page crawls
+2016-06-29 23:36:03,232 [             Domain.java:pool-3-thread-1:141] - Unrecognized response code: 503 for http://www.wodidai.com/robots.txt
+2016-06-29 23:36:04,201 [             Domain.java:pool-3-thread-1:136] - 403 FORBIDDEN: http://www.wodidai.com
+
+2016-06-29 23:36:04,201 [             Domain.java:pool-3-thread-1:137] - Request failure for: http://www.wodidai.com, response code: 403
+2016-06-29 23:36:04,701 [             Domain.java:pool-3-thread-1:209] - Domain:http://www.wodidai.com page queue emptied after 1 page crawls
+2016-06-29 23:36:04,792 [             Domain.java:pool-3-thread-1:111] - unable to connect to: http://www.slaper.net/robots.txt
+[Ljava.lang.StackTraceElement;@9bf5c7e
+2016-06-29 23:36:04,793 [             Domain.java:pool-3-thread-1:122] - Response of 0: 0 for http://www.slaper.net/robots.txt!
+2016-06-29 23:36:04,794 [             Domain.java:pool-3-thread-1:111] - unable to connect to: http://www.slaper.net
+[Ljava.lang.StackTraceElement;@19f0f5e4
+2016-06-29 23:36:04,794 [             Domain.java:pool-3-thread-1:122] - Response of 0: 0 for http://www.slaper.net!
+2016-06-29 23:36:05,294 [             Domain.java:pool-3-thread-1:209] - Domain:http://www.slaper.net page queue emptied after 1 page crawls
+2016-06-29 23:36:05,702 [             Domain.java:pool-3-thread-1:131] - 404 NOT FOUND: http://www.csmao.com/robots.txt
+
+2016-06-29 23:36:05,810 [             Domain.java:pool-3-thread-1:136] - 403 FORBIDDEN: http://www.csmao.com
+
+2016-06-29 23:36:05,811 [             Domain.java:pool-3-thread-1:137] - Request failure for: http://www.csmao.com, response code: 403
+2016-06-29 23:36:06,311 [             Domain.java:pool-3-thread-1:209] - Domain:http://www.csmao.com page queue emptied after 1 page crawls
+2016-06-29 23:36:12,580 [             Domain.java:pool-3-thread-1:111] - unable to connect to: http://www.fallever.com/robots.txt
+[Ljava.lang.StackTraceElement;@35c533cc
+2016-06-29 23:36:12,580 [             Domain.java:pool-3-thread-1:122] - Response of 0: 0 for http://www.fallever.com/robots.txt!
+2016-06-29 23:36:12,582 [             Domain.java:pool-3-thread-1:111] - unable to connect to: http://www.fallever.com
+[Ljava.lang.StackTraceElement;@159dde7c
+2016-06-29 23:36:12,582 [             Domain.java:pool-3-thread-1:122] - Response of 0: 0 for http://www.fallever.com!
+2016-06-29 23:36:13,083 [             Domain.java:pool-3-thread-1:209] - Domain:http://www.fallever.com page queue emptied after 1 page crawls
+2016-06-29 23:36:13,617 [             Domain.java:pool-3-thread-1:131] - 404 NOT FOUND: http://www.hipetro.com/robots.txt
+
+2016-06-29 23:36:14,498 [             Domain.java:pool-3-thread-1:209] - Domain:http://www.hipetro.com page queue emptied after 1 page crawls
+2016-06-29 23:36:21,640 [             Domain.java:pool-3-thread-1:111] - unable to connect to: http://sayhosts.com/robots.txt
+[Ljava.lang.StackTraceElement;@66b23c1d
+2016-06-29 23:36:21,640 [             Domain.java:pool-3-thread-1:122] - Response of 0: 0 for http://sayhosts.com/robots.txt!
+2016-06-29 23:36:21,644 [             Domain.java:pool-3-thread-1:111] - unable to connect to: http://sayhosts.com
+[Ljava.lang.StackTraceElement;@78f3aafa
+2016-06-29 23:36:21,644 [             Domain.java:pool-3-thread-1:122] - Response of 0: 0 for http://sayhosts.com!
+2016-06-29 23:36:22,144 [             Domain.java:pool-3-thread-1:209] - Domain:http://sayhosts.com page queue emptied after 1 page crawls
+2016-06-29 23:36:22,225 [             Domain.java:pool-3-thread-1:111] - unable to connect to: http://www.i1tyou.com/robots.txt
+[Ljava.lang.StackTraceElement;@6434bd7b
+2016-06-29 23:36:22,226 [             Domain.java:pool-3-thread-1:122] - Response of 0: 0 for http://www.i1tyou.com/robots.txt!
+2016-06-29 23:36:22,228 [             Domain.java:pool-3-thread-1:111] - unable to connect to: http://www.i1tyou.com
+[Ljava.lang.StackTraceElement;@1f21e1bf
+2016-06-29 23:36:22,228 [             Domain.java:pool-3-thread-1:122] - Response of 0: 0 for http://www.i1tyou.com!
+2016-06-29 23:36:22,728 [             Domain.java:pool-3-thread-1:209] - Domain:http://www.i1tyou.com page queue emptied after 1 page crawls
+2016-06-29 23:36:23,366 [             Domain.java:pool-3-thread-1:131] - 404 NOT FOUND: http://www.blogpetro.com/robots.txt
+
+2016-06-29 23:36:24,422 [             Domain.java:pool-3-thread-1:209] - Domain:http://www.blogpetro.com page queue emptied after 1 page crawls
+2016-06-29 23:36:25,907 [             Domain.java:pool-3-thread-1:131] - 404 NOT FOUND: http://vexille.net/robots.txt
+
+2016-06-29 23:36:29,550 [             Domain.java:pool-3-thread-1:131] - 404 NOT FOUND: http://vexille.net/about-us.html
+
+2016-06-29 23:36:30,949 [             Domain.java:pool-3-thread-1:131] - 404 NOT FOUND: http://vexille.net/404-error-page.html
+
+2016-06-29 23:36:33,740 [             Domain.java:pool-3-thread-1:131] - 404 NOT FOUND: http://vexille.net/img/port/surfer-big.jpg
+
+2016-06-29 23:36:36,503 [             Domain.java:pool-3-thread-1:131] - 404 NOT FOUND: http://vexille.net/about-us.html
+
+2016-06-29 23:36:37,887 [             Domain.java:pool-3-thread-1:131] - 404 NOT FOUND: http://vexille.net/404-error-page.html
+
+2016-06-29 23:36:40,076 [             Domain.java:pool-3-thread-1:111] - unable to connect to: http://www.hiciba.net.cn/robots.txt
+[Ljava.lang.StackTraceElement;@68046492
+2016-06-29 23:36:40,076 [             Domain.java:pool-3-thread-1:122] - Response of 0: 0 for http://www.hiciba.net.cn/robots.txt!
+2016-06-29 23:36:40,077 [             Domain.java:pool-3-thread-1:111] - unable to connect to: http://www.hiciba.net.cn
+[Ljava.lang.StackTraceElement;@dc5b712
+2016-06-29 23:36:40,077 [             Domain.java:pool-3-thread-1:122] - Response of 0: 0 for http://www.hiciba.net.cn!
+2016-06-29 23:36:40,577 [             Domain.java:pool-3-thread-1:209] - Domain:http://www.hiciba.net.cn page queue emptied after 1 page crawls
+2016-06-29 23:36:52,657 [             Domain.java:pool-3-thread-1:111] - unable to connect to: http://www.inovel.t/robots.txt
+[Ljava.lang.StackTraceElement;@4cdb0cb4
+2016-06-29 23:36:52,657 [             Domain.java:pool-3-thread-1:122] - Response of 0: 0 for http://www.inovel.t/robots.txt!
+2016-06-29 23:36:52,660 [             Domain.java:pool-3-thread-1:111] - unable to connect to: http://www.inovel.t
+[Ljava.lang.StackTraceElement;@5ce72089
+2016-06-29 23:36:52,660 [             Domain.java:pool-3-thread-1:122] - Response of 0: 0 for http://www.inovel.t!
+2016-06-29 23:36:53,160 [             Domain.java:pool-3-thread-1:209] - Domain:http://www.inovel.t page queue emptied after 1 page crawls
+2016-06-29 23:36:56,437 [             Domain.java:pool-3-thread-1:209] - Domain:http://www.itblogger.info page queue emptied after 1 page crawls
+2016-06-29 23:37:14,453 [             Domain.java:pool-3-thread-1:111] - unable to connect to: http://www.woleyuan.cn/robots.txt
+[Ljava.lang.StackTraceElement;@178cef73
+2016-06-29 23:37:14,453 [             Domain.java:pool-3-thread-1:122] - Response of 0: 0 for http://www.woleyuan.cn/robots.txt!
+2016-06-29 23:37:15,656 [             Domain.java:pool-3-thread-1:209] - Domain:http://www.woleyuan.cn page queue emptied after 1 page crawls
+2016-06-29 23:37:17,393 [             Domain.java:pool-3-thread-1:131] - 404 NOT FOUND: http://aizaoqi.com/robots.txt
+
+2016-06-29 23:37:22,396 [             Domain.java:pool-3-thread-1:111] - unable to connect to: http://aizaoqi.com
+[Ljava.lang.StackTraceElement;@37d1a7b7
+2016-06-29 23:37:22,396 [             Domain.java:pool-3-thread-1:122] - Response of 0: 0 for http://aizaoqi.com!
+2016-06-29 23:37:22,896 [             Domain.java:pool-3-thread-1:209] - Domain:http://aizaoqi.com page queue emptied after 1 page crawls
+2016-06-29 23:37:22,974 [             Domain.java:pool-3-thread-1:111] - unable to connect to: http://www.yexian.name/robots.txt
+[Ljava.lang.StackTraceElement;@237ba355
+2016-06-29 23:37:22,975 [             Domain.java:pool-3-thread-1:122] - Response of 0: 0 for http://www.yexian.name/robots.txt!
+2016-06-29 23:37:22,976 [             Domain.java:pool-3-thread-1:111] - unable to connect to: http://www.yexian.name
+[Ljava.lang.StackTraceElement;@467d3cdb
+2016-06-29 23:37:22,976 [             Domain.java:pool-3-thread-1:122] - Response of 0: 0 for http://www.yexian.name!
+2016-06-29 23:37:23,479 [             Domain.java:pool-3-thread-1:209] - Domain:http://www.yexian.name page queue emptied after 1 page crawls
+2016-06-29 23:37:23,701 [             Domain.java:pool-3-thread-1:111] - unable to connect to: http://lies.net.ru/robots.txt
+[Ljava.lang.StackTraceElement;@367ab410
+2016-06-29 23:37:23,701 [             Domain.java:pool-3-thread-1:122] - Response of 0: 0 for http://lies.net.ru/robots.txt!
+2016-06-29 23:37:23,703 [             Domain.java:pool-3-thread-1:111] - unable to connect to: http://lies.net.ru
+[Ljava.lang.StackTraceElement;@cac5177
+2016-06-29 23:37:23,703 [             Domain.java:pool-3-thread-1:122] - Response of 0: 0 for http://lies.net.ru!
+2016-06-29 23:37:24,204 [             Domain.java:pool-3-thread-1:209] - Domain:http://lies.net.ru page queue emptied after 1 page crawls
+2016-06-29 23:37:24,594 [             Domain.java:pool-3-thread-1:131] - 404 NOT FOUND: http://www.clariotech.com/robots.txt
+
+2016-06-29 23:37:26,081 [             Domain.java:pool-3-thread-1:209] - Domain:http://www.clariotech.com page queue emptied after 1 page crawls
+2016-06-29 23:37:26,985 [             Domain.java:pool-3-thread-1:209] - Domain:http://www.vbou.cn page queue emptied after 1 page crawls
+2016-06-29 23:37:27,207 [             Domain.java:pool-3-thread-1:111] - unable to connect to: http://www.yox.net.ru/robots.txt
+[Ljava.lang.StackTraceElement;@72b32abc
+2016-06-29 23:37:27,207 [             Domain.java:pool-3-thread-1:122] - Response of 0: 0 for http://www.yox.net.ru/robots.txt!
+2016-06-29 23:37:27,210 [             Domain.java:pool-3-thread-1:111] - unable to connect to: http://www.yox.net.ru
+[Ljava.lang.StackTraceElement;@5d874bd5
+2016-06-29 23:37:27,210 [             Domain.java:pool-3-thread-1:122] - Response of 0: 0 for http://www.yox.net.ru!
+2016-06-29 23:37:27,710 [             Domain.java:pool-3-thread-1:209] - Domain:http://www.yox.net.ru page queue emptied after 1 page crawls
+2016-06-29 23:37:27,776 [             Domain.java:pool-3-thread-1:111] - unable to connect to: http://www.94sb.com.cn/robots.txt
+[Ljava.lang.StackTraceElement;@3e3eae41
+2016-06-29 23:37:27,776 [             Domain.java:pool-3-thread-1:122] - Response of 0: 0 for http://www.94sb.com.cn/robots.txt!
+2016-06-29 23:37:27,777 [             Domain.java:pool-3-thread-1:111] - unable to connect to: http://www.94sb.com.cn
+[Ljava.lang.StackTraceElement;@50f76718
+2016-06-29 23:37:27,778 [             Domain.java:pool-3-thread-1:122] - Response of 0: 0 for http://www.94sb.com.cn!
+2016-06-29 23:37:28,278 [             Domain.java:pool-3-thread-1:209] - Domain:http://www.94sb.com.cn page queue emptied after 1 page crawls
+2016-06-29 23:37:28,345 [             Domain.java:pool-3-thread-1:111] - unable to connect to: http://www.wu227.cn/robots.txt
+[Ljava.lang.StackTraceElement;@3b7a5170
+2016-06-29 23:37:28,345 [             Domain.java:pool-3-thread-1:122] - Response of 0: 0 for http://www.wu227.cn/robots.txt!
+2016-06-29 23:37:28,350 [             Domain.java:pool-3-thread-1:111] - unable to connect to: http://www.wu227.cn
+[Ljava.lang.StackTraceElement;@5cc47c29
+2016-06-29 23:37:28,350 [             Domain.java:pool-3-thread-1:122] - Response of 0: 0 for http://www.wu227.cn!
+2016-06-29 23:37:28,850 [             Domain.java:pool-3-thread-1:209] - Domain:http://www.wu227.cn page queue emptied after 1 page crawls
+2016-06-29 23:37:30,922 [             Domain.java:pool-3-thread-1:209] - Domain:http://kxblog.blogbus.com page queue emptied after 1 page crawls
+2016-06-29 23:37:51,566 [             Domain.java:pool-3-thread-1:209] - Domain:http://www.zaihaiyifang.com page queue emptied after 1 page crawls
+2016-06-29 23:37:53,455 [             Domain.java:pool-3-thread-1:209] - Domain:http://www.xgiu.com page queue emptied after 1 page crawls
+2016-06-29 23:37:53,986 [             Domain.java:pool-3-thread-1:111] - unable to connect to: http://feed.bokelife.com/robots.txt
+[Ljava.lang.StackTraceElement;@17438d56
+2016-06-29 23:37:53,986 [             Domain.java:pool-3-thread-1:122] - Response of 0: 0 for http://feed.bokelife.com/robots.txt!
+2016-06-29 23:37:53,987 [             Domain.java:pool-3-thread-1:111] - unable to connect to: http://feed.bokelife.com
+[Ljava.lang.StackTraceElement;@7ce7e701
+2016-06-29 23:37:53,987 [             Domain.java:pool-3-thread-1:122] - Response of 0: 0 for http://feed.bokelife.com!
+2016-06-29 23:37:54,488 [             Domain.java:pool-3-thread-1:209] - Domain:http://feed.bokelife.com page queue emptied after 1 page crawls
+2016-06-29 23:37:55,347 [             Domain.java:pool-3-thread-1:209] - Domain:http://www.pageflakes.com page queue emptied after 1 page crawls
+2016-06-29 23:38:00,813 [             Domain.java:pool-3-thread-1:111] - unable to connect to: http://blog.pnnk.net/robots.txt
+[Ljava.lang.StackTraceElement;@157fc83c
+2016-06-29 23:38:00,813 [             Domain.java:pool-3-thread-1:122] - Response of 0: 0 for http://blog.pnnk.net/robots.txt!
+2016-06-29 23:38:05,819 [             Domain.java:pool-3-thread-1:111] - unable to connect to: http://blog.pnnk.net
+[Ljava.lang.StackTraceElement;@6187d2b1
+2016-06-29 23:38:05,820 [             Domain.java:pool-3-thread-1:122] - Response of 0: 0 for http://blog.pnnk.net!
+2016-06-29 23:38:06,320 [             Domain.java:pool-3-thread-1:209] - Domain:http://blog.pnnk.net page queue emptied after 1 page crawls
+2016-06-29 23:38:06,398 [             Domain.java:pool-3-thread-1:111] - unable to connect to: http://xingchen.name/robots.txt
+[Ljava.lang.StackTraceElement;@221bfe6f
+2016-06-29 23:38:06,398 [             Domain.java:pool-3-thread-1:122] - Response of 0: 0 for http://xingchen.name/robots.txt!
+2016-06-29 23:38:06,399 [             Domain.java:pool-3-thread-1:111] - unable to connect to: http://xingchen.name
+[Ljava.lang.StackTraceElement;@49cefc38
+2016-06-29 23:38:06,399 [             Domain.java:pool-3-thread-1:122] - Response of 0: 0 for http://xingchen.name!
+2016-06-29 23:38:06,901 [             Domain.java:pool-3-thread-1:209] - Domain:http://xingchen.name page queue emptied after 1 page crawls
+2016-06-29 23:38:17,323 [             Domain.java:pool-3-thread-1:131] - 404 NOT FOUND: http://ningmeng.name/robots.txt
+
+2016-06-29 23:38:20,484 [             Domain.java:pool-3-thread-1:209] - Domain:http://ningmeng.name page queue emptied after 1 page crawls
+2016-06-29 23:38:21,369 [             Domain.java:pool-3-thread-1:131] - 404 NOT FOUND: http://www.zhangyang.org/robots.txt
+
+2016-06-29 23:38:35,173 [             Domain.java:pool-3-thread-1:131] - 404 NOT FOUND: http://www.huangyunying.com/robots.txt
+
+2016-06-29 23:39:13,883 [             Domain.java:pool-3-thread-1:131] - 404 NOT FOUND: http://down.tech.sina.com.cn/robots.txt
+
+2016-06-29 23:40:21,204 [             Domain.java:pool-3-thread-1:111] - unable to connect to: http://free.logomaker.cn/robots.txt
+[Ljava.lang.StackTraceElement;@17160f15
+2016-06-29 23:40:21,205 [             Domain.java:pool-3-thread-1:122] - Response of 0: 0 for http://free.logomaker.cn/robots.txt!
+2016-06-29 23:40:21,208 [             Domain.java:pool-3-thread-1:111] - unable to connect to: http://free.logomaker.cn
+[Ljava.lang.StackTraceElement;@722018ee
+2016-06-29 23:40:21,208 [             Domain.java:pool-3-thread-1:122] - Response of 0: 0 for http://free.logomaker.cn!
+2016-06-29 23:40:21,709 [             Domain.java:pool-3-thread-1:209] - Domain:http://free.logomaker.cn page queue emptied after 1 page crawls
+2016-06-29 23:40:22,262 [             Domain.java:pool-3-thread-1:131] - 404 NOT FOUND: http://banner.alimama.com/robots.txt
+
+2016-06-29 23:40:23,219 [             Domain.java:pool-3-thread-1:209] - Domain:http://banner.alimama.com page queue emptied after 1 page crawls
+2016-06-29 23:40:23,838 [             Domain.java:pool-3-thread-1:131] - 404 NOT FOUND: http://www.ico.la/robots.txt
+
+2016-06-29 23:40:25,047 [             Domain.java:pool-3-thread-1:131] - 404 NOT FOUND: http://www.ico.la/search
+
+2016-06-29 23:40:26,160 [             Domain.java:pool-3-thread-1:131] - 404 NOT FOUND: http://www.ico.la/2010/0330/16.html
+
+2016-06-29 23:40:27,827 [             Domain.java:pool-3-thread-1:131] - 404 NOT FOUND: http://www.ico.la/search
+
+2016-06-29 23:40:29,000 [             Domain.java:pool-3-thread-1:131] - 404 NOT FOUND: http://www.ico.la/2010/0330/16.html
+
+2016-06-29 23:40:30,594 [             Domain.java:pool-3-thread-1:131] - 404 NOT FOUND: http://pic.sdodo.com/robots.txt
+
+2016-06-29 23:40:33,250 [             Domain.java:pool-3-thread-1:131] - 404 NOT FOUND: http://pic.sdodo.com/doc/howu.php
+
+2016-06-29 23:40:57,200 [             Domain.java:pool-3-thread-1:128] - 301 REDIRECT: http://whois.hichina.com/robots.txt
+
+2016-06-29 23:40:57,200 [             Domain.java:pool-3-thread-1:131] - 404 NOT FOUND: http://whois.hichina.com/robots.txt
+
+2016-06-29 23:40:58,001 [             Domain.java:pool-3-thread-1:128] - 301 REDIRECT: http://whois.hichina.com
+
+2016-06-29 23:40:58,002 [             Domain.java:pool-3-thread-1:131] - 404 NOT FOUND: http://whois.hichina.com
+
+2016-06-29 23:40:58,502 [             Domain.java:pool-3-thread-1:209] - Domain:http://whois.hichina.com page queue emptied after 1 page crawls
+2016-06-29 23:41:48,568 [             Domain.java:pool-3-thread-1:111] - unable to connect to: http://www.swu.pt/robots.txt
+[Ljava.lang.StackTraceElement;@39e1c30a
+2016-06-29 23:41:48,568 [             Domain.java:pool-3-thread-1:122] - Response of 0: 0 for http://www.swu.pt/robots.txt!
+2016-06-29 23:41:48,572 [             Domain.java:pool-3-thread-1:111] - unable to connect to: http://www.swu.pt
+[Ljava.lang.StackTraceElement;@57c1997e
+2016-06-29 23:41:48,572 [             Domain.java:pool-3-thread-1:122] - Response of 0: 0 for http://www.swu.pt!
+2016-06-29 23:41:49,072 [             Domain.java:pool-3-thread-1:209] - Domain:http://www.swu.pt page queue emptied after 1 page crawls
+2016-06-29 23:41:49,404 [             Domain.java:pool-3-thread-1:131] - 404 NOT FOUND: http://www.clipconverter.cc/robots.txt
+
+2016-06-29 23:46:02,325 [             Domain.java:pool-3-thread-1:131] - 404 NOT FOUND: http://www.skyfont.com/robots.txt
+
+2016-06-29 23:46:09,346 [             Domain.java:pool-3-thread-1:128] - 302 REDIRECT: http://www.hao123.com
+
+2016-06-29 23:46:09,346 [             Domain.java:pool-3-thread-1:131] - 404 NOT FOUND: http://www.hao123.com
+
+2016-06-29 23:46:09,847 [             Domain.java:pool-3-thread-1:209] - Domain:http://www.hao123.com page queue emptied after 1 page crawls
+2016-06-29 23:46:12,104 [             Domain.java:pool-3-thread-1:131] - 404 NOT FOUND: http://www.eteste.com/robots.txt
+
+2016-06-29 23:46:13,575 [             Domain.java:pool-3-thread-1:209] - Domain:http://www.eteste.com page queue emptied after 1 page crawls
+2016-06-29 23:46:42,915 [             Domain.java:pool-3-thread-2:131] - 404 NOT FOUND: http://www.dearzd.com/robots.txt
+
+2016-06-29 23:46:44,549 [             Domain.java:pool-3-thread-1:111] - unable to connect to: http://mmbabygirl.lofter.com/view
+[Ljava.lang.StackTraceElement;@423efafb
+2016-06-29 23:46:44,549 [             Domain.java:pool-3-thread-1:122] - Response of 0: 0 for http://mmbabygirl.lofter.com/view!
+2016-06-29 23:46:58,422 [             Domain.java:pool-3-thread-1:111] - unable to connect to: http://mmbabygirl.lofter.com/view
+[Ljava.lang.StackTraceElement;@e92183f
+2016-06-29 23:46:58,422 [             Domain.java:pool-3-thread-1:122] - Response of 0: 0 for http://mmbabygirl.lofter.com/view!
+2016-06-29 23:47:05,200 [             Domain.java:pool-3-thread-2:131] - 404 NOT FOUND: http://caijing.chinadaily.com.cn/robots.txt
+
+2016-06-29 23:47:41,448 [             Domain.java:pool-3-thread-1:209] - Domain:http://jjckb.xinhuanet.com page queue emptied after 1 page crawls
+2016-06-29 23:47:52,208 [             Domain.java:pool-3-thread-1:131] - 404 NOT FOUND: http://english.sina.com/robots.txt
+
+2016-06-29 23:48:01,429 [             Domain.java:pool-3-thread-1:131] - 404 NOT FOUND: http://mediakit.sina.com/robots.txt
+
+2016-06-29 23:48:01,816 [             Domain.java:pool-3-thread-2:209] - Domain:http://corp.sina.com.cn page queue emptied after 1 page crawls
+2016-06-29 23:48:07,667 [             Domain.java:pool-3-thread-1:128] - 301 REDIRECT: http://weixin110.qq.com/robots.txt
+
+2016-06-29 23:48:07,667 [             Domain.java:pool-3-thread-1:131] - 404 NOT FOUND: http://weixin110.qq.com/robots.txt
+
+2016-06-29 23:48:08,037 [             Domain.java:pool-3-thread-1:128] - 301 REDIRECT: http://weixin110.qq.com
+
+2016-06-29 23:48:08,037 [             Domain.java:pool-3-thread-1:131] - 404 NOT FOUND: http://weixin110.qq.com
+
+2016-06-29 23:48:08,537 [             Domain.java:pool-3-thread-1:209] - Domain:http://weixin110.qq.com page queue emptied after 1 page crawls
+2016-06-29 23:48:10,127 [             Domain.java:pool-3-thread-1:209] - Domain:https://www.tenpay.com page queue emptied after 1 page crawls
+2016-06-29 23:48:10,620 [             Domain.java:pool-3-thread-1:111] - unable to connect to: https://support.weixin.qq.com/robots.txt
+[Ljava.lang.StackTraceElement;@32469fe7
+2016-06-29 23:48:10,620 [             Domain.java:pool-3-thread-1:122] - Response of 0: 0 for https://support.weixin.qq.com/robots.txt!
+2016-06-29 23:48:11,083 [             Domain.java:pool-3-thread-1:111] - unable to connect to: https://support.weixin.qq.com
+[Ljava.lang.StackTraceElement;@6787cc6
+2016-06-29 23:48:11,083 [             Domain.java:pool-3-thread-1:122] - Response of 0: 0 for https://support.weixin.qq.com!
+2016-06-29 23:48:11,584 [             Domain.java:pool-3-thread-1:209] - Domain:https://support.weixin.qq.com page queue emptied after 1 page crawls
+2016-06-29 23:48:11,772 [             Domain.java:pool-3-thread-2:131] - 404 NOT FOUND: https://weixin110.qq.com/robots.txt
+
+2016-06-29 23:48:14,187 [             Domain.java:pool-3-thread-2:128] - 301 REDIRECT: http://weixin110.qq.com
+
+2016-06-29 23:48:14,187 [             Domain.java:pool-3-thread-2:131] - 404 NOT FOUND: http://weixin110.qq.com
+
+2016-06-29 23:48:16,633 [             Domain.java:pool-3-thread-1:111] - unable to connect to: http://adver.qq.com/robots.txt
+[Ljava.lang.StackTraceElement;@2b609ca9
+2016-06-29 23:48:16,633 [             Domain.java:pool-3-thread-1:122] - Response of 0: 0 for http://adver.qq.com/robots.txt!
+2016-06-29 23:48:19,660 [             Domain.java:pool-3-thread-2:128] - 301 REDIRECT: http://weixin110.qq.com
+
+2016-06-29 23:48:19,660 [             Domain.java:pool-3-thread-2:131] - 404 NOT FOUND: http://weixin110.qq.com
+
+2016-06-29 23:48:21,420 [             Domain.java:pool-3-thread-2:131] - 404 NOT FOUND: http://help.tenpay.com/robots.txt
+
+2016-06-29 23:48:21,634 [             Domain.java:pool-3-thread-1:111] - unable to connect to: http://adver.qq.com
+[Ljava.lang.StackTraceElement;@2d5f8785
+2016-06-29 23:48:21,634 [             Domain.java:pool-3-thread-1:122] - Response of 0: 0 for http://adver.qq.com!
+2016-06-29 23:48:22,134 [             Domain.java:pool-3-thread-1:209] - Domain:http://adver.qq.com page queue emptied after 1 page crawls
+2016-06-29 23:48:22,316 [             Domain.java:pool-3-thread-2:209] - Domain:http://help.tenpay.com page queue emptied after 1 page crawls
+2016-06-29 23:48:23,617 [             Domain.java:pool-3-thread-1:131] - 404 NOT FOUND: http://www.foodsafetyexpo.org
+
+2016-06-29 23:48:28,618 [             Domain.java:pool-3-thread-1:209] - Domain:http://www.foodsafetyexpo.org page queue emptied after 1 page crawls
+2016-06-29 23:48:29,633 [             Domain.java:pool-3-thread-1:131] - 404 NOT FOUND: http://www.bda.gov.cn/robots.txt
+
+2016-06-29 23:48:30,601 [             Domain.java:pool-3-thread-1:209] - Domain:http://www.bda.gov.cn page queue emptied after 1 page crawls
+2016-06-29 23:48:31,348 [             Domain.java:pool-3-thread-1:131] - 404 NOT FOUND: http://www.zgc.gov.cn/robots.txt
+
+2016-06-29 23:48:39,615 [             Domain.java:pool-3-thread-2:141] - Unrecognized response code: 400 for http://www.bjindustrialzone.com.cn/robots.txt
+2016-06-29 23:48:40,019 [             Domain.java:pool-3-thread-2:141] - Unrecognized response code: 400 for http://www.bjindustrialzone.com.cn
+2016-06-29 23:48:40,520 [             Domain.java:pool-3-thread-2:209] - Domain:http://www.bjindustrialzone.com.cn page queue emptied after 1 page crawls
+2016-06-29 23:48:45,109 [             Domain.java:pool-3-thread-1:131] - 404 NOT FOUND: http://english.pudong.gov.cn/robots.txt
+
+2016-06-29 23:48:45,896 [             Domain.java:pool-3-thread-2:111] - unable to connect to: http://www.shld.com/robots.txt
+[Ljava.lang.StackTraceElement;@42dafee2
+2016-06-29 23:48:45,896 [             Domain.java:pool-3-thread-2:122] - Response of 0: 0 for http://www.shld.com/robots.txt!
+2016-06-29 23:48:45,937 [             Domain.java:pool-3-thread-1:209] - Domain:http://english.pudong.gov.cn page queue emptied after 1 page crawls
+2016-06-29 23:48:46,757 [             Domain.java:pool-3-thread-1:131] - 404 NOT FOUND: http://www.smudc.com/robots.txt
+
+2016-06-29 23:48:50,897 [             Domain.java:pool-3-thread-2:111] - unable to connect to: http://www.shld.com
+[Ljava.lang.StackTraceElement;@6cf54023
+2016-06-29 23:48:50,897 [             Domain.java:pool-3-thread-2:122] - Response of 0: 0 for http://www.shld.com!
+2016-06-29 23:48:51,397 [             Domain.java:pool-3-thread-2:209] - Domain:http://www.shld.com page queue emptied after 1 page crawls
+2016-06-29 23:48:52,154 [             Domain.java:pool-3-thread-2:111] - unable to connect to: http://en.heda.gov.cn/robots.txt
+[Ljava.lang.StackTraceElement;@65c81364
+2016-06-29 23:48:52,155 [             Domain.java:pool-3-thread-2:122] - Response of 0: 0 for http://en.heda.gov.cn/robots.txt!
+2016-06-29 23:48:52,155 [             Domain.java:pool-3-thread-2:111] - unable to connect to: http://en.heda.gov.cn
+[Ljava.lang.StackTraceElement;@50abff4c
+2016-06-29 23:48:52,155 [             Domain.java:pool-3-thread-2:122] - Response of 0: 0 for http://en.heda.gov.cn!
+2016-06-29 23:48:52,655 [             Domain.java:pool-3-thread-2:209] - Domain:http://en.heda.gov.cn page queue emptied after 1 page crawls
+2016-06-29 23:48:52,723 [             Domain.java:pool-3-thread-2:111] - unable to connect to: http://www.netd.com.cn/robots.txt
+[Ljava.lang.StackTraceElement;@45932655
+2016-06-29 23:48:52,723 [             Domain.java:pool-3-thread-2:122] - Response of 0: 0 for http://www.netd.com.cn/robots.txt!
+2016-06-29 23:48:52,723 [             Domain.java:pool-3-thread-2:111] - unable to connect to: http://www.netd.com.cn
+[Ljava.lang.StackTraceElement;@3a1929c
+2016-06-29 23:48:52,723 [             Domain.java:pool-3-thread-2:122] - Response of 0: 0 for http://www.netd.com.cn!
+2016-06-29 23:48:53,224 [             Domain.java:pool-3-thread-2:209] - Domain:http://www.netd.com.cn page queue emptied after 1 page crawls
+2016-06-29 23:48:53,620 [             Domain.java:pool-3-thread-2:111] - unable to connect to: http://www.xetdz.com/robots.txt
+[Ljava.lang.StackTraceElement;@2657f2bf
+2016-06-29 23:48:53,620 [             Domain.java:pool-3-thread-2:122] - Response of 0: 0 for http://www.xetdz.com/robots.txt!
+2016-06-29 23:48:53,620 [             Domain.java:pool-3-thread-2:111] - unable to connect to: http://www.xetdz.com
+[Ljava.lang.StackTraceElement;@298928a6
+2016-06-29 23:48:53,620 [             Domain.java:pool-3-thread-2:122] - Response of 0: 0 for http://www.xetdz.com!
+2016-06-29 23:48:54,120 [             Domain.java:pool-3-thread-2:209] - Domain:http://www.xetdz.com page queue emptied after 1 page crawls
+2016-06-29 23:48:54,637 [             Domain.java:pool-3-thread-2:209] - Domain:http://ipaper.ce.cn page queue emptied after 1 page crawls
+2016-06-29 23:48:56,472 [             Domain.java:pool-3-thread-2:209] - Domain:http://sale.jd.com page queue emptied after 1 page crawls
+2016-06-29 23:48:58,182 [             Domain.java:pool-3-thread-2:209] - Domain:http://h5.m.jd.com page queue emptied after 1 page crawls
+2016-06-29 23:48:59,391 [             Domain.java:pool-3-thread-2:131] - 404 NOT FOUND: http://955.cc/robots.txt
+
+2016-06-29 23:49:08,475 [             Domain.java:pool-3-thread-2:209] - Domain:http://suo.im page queue emptied after 1 page crawls
+2016-06-29 23:49:10,030 [             Domain.java:pool-3-thread-2:131] - 404 NOT FOUND: http://wangqi.me/robots.txt
+
+2016-06-29 23:49:14,665 [             Domain.java:pool-3-thread-1:131] - 404 NOT FOUND: http://daxu.net/sitemap_baidu.xml
+
+2016-06-29 23:49:20,631 [             Domain.java:pool-3-thread-1:131] - 404 NOT FOUND: http://daxu.net/sitemap.html
+
+2016-06-29 23:49:28,161 [             Domain.java:pool-3-thread-1:131] - 404 NOT FOUND: http://rrurl.cn/robots.txt
+
+2016-06-29 23:49:29,136 [             Domain.java:pool-3-thread-1:209] - Domain:http://rrurl.cn page queue emptied after 1 page crawls
+2016-06-29 23:51:20,453 [             Domain.java:pool-3-thread-1:209] - Domain:http://div.io page queue emptied after 1 page crawls
+2016-06-29 23:51:26,632 [             Domain.java:pool-3-thread-1:111] - unable to connect to: https://lzw.me/cate/learning
+[Ljava.lang.StackTraceElement;@1d22b47c
+2016-06-29 23:51:26,632 [             Domain.java:pool-3-thread-1:122] - Response of 0: 0 for https://lzw.me/cate/learning!
+2016-06-29 23:51:27,706 [             Domain.java:pool-3-thread-1:111] - unable to connect to: https://lzw.me/cate/note
+[Ljava.lang.StackTraceElement;@5a61cdb9
+2016-06-29 23:51:27,706 [             Domain.java:pool-3-thread-1:122] - Response of 0: 0 for https://lzw.me/cate/note!
+2016-06-29 23:51:28,689 [             Domain.java:pool-3-thread-1:111] - unable to connect to: https://lzw.me/cate/digest
+[Ljava.lang.StackTraceElement;@201c6650
+2016-06-29 23:51:28,689 [             Domain.java:pool-3-thread-1:122] - Response of 0: 0 for https://lzw.me/cate/digest!
+2016-06-29 23:51:29,765 [             Domain.java:pool-3-thread-1:111] - unable to connect to: https://lzw.me/cate/hot
+[Ljava.lang.StackTraceElement;@5ed6df11
+2016-06-29 23:51:29,766 [             Domain.java:pool-3-thread-1:122] - Response of 0: 0 for https://lzw.me/cate/hot!
+2016-06-29 23:51:30,803 [             Domain.java:pool-3-thread-1:111] - unable to connect to: https://lzw.me/cate/share
+[Ljava.lang.StackTraceElement;@1898c79f
+2016-06-29 23:51:30,803 [             Domain.java:pool-3-thread-1:122] - Response of 0: 0 for https://lzw.me/cate/share!
+2016-06-29 23:51:32,655 [             Domain.java:pool-3-thread-1:111] - unable to connect to: https://lzw.me/cate/ent
+[Ljava.lang.StackTraceElement;@6fc0e430
+2016-06-29 23:51:32,655 [             Domain.java:pool-3-thread-1:122] - Response of 0: 0 for https://lzw.me/cate/ent!
+2016-06-29 23:51:33,720 [             Domain.java:pool-3-thread-1:111] - unable to connect to: https://lzw.me/cate/doc
+[Ljava.lang.StackTraceElement;@3be7b74c
+2016-06-29 23:51:33,720 [             Domain.java:pool-3-thread-1:122] - Response of 0: 0 for https://lzw.me/cate/doc!
+2016-06-29 23:51:34,698 [             Domain.java:pool-3-thread-1:111] - unable to connect to: https://lzw.me/cate/art
+[Ljava.lang.StackTraceElement;@18a5523c
+2016-06-29 23:51:34,698 [             Domain.java:pool-3-thread-1:122] - Response of 0: 0 for https://lzw.me/cate/art!
+2016-06-29 23:51:35,428 [             Domain.java:pool-3-thread-1:131] - 404 NOT FOUND: http://d3js.org/robots.txt
+
+2016-06-29 23:51:35,477 [             Domain.java:pool-3-thread-1:128] - 301 REDIRECT: http://d3js.org
+
+2016-06-29 23:51:35,477 [             Domain.java:pool-3-thread-1:131] - 404 NOT FOUND: http://d3js.org
+
+2016-06-29 23:51:35,977 [             Domain.java:pool-3-thread-1:209] - Domain:http://d3js.org page queue emptied after 1 page crawls
+2016-06-29 23:51:37,411 [             Domain.java:pool-3-thread-1:131] - 404 NOT FOUND: http://Lao.si/robots.txt
+
+2016-06-29 23:51:54,208 [             Domain.java:pool-3-thread-1:131] - 404 NOT FOUND: http://cq.cbg.cn/robots.txt
+
+2016-06-29 23:52:07,826 [             Domain.java:pool-3-thread-1:131] - 404 NOT FOUND: http://wp.me/robots.txt
+
+2016-06-29 23:52:07,869 [             Domain.java:pool-3-thread-1:128] - 302 REDIRECT: http://wp.me
+
+2016-06-29 23:52:07,869 [             Domain.java:pool-3-thread-1:131] - 404 NOT FOUND: http://wp.me
+
+2016-06-29 23:52:08,369 [             Domain.java:pool-3-thread-1:209] - Domain:http://wp.me page queue emptied after 1 page crawls
+2016-06-29 23:52:08,691 [             Domain.java:pool-3-thread-1:131] - 404 NOT FOUND: http://sci32.com/robots.txt
+
+2016-06-29 23:52:20,730 [             Domain.java:pool-3-thread-2:111] - unable to connect to: http://Http/robots.txt
+[Ljava.lang.StackTraceElement;@7574024c
+2016-06-29 23:52:20,731 [             Domain.java:pool-3-thread-2:122] - Response of 0: 0 for http://Http/robots.txt!
+2016-06-29 23:52:20,731 [             Domain.java:pool-3-thread-2:111] - unable to connect to: http://Http
+[Ljava.lang.StackTraceElement;@7a4e4b0c
+2016-06-29 23:52:20,731 [             Domain.java:pool-3-thread-2:122] - Response of 0: 0 for http://Http!
+2016-06-29 23:52:21,231 [             Domain.java:pool-3-thread-2:209] - Domain:http://Http page queue emptied after 1 page crawls
+2016-06-29 23:52:43,434 [             Domain.java:pool-3-thread-1:128] - 302 REDIRECT: http://grzmz.cc/?connect=qq&action=login&_wpnonce=547edd849a&redirect=http%3A%2F%2Fgrzmz.cc%2F
+
+2016-06-29 23:52:43,434 [             Domain.java:pool-3-thread-1:131] - 404 NOT FOUND: http://grzmz.cc/?connect=qq&action=login&_wpnonce=547edd849a&redirect=http%3A%2F%2Fgrzmz.cc%2F
+
+2016-06-29 23:52:44,622 [             Domain.java:pool-3-thread-1:128] - 302 REDIRECT: http://grzmz.cc/?connect=weibo&action=login&_wpnonce=547edd849a&redirect=http%3A%2F%2Fgrzmz.cc%2F
+
+2016-06-29 23:52:44,622 [             Domain.java:pool-3-thread-1:131] - 404 NOT FOUND: http://grzmz.cc/?connect=weibo&action=login&_wpnonce=547edd849a&redirect=http%3A%2F%2Fgrzmz.cc%2F
+
+2016-06-29 23:52:47,622 [             Domain.java:pool-3-thread-2:209] - Domain:http://cd.qq.com page queue emptied after 3 page crawls
+2016-06-29 23:52:48,473 [             Domain.java:pool-3-thread-2:209] - Domain:http://gd.qq.com page queue emptied after 1 page crawls
+2016-06-29 23:52:49,316 [             Domain.java:pool-3-thread-2:131] - 404 NOT FOUND: http://as.boc.cn/robots.txt
+
+2016-06-29 23:52:50,404 [             Domain.java:pool-3-thread-2:209] - Domain:http://as.boc.cn page queue emptied after 1 page crawls
+2016-06-29 23:52:51,355 [             Domain.java:pool-3-thread-2:131] - 404 NOT FOUND: http://newcz.m.jd.com/robots.txt
+
+2016-06-29 23:52:52,296 [             Domain.java:pool-3-thread-2:209] - Domain:http://newcz.m.jd.com page queue emptied after 1 page crawls
+2016-06-29 23:52:53,880 [             Domain.java:pool-3-thread-1:131] - 404 NOT FOUND: http://coupon.m.jd.com/robots.txt
+
+2016-06-29 23:52:54,280 [             Domain.java:pool-3-thread-1:128] - 302 REDIRECT: http://coupon.m.jd.com
+
+2016-06-29 23:52:54,280 [             Domain.java:pool-3-thread-1:131] - 404 NOT FOUND: http://coupon.m.jd.com
+
+2016-06-29 23:52:54,780 [             Domain.java:pool-3-thread-1:209] - Domain:http://coupon.m.jd.com page queue emptied after 1 page crawls
+2016-06-29 23:52:55,539 [             Domain.java:pool-3-thread-1:131] - 404 NOT FOUND: http://home.m.jd.com/robots.txt
+
+2016-06-29 23:52:55,944 [             Domain.java:pool-3-thread-1:128] - 302 REDIRECT: http://home.m.jd.com
+
+2016-06-29 23:52:55,944 [             Domain.java:pool-3-thread-1:131] - 404 NOT FOUND: http://home.m.jd.com
+
+2016-06-29 23:52:56,444 [             Domain.java:pool-3-thread-1:209] - Domain:http://home.m.jd.com page queue emptied after 1 page crawls
+2016-06-29 23:52:58,137 [             Domain.java:pool-3-thread-1:131] - 404 NOT FOUND: http://m.red.jd.com/robots.txt
+
+2016-06-29 23:53:14,138 [             Domain.java:pool-3-thread-2:131] - 404 NOT FOUND: http://z.m.jd.com/robots.txt
+
+2016-06-29 23:53:21,993 [             Domain.java:pool-3-thread-1:128] - 302 REDIRECT: http://mauction.jd.com/robots.txt
+
+2016-06-29 23:53:21,993 [             Domain.java:pool-3-thread-1:131] - 404 NOT FOUND: http://mauction.jd.com/robots.txt
+
+2016-06-29 23:53:23,761 [             Domain.java:pool-3-thread-1:111] - unable to connect to: http://mauction.jd.com
+[Ljava.lang.StackTraceElement;@17b90f59
+2016-06-29 23:53:23,761 [             Domain.java:pool-3-thread-1:122] - Response of 0: 0 for http://mauction.jd.com!
+2016-06-29 23:53:24,261 [             Domain.java:pool-3-thread-1:209] - Domain:http://mauction.jd.com page queue emptied after 1 page crawls
+2016-06-29 23:53:24,511 [             Domain.java:pool-3-thread-1:111] - unable to connect to: https://wyx.m.jd.com/robots.txt
+[Ljava.lang.StackTraceElement;@35955539
+2016-06-29 23:53:24,511 [             Domain.java:pool-3-thread-1:122] - Response of 0: 0 for https://wyx.m.jd.com/robots.txt!
+2016-06-29 23:53:24,576 [             Domain.java:pool-3-thread-1:111] - unable to connect to: https://wyx.m.jd.com
+[Ljava.lang.StackTraceElement;@6f573e5e
+2016-06-29 23:53:24,576 [             Domain.java:pool-3-thread-1:122] - Response of 0: 0 for https://wyx.m.jd.com!
+2016-06-29 23:53:25,076 [             Domain.java:pool-3-thread-1:209] - Domain:https://wyx.m.jd.com page queue emptied after 1 page crawls
+2016-06-29 23:53:25,889 [             Domain.java:pool-3-thread-1:131] - 404 NOT FOUND: http://wyx.m.jd.com/robots.txt
+
+2016-06-29 23:53:27,191 [             Domain.java:pool-3-thread-1:209] - Domain:http://wyx.m.jd.com page queue emptied after 1 page crawls
+2016-06-29 23:53:27,641 [             Domain.java:pool-3-thread-1:131] - 404 NOT FOUND: http://red.m.jd.com/robots.txt
+
+2016-06-29 23:53:30,988 [             Domain.java:pool-3-thread-2:131] - 404 NOT FOUND: https://passport.m.jd.com/robots.txt
+
+2016-06-29 23:53:33,577 [             Domain.java:pool-3-thread-2:209] - Domain:https://passport.m.jd.com page queue emptied after 1 page crawls
+2016-06-29 23:53:34,778 [             Domain.java:pool-3-thread-2:131] - 404 NOT FOUND: http://amysql.com/robots.txt
+
+2016-06-29 23:53:45,863 [             Domain.java:pool-3-thread-2:131] - 404 NOT FOUND: http://typecho.org/robots.txt
+
+2016-06-29 23:53:49,673 [             Domain.java:pool-3-thread-1:131] - 404 NOT FOUND: http://1.lexun.com/robots.txt
+
+2016-06-29 23:53:55,532 [             Domain.java:pool-3-thread-2:131] - 404 NOT FOUND: http://login.lexun.com/robots.txt
+
+2016-06-29 23:53:56,004 [             Domain.java:pool-3-thread-2:136] - 403 FORBIDDEN: http://login.lexun.com
+
+2016-06-29 23:53:56,004 [             Domain.java:pool-3-thread-2:137] - Request failure for: http://login.lexun.com, response code: 403
+2016-06-29 23:53:56,504 [             Domain.java:pool-3-thread-2:209] - Domain:http://login.lexun.com page queue emptied after 1 page crawls
+2016-06-29 23:54:08,697 [             Domain.java:pool-3-thread-1:131] - 404 NOT FOUND: http://sj.lexun.cn/wd/bbs_listbyscore.aspx?pid=8604&cd=0&lxt=&vs=0&_r=1761547903&pid=8604
+
+2016-06-29 23:54:14,973 [             Domain.java:pool-3-thread-2:131] - 404 NOT FOUND: http://sj.lexun.com/wd/bbs_listbyscore.aspx?pid=8604&cd=0&lxt=&vs=0&_r=1194351950&pid=8604
+
+2016-06-29 23:54:18,458 [             Domain.java:pool-3-thread-1:131] - 404 NOT FOUND: http://g.lexun.com/activity.php?cd=0&lxt=&_r=1988924427&vs=0
+
+2016-06-29 23:54:20,410 [             Domain.java:pool-3-thread-2:131] - 404 NOT FOUND: http://mm.lexun.com/robots.txt
+
+2016-06-29 23:54:20,759 [             Domain.java:pool-3-thread-1:131] - 404 NOT FOUND: http://g.lexun.com/activityinfo.php?actid=133&cd=0&lxt=&_r=1988924427&vs=0
+
+2016-06-29 23:54:32,002 [             Domain.java:pool-3-thread-2:131] - 404 NOT FOUND: http://lepai.lexun.com/robots.txt
+
+2016-06-29 23:54:37,142 [             Domain.java:pool-3-thread-1:131] - 404 NOT FOUND: http://lxgame.lexun.com/robots.txt
+
+2016-06-29 23:54:37,541 [             Domain.java:pool-3-thread-1:136] - 403 FORBIDDEN: http://lxgame.lexun.com
+
+2016-06-29 23:54:37,541 [             Domain.java:pool-3-thread-1:137] - Request failure for: http://lxgame.lexun.com, response code: 403
+2016-06-29 23:54:38,042 [             Domain.java:pool-3-thread-1:209] - Domain:http://lxgame.lexun.com page queue emptied after 1 page crawls
+2016-06-29 23:54:38,927 [             Domain.java:pool-3-thread-1:136] - 403 FORBIDDEN: http://act.lexun.com
+
+2016-06-29 23:54:38,927 [             Domain.java:pool-3-thread-1:137] - Request failure for: http://act.lexun.com, response code: 403
+2016-06-29 23:54:39,427 [             Domain.java:pool-3-thread-1:209] - Domain:http://act.lexun.com page queue emptied after 1 page crawls
+2016-06-29 23:54:43,425 [             Domain.java:pool-3-thread-2:131] - 404 NOT FOUND: http://gg.lexun.com/robots.txt
+
+2016-06-29 23:54:43,883 [             Domain.java:pool-3-thread-2:136] - 403 FORBIDDEN: http://gg.lexun.com
+
+2016-06-29 23:54:43,883 [             Domain.java:pool-3-thread-2:137] - Request failure for: http://gg.lexun.com, response code: 403
+2016-06-29 23:54:44,383 [             Domain.java:pool-3-thread-2:209] - Domain:http://gg.lexun.com page queue emptied after 1 page crawls
+2016-06-29 23:54:50,101 [             Domain.java:pool-3-thread-1:131] - 404 NOT FOUND: http://fn.lexun.com/robots.txt
+
+2016-06-29 23:55:04,119 [             Domain.java:pool-3-thread-1:131] - 404 NOT FOUND: http://chat.lexun.com/robots.txt
+
+2016-06-29 23:55:08,396 [             Domain.java:pool-3-thread-2:131] - 404 NOT FOUND: http://g2.lexun.com/robots.txt
+
+2016-06-29 23:55:08,877 [             Domain.java:pool-3-thread-2:136] - 403 FORBIDDEN: http://g2.lexun.com
+
+2016-06-29 23:55:08,877 [             Domain.java:pool-3-thread-2:137] - Request failure for: http://g2.lexun.com, response code: 403
+2016-06-29 23:55:09,377 [             Domain.java:pool-3-thread-2:209] - Domain:http://g2.lexun.com page queue emptied after 1 page crawls
+2016-06-29 23:56:05,429 [             Domain.java:pool-3-thread-2:131] - 404 NOT FOUND: http://wap.lexun.com/robots.txt
+
+2016-06-29 23:56:16,383 [             Domain.java:pool-3-thread-2:136] - 403 FORBIDDEN: http://zone.lexun.com
+
+2016-06-29 23:56:16,384 [             Domain.java:pool-3-thread-2:137] - Request failure for: http://zone.lexun.com, response code: 403
+2016-06-29 23:56:16,884 [             Domain.java:pool-3-thread-2:209] - Domain:http://zone.lexun.com page queue emptied after 1 page crawls
+2016-06-29 23:56:17,560 [             Domain.java:pool-3-thread-2:131] - 404 NOT FOUND: http://adv.lexun.com/robots.txt
+
+2016-06-29 23:56:17,955 [             Domain.java:pool-3-thread-2:136] - 403 FORBIDDEN: http://adv.lexun.com
+
+2016-06-29 23:56:17,955 [             Domain.java:pool-3-thread-2:137] - Request failure for: http://adv.lexun.com, response code: 403
+2016-06-29 23:56:18,455 [             Domain.java:pool-3-thread-2:209] - Domain:http://adv.lexun.com page queue emptied after 1 page crawls
+2016-06-29 23:56:19,106 [             Domain.java:pool-3-thread-2:131] - 404 NOT FOUND: http://clubh.lexun.com/robots.txt
+
+2016-06-29 23:56:19,457 [             Domain.java:pool-3-thread-2:136] - 403 FORBIDDEN: http://clubh.lexun.com
+
+2016-06-29 23:56:19,458 [             Domain.java:pool-3-thread-2:137] - Request failure for: http://clubh.lexun.com, response code: 403
+2016-06-29 23:56:19,958 [             Domain.java:pool-3-thread-2:209] - Domain:http://clubh.lexun.com page queue emptied after 1 page crawls
+2016-06-29 23:56:21,989 [             Domain.java:pool-3-thread-2:131] - 404 NOT FOUND: http://www.gzdr.gov.cn/robots.txt
+
+2016-06-29 23:56:45,519 [             Domain.java:pool-3-thread-2:131] - 404 NOT FOUND: http://www.daocheng.gov.cn/robots.txt
+
+2016-06-29 23:56:46,489 [             Domain.java:pool-3-thread-2:209] - Domain:http://www.daocheng.gov.cn page queue emptied after 1 page crawls
+2016-06-29 23:56:47,203 [             Domain.java:pool-3-thread-2:131] - 404 NOT FOUND: http://www.shangeri-la.com/robots.txt
+
+2016-06-29 23:56:54,124 [             Domain.java:pool-3-thread-1:131] - 404 NOT FOUND: https://creditcardapp.bankcomm.com/robots.txt
+
+2016-06-29 23:56:55,061 [             Domain.java:pool-3-thread-1:128] - 302 REDIRECT: https://creditcardapp.bankcomm.com
+
+2016-06-29 23:56:55,061 [             Domain.java:pool-3-thread-1:131] - 404 NOT FOUND: https://creditcardapp.bankcomm.com
+
+2016-06-29 23:56:55,562 [             Domain.java:pool-3-thread-1:209] - Domain:https://creditcardapp.bankcomm.com page queue emptied after 1 page crawls
+2016-06-29 23:56:56,347 [             Domain.java:pool-3-thread-1:131] - 404 NOT FOUND: http://www.hlbe.gov.cn/robots.txt
+
+2016-06-29 23:57:31,112 [             Domain.java:pool-3-thread-1:131] - 404 NOT FOUND: http://www.sanya.gov.cn/robots.txt
+
+2016-06-29 23:57:46,754 [             Domain.java:pool-3-thread-1:131] - 404 NOT FOUND: http://www.sx.gov.cn/robots.txt
+
+2016-06-29 23:58:04,089 [             Domain.java:pool-3-thread-1:131] - 404 NOT FOUND: http://www.wenchuan.gov.cn/robots.txt
+
+2016-06-29 23:58:35,071 [             Domain.java:pool-3-thread-2:131] - 404 NOT FOUND: http://www.kangdingqingge.net/robots.txt
+
+2016-06-29 23:58:51,575 [             Domain.java:pool-3-thread-2:131] - 404 NOT FOUND: http://www.selake.com/robots.txt
+
+2016-06-29 23:59:04,985 [             Domain.java:pool-3-thread-1:131] - 404 NOT FOUND: http://www.abjinchuan.gov.cn/robots.txt
+
+2016-06-29 23:59:21,681 [             Domain.java:pool-3-thread-1:131] - 404 NOT FOUND: http://www.cbm.travel/robots.txt
+
+2016-06-29 23:59:52,880 [             Domain.java:pool-3-thread-2:111] - unable to connect to: http://www.tf517.com/robots.txt
+[Ljava.lang.StackTraceElement;@e0772fe
+2016-06-29 23:59:52,880 [             Domain.java:pool-3-thread-2:122] - Response of 0: 0 for http://www.tf517.com/robots.txt!
+2016-06-29 23:59:53,753 [             Domain.java:pool-3-thread-2:111] - unable to connect to: http://www.tf517.com
+[Ljava.lang.StackTraceElement;@687d41d
+2016-06-29 23:59:53,753 [             Domain.java:pool-3-thread-2:122] - Response of 0: 0 for http://www.tf517.com!
+2016-06-29 23:59:54,253 [             Domain.java:pool-3-thread-2:209] - Domain:http://www.tf517.com page queue emptied after 1 page crawls
+2016-06-29 23:59:57,255 [             Domain.java:pool-3-thread-2:131] - 404 NOT FOUND: http://www.sanxiarenjia.com/robots.txt
+
+2016-06-30 00:00:05,473 [             Domain.java:pool-3-thread-1:141] - Unrecognized response code: 502 for http://www.cbm.travel/shop/index/
+2016-06-30 00:00:12,289 [             Domain.java:pool-3-thread-1:131] - 404 NOT FOUND: http://www.pzxy.net/robots.txt
+
+2016-06-30 00:00:17,068 [             Domain.java:pool-3-thread-1:131] - 404 NOT FOUND: http://www.pzxy.net/-1
+
+2016-06-30 00:00:58,794 [             Domain.java:pool-3-thread-1:131] - 404 NOT FOUND: http://www.huanglong.com/robots.txt
+
+2016-06-30 00:01:43,068 [             Domain.java:pool-3-thread-1:131] - 404 NOT FOUND: http://www.hgscn.com/robots.txt
+
+2016-06-30 00:01:46,773 [             Domain.java:pool-3-thread-2:131] - 404 NOT FOUND: http://www.guilintravel.com/robots.txt
+
+2016-06-30 00:01:47,944 [             Domain.java:pool-3-thread-1:131] - 404 NOT FOUND: http://www.hgscn.com/en/
+
+2016-06-30 00:01:48,794 [             Domain.java:pool-3-thread-1:131] - 404 NOT FOUND: http://www.hgscn.com/kr/
+
+2016-06-30 00:01:58,040 [             Domain.java:pool-3-thread-1:131] - 404 NOT FOUND: http://www.yading.gov.cn/robots.txt
+
+2016-06-30 00:01:59,081 [             Domain.java:pool-3-thread-1:209] - Domain:http://www.yading.gov.cn page queue emptied after 1 page crawls
+2016-06-30 00:01:59,950 [             Domain.java:pool-3-thread-1:128] - 301 REDIRECT: https://weibo.com/robots.txt
+
+2016-06-30 00:01:59,950 [             Domain.java:pool-3-thread-1:131] - 404 NOT FOUND: https://weibo.com/robots.txt
+
+2016-06-30 00:02:00,793 [             Domain.java:pool-3-thread-1:128] - 301 REDIRECT: https://weibo.com
+
+2016-06-30 00:02:00,793 [             Domain.java:pool-3-thread-1:131] - 404 NOT FOUND: https://weibo.com
+
+2016-06-30 00:02:01,293 [             Domain.java:pool-3-thread-1:209] - Domain:https://weibo.com page queue emptied after 1 page crawls
+2016-06-30 00:02:01,847 [             Domain.java:pool-3-thread-2:131] - 404 NOT FOUND: http://www.zykt.com/robots.txt
+
+2016-06-30 00:02:19,242 [             Domain.java:pool-3-thread-1:111] - unable to connect to: http://wpers.lofter.com/view
+[Ljava.lang.StackTraceElement;@20b84953
+2016-06-30 00:02:19,242 [             Domain.java:pool-3-thread-1:122] - Response of 0: 0 for http://wpers.lofter.com/view!
+2016-06-30 00:02:57,696 [             Domain.java:pool-3-thread-1:128] - 302 REDIRECT: http://www.butao.com/thirdpart/baidu/index.php?fromuri=http%3A%2F%2Fwww.butao.com%2F
+
+2016-06-30 00:02:57,696 [             Domain.java:pool-3-thread-1:131] - 404 NOT FOUND: http://www.butao.com/thirdpart/baidu/index.php?fromuri=http%3A%2F%2Fwww.butao.com%2F
+
+2016-06-30 00:03:09,549 [             Domain.java:pool-3-thread-1:131] - 404 NOT FOUND: http://www.jufanli.com/robots.txt
+
+2016-06-30 00:03:10,485 [             Domain.java:pool-3-thread-1:209] - Domain:http://www.jufanli.com page queue emptied after 1 page crawls
+2016-06-30 00:03:11,758 [             Domain.java:pool-3-thread-1:131] - 404 NOT FOUND: http://www.dianshang.com/robots.txt
+
+2016-06-30 00:03:28,113 [             Domain.java:pool-3-thread-1:131] - 404 NOT FOUND: http://122.224.75.236/robots.txt
+
+2016-06-30 00:03:28,617 [             Domain.java:pool-3-thread-1:131] - 404 NOT FOUND: http://122.224.75.236
+
+2016-06-30 00:03:29,117 [             Domain.java:pool-3-thread-1:209] - Domain:http://122.224.75.236 page queue emptied after 1 page crawls
+2016-06-30 00:03:42,427 [             Domain.java:pool-3-thread-1:128] - 302 REDIRECT: http://www.craudia.com/robots.txt
+
+2016-06-30 00:03:42,427 [             Domain.java:pool-3-thread-1:131] - 404 NOT FOUND: http://www.craudia.com/robots.txt
+
+2016-06-30 00:03:42,721 [             Domain.java:pool-3-thread-1:128] - 302 REDIRECT: http://www.craudia.com
+
+2016-06-30 00:03:42,721 [             Domain.java:pool-3-thread-1:131] - 404 NOT FOUND: http://www.craudia.com
+
+2016-06-30 00:03:43,222 [             Domain.java:pool-3-thread-1:209] - Domain:http://www.craudia.com page queue emptied after 1 page crawls
+2016-06-30 00:03:43,651 [             Domain.java:pool-3-thread-1:111] - unable to connect to: http://.gamerch.com/sitemap.xml
+[Ljava.lang.StackTraceElement;@3124614d
+2016-06-30 00:03:43,651 [             Domain.java:pool-3-thread-1:122] - Response of 0: 0 for http://.gamerch.com/sitemap.xml!
+2016-06-30 00:03:44,152 [             Domain.java:pool-3-thread-1:209] - Domain:http://gamerch.com page queue emptied after 2 page crawls
+2016-06-30 00:04:13,889 [             Domain.java:pool-3-thread-1:209] - Domain:http://point.i2i.jp page queue emptied after 2 page crawls
+2016-06-30 00:04:14,516 [             Domain.java:pool-3-thread-1:128] - 302 REDIRECT: https://id.i2i.jp/robots.txt
+
+2016-06-30 00:04:14,516 [             Domain.java:pool-3-thread-1:131] - 404 NOT FOUND: https://id.i2i.jp/robots.txt
+
+2016-06-30 00:04:26,171 [             Domain.java:pool-3-thread-1:209] - Domain:http://ac8.i2i.jp page queue emptied after 1 page crawls
+2016-06-30 00:04:26,912 [             Domain.java:pool-3-thread-1:131] - 404 NOT FOUND: http://www.fxprime-popular.com/robots.txt
+
+2016-06-30 00:04:42,832 [             Domain.java:pool-3-thread-1:111] - unable to connect to: http://rank.i2i.jp
+[Ljava.lang.StackTraceElement;@300c66e2
+2016-06-30 00:04:42,832 [             Domain.java:pool-3-thread-1:122] - Response of 0: 0 for http://rank.i2i.jp!
+2016-06-30 00:04:43,333 [             Domain.java:pool-3-thread-1:209] - Domain:http://rank.i2i.jp page queue emptied after 1 page crawls
+2016-06-30 00:04:48,389 [             Domain.java:pool-3-thread-1:111] - unable to connect to: http://acc.i2i.jp/robots.txt
+[Ljava.lang.StackTraceElement;@1cfb561b
+2016-06-30 00:04:48,389 [             Domain.java:pool-3-thread-1:122] - Response of 0: 0 for http://acc.i2i.jp/robots.txt!
+2016-06-30 00:05:01,880 [             Domain.java:pool-3-thread-1:111] - unable to connect to: http://i2iads.i2i.jp/robots.txt
+[Ljava.lang.StackTraceElement;@1b030f35
+2016-06-30 00:05:01,880 [             Domain.java:pool-3-thread-1:122] - Response of 0: 0 for http://i2iads.i2i.jp/robots.txt!
+2016-06-30 00:05:06,881 [             Domain.java:pool-3-thread-1:111] - unable to connect to: http://i2iads.i2i.jp
+[Ljava.lang.StackTraceElement;@3bf768e9
+2016-06-30 00:05:06,881 [             Domain.java:pool-3-thread-1:122] - Response of 0: 0 for http://i2iads.i2i.jp!
+2016-06-30 00:05:07,381 [             Domain.java:pool-3-thread-1:209] - Domain:http://i2iads.i2i.jp page queue emptied after 1 page crawls
+2016-06-30 00:05:12,452 [             Domain.java:pool-3-thread-1:111] - unable to connect to: http://siterank.i2i.jp/robots.txt
+[Ljava.lang.StackTraceElement;@681f3203
+2016-06-30 00:05:12,452 [             Domain.java:pool-3-thread-1:122] - Response of 0: 0 for http://siterank.i2i.jp/robots.txt!
+2016-06-30 00:05:28,982 [             Domain.java:pool-3-thread-1:111] - unable to connect to: http://sogo.i2i.jp/robots.txt
+[Ljava.lang.StackTraceElement;@2e92fa95
+2016-06-30 00:05:28,982 [             Domain.java:pool-3-thread-1:122] - Response of 0: 0 for http://sogo.i2i.jp/robots.txt!
+2016-06-30 00:05:38,576 [             Domain.java:pool-3-thread-1:111] - unable to connect to: http://sogo.i2i.jp/
+[Ljava.lang.StackTraceElement;@2deb32d5
+2016-06-30 00:05:38,576 [             Domain.java:pool-3-thread-1:122] - Response of 0: 0 for http://sogo.i2i.jp/!
+2016-06-30 00:05:39,076 [             Domain.java:pool-3-thread-1:209] - Domain:http://sogo.i2i.jp page queue emptied after 3 page crawls
+2016-06-30 00:05:44,152 [             Domain.java:pool-3-thread-1:111] - unable to connect to: http://count.i2i.jp/robots.txt
+[Ljava.lang.StackTraceElement;@2d5bb7a1
+2016-06-30 00:05:44,152 [             Domain.java:pool-3-thread-1:122] - Response of 0: 0 for http://count.i2i.jp/robots.txt!
+2016-06-30 00:06:00,283 [             Domain.java:pool-3-thread-1:111] - unable to connect to: http://ticker.i2i.jp/robots.txt
+[Ljava.lang.StackTraceElement;@3c450723
+2016-06-30 00:06:00,283 [             Domain.java:pool-3-thread-1:122] - Response of 0: 0 for http://ticker.i2i.jp/robots.txt!
+2016-06-30 00:06:05,283 [             Domain.java:pool-3-thread-1:111] - unable to connect to: http://ticker.i2i.jp
+[Ljava.lang.StackTraceElement;@53a146c
+2016-06-30 00:06:05,283 [             Domain.java:pool-3-thread-1:122] - Response of 0: 0 for http://ticker.i2i.jp!
+2016-06-30 00:06:05,783 [             Domain.java:pool-3-thread-1:209] - Domain:http://ticker.i2i.jp page queue emptied after 1 page crawls
+2016-06-30 00:06:15,406 [             Domain.java:pool-3-thread-1:111] - unable to connect to: http://searcheck.i2i.jp/robots.txt
+[Ljava.lang.StackTraceElement;@71b3f384
+2016-06-30 00:06:15,406 [             Domain.java:pool-3-thread-1:122] - Response of 0: 0 for http://searcheck.i2i.jp/robots.txt!
+2016-06-30 00:06:20,406 [             Domain.java:pool-3-thread-1:111] - unable to connect to: http://searcheck.i2i.jp
+[Ljava.lang.StackTraceElement;@125b4ac
+2016-06-30 00:06:20,406 [             Domain.java:pool-3-thread-1:122] - Response of 0: 0 for http://searcheck.i2i.jp!
+2016-06-30 00:06:20,906 [             Domain.java:pool-3-thread-1:209] - Domain:http://searcheck.i2i.jp page queue emptied after 1 page crawls
+2016-06-30 00:06:25,959 [             Domain.java:pool-3-thread-1:111] - unable to connect to: http://check.i2i.jp/robots.txt
+[Ljava.lang.StackTraceElement;@154dc7b4
+2016-06-30 00:06:25,959 [             Domain.java:pool-3-thread-1:122] - Response of 0: 0 for http://check.i2i.jp/robots.txt!
+2016-06-30 00:06:30,959 [             Domain.java:pool-3-thread-1:111] - unable to connect to: http://check.i2i.jp
+[Ljava.lang.StackTraceElement;@40013805
+2016-06-30 00:06:30,959 [             Domain.java:pool-3-thread-1:122] - Response of 0: 0 for http://check.i2i.jp!
+2016-06-30 00:06:31,459 [             Domain.java:pool-3-thread-1:209] - Domain:http://check.i2i.jp page queue emptied after 1 page crawls
+2016-06-30 00:06:36,530 [             Domain.java:pool-3-thread-1:111] - unable to connect to: http://clap.i2i.jp/robots.txt
+[Ljava.lang.StackTraceElement;@2e40cc52
+2016-06-30 00:06:36,530 [             Domain.java:pool-3-thread-1:122] - Response of 0: 0 for http://clap.i2i.jp/robots.txt!
+2016-06-30 00:06:41,530 [             Domain.java:pool-3-thread-1:111] - unable to connect to: http://clap.i2i.jp
+[Ljava.lang.StackTraceElement;@26c9de2
+2016-06-30 00:06:41,530 [             Domain.java:pool-3-thread-1:122] - Response of 0: 0 for http://clap.i2i.jp!
+2016-06-30 00:06:42,031 [             Domain.java:pool-3-thread-1:209] - Domain:http://clap.i2i.jp page queue emptied after 1 page crawls
+2016-06-30 00:06:47,106 [             Domain.java:pool-3-thread-1:111] - unable to connect to: https://payment.i2i.jp/robots.txt
+[Ljava.lang.StackTraceElement;@79e79a7c
+2016-06-30 00:06:47,106 [             Domain.java:pool-3-thread-1:122] - Response of 0: 0 for https://payment.i2i.jp/robots.txt!
+2016-06-30 00:06:52,109 [             Domain.java:pool-3-thread-1:111] - unable to connect to: https://payment.i2i.jp
+[Ljava.lang.StackTraceElement;@306f4455
+2016-06-30 00:06:52,109 [             Domain.java:pool-3-thread-1:122] - Response of 0: 0 for https://payment.i2i.jp!
+2016-06-30 00:06:52,609 [             Domain.java:pool-3-thread-1:209] - Domain:https://payment.i2i.jp page queue emptied after 1 page crawls
+2016-06-30 00:06:57,641 [             Domain.java:pool-3-thread-1:111] - unable to connect to: https://www.i2i.jp/robots.txt
+[Ljava.lang.StackTraceElement;@18653c56
+2016-06-30 00:06:57,641 [             Domain.java:pool-3-thread-1:122] - Response of 0: 0 for https://www.i2i.jp/robots.txt!
+2016-06-30 00:06:58,205 [             Domain.java:pool-3-thread-1:128] - 302 REDIRECT: https://www.i2i.jp
+
+2016-06-30 00:06:58,205 [             Domain.java:pool-3-thread-1:131] - 404 NOT FOUND: https://www.i2i.jp
+
+2016-06-30 00:06:58,705 [             Domain.java:pool-3-thread-1:209] - Domain:https://www.i2i.jp page queue emptied after 1 page crawls
+2016-06-30 00:07:03,848 [             Domain.java:pool-3-thread-1:111] - unable to connect to: http://www.mfro.net/robots.txt
+[Ljava.lang.StackTraceElement;@3fb6cb64
+2016-06-30 00:07:03,848 [             Domain.java:pool-3-thread-1:122] - Response of 0: 0 for http://www.mfro.net/robots.txt!
+2016-06-30 00:07:08,849 [             Domain.java:pool-3-thread-1:111] - unable to connect to: http://www.mfro.net
+[Ljava.lang.StackTraceElement;@ff04299
+2016-06-30 00:07:08,849 [             Domain.java:pool-3-thread-1:122] - Response of 0: 0 for http://www.mfro.net!
+2016-06-30 00:07:09,349 [             Domain.java:pool-3-thread-1:209] - Domain:http://www.mfro.net page queue emptied after 1 page crawls
+2016-06-30 00:07:14,700 [             Domain.java:pool-3-thread-1:111] - unable to connect to: https://dn-sunan.qbox.me/robots.txt
+[Ljava.lang.StackTraceElement;@487072b5
+2016-06-30 00:07:14,700 [             Domain.java:pool-3-thread-1:122] - Response of 0: 0 for https://dn-sunan.qbox.me/robots.txt!
+2016-06-30 00:07:18,963 [             Domain.java:pool-3-thread-1:209] - Domain:https://dn-sunan.qbox.me page queue emptied after 1 page crawls
+2016-06-30 00:07:24,516 [             Domain.java:pool-3-thread-1:111] - unable to connect to: http://www.winegrower.cn/robots.txt
+[Ljava.lang.StackTraceElement;@4e03aa0c
+2016-06-30 00:07:24,516 [             Domain.java:pool-3-thread-1:122] - Response of 0: 0 for http://www.winegrower.cn/robots.txt!
+2016-06-30 00:07:29,516 [             Domain.java:pool-3-thread-1:111] - unable to connect to: http://www.winegrower.cn
+[Ljava.lang.StackTraceElement;@52d90c1e
+2016-06-30 00:07:29,516 [             Domain.java:pool-3-thread-1:122] - Response of 0: 0 for http://www.winegrower.cn!
+2016-06-30 00:07:30,017 [             Domain.java:pool-3-thread-1:209] - Domain:http://www.winegrower.cn page queue emptied after 1 page crawls
+2016-06-30 00:07:35,295 [             Domain.java:pool-3-thread-1:111] - unable to connect to: http://sns.qzone.qq.com/robots.txt
+[Ljava.lang.StackTraceElement;@604bff
+2016-06-30 00:07:35,295 [             Domain.java:pool-3-thread-1:122] - Response of 0: 0 for http://sns.qzone.qq.com/robots.txt!
+2016-06-30 00:07:40,296 [             Domain.java:pool-3-thread-1:111] - unable to connect to: http://sns.qzone.qq.com
+[Ljava.lang.StackTraceElement;@bd9e82e
+2016-06-30 00:07:40,296 [             Domain.java:pool-3-thread-1:122] - Response of 0: 0 for http://sns.qzone.qq.com!
+2016-06-30 00:07:40,796 [             Domain.java:pool-3-thread-1:209] - Domain:http://sns.qzone.qq.com page queue emptied after 1 page crawls
+2016-06-30 00:07:46,043 [             Domain.java:pool-3-thread-1:111] - unable to connect to: http://service.weibo.com/robots.txt
+[Ljava.lang.StackTraceElement;@58d97093
+2016-06-30 00:07:46,043 [             Domain.java:pool-3-thread-1:122] - Response of 0: 0 for http://service.weibo.com/robots.txt!
+2016-06-30 00:07:51,044 [             Domain.java:pool-3-thread-1:111] - unable to connect to: http://service.weibo.com
+[Ljava.lang.StackTraceElement;@42fa3e6a
+2016-06-30 00:07:51,044 [             Domain.java:pool-3-thread-1:122] - Response of 0: 0 for http://service.weibo.com!
+2016-06-30 00:07:51,544 [             Domain.java:pool-3-thread-1:209] - Domain:http://service.weibo.com page queue emptied after 1 page crawls
+2016-06-30 00:07:57,177 [             Domain.java:pool-3-thread-1:111] - unable to connect to: http://www.liekkas.cn/robots.txt
+[Ljava.lang.StackTraceElement;@40c7aa79
+2016-06-30 00:07:57,177 [             Domain.java:pool-3-thread-1:122] - Response of 0: 0 for http://www.liekkas.cn/robots.txt!
+2016-06-30 00:08:02,177 [             Domain.java:pool-3-thread-1:111] - unable to connect to: http://www.liekkas.cn
+[Ljava.lang.StackTraceElement;@49bb2d7
+2016-06-30 00:08:02,177 [             Domain.java:pool-3-thread-1:122] - Response of 0: 0 for http://www.liekkas.cn!
+2016-06-30 00:08:02,677 [             Domain.java:pool-3-thread-1:209] - Domain:http://www.liekkas.cn page queue emptied after 1 page crawls
+2016-06-30 00:08:03,394 [             Domain.java:pool-3-thread-1:111] - unable to connect to: http://finalevolution.xyz/robots.txt
+[Ljava.lang.StackTraceElement;@1755073f
+2016-06-30 00:08:03,394 [             Domain.java:pool-3-thread-1:122] - Response of 0: 0 for http://finalevolution.xyz/robots.txt!
+2016-06-30 00:08:03,394 [             Domain.java:pool-3-thread-1:111] - unable to connect to: http://finalevolution.xyz
+[Ljava.lang.StackTraceElement;@44f72d1
+2016-06-30 00:08:03,394 [             Domain.java:pool-3-thread-1:122] - Response of 0: 0 for http://finalevolution.xyz!
+2016-06-30 00:08:03,894 [             Domain.java:pool-3-thread-1:209] - Domain:http://finalevolution.xyz page queue emptied after 1 page crawls
+2016-06-30 00:08:10,476 [             Domain.java:pool-3-thread-1:111] - unable to connect to: http://www.ieza.cn/robots.txt
+[Ljava.lang.StackTraceElement;@79269443
+2016-06-30 00:08:10,476 [             Domain.java:pool-3-thread-1:122] - Response of 0: 0 for http://www.ieza.cn/robots.txt!
+2016-06-30 00:08:15,477 [             Domain.java:pool-3-thread-1:111] - unable to connect to: http://www.ieza.cn
+[Ljava.lang.StackTraceElement;@20f29cba
+2016-06-30 00:08:15,477 [             Domain.java:pool-3-thread-1:122] - Response of 0: 0 for http://www.ieza.cn!
+2016-06-30 00:08:15,977 [             Domain.java:pool-3-thread-1:209] - Domain:http://www.ieza.cn page queue emptied after 1 page crawls
+2016-06-30 00:08:21,274 [             Domain.java:pool-3-thread-1:111] - unable to connect to: http://www.imoonfm.com/robots.txt
+[Ljava.lang.StackTraceElement;@1fa11b64
+2016-06-30 00:08:21,274 [             Domain.java:pool-3-thread-1:122] - Response of 0: 0 for http://www.imoonfm.com/robots.txt!
+2016-06-30 00:08:26,275 [             Domain.java:pool-3-thread-1:111] - unable to connect to: http://www.imoonfm.com
+[Ljava.lang.StackTraceElement;@60872bbb
+2016-06-30 00:08:26,275 [             Domain.java:pool-3-thread-1:122] - Response of 0: 0 for http://www.imoonfm.com!
+2016-06-30 00:08:26,775 [             Domain.java:pool-3-thread-1:209] - Domain:http://www.imoonfm.com page queue emptied after 1 page crawls
+2016-06-30 00:08:32,087 [             Domain.java:pool-3-thread-1:111] - unable to connect to: http://youhundao.com/robots.txt
+[Ljava.lang.StackTraceElement;@2d4e2f64
+2016-06-30 00:08:32,087 [             Domain.java:pool-3-thread-1:122] - Response of 0: 0 for http://youhundao.com/robots.txt!
+2016-06-30 00:08:37,089 [             Domain.java:pool-3-thread-1:111] - unable to connect to: http://youhundao.com
+[Ljava.lang.StackTraceElement;@196d713b
+2016-06-30 00:08:37,089 [             Domain.java:pool-3-thread-1:122] - Response of 0: 0 for http://youhundao.com!
+2016-06-30 00:08:37,589 [             Domain.java:pool-3-thread-1:209] - Domain:http://youhundao.com page queue emptied after 1 page crawls
+2016-06-30 00:08:42,983 [             Domain.java:pool-3-thread-1:111] - unable to connect to: http://www.psrss.com/robots.txt
+[Ljava.lang.StackTraceElement;@e803349
+2016-06-30 00:08:42,983 [             Domain.java:pool-3-thread-1:122] - Response of 0: 0 for http://www.psrss.com/robots.txt!
+2016-06-30 00:08:47,983 [             Domain.java:pool-3-thread-1:111] - unable to connect to: http://www.psrss.com
+[Ljava.lang.StackTraceElement;@57030bd1
+2016-06-30 00:08:47,983 [             Domain.java:pool-3-thread-1:122] - Response of 0: 0 for http://www.psrss.com!
+2016-06-30 00:08:48,484 [             Domain.java:pool-3-thread-1:209] - Domain:http://www.psrss.com page queue emptied after 1 page crawls
+2016-06-30 00:08:53,775 [             Domain.java:pool-3-thread-1:111] - unable to connect to: http://www.qqzmly.com/robots.txt
+[Ljava.lang.StackTraceElement;@b6a2b5a
+2016-06-30 00:08:53,775 [             Domain.java:pool-3-thread-1:122] - Response of 0: 0 for http://www.qqzmly.com/robots.txt!
+2016-06-30 00:08:58,776 [             Domain.java:pool-3-thread-1:111] - unable to connect to: http://www.qqzmly.com
+[Ljava.lang.StackTraceElement;@79fc77a5
+2016-06-30 00:08:58,776 [             Domain.java:pool-3-thread-1:122] - Response of 0: 0 for http://www.qqzmly.com!
+2016-06-30 00:08:59,276 [             Domain.java:pool-3-thread-1:209] - Domain:http://www.qqzmly.com page queue emptied after 1 page crawls
+2016-06-30 00:09:02,687 [             Domain.java:pool-3-thread-1:131] - 404 NOT FOUND: http://www.iiros.com/robots.txt
+
+2016-06-30 00:09:07,688 [             Domain.java:pool-3-thread-1:111] - unable to connect to: http://www.iiros.com
+[Ljava.lang.StackTraceElement;@766909a8
+2016-06-30 00:09:07,688 [             Domain.java:pool-3-thread-1:122] - Response of 0: 0 for http://www.iiros.com!
+2016-06-30 00:09:08,188 [             Domain.java:pool-3-thread-1:209] - Domain:http://www.iiros.com page queue emptied after 1 page crawls
+2016-06-30 00:09:13,500 [             Domain.java:pool-3-thread-1:111] - unable to connect to: http://www.luosh.com/robots.txt
+[Ljava.lang.StackTraceElement;@39fbd937
+2016-06-30 00:09:13,500 [             Domain.java:pool-3-thread-1:122] - Response of 0: 0 for http://www.luosh.com/robots.txt!
+2016-06-30 00:09:18,501 [             Domain.java:pool-3-thread-1:111] - unable to connect to: http://www.luosh.com
+[Ljava.lang.StackTraceElement;@631105a9
+2016-06-30 00:09:18,501 [             Domain.java:pool-3-thread-1:122] - Response of 0: 0 for http://www.luosh.com!
+2016-06-30 00:09:19,001 [             Domain.java:pool-3-thread-1:209] - Domain:http://www.luosh.com page queue emptied after 1 page crawls
+2016-06-30 00:09:19,085 [             Domain.java:pool-3-thread-1:111] - unable to connect to: http://nixiabk.org/robots.txt
+[Ljava.lang.StackTraceElement;@794a1731
+2016-06-30 00:09:19,085 [             Domain.java:pool-3-thread-1:122] - Response of 0: 0 for http://nixiabk.org/robots.txt!
+2016-06-30 00:09:19,086 [             Domain.java:pool-3-thread-1:111] - unable to connect to: http://nixiabk.org
+[Ljava.lang.StackTraceElement;@475075f9
+2016-06-30 00:09:19,086 [             Domain.java:pool-3-thread-1:122] - Response of 0: 0 for http://nixiabk.org!
+2016-06-30 00:09:19,586 [             Domain.java:pool-3-thread-1:209] - Domain:http://nixiabk.org page queue emptied after 1 page crawls
+2016-06-30 00:09:21,173 [             Domain.java:pool-3-thread-1:111] - unable to connect to: http://www.losttime.cc/robots.txt
+[Ljava.lang.StackTraceElement;@20052e45
+2016-06-30 00:09:21,173 [             Domain.java:pool-3-thread-1:122] - Response of 0: 0 for http://www.losttime.cc/robots.txt!
+2016-06-30 00:09:21,173 [             Domain.java:pool-3-thread-1:111] - unable to connect to: http://www.losttime.cc
+[Ljava.lang.StackTraceElement;@4bd25ba1
+2016-06-30 00:09:21,173 [             Domain.java:pool-3-thread-1:122] - Response of 0: 0 for http://www.losttime.cc!
+2016-06-30 00:09:21,674 [             Domain.java:pool-3-thread-1:209] - Domain:http://www.losttime.cc page queue emptied after 1 page crawls
+2016-06-30 00:09:28,162 [             Domain.java:pool-3-thread-1:111] - unable to connect to: http://qingchun.org/robots.txt
+[Ljava.lang.StackTraceElement;@62082e75
+2016-06-30 00:09:28,162 [             Domain.java:pool-3-thread-1:122] - Response of 0: 0 for http://qingchun.org/robots.txt!
+2016-06-30 00:09:33,162 [             Domain.java:pool-3-thread-1:111] - unable to connect to: http://qingchun.org
+[Ljava.lang.StackTraceElement;@26337070
+2016-06-30 00:09:33,162 [             Domain.java:pool-3-thread-1:122] - Response of 0: 0 for http://qingchun.org!
+2016-06-30 00:09:33,662 [             Domain.java:pool-3-thread-1:209] - Domain:http://qingchun.org page queue emptied after 1 page crawls
+2016-06-30 00:09:38,967 [             Domain.java:pool-3-thread-1:111] - unable to connect to: http://www.fmants.com/robots.txt
+[Ljava.lang.StackTraceElement;@2f4d05f5
+2016-06-30 00:09:38,967 [             Domain.java:pool-3-thread-1:122] - Response of 0: 0 for http://www.fmants.com/robots.txt!
+2016-06-30 00:09:43,969 [             Domain.java:pool-3-thread-1:111] - unable to connect to: http://www.fmants.com
+[Ljava.lang.StackTraceElement;@761b5cee
+2016-06-30 00:09:43,969 [             Domain.java:pool-3-thread-1:122] - Response of 0: 0 for http://www.fmants.com!
+2016-06-30 00:09:44,469 [             Domain.java:pool-3-thread-1:209] - Domain:http://www.fmants.com page queue emptied after 1 page crawls
+2016-06-30 00:09:48,157 [             Domain.java:pool-3-thread-1:141] - Unrecognized response code: 401 for http://sngr001.qiniudn.com/robots.txt
+2016-06-30 00:09:48,667 [             Domain.java:pool-3-thread-1:141] - Unrecognized response code: 401 for http://sngr001.qiniudn.com
+2016-06-30 00:09:49,167 [             Domain.java:pool-3-thread-1:209] - Domain:http://sngr001.qiniudn.com page queue emptied after 1 page crawls
+2016-06-30 00:09:49,692 [             Domain.java:pool-3-thread-1:111] - unable to connect to: http://weiforce.com/robots.txt
+[Ljava.lang.StackTraceElement;@68cef5e6
+2016-06-30 00:09:49,692 [             Domain.java:pool-3-thread-1:122] - Response of 0: 0 for http://weiforce.com/robots.txt!
+2016-06-30 00:09:49,693 [             Domain.java:pool-3-thread-1:111] - unable to connect to: http://weiforce.com
+[Ljava.lang.StackTraceElement;@2feb37a7
+2016-06-30 00:09:49,693 [             Domain.java:pool-3-thread-1:122] - Response of 0: 0 for http://weiforce.com!
+2016-06-30 00:09:50,193 [             Domain.java:pool-3-thread-1:209] - Domain:http://weiforce.com page queue emptied after 1 page crawls
+2016-06-30 00:09:56,040 [             Domain.java:pool-3-thread-1:111] - unable to connect to: http://www.7weibo.com/robots.txt
+[Ljava.lang.StackTraceElement;@3bbe298
+2016-06-30 00:09:56,040 [             Domain.java:pool-3-thread-1:122] - Response of 0: 0 for http://www.7weibo.com/robots.txt!
+2016-06-30 00:10:01,040 [             Domain.java:pool-3-thread-1:111] - unable to connect to: http://www.7weibo.com
+[Ljava.lang.StackTraceElement;@4bce106e
+2016-06-30 00:10:01,040 [             Domain.java:pool-3-thread-1:122] - Response of 0: 0 for http://www.7weibo.com!
+2016-06-30 00:10:01,541 [             Domain.java:pool-3-thread-1:209] - Domain:http://www.7weibo.com page queue emptied after 1 page crawls
+2016-06-30 00:10:06,646 [             Domain.java:pool-3-thread-1:111] - unable to connect to: http://www.renren.com/robots.txt
+[Ljava.lang.StackTraceElement;@54b0bd34
+2016-06-30 00:10:06,646 [             Domain.java:pool-3-thread-1:122] - Response of 0: 0 for http://www.renren.com/robots.txt!
+2016-06-30 00:10:11,647 [             Domain.java:pool-3-thread-1:111] - unable to connect to: http://www.renren.com
+[Ljava.lang.StackTraceElement;@2290ee0a
+2016-06-30 00:10:11,647 [             Domain.java:pool-3-thread-1:122] - Response of 0: 0 for http://www.renren.com!
+2016-06-30 00:10:12,147 [             Domain.java:pool-3-thread-1:209] - Domain:http://www.renren.com page queue emptied after 1 page crawls
+2016-06-30 00:10:17,628 [             Domain.java:pool-3-thread-1:111] - unable to connect to: http://viva.vip.com/robots.txt
+[Ljava.lang.StackTraceElement;@7e6367e2
+2016-06-30 00:10:17,628 [             Domain.java:pool-3-thread-1:122] - Response of 0: 0 for http://viva.vip.com/robots.txt!
+2016-06-30 00:10:22,628 [             Domain.java:pool-3-thread-1:111] - unable to connect to: http://viva.vip.com
+[Ljava.lang.StackTraceElement;@45154520
+2016-06-30 00:10:22,628 [             Domain.java:pool-3-thread-1:122] - Response of 0: 0 for http://viva.vip.com!
+2016-06-30 00:10:23,128 [             Domain.java:pool-3-thread-1:209] - Domain:http://viva.vip.com page queue emptied after 1 page crawls
+2016-06-30 00:10:28,470 [             Domain.java:pool-3-thread-1:111] - unable to connect to: http://in.vip.com/robots.txt
+[Ljava.lang.StackTraceElement;@149d09ab
+2016-06-30 00:10:28,470 [             Domain.java:pool-3-thread-1:122] - Response of 0: 0 for http://in.vip.com/robots.txt!
+2016-06-30 00:10:33,472 [             Domain.java:pool-3-thread-1:111] - unable to connect to: http://in.vip.com
+[Ljava.lang.StackTraceElement;@31d8458c
+2016-06-30 00:10:33,472 [             Domain.java:pool-3-thread-1:122] - Response of 0: 0 for http://in.vip.com!
+2016-06-30 00:10:33,972 [             Domain.java:pool-3-thread-1:209] - Domain:http://in.vip.com page queue emptied after 1 page crawls
+2016-06-30 00:10:39,391 [             Domain.java:pool-3-thread-1:111] - unable to connect to: https://mlogin.vip.com/robots.txt
+[Ljava.lang.StackTraceElement;@54e16822
+2016-06-30 00:10:39,391 [             Domain.java:pool-3-thread-1:122] - Response of 0: 0 for https://mlogin.vip.com/robots.txt!
+2016-06-30 00:10:44,393 [             Domain.java:pool-3-thread-1:111] - unable to connect to: https://mlogin.vip.com
+[Ljava.lang.StackTraceElement;@3b321bdb
+2016-06-30 00:10:44,393 [             Domain.java:pool-3-thread-1:122] - Response of 0: 0 for https://mlogin.vip.com!
+2016-06-30 00:10:44,893 [             Domain.java:pool-3-thread-1:209] - Domain:https://mlogin.vip.com page queue emptied after 1 page crawls
+2016-06-30 00:10:50,391 [             Domain.java:pool-3-thread-1:111] - unable to connect to: http://about.58.com/robots.txt
+[Ljava.lang.StackTraceElement;@479e8d47
+2016-06-30 00:10:50,391 [             Domain.java:pool-3-thread-1:122] - Response of 0: 0 for http://about.58.com/robots.txt!
+2016-06-30 00:10:55,392 [             Domain.java:pool-3-thread-1:111] - unable to connect to: http://about.58.com
+[Ljava.lang.StackTraceElement;@3499441d
+2016-06-30 00:10:55,392 [             Domain.java:pool-3-thread-1:122] - Response of 0: 0 for http://about.58.com!
+2016-06-30 00:10:55,893 [             Domain.java:pool-3-thread-1:209] - Domain:http://about.58.com page queue emptied after 1 page crawls
+2016-06-30 00:11:00,946 [             Domain.java:pool-3-thread-1:111] - unable to connect to: https://offers.usatoday.com/robots.txt
+[Ljava.lang.StackTraceElement;@6b669ad4
+2016-06-30 00:11:00,946 [             Domain.java:pool-3-thread-1:122] - Response of 0: 0 for https://offers.usatoday.com/robots.txt!
+2016-06-30 00:11:05,947 [             Domain.java:pool-3-thread-1:111] - unable to connect to: https://offers.usatoday.com
+[Ljava.lang.StackTraceElement;@40a1b8a0
+2016-06-30 00:11:05,947 [             Domain.java:pool-3-thread-1:122] - Response of 0: 0 for https://offers.usatoday.com!
+2016-06-30 00:11:06,447 [             Domain.java:pool-3-thread-1:209] - Domain:https://offers.usatoday.com page queue emptied after 1 page crawls
+2016-06-30 00:11:11,502 [             Domain.java:pool-3-thread-1:111] - unable to connect to: http://crosswords.usatoday.com/robots.txt
+[Ljava.lang.StackTraceElement;@7366f146
+2016-06-30 00:11:11,502 [             Domain.java:pool-3-thread-1:122] - Response of 0: 0 for http://crosswords.usatoday.com/robots.txt!
+2016-06-30 00:11:16,502 [             Domain.java:pool-3-thread-1:111] - unable to connect to: http://crosswords.usatoday.com
+[Ljava.lang.StackTraceElement;@d21ea9b
+2016-06-30 00:11:16,502 [             Domain.java:pool-3-thread-1:122] - Response of 0: 0 for http://crosswords.usatoday.com!
+2016-06-30 00:11:17,002 [             Domain.java:pool-3-thread-1:209] - Domain:http://crosswords.usatoday.com page queue emptied after 1 page crawls
+2016-06-30 00:11:22,057 [             Domain.java:pool-3-thread-1:111] - unable to connect to: http://static.usatoday.com/robots.txt
+[Ljava.lang.StackTraceElement;@52ce71d1
+2016-06-30 00:11:22,057 [             Domain.java:pool-3-thread-1:122] - Response of 0: 0 for http://static.usatoday.com/robots.txt!
+2016-06-30 00:11:27,058 [             Domain.java:pool-3-thread-1:111] - unable to connect to: http://static.usatoday.com
+[Ljava.lang.StackTraceElement;@1fe7b790
+2016-06-30 00:11:27,058 [             Domain.java:pool-3-thread-1:122] - Response of 0: 0 for http://static.usatoday.com!
+2016-06-30 00:11:27,558 [             Domain.java:pool-3-thread-1:209] - Domain:http://static.usatoday.com page queue emptied after 1 page crawls
+2016-06-30 00:11:32,638 [             Domain.java:pool-3-thread-1:111] - unable to connect to: http://www.usatodayclassifieds.com/robots.txt
+[Ljava.lang.StackTraceElement;@5b4f89eb
+2016-06-30 00:11:32,638 [             Domain.java:pool-3-thread-1:122] - Response of 0: 0 for http://www.usatodayclassifieds.com/robots.txt!
+2016-06-30 00:11:37,639 [             Domain.java:pool-3-thread-1:111] - unable to connect to: http://www.usatodayclassifieds.com
+[Ljava.lang.StackTraceElement;@59b8d52b
+2016-06-30 00:11:37,639 [             Domain.java:pool-3-thread-1:122] - Response of 0: 0 for http://www.usatodayclassifieds.com!
+2016-06-30 00:11:38,139 [             Domain.java:pool-3-thread-1:209] - Domain:http://www.usatodayclassifieds.com page queue emptied after 1 page crawls
+2016-06-30 00:11:43,220 [             Domain.java:pool-3-thread-1:111] - unable to connect to: http://college.usatoday.com/robots.txt
+[Ljava.lang.StackTraceElement;@78596734
+2016-06-30 00:11:43,220 [             Domain.java:pool-3-thread-1:122] - Response of 0: 0 for http://college.usatoday.com/robots.txt!
+2016-06-30 00:11:48,220 [             Domain.java:pool-3-thread-1:111] - unable to connect to: http://college.usatoday.com
+[Ljava.lang.StackTraceElement;@5aa01498
+2016-06-30 00:11:48,220 [             Domain.java:pool-3-thread-1:122] - Response of 0: 0 for http://college.usatoday.com!
+2016-06-30 00:11:48,720 [             Domain.java:pool-3-thread-1:209] - Domain:http://college.usatoday.com page queue emptied after 1 page crawls
+2016-06-30 00:11:53,779 [             Domain.java:pool-3-thread-1:111] - unable to connect to: https://account.usatoday.com/robots.txt
+[Ljava.lang.StackTraceElement;@7d07cef6
+2016-06-30 00:11:53,779 [             Domain.java:pool-3-thread-1:122] - Response of 0: 0 for https://account.usatoday.com/robots.txt!
+2016-06-30 00:11:58,780 [             Domain.java:pool-3-thread-1:111] - unable to connect to: https://account.usatoday.com
+[Ljava.lang.StackTraceElement;@62894df0
+2016-06-30 00:11:58,780 [             Domain.java:pool-3-thread-1:122] - Response of 0: 0 for https://account.usatoday.com!
+2016-06-30 00:11:59,281 [             Domain.java:pool-3-thread-1:209] - Domain:https://account.usatoday.com page queue emptied after 1 page crawls
+2016-06-30 00:12:04,340 [             Domain.java:pool-3-thread-1:111] - unable to connect to: https://portfoliotracker.usatoday.com/robots.txt
+[Ljava.lang.StackTraceElement;@51dae652
+2016-06-30 00:12:04,340 [             Domain.java:pool-3-thread-1:122] - Response of 0: 0 for https://portfoliotracker.usatoday.com/robots.txt!
+2016-06-30 00:12:09,341 [             Domain.java:pool-3-thread-1:111] - unable to connect to: https://portfoliotracker.usatoday.com
+[Ljava.lang.StackTraceElement;@b843c25
+2016-06-30 00:12:09,341 [             Domain.java:pool-3-thread-1:122] - Response of 0: 0 for https://portfoliotracker.usatoday.com!
+2016-06-30 00:12:09,841 [             Domain.java:pool-3-thread-1:209] - Domain:https://portfoliotracker.usatoday.com page queue emptied after 1 page crawls
+2016-06-30 00:12:14,893 [             Domain.java:pool-3-thread-1:111] - unable to connect to: https://login.usatoday.com/robots.txt
+[Ljava.lang.StackTraceElement;@483733dd
+2016-06-30 00:12:14,893 [             Domain.java:pool-3-thread-1:122] - Response of 0: 0 for https://login.usatoday.com/robots.txt!
+2016-06-30 00:12:15,222 [             Domain.java:pool-3-thread-1:131] - 404 NOT FOUND: https://login.usatoday.com
+
+2016-06-30 00:12:15,722 [             Domain.java:pool-3-thread-1:209] - Domain:https://login.usatoday.com page queue emptied after 1 page crawls
+2016-06-30 00:12:20,772 [             Domain.java:pool-3-thread-1:111] - unable to connect to: https://service.usatoday.com/robots.txt
+[Ljava.lang.StackTraceElement;@1a2c3935
+2016-06-30 00:12:20,772 [             Domain.java:pool-3-thread-1:122] - Response of 0: 0 for https://service.usatoday.com/robots.txt!
+2016-06-30 00:12:22,343 [             Domain.java:pool-3-thread-1:131] - 404 NOT FOUND: https://service.usatoday.com/catalog/sef_catalog.htm
+
+2016-06-30 00:12:27,845 [             Domain.java:pool-3-thread-1:111] - unable to connect to: https://service.usatoday.com/welcome.jsp
+[Ljava.lang.StackTraceElement;@12b91dda
+2016-06-30 00:12:27,845 [             Domain.java:pool-3-thread-1:122] - Response of 0: 0 for https://service.usatoday.com/welcome.jsp!
+2016-06-30 00:12:33,346 [             Domain.java:pool-3-thread-1:111] - unable to connect to: https://service.usatoday.com/subscriptions/order/checkout.faces?pub=UT
+[Ljava.lang.StackTraceElement;@d3275b2
+2016-06-30 00:12:33,346 [             Domain.java:pool-3-thread-1:122] - Response of 0: 0 for https://service.usatoday.com/subscriptions/order/checkout.faces?pub=UT!
+2016-06-30 00:12:38,846 [             Domain.java:pool-3-thread-1:111] - unable to connect to: https://service.usatoday.com/custserviceindex.jsp?custopt=RENEW
+[Ljava.lang.StackTraceElement;@66479cfa
+2016-06-30 00:12:38,846 [             Domain.java:pool-3-thread-1:122] - Response of 0: 0 for https://service.usatoday.com/custserviceindex.jsp?custopt=RENEW!
+2016-06-30 00:12:44,347 [             Domain.java:pool-3-thread-1:111] - unable to connect to: https://service.usatoday.com/subscriptions/order/checkout.faces?pub=BW
+[Ljava.lang.StackTraceElement;@1fffbef4
+2016-06-30 00:12:44,347 [             Domain.java:pool-3-thread-1:122] - Response of 0: 0 for https://service.usatoday.com/subscriptions/order/checkout.faces?pub=BW!
+2016-06-30 00:12:50,127 [             Domain.java:pool-3-thread-1:111] - unable to connect to: https://service.usatoday.com/account/index.jsp
+[Ljava.lang.StackTraceElement;@189a23d
+2016-06-30 00:12:50,127 [             Domain.java:pool-3-thread-1:122] - Response of 0: 0 for https://service.usatoday.com/account/index.jsp!
+2016-06-30 00:12:55,628 [             Domain.java:pool-3-thread-1:111] - unable to connect to: http://service.usatoday.com/custserviceindex.jsp?custopt=RENEW
+[Ljava.lang.StackTraceElement;@6363b4e6
+2016-06-30 00:12:55,628 [             Domain.java:pool-3-thread-1:122] - Response of 0: 0 for http://service.usatoday.com/custserviceindex.jsp?custopt=RENEW!
+2016-06-30 00:13:17,138 [             Domain.java:pool-3-thread-1:111] - unable to connect to: https://service.usatoday.com/custserviceindex.jsp?custopt=VACA
+[Ljava.lang.StackTraceElement;@377d2551
+2016-06-30 00:13:17,139 [             Domain.java:pool-3-thread-1:122] - Response of 0: 0 for https://service.usatoday.com/custserviceindex.jsp?custopt=VACA!
+2016-06-30 00:13:22,743 [             Domain.java:pool-3-thread-1:111] - unable to connect to: https://user.usatoday.com/robots.txt
+[Ljava.lang.StackTraceElement;@76e00236
+2016-06-30 00:13:22,743 [             Domain.java:pool-3-thread-1:122] - Response of 0: 0 for https://user.usatoday.com/robots.txt!
+2016-06-30 00:13:27,745 [             Domain.java:pool-3-thread-1:111] - unable to connect to: https://user.usatoday.com
+[Ljava.lang.StackTraceElement;@3a34de9d
+2016-06-30 00:13:27,745 [             Domain.java:pool-3-thread-1:122] - Response of 0: 0 for https://user.usatoday.com!
+2016-06-30 00:13:28,245 [             Domain.java:pool-3-thread-1:209] - Domain:https://user.usatoday.com page queue emptied after 1 page crawls
+2016-06-30 00:13:33,331 [             Domain.java:pool-3-thread-1:111] - unable to connect to: http://puzzles.usatoday.com/robots.txt
+[Ljava.lang.StackTraceElement;@440e99b9
+2016-06-30 00:13:33,331 [             Domain.java:pool-3-thread-1:122] - Response of 0: 0 for http://puzzles.usatoday.com/robots.txt!
+2016-06-30 00:13:38,333 [             Domain.java:pool-3-thread-1:111] - unable to connect to: http://puzzles.usatoday.com
+[Ljava.lang.StackTraceElement;@1a077bc4
+2016-06-30 00:13:38,333 [             Domain.java:pool-3-thread-1:122] - Response of 0: 0 for http://puzzles.usatoday.com!
+2016-06-30 00:13:38,833 [             Domain.java:pool-3-thread-1:209] - Domain:http://puzzles.usatoday.com page queue emptied after 1 page crawls
+2016-06-30 00:13:43,927 [             Domain.java:pool-3-thread-1:111] - unable to connect to: http://games.usatoday.com/robots.txt
+[Ljava.lang.StackTraceElement;@6c802b00
+2016-06-30 00:13:43,927 [             Domain.java:pool-3-thread-1:122] - Response of 0: 0 for http://games.usatoday.com/robots.txt!
+2016-06-30 00:13:48,927 [             Domain.java:pool-3-thread-1:111] - unable to connect to: http://games.usatoday.com
+[Ljava.lang.StackTraceElement;@70dcc03b
+2016-06-30 00:13:48,927 [             Domain.java:pool-3-thread-1:122] - Response of 0: 0 for http://games.usatoday.com!
+2016-06-30 00:13:49,428 [             Domain.java:pool-3-thread-1:209] - Domain:http://games.usatoday.com page queue emptied after 1 page crawls
+2016-06-30 00:13:54,519 [             Domain.java:pool-3-thread-1:111] - unable to connect to: http://americasmarkets.usatoday.com/robots.txt
+[Ljava.lang.StackTraceElement;@40af5cc8
+2016-06-30 00:13:54,519 [             Domain.java:pool-3-thread-1:122] - Response of 0: 0 for http://americasmarkets.usatoday.com/robots.txt!
+2016-06-30 00:13:59,519 [             Domain.java:pool-3-thread-1:111] - unable to connect to: http://americasmarkets.usatoday.com
+[Ljava.lang.StackTraceElement;@61d7c642
+2016-06-30 00:13:59,519 [             Domain.java:pool-3-thread-1:122] - Response of 0: 0 for http://americasmarkets.usatoday.com!
+2016-06-30 00:14:00,019 [             Domain.java:pool-3-thread-1:209] - Domain:http://americasmarkets.usatoday.com page queue emptied after 1 page crawls
+2016-06-30 00:14:05,845 [             Domain.java:pool-3-thread-1:111] - unable to connect to: http://reviewed-misc.s3.amazonaws.com/sitemaps/reviewed/sitemap.xml.gz
+[Ljava.lang.StackTraceElement;@ce23953
+2016-06-30 00:14:05,845 [             Domain.java:pool-3-thread-1:122] - Response of 0: 0 for http://reviewed-misc.s3.amazonaws.com/sitemaps/reviewed/sitemap.xml.gz!
+2016-06-30 00:14:11,346 [             Domain.java:pool-3-thread-1:111] - unable to connect to: http://www.reviewed.com
+[Ljava.lang.StackTraceElement;@1aa9edec
+2016-06-30 00:14:11,346 [             Domain.java:pool-3-thread-1:122] - Response of 0: 0 for http://www.reviewed.com!
+2016-06-30 00:14:24,390 [             Domain.java:pool-3-thread-1:111] - unable to connect to: http://headphones.reviewed.com/robots.txt
+[Ljava.lang.StackTraceElement;@205abb6d
+2016-06-30 00:14:24,390 [             Domain.java:pool-3-thread-1:122] - Response of 0: 0 for http://headphones.reviewed.com/robots.txt!
+2016-06-30 00:14:29,391 [             Domain.java:pool-3-thread-1:111] - unable to connect to: http://headphones.reviewed.com
+[Ljava.lang.StackTraceElement;@7f609cf2
+2016-06-30 00:14:29,391 [             Domain.java:pool-3-thread-1:122] - Response of 0: 0 for http://headphones.reviewed.com!
+2016-06-30 00:14:29,891 [             Domain.java:pool-3-thread-1:209] - Domain:http://headphones.reviewed.com page queue emptied after 1 page crawls
+2016-06-30 00:14:35,676 [             Domain.java:pool-3-thread-1:111] - unable to connect to: http://reviewed-misc.s3.amazonaws.com/sitemaps/refrigerators/sitemap.xml.gz
+[Ljava.lang.StackTraceElement;@62d51aec
+2016-06-30 00:14:35,676 [             Domain.java:pool-3-thread-1:122] - Response of 0: 0 for http://reviewed-misc.s3.amazonaws.com/sitemaps/refrigerators/sitemap.xml.gz!
+2016-06-30 00:14:46,902 [             Domain.java:pool-3-thread-1:111] - unable to connect to: http://smarthome.reviewed.com/robots.txt
+[Ljava.lang.StackTraceElement;@37464dd7
+2016-06-30 00:14:46,902 [             Domain.java:pool-3-thread-1:122] - Response of 0: 0 for http://smarthome.reviewed.com/robots.txt!
+2016-06-30 00:14:51,902 [             Domain.java:pool-3-thread-1:111] - unable to connect to: http://smarthome.reviewed.com
+[Ljava.lang.StackTraceElement;@42b20981
+2016-06-30 00:14:51,902 [             Domain.java:pool-3-thread-1:122] - Response of 0: 0 for http://smarthome.reviewed.com!
+2016-06-30 00:14:52,402 [             Domain.java:pool-3-thread-1:209] - Domain:http://smarthome.reviewed.com page queue emptied after 1 page crawls
+2016-06-30 00:14:57,494 [             Domain.java:pool-3-thread-1:111] - unable to connect to: http://fantasy.usatoday.com/robots.txt
+[Ljava.lang.StackTraceElement;@394e9a29
+2016-06-30 00:14:57,494 [             Domain.java:pool-3-thread-1:122] - Response of 0: 0 for http://fantasy.usatoday.com/robots.txt!
+2016-06-30 00:15:02,495 [             Domain.java:pool-3-thread-1:111] - unable to connect to: http://fantasy.usatoday.com
+[Ljava.lang.StackTraceElement;@7306f596
+2016-06-30 00:15:02,495 [             Domain.java:pool-3-thread-1:122] - Response of 0: 0 for http://fantasy.usatoday.com!
+2016-06-30 00:15:02,996 [             Domain.java:pool-3-thread-1:209] - Domain:http://fantasy.usatoday.com page queue emptied after 1 page crawls
+2016-06-30 00:15:08,207 [             Domain.java:pool-3-thread-1:111] - unable to connect to: http://www.usatodayhss.com/robots.txt
+[Ljava.lang.StackTraceElement;@76ab36d4
+2016-06-30 00:15:08,207 [             Domain.java:pool-3-thread-1:122] - Response of 0: 0 for http://www.usatodayhss.com/robots.txt!
+2016-06-30 00:15:13,208 [             Domain.java:pool-3-thread-1:111] - unable to connect to: http://www.usatodayhss.com
+[Ljava.lang.StackTraceElement;@2407c781
+2016-06-30 00:15:13,208 [             Domain.java:pool-3-thread-1:122] - Response of 0: 0 for http://www.usatodayhss.com!
+2016-06-30 00:15:13,708 [             Domain.java:pool-3-thread-1:209] - Domain:http://www.usatodayhss.com page queue emptied after 1 page crawls
+2016-06-30 00:15:18,765 [             Domain.java:pool-3-thread-1:111] - unable to connect to: http://mmajunkie.com/robots.txt
+[Ljava.lang.StackTraceElement;@69558efa
+2016-06-30 00:15:18,765 [             Domain.java:pool-3-thread-1:122] - Response of 0: 0 for http://mmajunkie.com/robots.txt!
+2016-06-30 00:15:23,766 [             Domain.java:pool-3-thread-1:111] - unable to connect to: http://mmajunkie.com
+[Ljava.lang.StackTraceElement;@2d3b7c03
+2016-06-30 00:15:23,766 [             Domain.java:pool-3-thread-1:122] - Response of 0: 0 for http://mmajunkie.com!
+2016-06-30 00:15:24,266 [             Domain.java:pool-3-thread-1:209] - Domain:http://mmajunkie.com page queue emptied after 1 page crawls
+2016-06-30 00:15:29,370 [             Domain.java:pool-3-thread-1:111] - unable to connect to: http://www.10best.com/robots.txt
+[Ljava.lang.StackTraceElement;@209f2e6
+2016-06-30 00:15:29,370 [             Domain.java:pool-3-thread-1:122] - Response of 0: 0 for http://www.10best.com/robots.txt!
+2016-06-30 00:15:34,371 [             Domain.java:pool-3-thread-1:111] - unable to connect to: http://www.10best.com
+[Ljava.lang.StackTraceElement;@182806e9
+2016-06-30 00:15:34,371 [             Domain.java:pool-3-thread-1:122] - Response of 0: 0 for http://www.10best.com!
+2016-06-30 00:15:34,871 [             Domain.java:pool-3-thread-1:209] - Domain:http://www.10best.com page queue emptied after 1 page crawls
+2016-06-30 00:15:39,919 [             Domain.java:pool-3-thread-1:111] - unable to connect to: http://www.usatoday.tumblr.com/robots.txt
+[Ljava.lang.StackTraceElement;@5d4f7948
+2016-06-30 00:15:39,919 [             Domain.java:pool-3-thread-1:122] - Response of 0: 0 for http://www.usatoday.tumblr.com/robots.txt!
+2016-06-30 00:15:44,919 [             Domain.java:pool-3-thread-1:111] - unable to connect to: http://www.usatoday.tumblr.com
+[Ljava.lang.StackTraceElement;@2b62cd86
+2016-06-30 00:15:44,919 [             Domain.java:pool-3-thread-1:122] - Response of 0: 0 for http://www.usatoday.tumblr.com!
+2016-06-30 00:15:45,419 [             Domain.java:pool-3-thread-1:209] - Domain:http://www.usatoday.tumblr.com page queue emptied after 1 page crawls
+2016-06-30 00:15:50,515 [             Domain.java:pool-3-thread-1:111] - unable to connect to: https://soundcloud.com/robots.txt
+[Ljava.lang.StackTraceElement;@66b184ce
+2016-06-30 00:15:50,515 [             Domain.java:pool-3-thread-1:122] - Response of 0: 0 for https://soundcloud.com/robots.txt!
+2016-06-30 00:15:55,516 [             Domain.java:pool-3-thread-1:111] - unable to connect to: https://soundcloud.com
+[Ljava.lang.StackTraceElement;@3ef6c9bf
+2016-06-30 00:15:55,516 [             Domain.java:pool-3-thread-1:122] - Response of 0: 0 for https://soundcloud.com!
+2016-06-30 00:15:56,016 [             Domain.java:pool-3-thread-1:209] - Domain:https://soundcloud.com page queue emptied after 1 page crawls
+2016-06-30 00:16:01,121 [             Domain.java:pool-3-thread-1:111] - unable to connect to: http://tunein.com/robots.txt
+[Ljava.lang.StackTraceElement;@18556210
+2016-06-30 00:16:01,121 [             Domain.java:pool-3-thread-1:122] - Response of 0: 0 for http://tunein.com/robots.txt!
+2016-06-30 00:16:06,122 [             Domain.java:pool-3-thread-1:111] - unable to connect to: http://tunein.com
+[Ljava.lang.StackTraceElement;@25e68261
+2016-06-30 00:16:06,122 [             Domain.java:pool-3-thread-1:122] - Response of 0: 0 for http://tunein.com!
+2016-06-30 00:16:06,622 [             Domain.java:pool-3-thread-1:209] - Domain:http://tunein.com page queue emptied after 1 page crawls
+2016-06-30 00:16:11,721 [             Domain.java:pool-3-thread-1:111] - unable to connect to: http://marketing.usatoday.com/robots.txt
+[Ljava.lang.StackTraceElement;@4f1be5e7
+2016-06-30 00:16:11,721 [             Domain.java:pool-3-thread-1:122] - Response of 0: 0 for http://marketing.usatoday.com/robots.txt!
+2016-06-30 00:16:16,722 [             Domain.java:pool-3-thread-1:111] - unable to connect to: http://marketing.usatoday.com
+[Ljava.lang.StackTraceElement;@47a8668a
+2016-06-30 00:16:16,722 [             Domain.java:pool-3-thread-1:122] - Response of 0: 0 for http://marketing.usatoday.com!
+2016-06-30 00:16:17,222 [             Domain.java:pool-3-thread-1:209] - Domain:http://marketing.usatoday.com page queue emptied after 1 page crawls
+2016-06-30 00:16:22,288 [             Domain.java:pool-3-thread-1:111] - unable to connect to: http://www.gannett.com/robots.txt
+[Ljava.lang.StackTraceElement;@74dec98d
+2016-06-30 00:16:22,288 [             Domain.java:pool-3-thread-1:122] - Response of 0: 0 for http://www.gannett.com/robots.txt!
+2016-06-30 00:16:27,289 [             Domain.java:pool-3-thread-1:111] - unable to connect to: http://www.gannett.com
+[Ljava.lang.StackTraceElement;@653ab8fd
+2016-06-30 00:16:27,289 [             Domain.java:pool-3-thread-1:122] - Response of 0: 0 for http://www.gannett.com!
+2016-06-30 00:16:27,789 [             Domain.java:pool-3-thread-1:209] - Domain:http://www.gannett.com page queue emptied after 1 page crawls
+2016-06-30 00:16:32,845 [             Domain.java:pool-3-thread-1:111] - unable to connect to: http://internships.usatoday.com/robots.txt
+[Ljava.lang.StackTraceElement;@759e5d60
+2016-06-30 00:16:32,845 [             Domain.java:pool-3-thread-1:122] - Response of 0: 0 for http://internships.usatoday.com/robots.txt!
+2016-06-30 00:16:37,845 [             Domain.java:pool-3-thread-1:111] - unable to connect to: http://internships.usatoday.com
+[Ljava.lang.StackTraceElement;@7106e96f
+2016-06-30 00:16:37,845 [             Domain.java:pool-3-thread-1:122] - Response of 0: 0 for http://internships.usatoday.com!
+2016-06-30 00:16:38,345 [             Domain.java:pool-3-thread-1:209] - Domain:http://internships.usatoday.com page queue emptied after 1 page crawls
+2016-06-30 00:16:43,738 [             Domain.java:pool-3-thread-1:111] - unable to connect to: http://developer.usatoday.com/robots.txt
+[Ljava.lang.StackTraceElement;@7316c463
+2016-06-30 00:16:43,738 [             Domain.java:pool-3-thread-1:122] - Response of 0: 0 for http://developer.usatoday.com/robots.txt!
+2016-06-30 00:16:48,739 [             Domain.java:pool-3-thread-1:111] - unable to connect to: http://developer.usatoday.com
+[Ljava.lang.StackTraceElement;@435b67ac
+2016-06-30 00:16:48,739 [             Domain.java:pool-3-thread-1:122] - Response of 0: 0 for http://developer.usatoday.com!
+2016-06-30 00:16:49,239 [             Domain.java:pool-3-thread-1:209] - Domain:http://developer.usatoday.com page queue emptied after 1 page crawls
+2016-06-30 00:16:54,294 [             Domain.java:pool-3-thread-1:111] - unable to connect to: http://usatodayeducation.com/robots.txt
+[Ljava.lang.StackTraceElement;@442957fa
+2016-06-30 00:16:54,294 [             Domain.java:pool-3-thread-1:122] - Response of 0: 0 for http://usatodayeducation.com/robots.txt!
+2016-06-30 00:16:59,295 [             Domain.java:pool-3-thread-1:111] - unable to connect to: http://usatodayeducation.com
+[Ljava.lang.StackTraceElement;@2a29381
+2016-06-30 00:16:59,295 [             Domain.java:pool-3-thread-1:122] - Response of 0: 0 for http://usatodayeducation.com!
+2016-06-30 00:16:59,795 [             Domain.java:pool-3-thread-1:209] - Domain:http://usatodayeducation.com page queue emptied after 1 page crawls
+2016-06-30 00:17:15,971 [             Domain.java:pool-3-thread-1:111] - unable to connect to: https://subscribe.usatoday.com/robots.txt
+[Ljava.lang.StackTraceElement;@47527a6a
+2016-06-30 00:17:15,971 [             Domain.java:pool-3-thread-1:122] - Response of 0: 0 for https://subscribe.usatoday.com/robots.txt!
+2016-06-30 00:17:20,971 [             Domain.java:pool-3-thread-1:111] - unable to connect to: https://subscribe.usatoday.com
+[Ljava.lang.StackTraceElement;@5f2c032b
+2016-06-30 00:17:20,971 [             Domain.java:pool-3-thread-1:122] - Response of 0: 0 for https://subscribe.usatoday.com!
+2016-06-30 00:17:21,471 [             Domain.java:pool-3-thread-1:209] - Domain:https://subscribe.usatoday.com page queue emptied after 1 page crawls
+2016-06-30 00:17:26,561 [             Domain.java:pool-3-thread-1:111] - unable to connect to: http://www.gannettreprints.com/robots.txt
+[Ljava.lang.StackTraceElement;@513409b3
+2016-06-30 00:17:26,561 [             Domain.java:pool-3-thread-1:122] - Response of 0: 0 for http://www.gannettreprints.com/robots.txt!
+2016-06-30 00:17:31,562 [             Domain.java:pool-3-thread-1:111] - unable to connect to: http://www.gannettreprints.com
+[Ljava.lang.StackTraceElement;@471ca68f
+2016-06-30 00:17:31,562 [             Domain.java:pool-3-thread-1:122] - Response of 0: 0 for http://www.gannettreprints.com!
+2016-06-30 00:17:32,062 [             Domain.java:pool-3-thread-1:209] - Domain:http://www.gannettreprints.com page queue emptied after 1 page crawls
+2016-06-30 00:17:37,114 [             Domain.java:pool-3-thread-1:111] - unable to connect to: http://www.gannett-cdn.com/robots.txt
+[Ljava.lang.StackTraceElement;@13c9052c
+2016-06-30 00:17:37,114 [             Domain.java:pool-3-thread-1:122] - Response of 0: 0 for http://www.gannett-cdn.com/robots.txt!
+2016-06-30 00:17:42,114 [             Domain.java:pool-3-thread-1:111] - unable to connect to: http://www.gannett-cdn.com
+[Ljava.lang.StackTraceElement;@2c436925
+2016-06-30 00:17:42,114 [             Domain.java:pool-3-thread-1:122] - Response of 0: 0 for http://www.gannett-cdn.com!
+2016-06-30 00:17:42,615 [             Domain.java:pool-3-thread-1:209] - Domain:http://www.gannett-cdn.com page queue emptied after 1 page crawls
+2016-06-30 00:17:47,671 [             Domain.java:pool-3-thread-1:111] - unable to connect to: http://sports.usatoday.com/robots.txt
+[Ljava.lang.StackTraceElement;@5dcb948f
+2016-06-30 00:17:47,671 [             Domain.java:pool-3-thread-1:122] - Response of 0: 0 for http://sports.usatoday.com/robots.txt!
+2016-06-30 00:17:52,672 [             Domain.java:pool-3-thread-1:111] - unable to connect to: http://sports.usatoday.com
+[Ljava.lang.StackTraceElement;@7f416967
+2016-06-30 00:17:52,672 [             Domain.java:pool-3-thread-1:122] - Response of 0: 0 for http://sports.usatoday.com!
+2016-06-30 00:17:53,172 [             Domain.java:pool-3-thread-1:209] - Domain:http://sports.usatoday.com page queue emptied after 1 page crawls
+2016-06-30 00:17:58,276 [             Domain.java:pool-3-thread-1:111] - unable to connect to: http://boxingjunkie.com/robots.txt
+[Ljava.lang.StackTraceElement;@24faf3c6
+2016-06-30 00:17:58,276 [             Domain.java:pool-3-thread-1:122] - Response of 0: 0 for http://boxingjunkie.com/robots.txt!
+2016-06-30 00:18:03,277 [             Domain.java:pool-3-thread-1:111] - unable to connect to: http://boxingjunkie.com
+[Ljava.lang.StackTraceElement;@1347ac3d
+2016-06-30 00:18:03,277 [             Domain.java:pool-3-thread-1:122] - Response of 0: 0 for http://boxingjunkie.com!
+2016-06-30 00:18:03,777 [             Domain.java:pool-3-thread-1:209] - Domain:http://boxingjunkie.com page queue emptied after 1 page crawls
+2016-06-30 00:18:08,875 [             Domain.java:pool-3-thread-1:111] - unable to connect to: http://www.bnqt.com/robots.txt
+[Ljava.lang.StackTraceElement;@12292d36
+2016-06-30 00:18:08,875 [             Domain.java:pool-3-thread-1:122] - Response of 0: 0 for http://www.bnqt.com/robots.txt!
+2016-06-30 00:18:13,876 [             Domain.java:pool-3-thread-1:111] - unable to connect to: http://www.bnqt.com
+[Ljava.lang.StackTraceElement;@66d77445
+2016-06-30 00:18:13,876 [             Domain.java:pool-3-thread-1:122] - Response of 0: 0 for http://www.bnqt.com!
+2016-06-30 00:18:14,376 [             Domain.java:pool-3-thread-1:209] - Domain:http://www.bnqt.com page queue emptied after 1 page crawls
+2016-06-30 00:18:19,425 [             Domain.java:pool-3-thread-1:111] - unable to connect to: http://sportspolls.usatoday.com/robots.txt
+[Ljava.lang.StackTraceElement;@15c0cf9a
+2016-06-30 00:18:19,426 [             Domain.java:pool-3-thread-1:122] - Response of 0: 0 for http://sportspolls.usatoday.com/robots.txt!
+2016-06-30 00:18:24,426 [             Domain.java:pool-3-thread-1:111] - unable to connect to: http://sportspolls.usatoday.com
+[Ljava.lang.StackTraceElement;@3bc8bf5b
+2016-06-30 00:18:24,426 [             Domain.java:pool-3-thread-1:122] - Response of 0: 0 for http://sportspolls.usatoday.com!
+2016-06-30 00:18:24,926 [             Domain.java:pool-3-thread-1:209] - Domain:http://sportspolls.usatoday.com page queue emptied after 1 page crawls
+2016-06-30 00:18:30,015 [             Domain.java:pool-3-thread-1:111] - unable to connect to: http://www.pgatour.com/robots.txt
+[Ljava.lang.StackTraceElement;@60d37589
+2016-06-30 00:18:30,015 [             Domain.java:pool-3-thread-1:122] - Response of 0: 0 for http://www.pgatour.com/robots.txt!
+2016-06-30 00:18:35,016 [             Domain.java:pool-3-thread-1:111] - unable to connect to: http://www.pgatour.com
+[Ljava.lang.StackTraceElement;@3dfb408a
+2016-06-30 00:18:35,016 [             Domain.java:pool-3-thread-1:122] - Response of 0: 0 for http://www.pgatour.com!
+2016-06-30 00:18:35,516 [             Domain.java:pool-3-thread-1:209] - Domain:http://www.pgatour.com page queue emptied after 1 page crawls
+2016-06-30 00:18:40,890 [             Domain.java:pool-3-thread-1:111] - unable to connect to: http://www.baseballhq.com/robots.txt
+[Ljava.lang.StackTraceElement;@2ed4f4b0
+2016-06-30 00:18:40,890 [             Domain.java:pool-3-thread-1:122] - Response of 0: 0 for http://www.baseballhq.com/robots.txt!
+2016-06-30 00:18:45,890 [             Domain.java:pool-3-thread-1:111] - unable to connect to: http://www.baseballhq.com
+[Ljava.lang.StackTraceElement;@5018a456
+2016-06-30 00:18:45,890 [             Domain.java:pool-3-thread-1:122] - Response of 0: 0 for http://www.baseballhq.com!
+2016-06-30 00:18:46,390 [             Domain.java:pool-3-thread-1:209] - Domain:http://www.baseballhq.com page queue emptied after 1 page crawls
+2016-06-30 00:18:51,443 [             Domain.java:pool-3-thread-1:111] - unable to connect to: http://www.thebiglead.com/robots.txt
+[Ljava.lang.StackTraceElement;@2b1cfce1
+2016-06-30 00:18:51,443 [             Domain.java:pool-3-thread-1:122] - Response of 0: 0 for http://www.thebiglead.com/robots.txt!
+2016-06-30 00:18:56,444 [             Domain.java:pool-3-thread-1:111] - unable to connect to: http://www.thebiglead.com
+[Ljava.lang.StackTraceElement;@4c840618
+2016-06-30 00:18:56,444 [             Domain.java:pool-3-thread-1:122] - Response of 0: 0 for http://www.thebiglead.com!
+2016-06-30 00:18:56,944 [             Domain.java:pool-3-thread-1:209] - Domain:http://www.thebiglead.com page queue emptied after 1 page crawls
+2016-06-30 00:19:02,014 [             Domain.java:pool-3-thread-1:111] - unable to connect to: http://nascarfanindex.usatoday.com/robots.txt
+[Ljava.lang.StackTraceElement;@457c1a4c
+2016-06-30 00:19:02,014 [             Domain.java:pool-3-thread-1:122] - Response of 0: 0 for http://nascarfanindex.usatoday.com/robots.txt!
+2016-06-30 00:19:07,015 [             Domain.java:pool-3-thread-1:111] - unable to connect to: http://nascarfanindex.usatoday.com
+[Ljava.lang.StackTraceElement;@50533ca1
+2016-06-30 00:19:07,015 [             Domain.java:pool-3-thread-1:122] - Response of 0: 0 for http://nascarfanindex.usatoday.com!
+2016-06-30 00:19:07,515 [             Domain.java:pool-3-thread-1:209] - Domain:http://nascarfanindex.usatoday.com page queue emptied after 1 page crawls
+2016-06-30 00:19:12,598 [             Domain.java:pool-3-thread-1:111] - unable to connect to: http://www.usatodaysportsevents.com/robots.txt
+[Ljava.lang.StackTraceElement;@1ce439be
+2016-06-30 00:19:12,598 [             Domain.java:pool-3-thread-1:122] - Response of 0: 0 for http://www.usatodaysportsevents.com/robots.txt!
+2016-06-30 00:19:17,599 [             Domain.java:pool-3-thread-1:111] - unable to connect to: http://www.usatodaysportsevents.com
+[Ljava.lang.StackTraceElement;@70bc48fc
+2016-06-30 00:19:17,599 [             Domain.java:pool-3-thread-1:122] - Response of 0: 0 for http://www.usatodaysportsevents.com!
+2016-06-30 00:19:18,099 [             Domain.java:pool-3-thread-1:209] - Domain:http://www.usatodaysportsevents.com page queue emptied after 1 page crawls

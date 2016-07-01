@@ -58,6 +58,8 @@ public class Crawler{
         statistics.setActivelyCrawlingDomains(activelyCrawlingDomains.values());
         statistics.setUpTimeInSeconds(Math.round(upTimeInSeconds));
         statistics.setTotalPageCrawls(statistics.getTotalPageCrawls() + d.getCrawledURIs().size());
+        statistics.setThreadCount(threadCount);
+        statistics.setPhysicalProcessors(Runtime.getRuntime().availableProcessors());
 
         messenger.publishStatus(statistics.toString());
 
