@@ -3438,3 +3438,140 @@
 [Ljava.lang.StackTraceElement;@70bc48fc
 2016-06-30 00:19:17,599 [             Domain.java:pool-3-thread-1:122] - Response of 0: 0 for http://www.usatodaysportsevents.com!
 2016-06-30 00:19:18,099 [             Domain.java:pool-3-thread-1:209] - Domain:http://www.usatodaysportsevents.com page queue emptied after 1 page crawls
+2016-06-30 21:14:00,866 [             Domain.java:pool-3-thread-1:111] - unable to connect to: http://people/robots.txt
+[Ljava.lang.StackTraceElement;@419f042b
+2016-06-30 21:14:00,866 [             Domain.java:pool-3-thread-2:111] - unable to connect to: http://news/robots.txt
+[Ljava.lang.StackTraceElement;@3d7401a1
+2016-06-30 21:14:00,947 [             Domain.java:pool-3-thread-1:122] - Response of 0: 0 for http://people/robots.txt!
+2016-06-30 21:14:00,947 [             Domain.java:pool-3-thread-2:122] - Response of 0: 0 for http://news/robots.txt!
+2016-06-30 21:14:00,953 [             Domain.java:pool-3-thread-2:111] - unable to connect to: http://news
+[Ljava.lang.StackTraceElement;@203b9532
+2016-06-30 21:14:00,953 [             Domain.java:pool-3-thread-1:111] - unable to connect to: http://people
+[Ljava.lang.StackTraceElement;@699ec405
+2016-06-30 21:14:00,953 [             Domain.java:pool-3-thread-2:122] - Response of 0: 0 for http://news!
+2016-06-30 21:14:00,953 [             Domain.java:pool-3-thread-1:122] - Response of 0: 0 for http://people!
+2016-06-30 21:14:01,498 [             Domain.java:pool-3-thread-1:209] - Domain:http://people page queue emptied after 1 page crawls
+2016-06-30 21:14:01,498 [             Domain.java:pool-3-thread-2:209] - Domain:http://news page queue emptied after 1 page crawls
+2016-06-30 21:14:01,894 [             Domain.java:pool-3-thread-2:131] - 404 NOT FOUND: http://tommy.com/robots.txt
+
+2016-06-30 21:14:03,811 [             Domain.java:pool-3-thread-3:111] - unable to connect to: http://mother/robots.txt
+[Ljava.lang.StackTraceElement;@26c58b55
+2016-06-30 21:14:03,811 [             Domain.java:pool-3-thread-3:122] - Response of 0: 0 for http://mother/robots.txt!
+2016-06-30 21:14:03,812 [             Domain.java:pool-3-thread-3:111] - unable to connect to: http://mother
+[Ljava.lang.StackTraceElement;@1be3ad68
+2016-06-30 21:14:03,813 [             Domain.java:pool-3-thread-3:122] - Response of 0: 0 for http://mother!
+2016-06-30 21:14:04,313 [             Domain.java:pool-3-thread-3:209] - Domain:http://mother page queue emptied after 1 page crawls
+2016-06-30 21:14:04,522 [             Domain.java:pool-3-thread-3:128] - 301 REDIRECT: http://70.io/robots.txt
+
+2016-06-30 21:14:04,522 [             Domain.java:pool-3-thread-3:131] - 404 NOT FOUND: http://70.io/robots.txt
+
+2016-06-30 21:14:04,580 [             Domain.java:pool-3-thread-3:128] - 301 REDIRECT: http://70.io
+
+2016-06-30 21:14:04,580 [             Domain.java:pool-3-thread-3:131] - 404 NOT FOUND: http://70.io
+
+2016-06-30 21:14:05,081 [             Domain.java:pool-3-thread-3:209] - Domain:http://70.io page queue emptied after 1 page crawls
+2016-06-30 21:14:14,199 [             Domain.java:pool-3-thread-3:131] - 404 NOT FOUND: http://lexun.cn/wd/bbs_listbyscore.aspx?pid=8604&cd=0&lxt=&vs=0&_r=1673458343&pid=8604
+
+2016-06-30 21:14:24,991 [             Domain.java:pool-3-thread-3:209] - Domain:http://mzw.me page queue emptied after 1 page crawls
+2016-06-30 21:14:33,459 [             Domain.java:pool-3-thread-2:131] - 404 NOT FOUND: http://my.yizhihongxing.com/robots.txt
+
+2016-06-30 21:14:34,369 [             Domain.java:pool-3-thread-2:128] - 302 REDIRECT: http://my.yizhihongxing.com
+
+2016-06-30 21:14:34,369 [             Domain.java:pool-3-thread-2:131] - 404 NOT FOUND: http://my.yizhihongxing.com
+
+2016-06-30 21:14:34,869 [             Domain.java:pool-3-thread-2:209] - Domain:http://my.yizhihongxing.com page queue emptied after 1 page crawls
+2016-06-30 21:14:52,962 [             Domain.java:pool-3-thread-3:111] - unable to connect to: https://www.fifiblog.com/robots.txt
+[Ljava.lang.StackTraceElement;@7625503e
+2016-06-30 21:14:52,963 [             Domain.java:pool-3-thread-3:122] - Response of 0: 0 for https://www.fifiblog.com/robots.txt!
+2016-06-30 21:14:57,963 [             Domain.java:pool-3-thread-3:111] - unable to connect to: https://www.fifiblog.com
+[Ljava.lang.StackTraceElement;@4f237b11
+2016-06-30 21:14:57,963 [             Domain.java:pool-3-thread-3:122] - Response of 0: 0 for https://www.fifiblog.com!
+2016-06-30 21:14:58,464 [             Domain.java:pool-3-thread-3:209] - Domain:https://www.fifiblog.com page queue emptied after 1 page crawls
+2016-06-30 21:15:42,665 [             Domain.java:pool-3-thread-2:111] - unable to connect to: http://y18.iqiqu.net/robots.txt
+[Ljava.lang.StackTraceElement;@4f3ea7b0
+2016-06-30 21:15:42,666 [             Domain.java:pool-3-thread-2:122] - Response of 0: 0 for http://y18.iqiqu.net/robots.txt!
+2016-06-30 21:15:42,667 [             Domain.java:pool-3-thread-2:111] - unable to connect to: http://y18.iqiqu.net
+[Ljava.lang.StackTraceElement;@76e19732
+2016-06-30 21:15:42,667 [             Domain.java:pool-3-thread-2:122] - Response of 0: 0 for http://y18.iqiqu.net!
+2016-06-30 21:15:43,167 [             Domain.java:pool-3-thread-2:209] - Domain:http://y18.iqiqu.net page queue emptied after 1 page crawls
+2016-06-30 21:15:48,836 [             Domain.java:pool-3-thread-2:128] - 302 REDIRECT: http://www.nicovideo.jp/login
+
+2016-06-30 21:15:48,836 [             Domain.java:pool-3-thread-2:131] - 404 NOT FOUND: http://www.nicovideo.jp/login
+
+2016-06-30 21:15:50,817 [             Domain.java:pool-3-thread-2:128] - 302 REDIRECT: http://www.nicovideo.jp/my/mylist
+
+2016-06-30 21:15:50,817 [             Domain.java:pool-3-thread-2:131] - 404 NOT FOUND: http://www.nicovideo.jp/my/mylist
+
+2016-06-30 21:15:51,596 [             Domain.java:pool-3-thread-2:128] - 302 REDIRECT: http://www.nicovideo.jp/my/fav/user
+
+2016-06-30 21:15:51,596 [             Domain.java:pool-3-thread-2:131] - 404 NOT FOUND: http://www.nicovideo.jp/my/fav/user
+
+2016-06-30 21:15:52,383 [             Domain.java:pool-3-thread-2:128] - 302 REDIRECT: http://www.nicovideo.jp/my/video
+
+2016-06-30 21:15:52,383 [             Domain.java:pool-3-thread-2:131] - 404 NOT FOUND: http://www.nicovideo.jp/my/video
+
+2016-06-30 21:15:53,163 [             Domain.java:pool-3-thread-2:128] - 302 REDIRECT: http://www.nicovideo.jp/my/history
+
+2016-06-30 21:15:53,163 [             Domain.java:pool-3-thread-2:131] - 404 NOT FOUND: http://www.nicovideo.jp/my/history
+
+2016-06-30 21:16:12,346 [             Domain.java:pool-3-thread-2:111] - unable to connect to: http://www.7654.hk/robots.txt
+[Ljava.lang.StackTraceElement;@6e4b8395
+2016-06-30 21:16:12,346 [             Domain.java:pool-3-thread-2:122] - Response of 0: 0 for http://www.7654.hk/robots.txt!
+2016-06-30 21:16:20,138 [             Domain.java:pool-3-thread-3:131] - 404 NOT FOUND: http://www.bjsjw.net/robots.txt
+
+2016-06-30 21:16:22,285 [             Domain.java:pool-3-thread-3:131] - 404 NOT FOUND: http://www.bjsjw.net/nongli/
+
+2016-06-30 21:16:23,235 [             Domain.java:pool-3-thread-3:131] - 404 NOT FOUND: http://www.bjsjw.net/dream/
+
+2016-06-30 21:16:24,205 [             Domain.java:pool-3-thread-3:131] - 404 NOT FOUND: http://www.bjsjw.net/2016/
+
+2016-06-30 21:16:25,179 [             Domain.java:pool-3-thread-3:131] - 404 NOT FOUND: http://www.bjsjw.net/flag/
+
+2016-06-30 21:16:29,154 [             Domain.java:pool-3-thread-3:131] - 404 NOT FOUND: http://www.bjsjw.net/clock/
+
+2016-06-30 21:16:31,578 [             Domain.java:pool-3-thread-3:131] - 404 NOT FOUND: http://www.bjsjw.net/nongli/
+
+2016-06-30 21:16:32,543 [             Domain.java:pool-3-thread-3:131] - 404 NOT FOUND: http://www.bjsjw.net/dream/
+
+2016-06-30 21:16:33,507 [             Domain.java:pool-3-thread-3:131] - 404 NOT FOUND: http://www.bjsjw.net/2016/
+
+2016-06-30 21:16:42,586 [             Domain.java:pool-3-thread-2:131] - 404 NOT FOUND: http://wiki.niejinkun.com/robots.txt
+
+2016-06-30 21:17:02,827 [             Domain.java:pool-3-thread-3:128] - 302 REDIRECT: https://www.onenote.com/get/officelens
+
+2016-06-30 21:17:02,827 [             Domain.java:pool-3-thread-3:131] - 404 NOT FOUND: https://www.onenote.com/get/officelens
+
+2016-06-30 21:17:04,433 [             Domain.java:pool-3-thread-2:128] - 301 REDIRECT: http://www.archive.org
+
+2016-06-30 21:17:04,433 [             Domain.java:pool-3-thread-2:131] - 404 NOT FOUND: http://www.archive.org
+
+2016-06-30 21:17:05,130 [             Domain.java:pool-3-thread-2:136] - 403 FORBIDDEN: https://archive.org/sitemap/sitemap.xml
+
+2016-06-30 21:17:05,130 [             Domain.java:pool-3-thread-2:137] - Request failure for: https://archive.org/sitemap/sitemap.xml, response code: 403
+2016-06-30 21:17:05,630 [             Domain.java:pool-3-thread-2:209] - Domain:http://www.archive.org page queue emptied after 2 page crawls
+2016-06-30 21:17:06,982 [             Domain.java:pool-3-thread-3:128] - 302 REDIRECT: http://www.zhaowenxian.com/settings
+
+2016-06-30 21:17:06,982 [             Domain.java:pool-3-thread-3:131] - 404 NOT FOUND: http://www.zhaowenxian.com/settings
+
+2016-06-30 21:17:13,875 [             Domain.java:pool-3-thread-3:128] - 302 REDIRECT: http://www.zhaowenxian.com/oauth?v=dropbox
+
+2016-06-30 21:17:13,875 [             Domain.java:pool-3-thread-3:131] - 404 NOT FOUND: http://www.zhaowenxian.com/oauth?v=dropbox
+
+2016-06-30 21:17:14,952 [             Domain.java:pool-3-thread-3:128] - 302 REDIRECT: http://www.zhaowenxian.com/oauth?v=googledrive
+
+2016-06-30 21:17:14,952 [             Domain.java:pool-3-thread-3:131] - 404 NOT FOUND: http://www.zhaowenxian.com/oauth?v=googledrive
+
+2016-06-30 21:17:16,033 [             Domain.java:pool-3-thread-3:128] - 302 REDIRECT: http://www.zhaowenxian.com/oauth?v=skydrive
+
+2016-06-30 21:17:16,033 [             Domain.java:pool-3-thread-3:131] - 404 NOT FOUND: http://www.zhaowenxian.com/oauth?v=skydrive
+
+2016-06-30 21:17:49,164 [             Domain.java:pool-3-thread-2:131] - 404 NOT FOUND: http://blog.php230.com/robots.txt
+
+2016-06-30 21:17:52,016 [             Domain.java:pool-3-thread-2:209] - Domain:http://blog.php230.com page queue emptied after 1 page crawls
+2016-06-30 21:17:52,255 [             Domain.java:pool-3-thread-3:209] - Domain:http://www.doumiaoer.com page queue emptied after 1 page crawls
+2016-06-30 21:17:52,454 [             Domain.java:pool-3-thread-3:131] - 404 NOT FOUND: http://www.52coder.net/robots.txt
+
+2016-06-30 21:17:57,557 [             Domain.java:pool-3-thread-3:128] - 302 REDIRECT: http://www.52coder.net/login?endpoint=dropbox
+
+2016-06-30 21:17:57,557 [             Domain.java:pool-3-thread-3:131] - 404 NOT FOUND: http://www.52coder.net/login?endpoint=dropbox
+

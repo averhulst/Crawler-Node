@@ -96,6 +96,8 @@ public class CrawlerStatistics {
         response.put("upTimeInSeconds", upTimeInSeconds);
         response.put("crawlerId", crawlerId);
         response.put("totalPageCrawls", totalPageCrawls);
+        response.put("threadCount", threadCount);
+        response.put("physicalProcessors", physicalProcessors);
 
         JSONArray activelyCrawlingDomainsJson = new JSONArray();
 

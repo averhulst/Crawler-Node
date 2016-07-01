@@ -2742,3 +2742,84 @@
 2016-06-30 00:19:07,555 [            Crawler.java:pool-3-thread-1:64] - *******************  Total crawls:  600, 7.0 domains per minute, running for 4965 seconds. Actively crawling 2 domains
 2016-06-30 00:19:18,114 [            Crawler.java:pool-3-thread-1:106] - Finished crawling: http://www.usatodaysportsevents.com - crawled 1 pages
 2016-06-30 00:19:18,140 [            Crawler.java:pool-3-thread-1:64] - *******************  Total crawls:  601, 7.0 domains per minute, running for 4976 seconds. Actively crawling 2 domains
+2016-06-30 21:14:01,511 [            Crawler.java:pool-3-thread-2:108] - Finished crawling: http://news - crawled 1 pages
+2016-06-30 21:14:01,522 [            Crawler.java:pool-3-thread-1:108] - Finished crawling: http://people - crawled 1 pages
+2016-06-30 21:14:01,557 [            Crawler.java:pool-3-thread-2:66] - *******************  Total crawls:  2, 40.0 domains per minute, running for 3 seconds. Actively crawling 2 domains
+2016-06-30 21:14:04,320 [            Crawler.java:pool-3-thread-3:108] - Finished crawling: http://mother - crawled 1 pages
+2016-06-30 21:14:04,344 [            Crawler.java:pool-3-thread-3:66] - *******************  Total crawls:  3, 30.0 domains per minute, running for 6 seconds. Actively crawling 2 domains
+2016-06-30 21:14:05,087 [            Crawler.java:pool-3-thread-3:108] - Finished crawling: http://70.io - crawled 1 pages
+2016-06-30 21:14:05,094 [            Crawler.java:pool-3-thread-3:66] - *******************  Total crawls:  4, 40.0 domains per minute, running for 6 seconds. Actively crawling 2 domains
+2016-06-30 21:14:20,584 [            Crawler.java:pool-3-thread-2:108] - Finished crawling: http://tommy.com - crawled 10 pages
+2016-06-30 21:14:20,589 [            Crawler.java:pool-3-thread-2:66] - *******************  Total crawls:  5, 14.0 domains per minute, running for 22 seconds. Actively crawling 2 domains
+2016-06-30 21:14:23,524 [            Crawler.java:pool-3-thread-3:108] - Finished crawling: http://lexun.cn - crawled 10 pages
+2016-06-30 21:14:23,531 [            Crawler.java:pool-3-thread-3:66] - *******************  Total crawls:  6, 14.0 domains per minute, running for 25 seconds. Actively crawling 2 domains
+2016-06-30 21:14:24,995 [            Crawler.java:pool-3-thread-3:108] - Finished crawling: http://mzw.me - crawled 1 pages
+2016-06-30 21:14:25,007 [            Crawler.java:pool-3-thread-3:66] - *******************  Total crawls:  7, 16.0 domains per minute, running for 26 seconds. Actively crawling 2 domains
+2016-06-30 21:14:32,806 [            Crawler.java:pool-3-thread-2:108] - Finished crawling: http://min-fx.jp - crawled 10 pages
+2016-06-30 21:14:32,811 [            Crawler.java:pool-3-thread-2:66] - *******************  Total crawls:  8, 14.0 domains per minute, running for 34 seconds. Actively crawling 2 domains
+2016-06-30 21:14:34,871 [            Crawler.java:pool-3-thread-2:108] - Finished crawling: http://my.yizhihongxing.com - crawled 1 pages
+2016-06-30 21:14:34,881 [            Crawler.java:pool-3-thread-2:66] - *******************  Total crawls:  9, 15.0 domains per minute, running for 36 seconds. Actively crawling 2 domains
+2016-06-30 21:14:37,236 [            Crawler.java:pool-3-thread-3:108] - Finished crawling: http://ping.ci123.com - crawled 10 pages
+2016-06-30 21:14:37,248 [            Crawler.java:pool-3-thread-3:66] - *******************  Total crawls:  10, 16.0 domains per minute, running for 38 seconds. Actively crawling 2 domains
+2016-06-30 21:14:42,041 [            Crawler.java:pool-3-thread-2:108] - Finished crawling: http://justjavac.com - crawled 10 pages
+2016-06-30 21:14:42,048 [            Crawler.java:pool-3-thread-2:66] - *******************  Total crawls:  11, 15.0 domains per minute, running for 43 seconds. Actively crawling 2 domains
+2016-06-30 21:14:47,556 [            Crawler.java:pool-3-thread-3:108] - Finished crawling: https://zh-tw.facebook.com - crawled 10 pages
+2016-06-30 21:14:47,565 [            Crawler.java:pool-3-thread-3:66] - *******************  Total crawls:  12, 15.0 domains per minute, running for 49 seconds. Actively crawling 2 domains
+2016-06-30 21:14:58,468 [            Crawler.java:pool-3-thread-3:108] - Finished crawling: https://www.fifiblog.com - crawled 1 pages
+2016-06-30 21:14:58,476 [            Crawler.java:pool-3-thread-3:66] - *******************  Total crawls:  13, 13.0 domains per minute, running for 60 seconds. Actively crawling 2 domains
+2016-06-30 21:15:01,320 [            Crawler.java:pool-3-thread-2:108] - Finished crawling: http://www.yeziting.com - crawled 10 pages
+2016-06-30 21:15:01,326 [            Crawler.java:pool-3-thread-2:66] - *******************  Total crawls:  14, 13.0 domains per minute, running for 63 seconds. Actively crawling 2 domains
+2016-06-30 21:15:13,257 [            Crawler.java:pool-3-thread-3:108] - Finished crawling: http://www.58yiji.com - crawled 10 pages
+2016-06-30 21:15:13,263 [            Crawler.java:pool-3-thread-3:66] - *******************  Total crawls:  15, 12.0 domains per minute, running for 74 seconds. Actively crawling 2 domains
+2016-06-30 21:15:22,080 [            Crawler.java:pool-3-thread-2:108] - Finished crawling: http://xiaoke.name - crawled 10 pages
+2016-06-30 21:15:22,087 [            Crawler.java:pool-3-thread-2:66] - *******************  Total crawls:  16, 12.0 domains per minute, running for 83 seconds. Actively crawling 2 domains
+2016-06-30 21:15:29,457 [            Crawler.java:pool-3-thread-3:108] - Finished crawling: http://www.beloved22.com - crawled 10 pages
+2016-06-30 21:15:29,475 [            Crawler.java:pool-3-thread-3:66] - *******************  Total crawls:  17, 11.0 domains per minute, running for 91 seconds. Actively crawling 2 domains
+2016-06-30 21:15:42,182 [            Crawler.java:pool-3-thread-2:108] - Finished crawling: https://www.tumblr.com - crawled 10 pages
+2016-06-30 21:15:42,190 [            Crawler.java:pool-3-thread-2:66] - *******************  Total crawls:  18, 10.0 domains per minute, running for 103 seconds. Actively crawling 2 domains
+2016-06-30 21:15:43,170 [            Crawler.java:pool-3-thread-2:108] - Finished crawling: http://y18.iqiqu.net - crawled 1 pages
+2016-06-30 21:15:43,179 [            Crawler.java:pool-3-thread-2:66] - *******************  Total crawls:  19, 11.0 domains per minute, running for 104 seconds. Actively crawling 2 domains
+2016-06-30 21:15:53,669 [            Crawler.java:pool-3-thread-2:108] - Finished crawling: http://www.nicovideo.jp - crawled 10 pages
+2016-06-30 21:15:53,678 [            Crawler.java:pool-3-thread-2:66] - *******************  Total crawls:  20, 10.0 domains per minute, running for 115 seconds. Actively crawling 2 domains
+2016-06-30 21:15:58,589 [            Crawler.java:pool-3-thread-3:108] - Finished crawling: http://www.williamlong.info - crawled 10 pages
+2016-06-30 21:15:58,596 [            Crawler.java:pool-3-thread-3:66] - *******************  Total crawls:  21, 11.0 domains per minute, running for 120 seconds. Actively crawling 2 domains
+2016-06-30 21:16:06,965 [            Crawler.java:pool-3-thread-2:108] - Finished crawling: http://qifuguang.me - crawled 10 pages
+2016-06-30 21:16:06,975 [            Crawler.java:pool-3-thread-2:66] - *******************  Total crawls:  22, 10.0 domains per minute, running for 128 seconds. Actively crawling 2 domains
+2016-06-30 21:16:10,798 [            Crawler.java:pool-3-thread-3:108] - Finished crawling: http://blog.6zhen.cn - crawled 10 pages
+2016-06-30 21:16:10,802 [            Crawler.java:pool-3-thread-3:66] - *******************  Total crawls:  23, 10.0 domains per minute, running for 132 seconds. Actively crawling 2 domains
+2016-06-30 21:16:18,843 [            Crawler.java:pool-3-thread-3:108] - Finished crawling: http://danbooru.donmai.us - crawled 10 pages
+2016-06-30 21:16:18,854 [            Crawler.java:pool-3-thread-3:66] - *******************  Total crawls:  24, 10.0 domains per minute, running for 140 seconds. Actively crawling 2 domains
+2016-06-30 21:16:34,014 [            Crawler.java:pool-3-thread-3:108] - Finished crawling: http://www.bjsjw.net - crawled 10 pages
+2016-06-30 21:16:34,020 [            Crawler.java:pool-3-thread-3:66] - *******************  Total crawls:  25, 10.0 domains per minute, running for 155 seconds. Actively crawling 2 domains
+2016-06-30 21:16:42,148 [            Crawler.java:pool-3-thread-2:108] - Finished crawling: http://www.7654.hk - crawled 10 pages
+2016-06-30 21:16:42,154 [            Crawler.java:pool-3-thread-2:66] - *******************  Total crawls:  26, 10.0 domains per minute, running for 163 seconds. Actively crawling 2 domains
+2016-06-30 21:16:45,320 [            Crawler.java:pool-3-thread-3:108] - Finished crawling: http://www.pixiv.net - crawled 10 pages
+2016-06-30 21:16:45,324 [            Crawler.java:pool-3-thread-3:66] - *******************  Total crawls:  27, 10.0 domains per minute, running for 167 seconds. Actively crawling 2 domains
+2016-06-30 21:16:50,983 [            Crawler.java:pool-3-thread-2:108] - Finished crawling: http://wiki.niejinkun.com - crawled 10 pages
+2016-06-30 21:16:50,990 [            Crawler.java:pool-3-thread-2:66] - *******************  Total crawls:  28, 10.0 domains per minute, running for 172 seconds. Actively crawling 2 domains
+2016-06-30 21:17:04,077 [            Crawler.java:pool-3-thread-2:108] - Finished crawling: http://whatmyip.co - crawled 10 pages
+2016-06-30 21:17:04,083 [            Crawler.java:pool-3-thread-2:66] - *******************  Total crawls:  29, 9.0 domains per minute, running for 185 seconds. Actively crawling 2 domains
+2016-06-30 21:17:04,286 [            Crawler.java:pool-3-thread-3:108] - Finished crawling: https://www.onenote.com - crawled 10 pages
+2016-06-30 21:17:04,292 [            Crawler.java:pool-3-thread-3:66] - *******************  Total crawls:  30, 10.0 domains per minute, running for 186 seconds. Actively crawling 2 domains
+2016-06-30 21:17:05,638 [            Crawler.java:pool-3-thread-2:108] - Finished crawling: http://www.archive.org - crawled 2 pages
+2016-06-30 21:17:05,651 [            Crawler.java:pool-3-thread-2:66] - *******************  Total crawls:  31, 10.0 domains per minute, running for 187 seconds. Actively crawling 2 domains
+2016-06-30 21:17:18,156 [            Crawler.java:pool-3-thread-3:108] - Finished crawling: http://www.zhaowenxian.com - crawled 10 pages
+2016-06-30 21:17:18,166 [            Crawler.java:pool-3-thread-3:66] - *******************  Total crawls:  32, 10.0 domains per minute, running for 199 seconds. Actively crawling 2 domains
+2016-06-30 21:17:32,314 [            Crawler.java:pool-3-thread-2:108] - Finished crawling: http://www.163rsw.com - crawled 10 pages
+2016-06-30 21:17:32,324 [            Crawler.java:pool-3-thread-2:66] - *******************  Total crawls:  33, 9.0 domains per minute, running for 214 seconds. Actively crawling 2 domains
+2016-06-30 21:17:47,831 [            Crawler.java:pool-3-thread-2:108] - Finished crawling: http://delbert.me - crawled 10 pages
+2016-06-30 21:17:47,837 [            Crawler.java:pool-3-thread-2:66] - *******************  Total crawls:  34, 9.0 domains per minute, running for 229 seconds. Actively crawling 2 domains
+2016-06-30 21:17:51,210 [            Crawler.java:pool-3-thread-3:108] - Finished crawling: http://www.yixiaoxi.com - crawled 10 pages
+2016-06-30 21:17:51,219 [            Crawler.java:pool-3-thread-3:66] - *******************  Total crawls:  35, 9.0 domains per minute, running for 232 seconds. Actively crawling 2 domains
+2016-06-30 21:17:52,027 [            Crawler.java:pool-3-thread-2:108] - Finished crawling: http://blog.php230.com - crawled 1 pages
+2016-06-30 21:17:52,042 [            Crawler.java:pool-3-thread-2:66] - *******************  Total crawls:  36, 9.0 domains per minute, running for 233 seconds. Actively crawling 2 domains
+2016-06-30 21:17:52,266 [            Crawler.java:pool-3-thread-3:108] - Finished crawling: http://www.doumiaoer.com - crawled 1 pages
+2016-06-30 21:17:52,276 [            Crawler.java:pool-3-thread-3:66] - *******************  Total crawls:  37, 10.0 domains per minute, running for 233 seconds. Actively crawling 2 domains
+2016-06-30 21:17:59,595 [            Crawler.java:pool-3-thread-3:108] - Finished crawling: http://www.52coder.net - crawled 10 pages
+2016-06-30 21:17:59,602 [            Crawler.java:pool-3-thread-3:66] - *******************  Total crawls:  38, 9.0 domains per minute, running for 241 seconds. Actively crawling 2 domains
+2016-06-30 21:18:09,236 [            Crawler.java:pool-3-thread-2:108] - Finished crawling: http://www.pocketdigi.com - crawled 10 pages
+2016-06-30 21:18:09,240 [            Crawler.java:pool-3-thread-2:66] - *******************  Total crawls:  39, 9.0 domains per minute, running for 250 seconds. Actively crawling 2 domains
+2016-06-30 21:18:16,812 [            Crawler.java:pool-3-thread-3:108] - Finished crawling: http://www.eu5.cn - crawled 10 pages
+2016-06-30 21:18:16,816 [            Crawler.java:pool-3-thread-3:66] - *******************  Total crawls:  40, 9.0 domains per minute, running for 258 seconds. Actively crawling 2 domains
+2016-06-30 21:18:24,087 [            Crawler.java:pool-3-thread-3:108] - Finished crawling: http://www.j-cn.org - crawled 10 pages
+2016-06-30 21:18:24,091 [            Crawler.java:pool-3-thread-3:66] - *******************  Total crawls:  41, 9.0 domains per minute, running for 265 seconds. Actively crawling 2 domains
